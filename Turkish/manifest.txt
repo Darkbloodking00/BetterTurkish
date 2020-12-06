@@ -1,0 +1,8 @@
+
+Name                 "Better Turkish"  
+Description          "Because official translation sucks"  
+IsTranslation        true     
+SteamAuthor          76561198129640435
+Date                 06/12/2020  
+SteamTags            mod,translation  
+Author               DarkBlood_King

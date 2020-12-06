@@ -1,0 +1,1787 @@
+# June27th Update
+
+# =============================================================================
+# Codex
+# =============================================================================
+
+codex_viewchangelog									Full Changelog
+codex_legal											Legal
+codex_privacy										Privacy
+codex_terms-of-use									Terms Of Use
+codex_eula											End User License Agreement
+
+
+# =============================================================================
+# Interface Mode
+# =============================================================================
+													
+interfacemode_wallsanddoors                         Walls & Doors
+interfacemode_flooring								Flooring
+tunnelsearch_underway								TUNNEL SEARCH IN PROGRESS
+
+# =============================================================================
+# Build Toolbar
+# =============================================================================
+
+buildtoolbar_popup_wallsanddoors					Different types of walls and doors
+buildtoolbar_popup_flooring							Different floor styles
+buildtoolbar_popup_spawn							Open the Spawn Menu.
+buildtoolbar_tunnelsearch							Tunnel Search
+
+buildtoolbar_tooltip_tunnelsearch					Suspect an escape attempt is afoot? Order your guards to search behind all toilets.		
+
+buildtoolbar_GuardResponse							Guard Response	
+buildtoolbar_tooltip_GuardResponse					When activated you may left click on the map to call nearby guards over to a location. More clicks will call more guards. Right click to stop.
+
+
+# =============================================================================
+# New Materials
+# =============================================================================
+
+
+material_NewTiledWall							Tiled Wall
+material_NewBarredWall							Barred Wall
+material_NewBBlockWall							White Wall
+material_NewHedgeWall							Hedge
+material_NewIronFloor							Iron Floor
+material_NewCargoFloor							Cargo Floor
+material_NewCheckeredFloor						Checkered Floor
+material_Snow									Snow
+
+
+
+# =============================================================================
+# Misc
+# =============================================================================
+
+double_click_select_desc							Double left-click to follow this *E
+
+quickbuild_intermediatecell							Improved Cell
+quickbuild_holdingcell								Holding Cell
+quickbuild_medical									Medical
+quickbuild_shop										Shop
+quickbuild_shower									Shower
+quickbuild_staffroom								Staff Room
+quickbuild_workshop									Workshop
+
+# =============================================================================
+# Main Menu
+# =============================================================================
+
+mm_updatenotes_Date								27 June 2019
+mm_updatenotes_Header							The Clink Update
+mm_updatenotes_01								x4 new floor tiles and x4 new wall types added.
+mm_updatenotes_02								Performance improvements, to help lower loading times.
+mm_updatenotes_03								Increased the foremen that can be hired, for larger prisons where foremen also teach programs.
+mm_updatenotes_04								Existing objects have their full set of rotations, with new sprites added for missing orientations.
+mm_updatenotes_05								New 'Guard Response' button that commands existing nearby guards to a location, instead of players needing to hire additional guards to deal with incidents. 
+mm_updatenotes_06								New 'Tunnel Search' button that commands guards to search all toilets only, for hidden escape tunnels.  
+mm_updatenotes_07								Additional Quick Rooms added to the Quick Build menu, for quicker and easier room construction.
+mm_updatenotes_08								Following prisoners and staff is made a lot easier, by double-clicking on them.
+mm_updatenotes_09								The ability to move and relocate objects is here! Select and double-click an object.
+mm_updatenotes_10								We hope you enjoy playing with these new improvements!
+
+# =============================================================================
+# =============================================================================
+
+
+############################### SLAMMER UPDATE ###############################
+
+# =============================================================================
+# Materials - Names
+# =============================================================================
+
+material_newmud									Mud
+material_yutaniwall								Wall (Yutani)
+material_solacofloor							Solaco 
+material_gratefloor								Grate
+
+# =============================================================================
+# Objects - Names
+# =============================================================================
+
+
+object_snowyconifertree							Tree (Snowy Conifer)
+object_palmtree									Tree (Palm)
+object_plant									Plant
+object_bush										Bush
+object_streetlamp								Street Lamp
+object_floodlight								Light (Flood Light)
+object_bleachers								Bleachers
+object_smallbench								Bench (Small)
+object_smalltable								Table (Small)
+object_showerpillar								Shower Pillar
+object_doorMat									Door Mat
+object_GuardPavilion							Guard Pavilion
+object_GuardPavilionCorner						Guard Pavilion (Corner)
+object_OfficeChair								Chair (Office)
+object_visitorDoor								Visitor Door
+object_ironingBoardShort						Ironing Board (Small)
+object_fencegatestaff							Fence Gate (Staff)
+object_fencegatestandard						Fence Gate (Standard)
+object_fencegatevisitor							Fence Gate (Visitor's)
+object_walllight								Wall Light
+object_securedoor								Door (Secure)
+object_secretdoor								Door (Secret)
+
+# =============================================================================
+# Build Toolbar
+# =============================================================================
+
+buildtoolbar_popup_mat_newmud					It's mud, and it's free!
+buildtoolbar_popup_mat_yutaniwall				Build walls with a hi-tech look on top of foundations, to create new areas or rooms. Goes great with the Cargo or Solaco floor.
+buildtoolbar_popup_mat_newbblockwall			Build walls made of breeze block on top of foundations, to create new areas or rooms.
+buildtoolbar_popup_mat_newbarredwall			Build barred wall sections on top of foundations, to create new areas or rooms.
+buildtoolbar_popup_mat_newtiledwall				Build tiled walls on top of foundations, to create new areas or rooms.
+buildtoolbar_popup_mat_newhedgewall				Tall but weak hedges. More of a nicety than a serious security option.
+buildtoolbar_popup_mat_solacofloor				Give our prison floors a hi-tech look. Goes great with the Yutani walls.
+buildtoolbar_popup_mat_gratefloor				Give our prison floors a hi-tech look.
+buildtoolbar_popup_mat_newcargofloor			Give our prison floors a bespoke look.
+buildtoolbar_popup_mat_newironfloor				Give our prison a bespoke look.
+buildtoolbar_popup_mat_newcheckeredfloor		These would probably look good in your Kitchens or Canteens.
+buildtoolbar_popup_mat_snow						It's like water, only colder and prettier.
+buildtoolbar_popup_obj_snowyconifertree			Would look most appropriate on snowy land.
+buildtoolbar_popup_obj_palmtree					Normally sprout on dry land, but now you can decide to grow them where ever you wish.
+buildtoolbar_popup_obj_bush						Gives outdoor areas a bit of decor.
+buildtoolbar_popup_obj_streetlamp				To light up roads and pathways.
+buildtoolbar_popup_obj_floodlight				A tall outdoor light that can cover large areas such as a Yards or Forestries.
+buildtoolbar_popup_obj_bleachers				Classic prison-yard bleachers for groups of inmates to sit and contemplate their next move.
+buildtoolbar_popup_obj_smallbench				For sitting on.
+buildtoolbar_popup_obj_smalltable				For eating at.
+buildtoolbar_popup_obj_showerpillar				To position in the middle of a shower room, and then attach a Shower Head to each side.
+buildtoolbar_popup_obj_doorMat					A cheap rubber door mat that might look good in front of doorways.
+buildtoolbar_popup_obj_guardPavilion			Place in Yards and open areas for Guards and Armed Guards to watch over your prisoners.\n	Assign guards via the Deployment menu.\n -Increases the level of Suppression in that area.\n -Guards are sheltered from the weather.
+buildtoolbar_popup_obj_guardPavilionCorner		Place in the corners of Yards and open areas for Guards and Armed Guards to watch over your prisoners.\n	Assign guards via the Deployment menu.\n -Increases the level of Suppression in that area.\n -Guards are sheltered from the weather.
+buildtoolbar_popup_obj_officeChair				A chair for staff workers to sit centrally at an Office Desk.
+
+buildtoolbar_popup_obj_visitorDoor				A door that allows visitors to the prison to pass through, without needing a guard to open the door. Guards and staff may also use the door, but not prisoners.
+buildtoolbar_popup_obj_ironingBoardShort		A shorter Ironing Board.
+buildtoolbar_popup_obj_fencegatestaff			A Gate that looks great with Fences, and functions in the same way as a door.
+buildtoolbar_popup_obj_fencegatestandard		A Gate that looks great with Fences, and functions in the same way as a door.
+buildtoolbar_popup_obj_fencegatevisitor			A Gate that looks great with Fences, and functions in the same way as a door.
+buildtoolbar_popup_obj_walllight				A bunker style light to place on walls.
+buildtoolbar_popup_obj_securedoor				A door designed for Solitary Cells featuring a food flap. Guards delivering food may pass the tray through the door, without needing to enter the cell.
+
+
+interfacedeployment_guards                      Assign Guards
+buildtoolbar_deployment_Guards			Assign Guards to the sectors within your prison.	
+interfacedeployment_Dogs			Assign Dog Handlers
+buildtoolbar_deployment_Dogs			Assign Dog Handlers to the sectors within your prison.
+interfacedeployment_ArmedGuards			Assign Armed Guards
+buildtoolbar_deployment_ArmedGuards		Assign Armed Guards to the sectors within your prison.
+interfacedeployment_patrols                     Assign Guards
+buildtoolbar_deployment_Patrols			Assign Guards to the Patrol Routes within your prison.
+interfacedeployment_dogpatrols                  Assign Dog Handlers
+buildtoolbar_deployment_DogPatrols		Assign Dog Handlers to the Patrol Routes within your prison.
+interfacedeployment_armedpatrols                Assign Armed Guards
+buildtoolbar_deployment_ArmedPatrols		Assign Armed Guards to the Patrol Routes within your prison.
+
+buildtoolbar_popup_help_Guards_1        The Guards tool lets you station Guards in zones. A stationed guard will move around their assigned zone randomly, and will perform any Guard tasks in that area, such as opening doors.\n\n
+buildtoolbar_popup_help_Guards_2        ~Left Click to increase the number of Dog Handlers deployed to a zone. Right Click to remove a Guard.\n\n
+buildtoolbar_popup_help_Guards_3        ^Tips
+buildtoolbar_popup_help_Guards_4        - If you have Micromanagement unlocked, you will have access to the Deployment Scheduler. This lets you create a timetable of when Guards are assigned to certain areas. For example, if you only wanted Guards deployed in the Canteen during the Eat regime, you could click each block of the Scheduler that lines up with your Eat regime, then move the time slider into that block and click your Canteen to assign Guards.
+buildtoolbar_popup_help_Guards_5        - You have up to 7 different time blocks available for Scheduling, plus the default Always-active mode, allowing you to create complex deployment routines that match the needs of your prison. 
+buildtoolbar_popup_help_Guards_6        - If you don't manually select a time block when assigning Dog Handlers, the Scheduler will use the current time; make sure you have the correct time selected when changing your Deployment!
+
+buildtoolbar_popup_help_Dogs_1        The Dog Handlers tool lets you station Dog Handlers in zones. A stationed guard will move around their assigned zone randomly, and will perform any Guard tasks in that area, such as opening doors.\n\n
+buildtoolbar_popup_help_Dogs_2        ~Left Click to increase the number of Dog Handlers deployed to a zone. Right Click to remove a Dog Handler.\n\n
+buildtoolbar_popup_help_Dogs_3        ^Tips
+buildtoolbar_popup_help_Dogs_4        - If you have Micromanagement unlocked, you will have access to the Deployment Scheduler. This lets you create a timetable of when Dog Handlers are assigned to certain areas. For example, if you only wanted Dog Handlers deployed in the Canteen during the Eat regime, you could click each block of the Scheduler that lines up with your Eat regime, then move the time slider into that block and click your Canteen to assign Dog Handlers.
+buildtoolbar_popup_help_Dogs_5        - You have up to 7 different time blocks available for Scheduling, plus the default Always-active mode, allowing you to create complex deployment routines that match the needs of your prison. 
+buildtoolbar_popup_help_Dogs_6        - If you don't manually select a time block when assigning Dog Handlers, the Scheduler will use the current time; make sure you have the correct time selected when changing your Deployment!
+
+buildtoolbar_popup_help_ArmedGuards_1        The Armed Guards tool lets you station Armed Guards in zones. A stationed guard will move around their assigned zone randomly, and will perform any Guard tasks in that area, such as opening doors.\n\n
+buildtoolbar_popup_help_ArmedGuards_2        ~Left Click to increase the number of Guards deployed to a zone. Right Click to remove a Guard.\n\n
+buildtoolbar_popup_help_ArmedGuards_3        ^Tips
+buildtoolbar_popup_help_ArmedGuards_4        - If you have Micromanagement unlocked, you will have access to the Deployment Scheduler. This lets you create a timetable of when armed guards are assigned to certain areas. For example, if you only wanted Armed Guards deployed in the Canteen during the Eat regime, you could click each block of the Scheduler that lines up with your Eat regime, then move the time slider into that block and click your Canteen to assign Armed Guards.
+buildtoolbar_popup_help_ArmedGuards_5        - You have up to 7 different time blocks available for Scheduling, plus the default Always-active mode, allowing you to create complex deployment routines that match the needs of your prison. 
+buildtoolbar_popup_help_ArmedGuards_6        - If you don't manually select a time block when assigning Armed Guards, the Scheduler will use the current time; make sure you have the correct time selected when changing your Deployment!
+
+buildtoolbar_popup_help_Orderly_1		Orderlies are specially-trained to cater specifically to Criminally Insane inmates. \n
+buildtoolbar_popup_help_Orderly_2		They possess traits that are similar to guards and doctors, but they do not project a suppression effect upon inmates (like regular guards). \n\n
+buildtoolbar_popup_help_Orderly_3		Hire Orderlies to attend to your Criminally Insane inmates. Orderlies will:
+buildtoolbar_popup_help_Orderly_4		-Assist with the intake of Criminally Insane inmates.
+buildtoolbar_popup_help_Orderly_5		-Escort Criminally Insane inmates to Psychiatric Consultation sessions (Programs).
+buildtoolbar_popup_help_Orderly_6		-Heal wounded Criminally Insane inmates.
+buildtoolbar_popup_help_Orderly_7		-Sedate Criminally Insane inmates that turn violent.
+buildtoolbar_popup_help_Orderly_8		-Fit Psychopathic Criminally Insane inmates with straitjackets on a night.
+
+buildtoolbar_popup_help_Psychiatrist_1		Psychiatrists provide Criminally Insane inmates with regular one-to-one consultation.\n\n
+buildtoolbar_popup_help_Psychiatrist_2		Each one requires a special Psychiatrist's Office.
+buildtoolbar_popup_help_Psychiatrist_3		Psychiatric Consultation sessions (Programs) can be set up, in order for Psychiatrists to treat Criminally Insane inmates.
+buildtoolbar_popup_help_Psychiatrist_4		The Psychiatrist's Offices can also be upgraded with new items, to improve the Psychiatrist's treatment.
+
+interfacedeployment_PrioritizeArea			Prioritize Area (*X)
+buildtoolbar_deployment_PrioritizeGuard		Use this option to prioritize assigned guards to cover specific sectors around your prison. If you are short staffed, guards will try to cover your prioritized areas first. Two priorities are available; "High" (>>) and "Very High" (>>>).
+
+interfacedeployment_BluePatrol				Blue Patrol
+buildtoolbar_deployment_BluePatrol			Coloured patrol routes allow you to overlap and assign separate guards to them. Click and drag to create a Blue patrol route. Right click and drag to clear a Blue patrol route. Use the Assign Guard buttons to add guards to a patrol route.
+
+interfacedeployment_MagentaPatrol			Magenta Patrol
+buildtoolbar_deployment_MagentaPatrol			Coloured patrol routes allow you to overlap and assign separate guards to them. Click and drag to create a Magenta patrol route. Right click and drag to clear a Magenta patrol route. Use the Assign Guard buttons to add guards to a patrol route.
+
+interfacedeployment_PrioritizePatrol			Prioritize Patrol
+buildtoolbar_deployment_PrioritizePatrol		Use this option to prioritize assigned guards to cover specific patrols around your prison. If you are short staffed, guards will try to cover your prioritized areas first. Two priorities are available; "High" (>>) and "Very High" (>>>).
+
+buildtoolbar_popup_filter_title                 Filter List
+buiildtoolbar_popup_filter_toggle               Click the button to toggle
+buildtoolbar_popup_filter_default               Default
+buildtoolbar_popup_filter_az                    A-Z
+buildtoolbar_popup_filter_owned                 Owned
+buildtoolbar_popup_filter_costhighlow           Cost (High-Low)
+buildtoolbar_popup_filter_costlowhigh           Cost (Low-High)
+buildtoolbar_popup_filter_indooroutdoor         Indoor-Outdoor
+buildtoolbar_popup_filter_outdoorindoor         Outdoor-Indoor
+buildtoolbar_popup_filter_quantity              Quantity Owned
+buildtoolbar_popup_filter_byroom                By Room
+
+# =============================================================================
+# Interface Mode
+# =============================================================================
+
+double_click_move_item							DOUBLE-CLICK: Move Object
+
+double_click_add_door							Double Left-click to add doors.
+
+codex_option_bureaucracyresearched				Bureaucracy Researched
+codex_tooltip_bureaucracyresearched				Start a new game with your entire Bureaucracy tree fully researched.
+
+codex_option_jungle						Jungle Plot
+codex_tooltip_jungle						Generate a starting plot of land that resembles a dense jungle.
+
+codex_option_snowy						Snowbound Plot
+codex_tooltip_snowy						Generate a starting plot of land that's covered in snow.
+
+# =============================================================================
+# Misc
+# =============================================================================
+action_WashSmall								Washing
+
+
+plant_tree_location								Plant Tree in *X
+
+report_intake_cat_SuperMax							SuperMax
+
+interface_undo							Undo
+
+# =============================================================================
+# Codex
+# =============================================================================
+
+codex_save_failed                               Failed to save prison.
+codex_changelog_next                            Next >
+codex_changelog_prev                            < Previous
+codex_credits                                   Credits
+
+codex_options_screenshotmode					Screenshot Mode
+codex_tooltip_screenshotmode					When in Screenshot Mode, hold the [*K] KEY and press [*E], to turn ALL UI and HUD off/on
+codex_sso_content_message						You have successfully signed up for a Paradox Account.\n\nAs a thank you, new Guard Pavilion towers are now unlocked in the game! Find them in the Objects menu.
+codex_options_borderless_windowed               Borderless
+codex_options_monitor                           Monitor
+
+############################### PSYCH WARD UPDATE ###############################
+
+# =============================================================================
+# Materials - Names
+# =============================================================================
+material_artdecowall							Wall (Art Deco)
+material_blueWall								Wall Classy (Blue Stripes)
+material_burgundyWall							Wall Classy (Burgundy)
+material_greenWall								Wall Classy (Green)
+material_orientalWall							Wall (Oriental)
+material_cushionedwall							Wall (Cushioned)
+
+material_sandstone								Sandstone 
+material_limestonefloor							Limestone 
+material_blueCarpet								Carpet (Blue)
+material_redCarpet								Carpet (Red)
+material_brownCarpet							Carpet (Brown)
+material_paddedfloor							Padded
+material_grassstones							Grass n Stones
+material_grasscornerfloor						Grass Corner
+material_grasscornerfloor1						Grass Corner
+material_grasscornerfloor2						Grass Corner
+material_grasscornerfloor3						Grass Corner
+material_lunarfloor								Lunar
+
+
+# =============================================================================
+# Objects - Names
+# =============================================================================
+
+object_spookytree								Tree (Spooky)
+object_cactustree								Tree (Cactus)
+object_sakuratree								Tree (Sakura)
+object_plantcactus								Plant (Cactus)
+object_tyrestack								Tyre Stack
+object_lamp										Light (Lamp)
+object_bathroomSink								Bathroom Sink
+object_bathroomHandDryer						Hand Dryer
+object_chestOfDrawers							Chest of Drawers
+object_woodenStool								Wooden Stool
+object_woodenTable								Wooden Table			
+object_bucket									Bucket
+object_shortbookcase							Bookcase (Short)
+object_outdoorTable								Outdoor Table
+object_mooseHead								Moose Head
+object_toiletSign								Sign (Toilets)
+object_rightArrowSign							Sign (Arrow Right)
+object_leftArrowSign							Sign (Arrow Left)
+object_infirmarySign							Sign (Infirmary)
+object_canteenSign								Sign (Canteen)
+object_showerSign								Sign (Showers)
+object_armourySign								Sign (Armoury)
+object_jaildoorred								Jail Door (Red)
+object_jaildoorgrey								Jail Door (Grey)
+object_jaildoororange							Jail Door (Orange)
+object_jaildoorYellow							Jail Door (Yellow)
+object_jaildoorlargered							Large Jail Door (Red)
+object_jaildoorlargegrey						Large Jail Door (Grey)
+object_jaildoorlargeorange						Large Jail Door (Orange)
+object_jaildoorlargeyellow						Large Jail Door (Yellow)
+object_coatstand								Coat Stand
+object_dogbowl									Dog Bowl
+object_footbridge                               Footbridge
+object_footbridgesteel                          Steel Footbridge
+object_footbridgeb                              Footbridge B
+object_footbridgesteelb                         Steel Footbridge B
+object_windowclassy								Window Classy
+object_windowclassyLarge						Window Classy (Large)
+object_gravestone								Gravestone
+object_psychiatrist								Psychiatrist
+object_orderly									Orderly
+object_rorschachTest							Rorschach Test
+object_anatomyModel								Anatomy Model
+object_flipboard								Flip Board
+object_medicineCabinetPsych						Medicine Cabinet
+object_leatherchair								Leather Chair
+object_leatherSofa								Leather Sofa
+object_parkbench								Bench (Park)
+object_fencegateguard							Fence Gate (Guard's)
+object_oaktable									Table (Oak)
+object_oakbench									Bench (Oak)
+
+object_classic									Classic
+object_dalmation								Dalmatian
+object_husky									Husky
+object_companion								Companion
+object_cat										Cat
+object_direwoof									Direwoof
+
+equipment_fountainPen							Fountain Pen
+equipment_goldPocketWatch						Gold Pocket Watch
+equipment_sedativeShot							Sedative Shot (Syringe)
+equipment_sedativesyringe						Sedative (Syringe)
+
+# =============================================================================
+# Build Toolbar
+# =============================================================================
+
+buildtoolbar_popup_mat_artdecowall				Build Art Deco Walls to create a 1920's architectural look to the prison.
+buildtoolbar_popup_mat_blueWall					Build classy walls on top of foundations, to create new staff areas or rooms.
+buildtoolbar_popup_mat_burgundywall				Build classy walls on top of foundations, to create new staff areas or rooms.
+buildtoolbar_popup_mat_greenwall				Build classy walls on top of foundations, to create new staff areas or rooms.
+buildtoolbar_popup_mat_orientalwall				Build oriental walls to create areas in the prison with an ancient Japanese feel.
+buildtoolbar_popup_mat_cushionedwall			Build wall sections on top of foundations, to create new areas or rooms that have a wealthy, leather look to them.
+buildtoolbar_popup_mat_sandstone				Lay sandstone slabs down on outdoor areas.
+buildtoolbar_popup_mat_limestonefloor			The floor is the colour of faded limes.
+buildtoolbar_popup_mat_blueCarpet				Lay comfy carpet down. Perfect for staff areas.
+buildtoolbar_popup_mat_redCarpet				Lay comfy carpet down. Perfect for staff areas.
+buildtoolbar_popup_mat_brownCarpet				Lay comfy carpet down. Perfect for staff areas.
+buildtoolbar_popup_mat_paddedfloor				Matches the padded walls to create a complete padded cell for Criminally Insane inmates.
+buildtoolbar_popup_mat_grassstones				A grassy area with flag stones.
+buildtoolbar_popup_mat_grasscornerfloor			A grass corner with dirt. Useful for angled pathways.
+buildtoolbar_popup_mat_grasscornerfloor1		A grass corner with dirt. Useful for angled pathways.
+buildtoolbar_popup_mat_grasscornerfloor2		A grass corner with dirt. Useful for angled pathways.
+buildtoolbar_popup_mat_grasscornerfloor3		A grass corner with dirt. Useful for angled pathways.
+buildtoolbar_popup_mat_lunarfloor				A hardened rocky surface with an interstellar look.
+buildtoolbar_popup_mat_WoodenDockFloor			A solid timber floor, perfect for dock yard.
+buildtoolbar_popup_obj_spookytree				An eerie old tree.
+buildtoolbar_popup_obj_cactustree				Would look most appropriate on dry land.
+buildtoolbar_popup_obj_sakuratree				A beautiful cherry tree with pink flower blossom.
+buildtoolbar_popup_obj_plant					A pleasant house plant.
+buildtoolbar_popup_obj_plantcactus				An indoor potted cactus.
+buildtoolbar_popup_obj_tyrestack				Acts as a small wall which prisoners and staff will walk around.
+buildtoolbar_popup_obj_lamp						A standing ornate lamp, perfect for offices and staff areas.
+buildtoolbar_popup_obj_bathroomSink				No hygienic bathroom is complete without one
+buildtoolbar_popup_obj_bathroomHandDryer		Goes perfect with a Bathroom Sink
+buildtoolbar_popup_obj_chestOfDrawers			A wooden chest of drawers.
+buildtoolbar_popup_obj_woodenStool				Would go great with a Wooden Table.
+buildtoolbar_popup_obj_woodenTable				Would go well with a Wooden Stool	
+buildtoolbar_popup_obj_bucket					Just a bucket
+buildtoolbar_popup_obj_shortbookcase			A shorter shelf for books.
+buildtoolbar_popup_obj_outdoorTable				For prisoners to sit and eat at, outdoors.
+buildtoolbar_popup_obj_mooseHead				A beautiful, hand finished moose head on a plaque.
+buildtoolbar_popup_obj_toiletSign				A wall sign with a Toilets symbol upon it.
+buildtoolbar_popup_obj_rightArrowSign			A wall sign with an arrow pointing right.
+buildtoolbar_popup_obj_leftArrowSign			A wall sign with an arrow pointing left.
+buildtoolbar_popup_obj_infirmarySign			A wall sign with an Infirmary symbol upon it.
+buildtoolbar_popup_obj_canteenSign				A wall sign with a Canteen symbol upon it.
+buildtoolbar_popup_obj_showerSign				A wall sign with a Shower symbol upon it.
+buildtoolbar_popup_obj_armourySign				A wall sign with an Armoury symbol upon it.
+buildtoolbar_popup_obj_jaildoorred				A coloured jail door to help label your Max Security cell blocks.
+buildtoolbar_popup_obj_jaildoorgrey				A coloured jail door to help label your Low Security cell blocks.
+buildtoolbar_popup_obj_jaildoororange			A coloured jail door to help label your Medium Security cell blocks.
+buildtoolbar_popup_obj_jaildooryellow			A coloured jail door to help label your Protective Custody cell blocks.
+buildtoolbar_popup_obj_jaildoorlargered			A large coloured jail door to help label your Max Security cell blocks.
+buildtoolbar_popup_obj_jaildoorlargegrey		A large coloured jail door to help label your Low Security cell blocks.
+buildtoolbar_popup_obj_jaildoorlargeorange		A large coloured jail door to help label your Medium Security cell blocks.
+buildtoolbar_popup_obj_jaildoorlargeYellow		A large coloured jail door to help label your Protective Custody cell blocks.
+buildtoolbar_popup_obj_coatstand				A resting place for staff coats and hats.
+buildtoolbar_popup_obj_dogbowl					Holds water and food for tired guard dogs.\nIncreases a dog's stamina by a small amount.
+buildtoolbar_popup_obj_secretdoor				A hidden door disguised as a bookcase which slides open to let staff through.
+buildtoolbar_popup_obj_parkbench				An outdoor park bench.
+buildtoolbar_popup_obj_fencegateguard			A gate that looks great with Fences, that only guards can open.
+buildtoolbar_popup_obj_oaktable					For eating at.
+buildtoolbar_popup_obj_oakbench					For sitting on. Goes great with the Oak Table.
+
+buildtoolbar_popup_obj_classic					The original Guard Dog, old but experienced.
+buildtoolbar_popup_obj_dalmation				Originally lived on a farm, but now works in escape prevention.
+buildtoolbar_popup_obj_husky					A deadly trap for an escapee moving through the snow.
+buildtoolbar_popup_obj_companion				A guard's best friend
+buildtoolbar_popup_obj_cat						Not everyone is a dog person.
+buildtoolbar_popup_obj_direwoof					Who would even try to escape?
+
+buildtoolbar_popup_filter_mostused				Most Used
+buildtoolbar_caters_safety						Caters to the Safety need.
+
+interfacedeployment_orderly						Assign Orderlies
+buildtoolbar_deployment_orderly					Assign Orderly to the sectors of your prison.
+
+interfacedeployment_orderlypatrols				Assign Orderlies
+buildtoolbar_deployment_orderlypatrols			Assign Orderlies to the Patrol Routes within your prison.
+
+room_PaddedCell                                Padded Cell
+room_PaddedHoldingCell                         Padded Holding Cell
+room_PsychiatristOffice							Psychiatrist's Office
+
+interfaceplanning_BuildPlan			Build Plans
+interfaceplanning_ClearPlan			Clear Plans
+interfaceplanning_Door				Doors
+
+
+
+buildplan_title					Wall Type Selection			
+buildplan_message				Are you ready to build your plan?\n	This action can not be undone.\n\n	All planned walls will be constructed with the same wall type.\n	The selection of wall type can be changed below.
+clearplan_title					Clear Plans
+clearplan_message				Are you sure that you want to clear all drawn plans?\n \n	This action can not be undone.
+
+d11_custom_planning 				Custom Planning
+
+buildtoolbar_popup_planning			Plan out your prison without the fear of workers actually doing anything, until you’re ready. The Planning Menu allows you to choose to Build all planned Structures and Doors, Erase sections of your plans, or Clear the entire plan and start over.
+
+buildtoolbar_popup_help_planningDoor_1		The selected Door type will be used when you place a Door on your plan.
+buildtoolbar_popup_help_quickBuildWall_1	The selected wall type will be used in the construction of your next Quick Build/s
+
+
+buildtoolbar_popup_mat_blueclassywall			Build classy walls on top of foundations, to create new staff areas or rooms.
+buildtoolbar_popup_mat_burgundyclassywall		Build classy walls on top of foundations, to create new staff areas or rooms.
+buildtoolbar_popup_mat_greenclassywall			Build classy walls on top of foundations, to create new staff areas or rooms.
+
+buildtoolbar_popup_obj_windowclassy				Makes the outside look way better than it actually is.
+buildtoolbar_popup_obj_windowclassyLarge		Makes the outside look way better than it actually is.
+buildtoolbar_popup_obj_gravestone				A gravestone is supplied for every death that takes place in your prison.
+
+buildtoolbar_popup_staff_psychiatrist			An advanced staff member who provides our Criminally Insane inmates with regular consultation.\nPsychiatrists provide regular one-to-one sessions to help calm our Criminally Insane prisoners, once we have a Psychiatric Consultation program set up at the prison. \nIf we have a lot of Criminally Insane prisoners, we should hire a few Psychiatrists to support them all. Make sure each one has an office too.
+
+buildtoolbar_popup_staff_orderly				Medical staff, specially-trained in the handling of the criminally insane.
+buildtoolbar_popup_obj_leatherchair				Matches the Leather Sofa. Perfect for staff to sit on and way too nice for your prisoners surely.
+
+buildtoolbar_popup_obj_rorschachTest		    Adding a Rorschach Test to the Psychiatrist's office will improve the Psychiatrist's treatment of criminally insane inmates
+buildtoolbar_popup_obj_anatomyModel				Adding an Anatomy Model to the Psychiatrist's office will improve the Psychiatrist's treatment of criminally insane inmates.
+buildtoolbar_popup_obj_flipboard				Adding a Flipboard with Brain chart to the Psychiatrist's office will improve the Psychiatrist's treatment of criminally insane inmates.
+buildtoolbar_popup_obj_medicineCabinetPsych		Adding a Medicine Cabinet to the Psychiatrist's office will improve the Psychiatrist's treatment of criminally insane inmates.
+buildtoolbar_popup_obj_leatherchair				Adding a classic Leather Chair to the Psychiatrist's office will improve the Psychiatrist's treatment of criminally insane inmates.
+buildtoolbar_popup_obj_leatherSofa				Adding a classic Leather Sofa to the Psychiatrist's office will improve the Psychiatrist's treatment of criminally insane inmates.
+
+buildtoolbar_deployment_insaneseczone			Only criminally insane prisoners will be permitted to enter this sector.
+
+failuremessage_maximumcountreachedgeneric		Max Amount Placed
+
+buildtoolbar_popup_locked_PsychiatricConsultation				Unlocked after *B more Psychiatric sessions
+buildtoobar_PsychConItemImproveInfo 			- Improves a Psychiatrist's Office grade.
+buildtoobar_PsychConItemImproveSuppression 		- After consultation, reduces a criminally insane inmate’s\nsuppression and certain needs by +5%
+buildtoobar_PsychConItemImproveGrace 			- After consultation, provides a criminally insane inmate\nwith a ‘grace’ period of an additional 1 day,\nbefore suppression and certain needs begin to rise again.
+buildtoolbar_popup_obj_Footbridge				Allows inmates and staff to cross areas of land and water. Can not be built over walls, fences and other buildings.
+buildtoolbar_popup_obj_FootbridgeSteel			Allows inmates and staff to cross areas of land and water. Can not be built over walls, fences and other buildings.
+buildtoolbar_popup_obj_FootbridgeB				Allows inmates and staff to cross areas of land and water. Can not be built over walls, fences and other buildings.
+buildtoolbar_popup_obj_FootbridgeSteelB			Allows inmates and staff to cross areas of land and water. Can not be built over walls, fences and other buildings.
+
+# =============================================================================
+# Room - Names
+# =============================================================================
+
+room_PaddedSolitary                            Padded Solitary Cell
+
+# =============================================================================
+# Room - Description
+# =============================================================================
+
+buildtoolbar_popup_room_paddedcell			    Intended for our criminally insane inmates, with padded walls that produce a calming effect.
+buildtoolbar_popup_room_paddedholdingcell	    Where our new criminally insane inmates are placed before a permanent padded cell is ready.
+buildtoolbar_popup_room_paddedsolitary			    An isolated form of imprisonment for the worst of our criminally insane inmates.
+
+# =============================================================================
+# Quick Build - Names
+# =============================================================================
+
+quickbuild_paddedbasiccell									Padded (Small)
+quickbuild_paddedintermediatecell							Padded (Medium)
+quickbuild_paddedholdingcell								Padded Holding Cell
+quickbuild_paddedsolitarycell								Padded Solitary Cell
+quickbuild_PsychiatristOffice								Psychiatrist's Office
+
+
+
+# =============================================================================
+# Interface Mode
+# =============================================================================
+
+interfacedeployment_insaneseczone                  Insane Sec Only
+interfacetopbar_PrisonerCells_insaneSecOnly	Criminally Insane Capacity: *X
+
+roomgrading_PsychiatristOffice_info				Unlock and place additional objects in the Psychiatrist Office to improve treatment to criminally insane inmates.\n
+												Items are unlocked via criminally insane inmates attending Psychiatric Consultation Programs.
+roomgrading_PsychiatristOffice_Item				Item : *X
+roomgrading_PsychiatristOffice_Quality			Psychiatrist Ability: *Q
+roomgrading_PsychiatristOffice_Upgrade			Upgrade the Psychiatrist's Office to improve their ability.
+
+roomgrading_score_average		AVERAGE
+roomgrading_score_good			GOOD
+roomgrading_score_verygood		VERY GOOD
+roomgrading_score_outstanding	OUTSTANDING
+
+roomgrading_has_pa_system		[*X] Has PA system in cell block
+
+# =============================================================================
+# Objectives, Grants
+# =============================================================================
+
+objective_grant_firstinsanecellblock				Criminally Insane Wing
+objective_grant_firstinsanecellblock_description	The government are willing to provide funding to expand our prison with the means to house and protect the wellbeing of criminally insane inmates.\n\nThis grant will help facilitate the construction of special padded cells and the hiring of trained psychiatrists.
+objective_grant_firstinsanecellblock_cells			Build a wing / cell block for the Criminally Insane with 10 Padded Cells
+objective_grant_firstinsanecellblock_prisoners		Intake 10 Criminally Insane prisoners
+objective_grant_firstinsanecellblock_psychiatrist	Hire 2 Psychiatrists (each requires an office)
+
+objective_readinsaneletter						CEO's Guidelines on Criminally Insane Inmates
+objective_readinsaneletter_description			Before incorporating criminally insane inmates into your prison, you should be prepared with the appropriate facilities and staff in order to take proper care of their needs - The Ceo...
+
+# =============================================================================
+# Wardens
+# =============================================================================
+
+warden_wardeninsanehawk_name                     Hawk Hartman
+warden_wardeninsanehawk_desc                     As a former bailsman, Hartman passes down valuable training techniques to his security staff.\n\n -All guards drop staff keys less often\n -Guard's stamina replenishes on intake
+warden_wardeninsanehawk_desc_short               - Guard's stamina replenishes on intake.
+
+warden_wardeninsaneslugworth_name                Dr Slugworth
+warden_wardeninsaneslugworth_desc                When all other prisons deny them, Slugworth opens the doors to the worst Criminally Insane inmates out there, believing he can help.\n\n - Psychiatrist treatments are 20% more positive\n - The chances of receiving the Psychopathic Criminally Insane inmates is higher!
+warden_wardeninsaneslugworth_desc_short          - Accepts more Psychopathic Criminally Insane inmates. Psychiatrists provide better treatment.
+
+warden_wardeninsanehudson_name					 Dr Hudson
+warden_wardeninsanehudson_desc                   Dr Hudson is prepared to do what no other warden can...\n\n - Emergency services work 20% faster and arrive earlier\n - Costs for repairs are reduced by 10%
+warden_wardeninsanehudson_desc_short             - Quicker response times, and costs for repairs are reduced.
+
+# =============================================================================
+# Victory, failures
+# =============================================================================
+
+victory_insaneprisonersdeaths					 Insane Inmate Deaths
+victory_warning_insaneprisonersdeaths			 You will be fired if too many insane inmates die.
+victory_insaneprisonersdeaths_units				 Deaths
+
+victory_insaneprisonersabused					 Insane Inmates Attacked
+victory_warning_insaneprisonersabused			 You will be fired if too many insane inmates are attacked by guards.
+victory_insaneprisonersabused_units				 Attacks
+
+victory_adviserwarning_insaneprisonersdeaths1	 We can't continue to let our criminally insane inmates suffer abuse within our prison! The media will drag our name through the mud if we don't get our act together!
+victory_advisernotice_insaneprisonersdeaths1	 That's it! You're done! You were supposed to be caring for the mentally ill and instead you've allowed them to suffer unspeakable cruelties. I can only fire you, but I suggest you go home and re-evaluate your life choices.
+
+# =============================================================================
+# Codex
+# =============================================================================
+
+codex_option_criminallyinsane					Criminally Insane Inmates
+
+codex_tooltip_criminallyinsane					Deal with inmates who are constantly feeling suppressed, require new padded cells and psychiatric help to reduce their Privacy, Comfort, Safety and Freedom Needs, before they ignite. Turning this setting on will also allow some regular inmates to be driven insane in your prison, if their Needs are not catered for. Inmates turning criminally insane can be turned off in Map Settings.
+
+codex_prisoner_biography_NITG					Custom player-created biography
+codex_options_InsaneGauge						Overhead Inmate Gauges
+
+codex_option_desert								Desert Plot
+codex_tooltip_desert							Generate a starting plot of land that resembles a sandy desert.
+
+codex_options_rendercolours						Coloured Room Overlays
+
+codex_new_selectdog								Choose Guard Dogs
+
+codex_option_prisonerTurning					Inmates Can Turn Criminally Insane
+
+# =============================================================================
+# Rapsheet
+# =============================================================================
+
+rapsheet_category_insane						Criminally Insane
+rapsheet_insane_bio_desc                        Criminally Insane inmates feel a constant level of suppression and require padded cells and psychiatric help to keep them calm.\n\nCriminally Insane inmates that ignite may attack our staff, cause damage to the prison, or attempt to break free, as well as other unpredictable behaviours.
+
+reputation_Weak                                 Weak
+reputation_Insomniac                            Insomniac
+reputation_Depressed                            Depressed
+reputation_Outbreaks                            Outbreaks
+reputation_Sickness                             Sickness
+reputation_Hyperactive                          Hyperactive
+reputation_Addict                               Addict
+reputation_Claustrophobic                       Claustrophobic
+reputation_ExtremelyStoical                     Extremely Stoical
+reputation_ExtremelyVolatile                    Extremely Volatile
+reputation_Psychopathic                         Psychopathic
+reputation_Insane                               Criminally Insane
+
+reputationtooltip_Weak                          This prisoner is weaker, will not fare well in a fight and is therefore more susceptible to injuries.
+reputationtooltip_Insomniac                     This prisoner requires very little sleep.
+reputationtooltip_Depressed                     This prisoner moves much slower when feeling suppressed and untreated.
+reputationtooltip_Outbreaks                     This prisoner is prone to violent outbreaks and damaging the environment around them when feeling suppressed and untreated.
+reputationtooltip_Sickness                      This prisoner is prone to throwing up or soiling themself when feeling suppressed and untreated.
+reputationtooltip_Hyperactive                   Moves around much faster when feeling suppressed and untreated.
+reputationtooltip_Addict                        This prisoner is more likely to develop a drug habit when feeling suppressed and untreated.
+reputationtooltip_Claustrophobic                This prisoner’s desire to escape their surroundings is much higher when feeling suppressed and untreated.
+reputationtooltip_ExtremelyStoical              This prisoner will not become suppressed when locked in Solitary or in the presence of guards. They don't really care.
+reputationtooltip_ExtremelyVolatile             Keep a close eye on this one. Anything can set them off and make things very bad very quickly.
+reputationtooltip_Psychopathic                  This prisoner is much more dangerous and unpredictable than other Criminally Insane inmates.
+reputationtooltip_Insane                        Make sure this inmate has access to a Psychiatrist's Psychiatric Consultation sessions and a padded cell, to help calm them.
+
+# =============================================================================
+# Reports
+# =============================================================================
+
+report_intake_cat_insane						Criminally Insane
+report_intake_list_tooltip_insane				Criminally Insane inmates feel a constant level of suppression and require new padded cells and psychiatric help to reduce their Privacy, Comfort, Safety, and Freedom Needs, before they ignite.\n\nYou can not request Criminally Insane inmates until you have some Padded Cells ready, or a Padded Holding Cell.\n\nNormal cells can be converted to Padded Cells via the Rooms menu.
+report_intake_insane_intake_empty				Criminally Insane inmates cannot be admitted at this time.\n You need to build padded cells or padded holding cells.\nNormal cells can be converted to Padded Cells via the Rooms menu.
+report_staff_group_prisoners_insane				Criminally Insane
+report_Criminally_Insane						Criminally Insane
+report_Pyschopathic								Psychopathic
+
+report_intake_enable_insane					Enable
+report_intake_psychward_title					Psych Ward: Warden’s Edition
+report_intake_psychward_tooltip					Activate the Psych Ward: Warden’ Edition gameplay for this prison.\n\nThis will allow you to intake Criminally Insane inmates, but first you may wish to prepare the prison.\n\nPsychiatrists and Orderly staff members can be researched and hired. Padded Cells and Holding Cells can be created.\n\nBoth Psychiatrists and Padded Cells will help to keep your Criminally Insane inmates calm and under control. 
+
+reformerror_no_psychiatrist					NO PSYCHIATRIST
+reform_completion_psychiatrist              - *X Finished - *Y Treated (*P%)
+report_staff_group_orderlies				Orderlies
+
+# =============================================================================
+# Research
+# =============================================================================
+research_Orderly							Orderly
+research_Psychiatrist							Psychiatrist
+                     
+researchtooltip_Orderly							Normal guards are prohibited from attacking criminally insane inmates as they might hurt them in the process.\nOrderlies are specially trained to restrain the criminally insane without harming them.\nOrderlies will also fit straitjackets to Psychopathic inmates at night time to prevent them hurting themselves overnight.
+researchtooltip_Psychiatrist					An advanced staff member who provides our Criminally Insane inmates with regular consultation.\nPsychiatrists provide regular one-to-one sessions to help calm our Criminally Insane prisoners, once we have a Psychiatric Consultation program set up at the prison. \nIf we have a lot of Criminally Insane prisoners, we should hire a few Psychiatrists to support them all. Make sure each one has a Psychiatrist office too.
+
+
+# =============================================================================
+# Misc
+# =============================================================================
+
+doortimer_security_Insane			            Insane
+
+buildtoolbar_header_foundationmain				Main
+buildtoolbar_header_foundationmore				More
+
+reformprogram_PsychiatricConsultation			Psychiatric Consultation
+reformprogram_PsychiatricConsultation_text		All criminally insane inmates require regular one-on-one calming sessions with our psychiatrist, to help reduce their growing feeling of suppression. Lack of psychiatrist help can trigger violent outbreaks and other unique reactions from these prisoners.
+reform_program_properties_NeedToBeEscorted		Inmates may need to be escorted to this session.
+reform_program_intake_insane				Criminally Insane inmates only.
+
+insane_letter									Dear Sir/Madam,\n\n\nHere’s some important guidelines to ensure you are prepared with the appropriate facilities and staff in order to take proper care of Criminally Insane inmates.\n\n1.  Criminally Insane inmates must have Padded Cells. You can transform standard cells into padded cells (via the Rooms menu). Once you have padded cells you’ll be able to accept your first batch of inmates.\n\n2.  Make sure you have Psychiatrists and Orderly staff members on your payroll. Psychiatrists will also require a special office.\n\n3.  Set up some Psychiatric Consultation programs for your Criminally Insane inmates. These one to one sessions with a Psychiatrist (and padded cells), help to keep the inmates under control. Upgrading the Psychiatrist’s office will also improve their treatment ability.\n\n4.  Left untreated and unchecked, a Criminally Insane inmate may exhibit unpredictable behaviours, attempt to break out, or turn violent.\n\n5.  Orderlies will help escort and heal, and they do not suppress inmates like regular guards. You’ll also need Orderlies to fit your Psychopathic Criminally Insane Inmates with straitjackets at the day’s end. \n\n6.  Criminally Insane inmates mixing with others can sometimes lead to trouble. It's a good idea to build and segregate Criminally Insane sectors to Canteens, Yards and other areas. And you may wish to have the Psychiatrist’s offices near your Criminally Insane cell blocks.\n\n7.  Finally, inmates from other security levels now have a chance to become criminally insane, so keep an eye out\n\nThe CEO,\nPrison Architects Corp
+
+job_StraitJacket                         Apply/Remove Straitjacket
+job_EscortInsane                         Escort Insane Inmate
+status_effect_sedated					Sedated
+
+orderly_description                     Orderlies are specially trained in the handling and sedation (if necessary) of Criminally Insane inmates.
+pyschiatrist_description                ALL Criminally Insane inmates require regular one-to-one Psychiatric Consultation sessions with a Psychiatrist. Add Psychiatric Consultation sessions via the Programs menu.
+
+insanetooltip_status                    Status: *X
+insanetooltip_status_level0             CALM
+insanetooltip_status_level1             AGITATED
+insanetooltip_status_level2             UNSTABLE
+insanetooltip_status_level3             TRIGGERED!
+insanetooltip_behaviour					Behaviour: *X
+
+mutator_name_ReducedDirtBuildup						Reduce Dirt Build Up
+mutator_tooltip_ReducedDirtBuildup					The speed that dirt and muck builds up around your prison is halved.
+administrator_requiresoffice_psychiatrist           Requires Psychiatrist Office
+
+dlc_upsell						This save uses content from the "*D" expansion. Since we couldn't detect the expansion on your system, some features will be disabled. Please consider purchasing "*D" to get the most out of your Prison Architect experience.
+dlc_upsell_multiplayer 			The host of this multiplayer game has purchased the "*D" expansion, which you will also have access to, as their guest. Enjoy!
+
+dlc_insane						Psych Ward: Warden's Edition
+dlc_seaandair					Island Bound
+
+regime_work_pyscho              Programs/FreeTime
+regime_worklockdown_pyscho      Programs/Lockup
+
+regimetooltip_work_pyscho			Note Insane prisoners are unable to work and can only attend programs during work periods
+regimetooltip_worklockdown_pyscho	Note Insane prisoners are unable to work and can only attend programs during work periods
+
+
+# =============================================================================
+# Nameplate status
+# ============================================================================= 
+
+nameplate_sedation_level						Sedation Level
+teacher_teaching_pschiatrist                    Treating		
+pschiatrist_count_status						*X Psychiatric Consultations Completed
+
+
+############################### SNEEZER UPDATE ###############################
+
+# =============================================================================
+# Rapsheet
+# ============================================================================= 
+
+action_escortToInfirmary						Escort to Infirmary
+
+# =============================================================================
+# Interface Mode
+# =============================================================================
+
+interfacelogistics_cellStatus					Cell Status
+
+buildtoolbar_popup_help_CellStatus_2			You can click on an occupied cell to view the prisoner assigned to it.
+
+freeCell										Free Cell
+freeCell_line0									This cell is currently unoccupied.
+occupiedCell									Occupied Cell
+occupiedCell_line0								*X *Y, *Z
+occupiedCell_line1								Left click to show this prisoner.
+object_prisoner_freshfish						Prisoner (Fresh Fish)
+
+total_Connections								The total number of connections: *X
+active_Connections								The max number of active connections: *X
+
+interfacedeployment_VisitorDirection			Visitors Direction
+
+interface_action_move							Move
+
+equipment_moreContraband						Contraband
+
+# =============================================================================
+# Reports
+# =============================================================================
+
+report_intake_list_tooltip_prisonerTransfer		\n\nHigh-risk prisoners that are too dangerous for other prisons are offered from time to time. \nBe warned! There’s a reason they pay highly. These are hardened criminals that no other facility wants to take.
+
+# =============================================================================
+# Build Toolbar
+# =============================================================================
+
+buildtoolbar_tooltip_noUtilities		Water Pipes and Electrical Cables can not be built underneath.
+
+buildtoolbar_deployment_VisitorDirection 	Click and drag to point floor signage.\n\nThis gives a hint to non-prisoners on which way to go.\nHelps to control the flow of people in your prison.
+
+# =============================================================================
+# Programs
+# =============================================================================
+
+guard_program_requirements             - Each guard requires a *X
+
+schedule_zone_insaneSecOnly						Insane Sec
+
+# =============================================================================
+# Codex
+# =============================================================================
+
+codex_option_lunar								Lunar Plot
+codex_tooltip_lunar								Generate a starting plot of land that resembles a lunar surface.
+
+codex_option_doubleClick						Double Click to Move Objects
+
+# =============================================================================
+# Clone Tool
+# =============================================================================
+
+BuildCost_CloneRoom								CloneRoom
+
+# =============================================================================
+# Missing Strings
+# =============================================================================
+
+codex_startonline                   Go Online
+codex_start                         Create Game
+codex_joinonline                    Join Online Game
+codex_join                          Join Game
+codex_usernamelabel                 Username:
+codex_namelabel                     Game Name:
+codex_passwordlabel                 Password:
+codex_passwordprotectedlabel        Password Protected?
+codex_listedlabel                   Publicly Listed?
+codex_roomlistlabel                 Game List:
+codex_connectinglabel               Connecting to server...
+codex_retrievingserverlistlabel     Retrieving game list...
+codex_datausage                     Data Usage: Sent - *SkB/s, Received - *RkB/s
+codex_multiplayeroptions            Manage Players
+codex_playeroptions                 Players
+codex_regionlabel                   Region:
+
+multiplayer_chooseroomname          Please choose a game name
+multiplayer_chooseusername          Please choose a username
+multiplayer_joining                 Joining: *X
+multiplayer_joiningstate_joining    Joining game
+multiplayer_joiningstate_receiving  Receiving world
+multiplayer_joiningstate_loading    Loading world
+multiplayer_rejoining               Rejoining game after land expansion:
+multiplayer_leavegame_confirm       Are you sure you wish to leave your current co-op game?
+multiplayer_hostleft                Host has disconnected.
+multiplayer_joingamefailed          Failed to join game:
+multiplayer_startgamefailed         Failed to start game:
+multiplayer_incorrectpassword       Incorrect Password
+multiplayer_disconnected            Lost connection to server.
+multiplayer_syncerror               Disconnected due to synchronisation error.\n\nPlease attempt to rejoin your game.
+multiplayer_hostonly                Only available for host player.
+multiplayer_modsdisabled            Mods are disabled for online play
+multiplayer_mutatorsdisabled        Mutators are disabled for online play
+multiplayer_kicked                  You were kicked from the game.
+multiplayer_kick                    Kick
+multiplayer_ban                     Ban
+
+multiplayer_host                    Host:
+
+multiplayer_welcomeanalytics        Welcome to Prison Architect Multiplayer.\n\nWe've been working on getting the full Prison Architect experience working in multiplayer. Prison Architect is a big game and this is the first time we're making the multiplayer available to everyone so we'll be keeping an eye on any issues players might encounter.\n\nTo help us with this we would like to collect some anonymised analytics to help resolve any problems people might be having with the game. This can be disabled at any time from the options menu. You can see the data that we collect in metrics.txt\n\nWe hope you enjoy playing Prison Architect with your friends.
+
+region_asia                         Asia
+region_au                           Australia
+region_cae                          Canada, East
+region_eu                           Europe
+region_in                           India
+region_jp                           Japan
+region_ru                           Russia
+region_rue                          Russia, East
+region_sa                           South America
+region_kr                           South Korea
+region_us                           USA, East
+region_usw                          USA, West
+
+codex_option_escapeplans                Escape Plans
+buildtoolbar_rollcall                   Roll Call
+buildtoolbar_tooltip_rollcall           Call all of your prisoners to stand outside of their cells. Only avaiable during sleep regimes and during the night.
+interfacecontrol_graphs                 Graphs
+interfacecontrol_graphs_tooltip         Opens the Graphs screen, which allows you to compare graphs of various aspects of your prison.
+
+graph_title                             Graphs
+
+graph_label_1                           Data Type 1
+graph_label_2                           Data Type 2
+graph_label_day                         Day
+
+graph_axis_none                         None
+graph_axis_profit                       Profit
+graph_axis_funds                        Funds
+graph_axis_prisonsize                   Prison Size (m²)
+graph_axis_numprisoners                 Num Prisoners
+graph_axis_numstaff                     Num Staff
+graph_axis_releasedprisoners            Released Prisoners
+graph_axis_totalreleasedprisoners       Total Released Prisoners
+graph_axis_escapedprisoners             Escaped Prisoners
+graph_axis_totalescapedprisoners        Total Escaped Prisoners
+graph_axis_entitydeath                  Deaths
+graph_axis_totaldeaths                  Total Deaths
+graph_axis_prisonerdeaths               Prisoner Deaths
+graph_axis_guarddeaths                  Guard Deaths
+graph_axis_securitygrading              Security Grading
+graph_axis_healthgrading                Health Grading
+graph_axis_reformgrading                Reform Grading
+graph_axis_punishmentgrading            Punishment Grading
+graph_axis_reoffendingrate              Reoffending Rate
+graph_axis_prisonvalue                  Prison Value
+graph_axis_prisonercapacity             Prisoner Capacity
+graph_axis_numincidents                 Num Incidents
+graph_axis_totalincidents               Total Incidents
+
+
+############################### Other ###############################
+
+# =============================================================================
+# Missing Strings
+# =============================================================================
+
+equipment_Photo						Photo
+equipment_SubMachineGun				Machine Gun
+equipment_Soap						Soap	
+
+############################### Prison Wing Priviledges UPDATE ###############################
+
+# =============================================================================
+# Interface Mode
+# =============================================================================
+
+room_gymnasium									Gymnasium
+buildtoolbar_popup_room_gymnasium				A place for inmates to exercise and release their pent up aggression, or train to handle disagreements the old-fashioned way.
+
+
+buildtoolbar_popup_help_CellStatus_1			The Cell Status view shows you cells occupied (orange), gang (red) and vacant (green).
+
+object_punchbag_blocked							Punchbag Cannot be Reached
+object_trainingdummy_blocked					Training Dummy Cannot be Reached
+
+gangCell									*X Cell
+gangMember				Gang Member
+gangSoldier				Gang Soldier
+gangLieutenant			Gang Lieutenant
+gangLeader				Gang Leader
+
+interfacedeployment_CustomSector	Custom Sector
+
+# =============================================================================
+# Materials - Names
+# =============================================================================
+
+material_RunningTrack							Running Track
+material_BambooFloor							Bamboo
+material_pipewall								Wall (Pipes)
+material_overgrownwall							Wall (Overgrown)
+material_derelictwall							Wall (Derelict)
+material_slumwall								Wall (Slum)
+material_rustywall								Wall (Rusty)
+material_bamboofence							Fence (Bamboo)
+material_decayedWall							Wall (Decayed)
+material_flowerfield							Flowery Field
+material_FenceAndGrass							Fence (Grass)
+material_WallMinSec								Wall (Min Sec)
+material_WallMedSec								Wall (Med Sec)
+material_WallMaxSec								Wall (Max Sec)
+material_WallInsaneSec							Wall (White)
+material_WallProtective							Wall (Yellow)
+material_CliffEdge								Cliff Edge
+
+# =============================================================================
+# Objects - Names
+# =============================================================================
+
+object_ovalStaffTable							Table (Oval)			
+object_Painting1								Painting
+object_Painting2								Painting
+object_ChessTable								Chess Table
+object_GlassWindow								Window Glass
+object_GlassWindowLarge							Window Glass (Large)
+object_GymMat									Gym Mat
+object_SinkMirror								Sink & Mirror
+object_TableFootball							Table Football
+object_TableTennis								Table Tennis
+object_TyreApparatus							Tyre Apparatus
+object_bambooDoor								Door (Bamboo)
+object_Canvas									Canvas & Paints
+object_PetBird									Pet Bird
+object_SoftPillow								Soft Pillow
+object_BoxingRing								Boxing Ring
+object_DumbbellRack								Dumbbell Rack
+object_Treadmill								Treadmill
+object_Fan										Fan
+object_PunchBag									Punch Bag
+object_WardenStatue								Warden Statue
+object_WaterCooler								Water Cooler
+object_SnackMachine								Snack Machine
+object_Mattress									Bed (Foam Mattress)
+object_MetalBarrel								Metal Barrel
+object_WoodenBarrel								Wooden Barrel
+object_MooringBollard							Mooring Bollard
+object_DeckChair								Deck Chair
+object_LightGreen								Light (Green)
+object_LightRed									Light (Red)
+object_Buoy										Buoy
+object_LifeRing									Life Ring
+object_CoffeeMachine							Coffee Machine
+object_ComputerStation							Computer Station
+object_PASystem									PA System
+object_TrainingDummy							Training Dummy
+object_StoneWaterSpout							Stone Water Spout
+object_WindSock									Wind Sock
+object_ComfyBed									Comfy Bed
+object_IndoorTreePlanter						Indoor Tree Planter
+object_OldBed									Old Bed
+object_CameraPillar								Camera Pillar
+object_Blackboard								Blackboard
+object_JailDoorWhite							Jail Door (White)
+object_JailDoorLargeWhite						Large Jail Door (White)
+
+object_SignNumber0								Sign (Number 0)
+object_SignNumber1								Sign (Number 1)
+object_SignNumber2								Sign (Number 2)
+object_SignNumber3								Sign (Number 3)
+object_SignNumber4								Sign (Number 4)
+object_SignNumber5								Sign (Number 5)
+object_SignNumber6								Sign (Number 6)
+object_SignNumber7								Sign (Number 7)
+object_SignNumber8								Sign (Number 8)
+object_SignNumber9								Sign (Number 9)
+
+object_SignLetterA								Sign (Letter A)
+object_SignLetterB								Sign (Letter B)
+object_SignLetterC								Sign (Letter C)
+object_SignLetterD								Sign (Letter D)
+object_SignLetterE								Sign (Letter E)
+object_SignLetterF								Sign (Letter F)
+object_SignLetterG								Sign (Letter G)
+object_SignLetterH								Sign (Letter H)
+object_SignLetterI								Sign (Letter I)
+object_SignLetterJ								Sign (Letter J)
+object_SignLetterK								Sign (Letter K)
+object_SignLetterL								Sign (Letter L)
+object_SignLetterM								Sign (Letter M)
+object_SignLetterN								Sign (Letter N)
+object_SignLetterO								Sign (Letter O)
+object_SignLetterP								Sign (Letter P)
+object_SignLetterQ								Sign (Letter Q)
+object_SignLetterR								Sign (Letter R)
+object_SignLetterS								Sign (Letter S)
+object_SignLetterT								Sign (Letter T)
+object_SignLetterU								Sign (Letter U)
+object_SignLetterV								Sign (Letter V)
+object_SignLetterW								Sign (Letter W)
+object_SignLetterX								Sign (Letter X)
+object_SignLetterY								Sign (Letter Y)
+object_SignLetterZ								Sign (Letter Z)
+
+equipment_StrikePlacard							Strike Placard
+
+# =============================================================================
+# Prefabs - Names
+# =============================================================================
+
+quickbuild_Armoury								Armoury
+quickbuild_Infirmary							Infirmary
+quickbuild_Laundry								Laundry
+quickbuild_Library								Library
+quickbuild_MailRoom								Mail Room
+quickbuild_Visitation							Visitation
+
+# =============================================================================
+# Build Toolbar
+# =============================================================================
+
+buildtoolbar_affectsGradingNegativly			-DECREASES a prison Cell's grade.
+
+buildtoolbar_popup_obj_ovalStaffTable			Goes great with chairs, in staff areas.	
+buildtoolbar_popup_obj_painting1				Just because it's prison doesn't mean we can't keep it classy.
+buildtoolbar_popup_obj_painting2				Just because it's prison doesn't mean we can't keep it classy.
+buildtoolbar_popup_obj_chessTable				For prisoners or staff who like to think several moves ahead.
+buildtoolbar_popup_obj_GLassWindow				To glimpse the sun through.
+buildtoolbar_popup_obj_GlassWindowLarge			To glimpse lots of the sun through.
+buildtoolbar_popup_obj_GymMat					For stretching out those aches and pains.\n -Caters to the Exercise Need
+buildtoolbar_popup_obj_TableTennis				Provides an additional pastime for your inmates.\n -Caters to the Recreation need.
+buildtoolbar_popup_obj_TableFootball			Provides an additional pastime for your inmates.\n -Caters to the Recreation need.
+buildtoolbar_popup_obj_TyreApparatus			Some of the prisoners insist that they have a way to practice their climbing.\n -Caters to the Exercise Need.
+buildtoolbar_popup_obj_SinkMirror				Give an inmates cell a sink and mirror.\n -Caters to the Hygiene Need.
+buildtoolbar_popup_obj_bambooDoor				A man made bamboo gate to match the bamboo fencing. \nIt is treated as a standard Door.
+buildtoolbar_popup_obj_canvas					A creative way for prisoners to express how they feel, without stabbing each other.
+buildtoolbar_popup_obj_PetBird					A tiny companion to keep your inmates company.\n -Caters to the Family, Comfort and Luxurires needs.
+buildtoolbar_popup_obj_SoftPillow				Further improve the quality and comfort of an inmate's bed with a fluffy feathered pillow.\n -Caters to the Comfort and Sleep needs.
+buildtoolbar_popup_obj_BoxingRing				No prison gymnasium is complete without one. Most inmates prefer to do there painting on this canvas.\n -Caters to the Exercise and Recreation needs.
+buildtoolbar_popup_obj_DumbbellRack				For your buff-minded inmates.\n -Caters to the Exercise Need.
+buildtoolbar_popup_obj_Treadmill				For prisoners to keep fit. Prisoners who train hard may even become quicker runners.\n -Caters to the Exercise Need.
+buildtoolbar_popup_obj_Fan						An old-fashioned standing fan, which helps to cool the air around it, by a small amount.
+buildtoolbar_popup_obj_PunchBag					For when inmates need to let off some aggression.\n -Caters to the Exercise and Recreation Needs.
+buildtoolbar_popup_obj_WardenStatue				A tall stone statue to signify the Warden's rule over the prison. Too many of these can make inmates feel suppressed. \n -INCREASES suppression by a small amount.
+buildtoolbar_popup_obj_WaterCooler				Prisoner Architect's Water Cooler moment.
+buildtoolbar_popup_obj_SnackMachine				High calorie, low quality snacks.
+buildtoolbar_popup_obj_Mattress					A semi-comfortable foam mattress. The cheapest form of bed there is, but better than the floor.
+buildtoolbar_popup_obj_MetalBarrel				Often seen around dockyards.
+buildtoolbar_popup_obj_WoodenBarrel				Often seen around dockyards.
+buildtoolbar_popup_obj_MooringBollard			Give dock areas a classic feature. It also acts like a small wall.
+buildtoolbar_popup_obj_LightGreen				An outdoor light, but with a green bulb. Looks great with a helipad area.
+buildtoolbar_popup_obj_LightRed					An outdoor light, but with a red bulb. Looks great with a helipad area.
+buildtoolbar_popup_obj_Buoy						Floats in water.
+buildtoolbar_popup_obj_LifeRing					Give dock areas a classic feature.
+buildtoolbar_popup_obj_ArcadeCabinet			Entertain your inmates with a cutting-edge retro Arcade Machine.\n -Caters to the Recreation and Comfort Needs
+buildtoolbar_popup_obj_CoffeeMachine			A desired feature of any over-worked staff member.
+buildtoolbar_popup_obj_ComputerStation			Caters to the "Literature" and "Comfort" Needs.
+buildtoolbar_popup_obj_PASystem					Suppress prisoners by issuing regular reminders that they are in fact still in prison.\n -INCREASES the supression felt by inmates when placed in a Cell Block or Yard.
+buildtoolbar_popup_obj_TrainingDummy			An old-fashioned Shaolin training dummy.\n -Prisoners who train hard may even learn new fighting skills!
+buildtoolbar_popup_obj_StoneWaterSpout			A stone gothic head which when attached to a water supply will spout water from its mouth.
+buildtoolbar_popup_obj_WindSock					A decorative wind sock, often seen at heliports or airfields.
+buildtoolbar_popup_obj_ComfyBed					A luxury bed with a memory foam mattress, providing the best night's sleep.
+buildtoolbar_popup_obj_IndoorTreePlanter		A sunken Tree Planter, for growing trees indoors.
+buildtoolbar_popup_obj_OldBed					An old fashioned prison bed. More comfortable than a Foam Mattress, but less than a standard Bed.
+buildtoolbar_popup_obj_Blackboard				No Classroom is complete without one.
+buildtoolbar_popup_obj_JailDoorWhite			A coloured jail door to help label your Criminally Insane cell blocks.
+buildtoolbar_popup_obj_JailDoorLargeWhite		A coloured jail door to help label your Criminally Insane cell blocks.
+buildtoolbar_popup_obj_camerapillar				To position in open areas, and then attach a camera to the sides.
+
+buildtoolbar_popup_obj_signNumber0				A wall sign with a number 0 upon it. Line up signs to create words or labels, such as "CELL BLOCK 4".
+buildtoolbar_popup_obj_signNumber1				A wall sign with a number 1 upon it. Line up signs to create words or labels, such as "CELL BLOCK 4".
+buildtoolbar_popup_obj_signNumber2				A wall sign with a number 2 upon it. Line up signs to create words or labels, such as "CELL BLOCK 4".
+buildtoolbar_popup_obj_signNumber3				A wall sign with a number 3 upon it. Line up signs to create words or labels, such as "CELL BLOCK 4".
+buildtoolbar_popup_obj_signNumber4				A wall sign with a number 4 upon it. Line up signs to create words or labels, such as "CELL BLOCK 4".
+buildtoolbar_popup_obj_signNumber5				A wall sign with a number 5 upon it. Line up signs to create words or labels, such as "CELL BLOCK 4".
+buildtoolbar_popup_obj_signNumber6				A wall sign with a number 6 upon it. Line up signs to create words or labels, such as "CELL BLOCK 4".
+buildtoolbar_popup_obj_signNumber7				A wall sign with a number 7 upon it. Line up signs to create words or labels, such as "CELL BLOCK 4".
+buildtoolbar_popup_obj_signNumber8				A wall sign with a number 8 upon it. Line up signs to create words or labels, such as "CELL BLOCK 4".
+buildtoolbar_popup_obj_signNumber9				A wall sign with a number 9 upon it. Line up signs to create words or labels, such as "CELL BLOCK 4".
+
+buildtoolbar_popup_obj_signLetterA				A wall sign with a letter A upon it. Line up signs to create words or labels, such as "CELL BLOCK 4".
+buildtoolbar_popup_obj_signLetterB				A wall sign with a letter B upon it. Line up signs to create words or labels, such as "CELL BLOCK 4".
+buildtoolbar_popup_obj_signLetterC				A wall sign with a letter C upon it. Line up signs to create words or labels, such as "CELL BLOCK 4".
+buildtoolbar_popup_obj_signLetterD				A wall sign with a letter D upon it. Line up signs to create words or labels, such as "CELL BLOCK 4".
+buildtoolbar_popup_obj_signLetterE				A wall sign with a letter E upon it. Line up signs to create words or labels, such as "CELL BLOCK 4".
+buildtoolbar_popup_obj_signLetterF				A wall sign with a letter F upon it. Line up signs to create words or labels, such as "CELL BLOCK 4".
+buildtoolbar_popup_obj_signLetterG				A wall sign with a letter G upon it. Line up signs to create words or labels, such as "CELL BLOCK 4".
+buildtoolbar_popup_obj_signLetterH				A wall sign with a letter H upon it. Line up signs to create words or labels, such as "CELL BLOCK 4".
+buildtoolbar_popup_obj_signLetterI				A wall sign with a letter I upon it. Line up signs to create words or labels, such as "CELL BLOCK 4".
+buildtoolbar_popup_obj_signLetterJ				A wall sign with a letter J upon it. Line up signs to create words or labels, such as "CELL BLOCK 4".
+buildtoolbar_popup_obj_signLetterK				A wall sign with a letter K upon it. Line up signs to create words or labels, such as "CELL BLOCK 4".
+buildtoolbar_popup_obj_signLetterL				A wall sign with a letter L upon it. Line up signs to create words or labels, such as "CELL BLOCK 4".
+buildtoolbar_popup_obj_signLetterM				A wall sign with a letter M upon it. Line up signs to create words or labels, such as "CELL BLOCK 4".
+buildtoolbar_popup_obj_signLetterN				A wall sign with a letter N upon it. Line up signs to create words or labels, such as "CELL BLOCK 4".
+buildtoolbar_popup_obj_signLetterO				A wall sign with a letter O upon it. Line up signs to create words or labels, such as "CELL BLOCK 4".
+buildtoolbar_popup_obj_signLetterP				A wall sign with a letter P upon it. Line up signs to create words or labels, such as "CELL BLOCK 4".
+buildtoolbar_popup_obj_signLetterQ				A wall sign with a letter Q upon it. Line up signs to create words or labels, such as "CELL BLOCK 4".
+buildtoolbar_popup_obj_signLetterR				A wall sign with a letter R upon it. Line up signs to create words or labels, such as "CELL BLOCK 4".
+buildtoolbar_popup_obj_signLetterS				A wall sign with a letter S upon it. Line up signs to create words or labels, such as "CELL BLOCK 4".
+buildtoolbar_popup_obj_signLetterT				A wall sign with a letter T upon it. Line up signs to create words or labels, such as "CELL BLOCK 4".
+buildtoolbar_popup_obj_signLetterU				A wall sign with a letter U upon it. Line up signs to create words or labels, such as "CELL BLOCK 4".
+buildtoolbar_popup_obj_signLetterV				A wall sign with a letter V upon it. Line up signs to create words or labels, such as "CELL BLOCK 4".
+buildtoolbar_popup_obj_signLetterW				A wall sign with a letter W upon it. Line up signs to create words or labels, such as "CELL BLOCK 4".
+buildtoolbar_popup_obj_signLetterX				A wall sign with a letter X upon it. Line up signs to create words or labels, such as "CELL BLOCK 4".
+buildtoolbar_popup_obj_signLetterY				A wall sign with a letter Y upon it. Line up signs to create words or labels, such as "CELL BLOCK 4".
+buildtoolbar_popup_obj_signLetterZ				A wall sign with a letter Z upon it. Line up signs to create words or labels, such as "CELL BLOCK 4".
+
+buildtoolbar_popup_mat_pipewall					Build Pipe walls on top of foundations, to create new areas or rooms.
+buildtoolbar_popup_mat_derelictwall				Build cheap Derelict Walls for that ancient look.
+buildtoolbar_popup_mat_overgrownwall			Build cheap Overgrown Walls because even in prison, life finds a way.
+buildtoolbar_popup_mat_rustywall				Build cheap Rusty Walls for post-apocalyptic look.
+buildtoolbar_popup_mat_slumwall					Build cheap Slum Walls, because money saved on inmate welfare is money you can put towards extending your office.
+buildtoolbar_popup_mat_bambooFence				A man made bamboo fence for an encampment look.
+buildtoolbar_popup_mat_RunningTrack				Perfect for our inmates to jog on, in the Yard.
+buildtoolbar_popup_mat_BambooFloor				A floor with a jungle encampment look.
+buildtoolbar_popup_mat_DecayedWall				Build cheap walls made of decayed breeze block on top of foundations.
+buildtoolbar_popup_mat_flowerfield				A grassy area with nice flowers growing.
+buildtoolbar_popup_mat_fenceandgrass			Fence sections with grass beneath, instead of dirt.
+buildtoolbar_popup_mat_WallMinSec				Build coloured walls to inidicate a certain security sector of the prison.
+buildtoolbar_popup_mat_WallMedSec				Build coloured walls to inidicate a certain security sector of the prison.
+buildtoolbar_popup_mat_WallMaxSec				Build coloured walls to inidicate a certain security sector of the prison.
+buildtoolbar_popup_mat_WallInsaneSec			Build coloured walls to inidicate a certain security sector of the prison.
+buildtoolbar_popup_mat_WallProtective			Build coloured walls to inidicate a certain security sector of the prison.
+buildtoolbar_popup_mat_CliffEdge				Build cliff walls to create elevated sections and impassible areas around your prison or island. 
+buildtoolbar_popup_mat_Water					Create streams, rivers and other impassable water areas.
+buildtoolbar_popup_mat_WaterShallow				Create shallow water areas to create nicer shorelines, between Sand and Water flooring. These tiles can be walked over unlike standard Water.
+buildtoolbar_popup_mat_WaterLarge				Create large areas of water, lakes and oceans.
+
+interfaceoverlay_signs							Signs
+interfacemode_walls								Walls
+interfacemode_doors								Doors
+interface_action_snackbought                    Snack Bought
+
+# =============================================================================
+# Crisis Toolbar
+# =============================================================================
+
+crisisSector_AllSectors							ALL Sectors
+crisisSector_StopAll							Stop ALL
+crisisSector_SharedOnly							Shared Only
+crisisSector_MinSecOnly							Min Sec Only
+crisisSector_MedSecOnly							Med Sec Only
+crisisSector_MaxSecOnly							Max Sec Only
+crisisSector_InsaneOnly							Insane Only
+crisisSector_ProtectedOnly						Protected Only
+crisisSector_SuperMaxOnly						SuperMax Only
+crisisSector_DeathRowOnly						Death Row Only
+
+crisisToolbarTitle_WeaponsFree			FREEFIRE
+crisisToolbarTitle_TunnelSearch			TUNNEL SEARCH
+crisisToolbarTitle_Shakedown			SHAKEDOWN
+crisisToolbarTitle_Lockdown			LOCKDOWN
+crisisToolbarTitle_Bangup			BANGUP
+crisisToolbarTitle_RollCall			ROLL CALL
+crisisToolbarQuestion				 - Choose which sectors?
+
+# =============================================================================
+# Custom Sector Window
+# =============================================================================
+
+customSector_message			Choose which security levels are permitted to enter this custom sector.
+customsectorwindow_minseccaption		Min Sec
+customsectorwindow_medseccaption		Med Sec
+customsectorwindow_maxseccaption		Max Sec		
+customsectorwindow_supermaxcaption	SuperMax
+customsectorwindow_deathrowcaption	Death Row
+customsectorwindow_protectivecaption	Protective Custody
+customsectorwindow_insanecaption		Criminally Insane
+
+customSector_title			Custom Security Sector
+customSector_subtitle			This security sector allows the following:
+
+# =============================================================================
+# Room Grading
+# =============================================================================
+
+roomgrading_messaging							Upgrading this room will also improve the grade of this Security Sector.
+roomGrading_prisonerTransfer					Upgrades will ONLY motivate prisoners with the "Cleared For Transfer" DLC installed, and the "Prisoner Transfers" option turned on in the Map Setting menu.
+
+roomgrading_Cell_BadWalls						[*E] Surrounded by depressing walls
+roomgrading_Cell_OutsideWindow_Large			[*E]*Y Large Window
+roomgrading_Cell_HasWindow_None					[*E] No Windows
+roomgrading_Dormitory_BadWalls					[*E] Surrounded by depressing walls
+roomgrading_Dormitory_Mattress					[*E] A majority of low quality beds
+roomgrading_Dormitory_HasWindow_None			[*E] No Windows
+roomgrading_Canteen_RoomSize					[*E] Room size at least *X Squares
+roomgrading_Canteen_Item						[*E] Item : *X
+roomgrading_Canteen_MealQuality					[*E] AVERAGE Meal Quality
+roomgrading_Canteen_MealQuality_High			[*E] HIGH Meal Quality
+roomgrading_Canteen_MealQuality_Low				[*E] LOW Meal Quality
+roomgrading_Canteen_MealQuality_None			[*E] NO Meal Quality
+roomgrading_Canteen_MealVariety					[*E] AVERAGE Meal Variety
+roomgrading_Canteen_MealVariety_High			[*E] HIGH Meal Variety
+roomgrading_Canteen_MealVariety_Low				[*E] LOW Meal Variety
+roomgrading_Canteen_MealVariety_None			[*E] NO Meal Variety
+roomgrading_Canteen_HasWindow_None				[*E] No Windows
+roomgrading_Yard_RoomSize						[*E] Room size at least *X Squares
+roomgrading_Yard_RoomSizeLess					[*E] Room size *X Squares or below
+roomgrading_Yard_Item							[*E] Item : *X
+roomgrading_Yard_Floor							[*E] *X Flooring (over *Y%)
+roomgrading_Yard_MultiItems						[*E] Contains *X of the above objects
+roomgrading_Yard_Floor_Quantity					[*E] *X *Y Squares
+roomgrading_CommonRoom_RoomSize					[*E] Room size at least *X Squares
+roomgrading_CommonRoom_Item						[*E] Item : *X
+roomgrading_Gymnasium_RoomSize					[*E] Room size at least *X Squares
+roomgrading_Gymnasium_OutsideWindow				[*E] *Y Outdoor Window
+roomgrading_Gymnasium_Item						[*E] Item : *X
+roomgrading_Gymnasium_HasWindow_None			[*E] No Windows
+roomgrading_Classroom_RoomSize					[*E] Room size at least *X Squares
+roomgrading_Classroom_Item						[*E] Item : *X
+roomgrading_Classroom_OutsideWindow				[*E] *Y Outdoor Window
+
+buildtoolbar_improvement						-IMPROVES a *R's grade 
+buildtoolbar_decreased							-DECREASES a *R's grade
+buildtoolbar_improvement_windows				(when facing the outside)
+
+buildtoolbar_planning_autofoundation			Auto Foundations
+
+prisoner_roomquality_veryLow						Very Low
+prisoner_roomquality_low							Low
+prisoner_roomquality_high							High
+prisoner_roomquality_veryHigh						Very High
+prisoner_roomquality_supreme						Supreme
+
+# =============================================================================
+# Security Sector Grading
+# =============================================================================
+
+interfaceLogistics_MinSecGrading				Min Sec Grading
+interfaceLogistics_MedSecGrading				Med Sec Grading
+interfaceLogistics_MaxSecGrading				Max Sec Grading
+interfaceLogistics_SuperMaxGrading				SuperMax Grading
+
+sectorGrading_title								*X Sector
+sectorGrading_housed							*X inmates are housed in *Y			
+sectorGrading_desiresTransfer					*X *Y inmates are hoping to be moved into *Z
+
+sectorGrading_description						A breakdown of this sector’s grade is provided below. The more privileges added, the higher the grade. The max grade is 250.
+sectorGrading_encouragement						The higher the grade difference between *X and this sector, the more *X prisoners will be encouraged to reform and behave, for a chance to be transfered into this lower security sector.
+sectorGrading_discouragement					You could also decrease the grade of *X by removing privileges and comfort to create a similar effect, but you would also risk upsetting those inmates.
+
+sectorGrading_transferNote						(NOTE: Prisoners motivated for transfer will ONLY take effect with the "Cleared For Transfer" DLC installed, and the "Prisoner Transfers" option turned on in the Map Setting menu).
+
+sectorGrading_privilegesTitle					Inmate Privileges
+sectorGrading_visitation						[+*X] Visitation
+sectorGrading_mail								[+*X] Mail
+sectorGrading_work								[+*X] Work access (cash)
+sectorGrading_education							[+*X] Education / Programs access
+sectorGrading_meals								[+*X] 2+ meals a day
+sectorGrading_freeTime							[+*X] Ample Free Time (20%)
+sectorGrading_extraFreeTime						[+*X] Extra Free Time (30%)
+sectorGrading_yard								[+*X] Yard access
+sectorGrading_gym								[+*X] Gym access
+sectorGrading_shop								[+*X] Shop access
+sectorGrading_commonRoom						[+*X] Common Room access
+sectorGrading_showers							[+*X] Hot showers
+sectorGrading_sleep								[+*X] 10 hours or more sleep
+
+sectorGrading_facilitiesTitle					Facilities
+sectorGrading_room								[*X/*Y] *R Quality
+
+sectorGrading_conditionsTitle					Conditions
+sectorGrading_suppresion						[*X/15] *Y Suppresion
+sectorGrading_risk								[*X/20] *Y Risk (deaths & injuries)
+sectorGrading_cleanliness						[*X/15] *Y Cleanliness
+
+sectorGrading_grade								Grade *X/250
+dialog_veryLow									Very Low
+
+# =============================================================================
+# Policy Report
+# =============================================================================
+
+dialog_various								Various
+
+report_needs_staffBreaks					This is the max percentage of staff accross all types that can be on break at once.
+reports_privilegetitle						Privilege Policy
+reports_misconducttitle						Misconduct Policy
+reports_paroletitle							Parole Cutoff Policy
+reports_parole_info							Adjust Cutoff:
+reports_parole_Cutoff						(*P%)
+reports_policy_PrivilegeTableTitle			Privilege
+reports_policy_Visitation					Visitation
+reports_policy_Mail							Mail
+reports_policy_PrisonLabour					Prison Labour
+reports_policy_All							All
+reports_policy_Programs						Programs
+reports_policy_WorkPrograms					Work
+reports_policy_EducationPrograms			Education
+reports_policy_WellnessPrograms				Well-being
+
+reports_policy_defaults						Recommended 
+reports_policy_tooltip_recomended			Sets the *X to recommended values, for all selected security levels.
+reports_policy_tooltip_all					Selects/Unselects all prison security levels
+
+reports_privilegesPolicy_tooltip_all		Changes all programs except for Parole Hearings, Death Row Appeals and Psychiatric Consultations.
+reports_privilegesPolicy_tooltip			Choose which Security Sectors can take part in these programs:
+reports_privilegesPolicy_tooltip_EducationPrograms	\n-Foundation Education \n-General Education
+reports_privilegesPolicy_tooltip_WellnessPrograms	\n-Behavioural Therapy \n-Alcoholics Group Therapy \n-Spiritual Guidance
+reports_privilegesPolicy_tooltip_WorkPrograms		\n-Kitchen Safety and Hygiene \n-Workshop Safety Induction \n-Carpentry Apprenticeship
+
+report_policy_categoryTooltip_Minsec		Minimum Security
+report_policy_categoryTooltip_Normal		Medium Security
+report_policy_categoryTooltip_MaxSec		Maximum Security
+report_policy_categoryTooltip_Protected		Protective Custody
+report_policy_categoryTooltip_SuperMax		SuperMax
+report_policy_categoryTooltip_DeathRow		Death Row
+report_policy_categoryTooltip_Insane		Criminally Insane
+report_policy_categoryTooltip_PrisonerTransfer	Legendary
+
+report_policy_misconductConflict_tooltip	Multiple security types are selected with different policy values. Select individual prisoner categories to see their misconduct policies.
+
+report_policy_match							Match with:
+
+report_policy_matchTitle					Match Security Sectors
+report_policy_match_tooltip					Match the *X Misconduct Policy with another security sector.
+
+report_policy_privilegesUnchangableTooltip	This Security Level has their privilege policies locked.
+
+# =============================================================================
+# Deployment
+# =============================================================================
+
+interfacedeployment_Chef					Assign Cooks
+interfacedeployment_Doctor					Assign Doctors
+
+buildtoolbar_deployment_Chef				Assign Cooks to sectors within your prison.
+buildtoolbar_deployment_Doctor				Assign Doctors to sectors within your prison.
+buildtoolbar_deployment_PrioritizeJanitor	Use this option to prioritize Janitors to perform their jobs in specific areas, before others around your prison. If you are short staffed, Janitors will try to cover your prioritized areas first. Assign 1, 2 or 3 Janitors to priorise an area.
+buildtoolbar_deployment_PrioritizeGardener	Use this option to prioritize Gardeners to perform their jobs in specific areas, before others around your prison. If you are short staffed, Gardeners will try to cover your prioritized areas first. Assign 1, 2 or 3 Gardeners to priorise an area.
+
+researchtooltip_deployment2					You can specifically assign these staff members to sectors of the prison via the Deployment menu.
+researchtooltip_prioritize					You can specifically prioritize these staff members to sectors of the prison via the Deployment menu.
+
+interfacetopbar_tooltip_totalChefs			*X total cooks
+interfacetopbar_tooltip_totalDoctors		*X total doctors
+interfacetopbar_tooltip_cook				How many cooks you have available to work in your prison.
+interfacetopbar_tooltip_doctor				How many doctors you have available to work in your prison.
+
+interfacetopbar_tooltip_priorityStationed   *X priority jobs
+
+interfacetopbar_tooltip_totalJanitors		*X total janitors
+interfacetopbar_tooltip_totalGardeners		*X total gardeners
+interfacetopbar_tooltip_janitor				How many janitors you have available to work in your prison.
+interfacetopbar_tooltip_gardener			How many gardeners you have available to work in your prison.
+
+# =============================================================================
+# Prisoner Transfer Report
+# =============================================================================
+
+reports_prisoners_transfer					*X Prisoners *W to transfer to *C:
+reports_prisoners_transfer_ready			ready
+reports_prisoners_transfer_wanting			wanting
+reports_prisoners_transfer_button			APPROVE ALL
+reports_prsioners_transfer_numCells			(*X Cells Available)
+reports_prisoners_transfer_otherPrisoners	*X Other Prisoners
+
+reports_transfers_offMessage				Prisoner Transfers can be turned on via Map Settings menu.
+report_Transfer								Transfers
+
+transfer_icon_tooltip						Use the options below to determine the criteria for *X prisoners to meet, to be transferred to *Y. \nYou can use the Policy Criteria column to make it more challenging for inmates to qualify for transfer, and other options to immediately disqualify certain types of prisoners. \nNot all prisoners are interested in transferring. Especially those who have short sentences, are planning to tunnel out, or simply do not think the conditions or comfort in the Security Sector below their own are that much better.
+transfer_tooltip_onOff						Un-check to turn OFF/ON for the selected Security Sector/s.
+
+transfer_description						Set the criteria for the prisoners to meet in order for them to be transfered to a lower and more comfortable security sector.
+transfer_use								Allow transfer from *X to *Y
+transfer_behaviourtitle						Good Behaviour
+transfer_reformtile							Reform
+transfer_requiredtitle						Required
+transfer_qualifiedcaption					Total prisoners that qualify now
+transfer_hopingcaption						Total prisoners motivated to qualify
+transfer_numPrisoners						*X Prisoners (*Y%)
+
+transfer_title								Transfer Criteria
+transfer_criteria							Criteria Value
+transfer_qualifying							Qualifying Prisoners
+
+transfer_behaviour_staffAssaults			No staff assaults
+transfer_behaviour_murders					No murders
+transfer_behaviour_murdersStuff				(staff & inmates)
+transfer_behaviour_escapeAttempts			No escape attempts
+transfer_behaviour_contraband				No dangerous contraband
+transfer_behaviour_gangMembers				Gang members disqualified
+
+transfer_behaviour_tooltip_staffAssaults	Prisoners qualifying for transfer must not have assaulted any staff, for the specified number of days. A higher number of days will disqualify consistently violent inmates.
+transfer_behaviour_tooltip_murders			Prisoners qualifying for transfer must not have killed any staff or inmates, for the specified number of days. A higher number of days will disqualify your most dangerous inmates.
+transfer_behaviour_tooltip_escapeAttempts	Prisoners qualifying for transfer must not have been caught attempting to escape, for the specified number of days.
+transfer_behaviour_tooltip_contraband		Prisoners qualifying for transfer must not have been caught with any Weapons or Tools, for the specified number of days.
+transfer_behaviour_tooltip_gangMembers		Choose to disqualify ALL gang members from transferring, or only certain ranks within a gang.
+
+transfer_reform_tooltip_reoffending			Prisoners qualifying for transfer must not have a specified % chance for reoffending, or higher. A lower number will help to ensure you're best behaved and most reformed prisoner qualify.
+transfer_reform_tooltip_programsPassed		Prisoners qualifying for transfer must have a passed a specified number of programs. A higher number will disqualify prisoners who have not shown a willingness to reform.
+
+transfer_required_tooltip					Adjust this value to decide whether prisoners must meet ALL of your checked criteria for transfer, or a lesser amount.
+
+transfer_tooltip_uncheck					\nUn-check to remove this as a criteria for transfer.
+
+
+transfer_reform_reoffending					% estimated reoffending rate
+transfer_reform_programsPassed				Programs passed
+
+transfer_required							Criteria above to be met
+
+transfer_criteriaTime						for *X day/s
+
+gangNone									None
+gang_transfer_None							None
+gang_transfer_Soldier						All
+gang_transfer_Lieutenant					Lieutenant, Leader
+gang_transfer_Leader						Leader
+
+report_prisoner_approve						Approve
+report_prisoner_approveAll					Approve all prisoners who've met your transfer criteria, to move down into to *X. The amount of prisoners that are transferred will also depend on the amount of available cells.
+
+approveTransfer_title						Approve Transfer
+approveTransfer_message						Approve transfer of prisoner *F *S to *C
+approveAllTransfer_message					Approve all qualifyed prisoners for transfer to *C
+approveAllTransfer_someMessage				There are only *X free cells in *C. Do you want to transfer *X prisoners to *C
+approveTransfer_noFreeCells					There are no free cells available to transfer the prisoners into. Create more cells for this security level to approve transfer.
+
+dialog_group								Group
+
+transfer_pastCrimes_tooltip					Disqualify prisoners with Group *X crimes on their rap-sheet including:
+transfer_criteria_met						*X/*Y
+transfer_review								Review Transfers
+
+# =============================================================================
+# Actions
+# =============================================================================
+
+action_RunTreadmill								Using Treadmill
+action_PunchingBag								Using Punchbag
+action_Boxing									Using Boxing Ring
+
+# =============================================================================
+# Codex
+# =============================================================================
+
+codex_tooltip_escapeplans               Enables more escape options for prisoners. They will now attempt to climb over your walls when trying to escape.
+codex_options_shadowcaption				Toggle Shadows
+codex_options_punishmentscaption		Search & Actions Per Sector
+
+codex_option_prisonerTransfer			Prisoner Transfers
+codex_tooltip_prisonerTransfer			Prisoner Transfers allows you to set criteria that inmates must meet in order to be transferred and upgraded into a nicer security sector within your prison, one that may offer more comfort, facilities and other privileges. \n\nInmates will now evaluate their current sector’s conditions and those of the sector below their’s, and decide if they like to be transferred. If so, they will then determine whether they will try to improve their behaviour and meet your transfer policy, based on their own needs and characteristics.\n\nEach sector is graded, based on the privileges and facilities you offer to inmates in that sector. The bigger the ‘difference’ between their sector and the one below, the more prisoners will want to be transferred overall.\n\nAfter a prisoner meets your transfer criteria, it's still up to you whether and when to transfer them.
+
+# =============================================================================
+# Miscelanious
+# =============================================================================
+
+action_Stretching								Exercising
+action_PlayChess								Playing Chess
+action_EatSnack									Getting Snack
+
+report_staff_multidelete						Use a single left mouse click to fire a single staff member, or drag and hold to fire multiple staff
+
+codex_language_unsupported				---NO LONGER UPDATED---
+codex_language_mod						---COMMUNITY CREATED LANGUAGE MODS---
+
+codex_language_unsupportedString		This language is not officially supported, some translations may be missing.
+
+
+report_intake_cat_PrisonerTransfer				Legendary Prisoner!
+rapsheet_category_PrisonerTransfer				Legendary Prisoner!
+
+############################### Sea and Air Pack ###############################
+
+# =============================================================================
+# Materials - Names
+# =============================================================================
+
+material_WoodenDockFloor						Dock (Wooden)
+material_waterBed								Waterbed
+material_WaterShallow							Water (Shallow)
+material_WaterLarge								Water (Large)
+material_WaterWalkable			Water walkable
+
+# =============================================================================
+# Objects - Names
+# =============================================================================
+
+object_FerryDock			Ferry Dock
+object_FerryBoat			Transport Ferry
+object_SupplyBoat			Supply Boat
+object_PrisonBoat			Inmate Ferry
+object_VisitorBoat			Visitor Boat
+object_VisitorHeli			Visitor Helicopter
+object_SupplyHeli			Supply Helicopter
+object_PrisonHeli			Prison Helicopter
+object_FireHeli				Air Firefighters
+object_EliteOpsHeli			Elite Ops Team
+object_SoldiersHeli			National Guard
+object_HearseBoat			Hearse Boat
+object_HearseHeli			Hearse Helicopter
+object_ParamedicsHeli		Air Paramedics
+object_Helipad				Helipad
+object_BoatDock				Boat Dock
+object_EliteOps				Elite Ops
+
+object_Fountain		  			Fountain
+object_SteppingStoneLillyPad		Stepping Stones (Lily Pad)
+object_SteppingStoneIceBlock		Stepping Stones (Ice)
+object_SteppingStone			Stepping Stones
+object_SteppingStonePallet		Stepping Stones (Pallet)
+object_ScannerMonitor			Scanner Monitor
+object_ScannerMachine			Scanner Machine
+object_CheckPoint				Checkpoint
+
+# =============================================================================
+# Interface Mode
+# =============================================================================
+
+codex_option_islandNoBridge		                Island Plot
+codex_option_islandBridge		                Connected Island Plot
+
+codex_tooltip_islandNoBridge	                Generate a starting plot of land surrounded by water, this plot will use a Boat Dock instead of a road.
+
+codex_tooltip_islandBridge			            Generate a starting plot of land surrounded by water with a bridge connected to the road.
+
+mutator_name_DynamicReputations						Dynamic Reputations
+mutator_tooltip_DynamicReputations					Prisoners have the chance to gain or lose unique Reputation traits during their time in prison, based on their activities and experiences inside.
+
+interfacelogistics_deliverytargeting	Deliveries
+d11_logistic_select_delivery_method		Select Delivery
+interfacelogistics_vehiclepurpose		Transport 
+
+d11_logistics_transportTitle			Transport Preferences
+d11_logistics_purpose_group_0			Inbound Deliveries
+d11_logistics_transport_deliveries_hint		Choose which items should be delivered here.
+d11_logistics_purpose_group_0_item_1		Construction materials
+d11_logistics_purpose_group_0_item_2		Food
+d11_logistics_purpose_group_0_item_3		Mail
+d11_logistics_purpose_group_0_item_4		Workshop materials
+d11_logistics_purpose_group_1			Inbound Prisoners
+d11_logistics_transport_prisoners_hint		Choose which prisoners from your Intake should arrive here.
+d11_logistics_purpose_group_1_item_1		Minimum security
+d11_logistics_purpose_group_1_item_2		Medium security
+d11_logistics_purpose_group_1_item_3		Max security
+d11_logistics_purpose_group_1_item_4		Death row
+d11_logistics_purpose_group_1_item_5		Insane
+d11_logistics_purpose_group_2			Inbound Civilians
+d11_logistics_transport_civilians_hint		Choose whether visitors and teachers can arrive here.
+d11_logistics_purpose_group_3			Outbound Items
+d11_logistics_transport_exports_hint		Choose which items are removed from your prison via this location.
+d11_logistics_purpose_group_3_item_1		Garbage
+d11_logistics_purpose_group_3_item_2		Exports
+d11_logistics_purpose_toggle			Toggle		
+d11_logistics_purpose_toggle_1			Toggle all
+d11_logistics_purpose_toggle_on			(ON)
+d11_logistics_purpose_toggle_off		(OFF)
+
+d11_room_error_no_link				Unload Blocked. Please check the Deliveries and Transport Logistic options. 	
+
+d11_hover_change						Change [[*L]]
+
+water_amount                 	Water Level *X%
+ferry_timer                 	Departs In *X
+ferry_warning                 	Departure Blocked
+
+d11_hover_dismiss_vehicle	Dismiss [[*S]]
+d11_hover_depart_vehicle	Depart [[*S]]
+interface_action_dismissVehicle	Dismiss Vehicle
+d11_hover_dismiss_vehicle_desc	Dismiss the vehicle to free up space?
+d11_hover_dismiss_helicopter_desc	Dismiss this helicopter?
+d11_hover_dismiss_ferry_desc	Make the Ferry depart early?
+
+d11_hover_fight_fires		Fight Fires [[*X]]
+interface_action_fightFires		Fight Fires
+d11_hover_fight_fires_desc	Take off and help fight any fires?
+		
+d11_hover_land_heli		Land [[*S]]
+interface_action_landheli		Land Helicopter
+d11_hover_land_heli_desc	Land the helicopter on its helipad?
+
+d11_hover_eliteOps_select	Command Helicopter [[*X]]
+
+d11_hover_deploy_squad		Deploy (Hold) [[*X]]
+interface_action_deploySquad		Deploy Squad
+d11_hover_deploy_squad_desc	Deploy the squad below the helicopter?
+
+interfacemode_floors				Floors
+interfaceoverlay_landscape			Landscape
+
+d11_hover_quantity						x *X
+
+# =============================================================================
+# Build Toolbar
+# =============================================================================
+
+buildtoolbar_popup_obj_FerryDock		Two Ferry Docks will be built, to run parallel between islands, as a means of transportation between them. For a pair of docks to be built, there must be a landmass parallel.
+buildtoolbar_popup_obj_BoatDock			Essential for allowing boats to dock at your prison, ferry new prisoners, or deliver supplies.
+buildtoolbar_popup_obj_Helipad			Essential for allowing helicopters to fly into your prison, transport new prisoners, deliver supplies, or call upon special air-based emergency crews.
+
+buildtoolbar_popup_obj_DeckChair		Lounge in the sun from your deck in comfort.\n -Caters to the Comfort Need.
+
+buildtoolbar_popup_obj_Fountain			Place in water to create a relaxing fountain feature.
+
+buildtoolbar_popup_obj_SteppingStoneLillyPad	Create pathways allowing prisoners and staff to cross water.\n \nOutdoor only.\n \nPlaced on Water only.
+buildtoolbar_popup_obj_SteppingStone		Create pathways allowing prisoners and staff to cross water.\n \nOutdoor only.\n \nPlaced on Water only.
+buildtoolbar_popup_obj_SteppingStoneIceBlock	Create pathways allowing prisoners and staff to cross water.\n \nOutdoor only.\n \nPlaced on Water only.
+buildtoolbar_popup_obj_SteppingStonePallet	Create pathways allowing prisoners and staff to cross water.\n \nOutdoor only.\n \nPlaced on Water only.
+buildtoolbar_popup_uts_ScannerMonitor	A monitor for a guard to spot contraband, when wired to a Scanner Machine. A guard's ability to spot contraband will depend on their tiredness
+buildtoolbar_popup_uts_ScannerMachine	A machine for Delivery areas and Storage rooms, to scan wooden crates for contraband. Must be wired to a Scanner Monitor, for a guard to spot contraband. A guard's ability to spot contraband will depend on their tiredness.
+buildtoolbar_popup_obj_Checkpoint		A Checkpoint Station for searching prisoners and visitors that pass through. Prisoners can only pass through a checkpoint in one direction.\n-Must be manned by a guard.
+buildtoolbar_popup_obj_waterShallow		Create shallow water areas to create nicer shorelines, between Sand and Water flooring. These tiles can be walked over unlike standard Water. - $*A (outdoors only)
+buildtoolbar_popup_obj_waterLarge		Create large areas of water, lakes and oceans. - $*A (outdoors only)
+buildtoolbar_popup_obj_WoodDock			A solid timber floor, perfect for dock yard. - $*A (outdoors only)
+
+landscape_hint							(Can be built on water)
+
+d11_emergencies_hints_fire_heli			A helicopter with x*A Firemen. - $*B
+d11_squad_name_FireHeli				Air Firefighters
+d11_emergencies_hints_paramedics_heli		A helicopter with x*A Paramedics. - $*B
+d11_squad_name_AirParamedics			Air Paramedics
+d11_emergencies_hints_eliteOps_heli		A helicopter with x*A Elite Op Soldiers. - $*B
+d11_squad_name_EliteOps				Elite Ops Team
+
+
+interfacecallout_FireHeli                       Air Firefighters
+interfacecallout_EliteOps                       Elite Ops Team
+interfacecallout_AirParamedics                  Air Paramedics
+interfacecallout_AirSoldiers                    Air Soldiers
+
+buildtoolbar_Logistics_DeliveryTargeting 	Link Delivery, Garbage and Export zones to Helipads, Docks and the Road. Doing so allows you to control where deliveries are taken, and how exports leave your prison.
+buildtoolbar_Logistics_VehiclePurpose		Control which services will be handled by specific Docks, Helipads or the Road. Doing so allows you to recieve specific goods or prisoners to various locations around your prison, by sea and air.
+
+
+# =============================================================================
+# Object Hint strings
+# =============================================================================
+
+boatDock_placement_hint		Requires a connection to land and a clear shipping lane.
+delivery_hover_hint			The Logistics > Transport menu allows you to control the purposes of this *X.
+ferryDock_placement_hint	Must have a parallel landmass to travel to.
+transportZones_hover_hint	Link to Helipads, Docks and the road, via the Logistics menu.
+object_scannermonitor_needsmachine						Wire to a Scanner Machine
+object_scannermachine_needsmonitor						Wire to a Scanner Monitor
+
+# =============================================================================
+# Prefabs - Names
+# =============================================================================
+
+quickbuild_OutdoorLake							Outdoor Lake
+quickbuild_River								River
+
+# =============================================================================
+# CODEX - Menu Entries
+# =============================================================================
+
+codex_options_hud_waypoints		Hud Waypoints
+codex_options_hud_waypoints_all		All On
+codex_options_hud_waypoints_important	Most Important
+codex_options_hud_waypoints_off		All Off
+
+d11_hud_waypoints_limited	All (Limited Time)
+waypoints_tooltip			Decide which Waypoints to display around the HUD, pointing to various events and alerts occuring in the prison.
+
+
+codex_option_dynamicReputations		Dynamic Reputations
+codex_tooltip_dynamicReputations	Click to toggle Dynamic Reputations
+
+# =============================================================================
+# DLC
+# =============================================================================
+
+objective_ReadSandALetter						Letter from the CEO (Island Bound)
+island_letter									Dear Sir/Madam,\n\n\nWelcome to your new life as an Island Bound Prison Architect! Here’s some tips to get you started with docks, helipads and island prisons.\n\n1. Islands - Depending on the prison's circumstances, you may have no physical link to the mainland, and if so you will need BOATS and HELICOPTERS to provide your transportation services. Build Boat DOCKS and HELIPADS, and determine their purposes; to receive specific deliveries, new prisoners, or new emergencies units and more, by sea and air. -Make sure docks are built with a clear shipping lane for boats to come and go. -Special FERRY DOCKS can be built to link islands together, as well as BRIDGES and STEPPING STONES. -Your prison can now be better protected with new ELITE OPS units, and helicopters that can fight fires from the air.\n\n2. Customising Deliveries and Transports - Via LOGISTICS, you can customise which services are assigned to each dock, helipad and the road, allowing your prison's efficiency to increase. Docks and Helipads can be linked to additional Delivery, Reception and Export zones. This will allow you to have food supplies delivered closer to the Kitchen, or new Max Sec inmates brought in closer to the Max Sec wing on your island, for example. The possibilities are endless!\n\n3. Landscaping - Water can be placed to create moats or oceans around your prison, and land can be shaped with shorelines, using dirt and other flooring types. Any land or smaller islands created in water, will be created immediately.\n\n4. New Security Measures - Contraband can still arrive via boats and helicopters, so we’re also providing you with some new state-of-the-art equipment; -Build SCANNER MACHINES in Delivery and Storage areas to check crates and boxes. You’ll need an alert guard to watch on a connected SCANNER MONITOR. -Assign guards to CHECKPOINTS to pat-down all prisoners and visitors passing through. This is a great way to discover contraband, but can reduce the flow of prisoners if not placed strategically.\n\nFinally, even islands aren’t escape-proof, so it could be a good idea to erect Sniper Towers on your shorelines, to keep an eye out for ‘swimmers’.\n\nThat's about everything - good luck!\n\nThe CEO,\nPrison Architects Corp.
+
+# =============================================================================
+# Missing Strings
+# =============================================================================
+
+buildtoolbar_popup_help_jobs_6				- Forestry area must be enclosed for prisoners to be asisgned to work in them, and to prevent escapes
+
+research_forestrylabour					Forestry Labour
+researchtooltip_forestrylabour			Allows you to put prisoners to work in the Forestry via the Logistics menu. Foresty area must be enclosed for prisoners to be assigned to work in them, and to prevent escapes. Be aware that prisoners will also require access to Delivery areas in order to replant trees.
+action_usecomputer                      Use Computer
+
+
+buildtoolbar_popup_help_roomquality_1       The Room Quality view shows you the quality rating of all upgrade-able rooms in your prison. The higher the number, the better the quality. Mousing over a room will show you the factors that went into determining it's quality, and what you can add to increase that quality.\n\n
+buildtoolbar_popup_help_roomquality_2		With PRISONER TRANSFERS turned ON
+buildtoolbar_popup_help_roomquality_3		- Room quality will also contribute to an overall grade for that Security Sector. 
+buildtoolbar_popup_help_roomquality_4		- Prisoners will desire to be transferred to a lower Security Sector, if it is better (has a higher grade) than their current Security Sector.\n\n
+buildtoolbar_popup_help_roomquality_5       CELL GRADING
+buildtoolbar_popup_help_roomquality_6       - Prisoners are entitled to a higher quality cell for good behaviour over time. Having higher quality cells available is a good way to incentivise good behaviour.
+buildtoolbar_popup_help_roomquality_7       - It's important to keep some low quality cells in your prison, as new arrivals to your prison will need somewhere to go, and if all the available cells are too high quality they might find themselves in a holding cell.
+buildtoolbar_popup_help_roomquality_8       - Prisoners can be placed in a higher quality cell than they deserve if there is no other space available, but it might make the other prisoners unhappy...
+
+
+# =============================================================================
+# Missing Strings - Hotfix
+# =============================================================================
+
+escapemode_info_board					Board Ferry
+job_failed_routetomaterial_blocked		Path between Material and Job blocked
+
+############################### Other ###############################
+
+# =============================================================================
+# Materials - Names
+# =============================================================================
+
+material_islandgenerator			Quick Islands
+
+# =============================================================================
+# Object - Names
+# =============================================================================
+
+object_walkwaystairs				Walkway Stairs (WIP)
+
+# =============================================================================
+# Build Toolbar
+# =============================================================================
+
+buildtoolbar_popup_obj_walkwaystairs			Place next to a raised Walkway (Wall Walkway) for guards to access walkways and patrol from above.
+buildtoolbar_popup_mat_islandgenerator			Drag out areas in the water to generate a random island. Make sure to avoid your boat's shipping lanes.
+
+interface_landbuyoverwater					Choose to generate additional islands around your shipping lanes to expand, or open water.
+interface_landbuywaterislands					Islands
+interface_landbuywateronly						Water Only
+
+#=====================================
+# Island Bound - Hotfix update
+#====================================
+
+interface_landbuyoverwater					Choose to generate additional islands around your shipping lanes to expand, or open water.
+interface_landbuywaterislands					Islands
+interface_landbuywateronly					Water Only
+
+codex_option_landExpansion		                	Land Expansion
+codex_tooltip_landExpansion			                Expands the land of your plot once for each side, allowing your starting plot to be much larger from the very beginning.
+
+quickbuild_smallIsland								Island (Small)
+quickbuild_mediumIsland								Island (Medium)
+quickbuild_largeIsland								Island (Large)
+quickbuild_smallLand								Land (Small)
+quickbuild_largeLand								Land (Large)
+
+
+buildtoolbar_quickbuild_smallIsland						A mass-produced Island surrounded by shallow water, that wouldn't look out of place in any archipelago.
+buildtoolbar_quickbuild_mediumIsland						A mass-produced Island surrounded by shallow water, that wouldn't look out of place in any archipelago.
+buildtoolbar_quickbuild_largeIsland						A mass-produced Island surrounded by shallow water, that wouldn't look out of place in any archipelago.
+buildtoolbar_quickbuild_smallLand						A basic stamp of sand, dirt, and grass tiles to use when expanding your land.
+buildtoolbar_quickbuild_largeLand						A basic stamp of sand, dirt, and grass tiles to use when expanding your land.
+
+interfacetopbar_tension_ActiveEliteOps        + *X elite operatives are on site
+
+online_check_fail									You don't currently have permission to access this feature of the game.
