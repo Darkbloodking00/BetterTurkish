@@ -6,7 +6,7 @@
 dialog_new                              Yeni
 dialog_load                             Yükle
 dialog_save                             Kaydet
-dialog_saveas                           Save As
+dialog_saveas                           Farklı Kaydet
 dialog_delete                           Sil
 dialog_width                            Genişlik
 dialog_height                           Yükseklik
@@ -32,7 +32,7 @@ dialog_loading                          Yükleniyor...
 dialog_low                              Düşük
 dialog_medium                           Orta
 dialog_high                             Yüksek
-dialog_none                             None
+dialog_none                             Yok
 ellipsis                                ...
 
 
@@ -43,14 +43,14 @@ ellipsis                                ...
 dialogeditor_title                      Diyalog Editörü
 dialogeditor_back                       Geri
 dialogeditor_front                      İleri
-dialogeditor_reloadlanguage             Reload Language
+dialogeditor_reloadlanguage             Dil'i Yeniden Yükle
 dialogeditor_test                       Test
 dialogeditor_window                     Pencere
-dialogeditor_grid                       Parmaklık
-dialogeditor_caption                    Tutuklama
+dialogeditor_grid                       Şebeke
+dialogeditor_caption                    Alt yazı
 dialogeditor_component                  Component
 dialogeditor_select						Seç
-dialogeditor_create						Yarat
+dialogeditor_create						Oluştur
 dialogeditor_background                 BG fot.
 dialogeditor_panel                      Panel
 
@@ -111,7 +111,7 @@ soundeditor_loopdelaytitle              Loop Delay
 soundeditor_dsptitle                    DSP
 soundeditor_nexteventtitle              Sonraki Etkinlik
 
-soundeditor_play                        Oyna
+soundeditor_play                        Oynat
 soundeditor_stop                        Durdur
 
 soundparametereditor_title              Sound Parameter
