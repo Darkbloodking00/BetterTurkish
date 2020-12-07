@@ -3,35 +3,35 @@
 # Basic dialog strings
 # =============================================================================
 
-dialog_new                              New
-dialog_load                             Load
-dialog_save                             Save
+dialog_new                              Yeni
+dialog_load                             Yükle
+dialog_save                             Kaydet
 dialog_saveas                           Save As
-dialog_delete                           Delete
-dialog_width                            Width
-dialog_height                           Height
-dialog_name                             Name
-dialog_type                             Type
+dialog_delete                           Sil
+dialog_width                            Genişlik
+dialog_height                           Yükseklik
+dialog_name                             İsim
+dialog_type                             Tür
 dialog_x                                X
 dialog_y                                Y
 dialog_z								Z
 dialog_w                                W
 dialog_h                                H
-dialog_exit                             Exit
-dialog_cancel                           Cancel
+dialog_exit                             Çıkış
+dialog_cancel                           İptal
 dialog_ok                               Ok
-dialog_open                             Open
-dialog_close                            Close
-dialog_closed                           Closed
-dialog_add                              Add
-dialog_up                               Up
-dialog_down                             Down
-dialog_yes                              Yes
-dialog_no                               No
-dialog_loading                          Loading...
-dialog_low                              Low
-dialog_medium                           Medium
-dialog_high                             High
+dialog_open                             Aç
+dialog_close                            Kapat
+dialog_closed                           Kapalı
+dialog_add                              Ekle
+dialog_up                               Yukarı
+dialog_down                             Aşağı
+dialog_yes                              Evet
+dialog_no                               Hayır
+dialog_loading                          Yükleniyor...
+dialog_low                              Düşük
+dialog_medium                           Orta
+dialog_high                             Yüksek
 dialog_none                             None
 ellipsis                                ...
 
@@ -40,9 +40,9 @@ ellipsis                                ...
 # Dialog Editor
 # =============================================================================
 
-dialogeditor_title                      Dialog Editor
-dialogeditor_back                       Back
-dialogeditor_front                      Front
+dialogeditor_title                      Diyalog Editörü
+dialogeditor_back                       Geri
+dialogeditor_front                      İleri
 dialogeditor_reloadlanguage             Reload Language
 dialogeditor_test                       Test
 dialogeditor_window                     Window
