@@ -1,15 +1,13 @@
-interfacecontrol_mainmenu               Main Menu
-interfacecontrol_mainmenu_tooltip       Toggle the main menu (New/Load/Save etc)
+interfacecontrol_mainmenu               Ana Menü
+interfacecontrol_mainmenu_tooltip       Ana menüye geçiş yap (Yeni/Yükle/Kayıtlı gibi)
 
-object_firemen_hosehelp                 Press and hold to move. Press and hold on flames to aim the hoses manually.
+object_firemen_hosehelp                 Hareket etmek için basılı tut. Press and hold on flames to aim the hoses manually.
 
-click_to_continue                       Tap to Continue...
-gameover_caption                        Open Menu to Continue
+click_to_continue                       Devam Etmek İçin Bas...
+gameover_caption                        Devam Etmek İçin Menüyü Açın.
 
-adviser_deathrow_explain5               While we wait, take a look around. Drag the screen to move the view around, and pinch with two fingers to zoom in and out.
+adviser_deathrow_explain5               Biz beklerken, etrafa bir göz gezdir. Etrafı görmek için ekranı sürükleyin, ve iki parmağınızla sıkıştırarak yakınlaştırıp uzaklaştırın.
+adviser_deathrow_internaldoors2         Bir nesneyi yerleştirmeden önce ekranın sağındaki Döndür düğmesine dokunarak döndürebilirsiniz.
+objective_deathrow_buildinternaldoors   İç kapılar inşa edin.
 
-adviser_deathrow_internaldoors2         You can rotate an object before placement by tapping the Rotate button on the right of the screen
-
-objective_deathrow_buildinternaldoors   Build internal doors
-
-objective_food_extinguishflames_description  When you have firemen selected you can press and hold on flames to aim their hoses, but the flames have to be less than 15 squares away.
+objective_food_extinguishflames_description  İtfaiyecileri seçtiğinizde, hortumlarına nişan almak için alevlere basılı tutabilirsiniz, ancak alevler 15 kareden daha az uzaklıkta olmalıdır.
