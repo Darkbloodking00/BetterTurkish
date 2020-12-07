@@ -51,28 +51,28 @@ dialogeditor_caption                    Alt yazı
 dialogeditor_component                  Component
 dialogeditor_select						Seç
 dialogeditor_create						Oluştur
-dialogeditor_background                 BG fot.
+dialogeditor_background                 Arkaplan Görseli.
 dialogeditor_panel                      Panel
 
 dialogcomponent_custom                  Özel
-dialogcomponent_button                  Buton
+dialogcomponent_button                  Tuş
 dialogcomponent_container               Konteyner
-dialogcomponent_caption                 Tutuklama
-dialogcomponent_titlecaption            TitleCaption
-dialogcomponent_checkbox                Checkbox
-dialogcomponent_inputfield              InputField
-dialogcomponent_inputslider             InputSlider
-dialogcomponent_dropdownmenu            DropDownMenu
-dialogcomponent_selectionlist           SelectionList
-dialogcomponent_selectionlistitem       SelectionListItem
-dialogcomponent_scrollbar               Scrollbar
-dialogcomponent_progressbar             ProgressBar
-dialogcomponent_canvas                  Canvas
-dialogcomponent_iconbox					IconBox
+dialogcomponent_caption                 Alt yazı
+dialogcomponent_titlecaption            Başlık
+dialogcomponent_checkbox                Onay kutusu
+dialogcomponent_inputfield              GirişAlanı
+dialogcomponent_inputslider             GirişKaydırıcı
+dialogcomponent_dropdownmenu            AçılanMenü
+dialogcomponent_selectionlist           SeçimListesi
+dialogcomponent_selectionlistitem       SeçimListesiEşyalar
+dialogcomponent_scrollbar               Kaydırma çubuğu
+dialogcomponent_progressbar             İlerleme çubuğu
+dialogcomponent_canvas                  Kanvas
+dialogcomponent_iconbox					SimgeKutusu
 
-dialogposition_absolute                 Absolute
-dialogposition_relative                 Relative
-dialogposition_scaled                   Scaled
+dialogposition_absolute                 Mutlak
+dialogposition_relative                 Değişken
+dialogposition_scaled                   Ölçekli
 
 
 # =============================================================================
@@ -91,122 +91,122 @@ profiler_reset                          Sıfırlama
 # Sound tools
 # =============================================================================
 
-soundchannelviewer_title                Sound Channels
-soundeditor_title                       Sound Editor
-soundinstanceeditor_title				Sound Instance Editor
+soundchannelviewer_title                Ses Kanalları
+soundeditor_title                       Ses Editörü
+soundinstanceeditor_title				Ses Oluşum Editörü
 
-soundeditor_positiontitle		        Position Type
-soundeditor_instancetitle		        Instance Type
-soundeditor_looptitle			        Loop Type
-soundeditor_sourcetypetitle		        Sound Type
-soundeditor_soundnametitle		        Sound Name
+soundeditor_positiontitle		        Konum Türü
+soundeditor_instancetitle		        Oluşum Türü
+soundeditor_looptitle			        Döngü Türü
+soundeditor_sourcetypetitle		        Ses Türü
+soundeditor_soundnametitle		        Ses Adı
 
 soundeditor_volumetitle			        Ses Düzeyi
-soundeditor_frequencytitle              Frequency
-soundeditor_mindistancetitle            Min Distance
+soundeditor_frequencytitle              Frekans
+soundeditor_mindistancetitle            Minimum Uzaklık
 soundeditor_attacktitle                 Atak
-soundeditor_sustaintitle                Sustain
-soundeditor_releasetitle                Release
-soundeditor_loopdelaytitle              Loop Delay
+soundeditor_sustaintitle                Sürdürme
+soundeditor_releasetitle                Salma
+soundeditor_loopdelaytitle              Döngü Gecikmei
 soundeditor_dsptitle                    DSP
 soundeditor_nexteventtitle              Sonraki Etkinlik
 
 soundeditor_play                        Oynat
 soundeditor_stop                        Durdur
 
-soundparametereditor_title              Sound Parameter
-soundparametereditor_typetitle          Type
-soundparametereditor_linktitle          Linked To
-soundparametereditor_updatetitle        Update Type
-soundparametereditor_smoothing          Smoothing
-soundparametereditor_chaintitle         Chain
+soundparametereditor_title              Ses Parametresi
+soundparametereditor_typetitle          Tür
+soundparametereditor_linktitle          Bağlanmış
+soundparametereditor_updatetitle        Güncelleme Türü
+soundparametereditor_smoothing          Yumuşatma
+soundparametereditor_chaintitle         Zincir
 
 soundeditor_newdsp                      DSP Ekle
 sounddspeditor_title                    DSP Editörü
-samplebankeditor_title                  Sample Bank Editor
+samplebankeditor_title                  Örnek Bankası Editörü
 samplebankeditor_addsample              Ses Ekle
-samplebank                              (Sample Bank)
+samplebank                              (Örnek Bankası)
 
 
 # =============================================================================
 # Interface Mode
 # =============================================================================
 
-interfacemode_done                            Bitti
+interfacemode_done                            Bitir
 interfacemode_destroy                         Yok Et
-interfacemode_foundations				      Foundations
+interfacemode_foundations				      Temeller
 interfacemode_construction                    Materyaller
 interfacemode_planning                        Planlama
 interfacemode_objects                         Objeler
 interfacemode_designation                     Odalar
-interfacemode_utilities                       Utilities
-interfacemode_staff                           Staff
-interfacemode_deployment                      Deployment
-interfacemode_logistics                       Logistics
+interfacemode_utilities                       Araçlar
+interfacemode_staff                           Personel
+interfacemode_deployment                      Konuşlandırma
+interfacemode_logistics                       Lojistik
 interfacemode_prisoners                       Mahkumlar
 interfacemode_needs                           İhtiyaçlar
-interfacemode_threats                         Threats
-interfacemode_overlays                        Overlays
-interfacemode_research                        Bureaucracy
-interfacemode_emergencies                     Emergencies
-interfacemode_clone                           Klon
-interfacemode_contraband                      Intelligence
-interfacemode_grading                         Grading
-interfacemode_spawn                           (Spawn)
-interfacemode_properties                      (Properties)
+interfacemode_threats                         Tehditler
+interfacemode_overlays                        Kaplamalar
+interfacemode_research                        Bürokrasi
+interfacemode_emergencies                     Acil yardımlar
+interfacemode_clone                           Klonlama
+interfacemode_contraband                      İstihbarat
+interfacemode_grading                         Derecelendirme
+interfacemode_spawn                           (Doğma)
+interfacemode_properties                      (Özellikler)
 interfacemode_cutscenes                       (Ara Sahneler)
 interfacemode_selection                       Seç
 interfacemode_prefabs                         Hızlı İnşaat
 
 interfaceoverlay_security                       Güvenlik
-interfaceoverlay_patrols                        Patrols
-interfaceoverlay_decay                          Decay
-interfaceoverlay_territory                      Terörist
-interfaceoverlay_contraband                     Contraband
+interfaceoverlay_patrols                        Devriyeler
+interfaceoverlay_decay                          Bozulma
+interfaceoverlay_territory                      Bölge
+interfaceoverlay_contraband                     Kaçak mal
 
-interfaceproperty_indoor                        Indoor
+interfaceproperty_indoor                        Bina içi
 interfaceproperty_visible                       Görünür
-interfaceproperty_territoryprisoner             Gangs
-interfaceproperty_territoryguard                Guards
-interfaceproperty_sectorprisoner                Rioting
+interfaceproperty_territoryprisoner             Çeteler
+interfaceproperty_territoryguard                Korumalar
+interfaceproperty_sectorprisoner                İsyan
 interfaceproperty_tunnel                        Tünel
 
 
-interfacedeployment_removeguards                Güvenlikleri Çıkar
-interfacedeployment_clearpatrols                Clear Patrols
-interfacedeployment_targetting                  Logistics
-interfacedeployment_targettingfood              Food Logistics
-interfacedeployment_targettinglaundry           Laundry Logistics
-interfacedeployment_securearea                  SecureArea
-interfacedeployment_sharedzone                  Shared
-interfacedeployment_staffonlyzone               Staff Only
-interfacedeployment_maxseczone                  Max Sec Only
-interfacedeployment_medseczone                  Med Sec Only
-interfacedeployment_minseczone                  Min Sec Only
-interfacedeployment_protectedzone               Protected Only
-interfacedeployment_supermaxzone                SuperMax Only
-interfacedeployment_deathrowzone                Death Row Only
-interfacedeployment_unlockedzone                Unlocked
-interfacedeployment_zonered                     Red Wing
-interfacedeployment_zonegreen                   Green Wing
-interfacedeployment_zoneblue                    Blue Wing
-interfacedeployment_zoneyellow                  Yellow Wing
-interfacedeployment_zoning                      Zoning
-interfacedeployment_accessonly					Access Only
-interfacedeployment_prisonerdirection			Prisoner Direction
-interfacedeployment_staffdirection				Others Direction
+interfacedeployment_removeguards                Güvenlikleri Kaldır
+interfacedeployment_clearpatrols                Devriyeleri Sil
+interfacedeployment_targetting                  Lojistikler
+interfacedeployment_targettingfood              Yiyecek Lojistikleri
+interfacedeployment_targettinglaundry           Çamaşırhane Lojistikleri
+interfacedeployment_securearea                  GüvenliBölge
+interfacedeployment_sharedzone                  Paylaşımlı alan
+interfacedeployment_staffonlyzone               Yalnızca Personel
+interfacedeployment_maxseczone                  Yalnızca Maks Güv
+interfacedeployment_medseczone                  Yalnızca Orta Güv
+interfacedeployment_minseczone                  Yalnızca Min Güv
+interfacedeployment_protectedzone               Yalnızca İhtiyati
+interfacedeployment_supermaxzone                Yalnızca SüperMaks
+interfacedeployment_deathrowzone                Yalnızca Ölüm-Mahkumları
+interfacedeployment_unlockedzone                Erişime açık bölge
+interfacedeployment_zonered                     Kırmızı Kanat
+interfacedeployment_zonegreen                   Yeşil Kanat
+interfacedeployment_zoneblue                    Mavi Kanat
+interfacedeployment_zoneyellow                  Sarı Kanat
+interfacedeployment_zoning                      Bölgeleme
+interfacedeployment_accessonly					Yalnızca Erişimli
+interfacedeployment_prisonerdirection			Mahkum İstikameti
+interfacedeployment_staffdirection				Diğerleri İstikameti
 
-interfacelogistics_jobs                         Prison Labour
-interfacelogistics_removejobs                   Remove Labour
-interfacelogistics_targettingfood               Food Distribution
-interfacelogistics_targettinglaundry            Laundry Distribution
-interfacelogistics_roomquality                  Room Quality
+interfacelogistics_jobs                         İşçi Mahkum
+interfacelogistics_removejobs                   İşçi'yi Kaldır
+interfacelogistics_targettingfood               Yiyecek Dağıtımı
+interfacelogistics_targettinglaundry            Çamaşırhane Dağıtımı
+interfacelogistics_roomquality                  Oda Kalitesi
 interfacelogistics_weathermap                   Sıcaklık
 
-interfaceplanning_wall							Walls
-interfaceplanning_object						Objects
-interfaceplanning_route							Pathways
-interfaceplanning_clear							Clear
+interfaceplanning_wall							Duvarlar
+interfaceplanning_object					    Nesneler
+interfaceplanning_route							Patikalar
+interfaceplanning_clear							Temizle
 interfaceplanning_zone1							Bölge 1
 interfaceplanning_zone2							Bölge 2
 interfaceplanning_zone3							Bölge 3
@@ -221,7 +221,7 @@ interfacecontraband_source                      Tehlikeler
 interfacecontraband_day                         -24 Saat
 interfacecontraband_week                        -7 Gün
 interfacecontraband_alltime                     -30 Gün
-interfacecontraband_stolenfrom					Stolen From
+interfacecontraband_stolenfrom			        Tarafından Çalındı
 interfacecontraband_informants                  Informants
 interfacecontraband_gangs                       Gangs
 
