@@ -1,12 +1,12 @@
-SON KULLANICI LISANS SOZLEŞMESI
+SON KULLANICI LİSANS SOZLEŞMESİ
 
-Last updated 2016-11-08
+Son güncelleme 2016-11-08
 
-# IMPORTANT, PLEASE READ CAREFULLY
+# ÖNEMLİ, LÜTFEN DİKKATLİCE OKUYUNUZ
 
-BY EITHER REMOVING THE SHRINK WRAP AND/OR JEWEL CASE SEAL OR DOWNLOADING, INSTALLING, OR OTHERWISE USING THIS GAME, YOU AGREE TO BE BOUND BY THE FOLLOWING TERMS AND CONDITIONS:
+STREÇ FILMI ÇIKARTARAK VE/VEYA CD KABINI ÇIKARTARAK, OYUNU INDIREREK, KURARAK, VEYAHUT KULANARAK, ASAGIDA BULUNAN ŞART VE KOŞULLARDAN SORUMLU OLDUGUNUZU KABUL ETMIS OLURSUNUZ:
 
-This end-user license agreement (“EULA”) is a legal agreement between you (hereinafter referred to as “you”, or “End User”) and Paradox Interactive AB (“Paradox”) for the software product which this EULA is accompanying, all related software (such as editors) and all in-game content, any updates or additional content (such as patches, downloadable content (“DLC”) and expansions), manuals, and other materials in any media related to the software, including the unique alfa-numeric code for downloading the software product which may be provided to you with the software product or delivered to you electronically (all jointly, the “Game”). If you do not agree to the terms of this EULA, do not install or use the Game, instead contact your retailer regarding its return policy.
+Bu son kullanıcı lisans sözleşmesi(“EULA”), Paradox Interactive AB (“Paradox”) ve sizin (buna göre “siz”, veya “Son Kullanıcı”) aranızdaki for the software product which this EULA is accompanying, all related software (such as editors) and all in-game content, any updates or additional content (such as patches, downloadable content (“DLC”) and expansions), manuals, and other materials in any media related to the software, including the unique alfa-numeric code for downloading the software product which may be provided to you with the software product or delivered to you electronically (all jointly, the “Game”). If you do not agree to the terms of this EULA, do not install or use the Game, instead contact your retailer regarding its return policy.
 
 This Game is licensed, not sold, to you for use only under the terms and conditions of this EULA. All rights not expressly granted herein are reserved by Paradox.
 
