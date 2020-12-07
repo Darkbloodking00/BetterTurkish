@@ -45,19 +45,19 @@ dialogeditor_back                       Geri
 dialogeditor_front                      İleri
 dialogeditor_reloadlanguage             Reload Language
 dialogeditor_test                       Test
-dialogeditor_window                     Window
-dialogeditor_grid                       Grid
-dialogeditor_caption                    Caption
+dialogeditor_window                     Pencere
+dialogeditor_grid                       Parmaklık
+dialogeditor_caption                    Tutuklama
 dialogeditor_component                  Component
-dialogeditor_select						Select
-dialogeditor_create						Create
-dialogeditor_background                 BG img
+dialogeditor_select						Seç
+dialogeditor_create						Yarat
+dialogeditor_background                 BG fot.
 dialogeditor_panel                      Panel
 
-dialogcomponent_custom                  Custom
-dialogcomponent_button                  Button
-dialogcomponent_container               Container
-dialogcomponent_caption                 Caption
+dialogcomponent_custom                  Özel
+dialogcomponent_button                  Buton
+dialogcomponent_container               Konteyner
+dialogcomponent_caption                 Tutuklama
 dialogcomponent_titlecaption            TitleCaption
 dialogcomponent_checkbox                Checkbox
 dialogcomponent_inputfield              InputField
@@ -80,11 +80,11 @@ dialogposition_scaled                   Scaled
 # =============================================================================
 
 profiler_title                          Profiler
-profiler_name                           Name
-profiler_timings                        Timings
-profiler_totaltime                      Total
-profiler_glfinishcaption                glFinish
-profiler_reset                          Reset
+profiler_name                           İsim
+profiler_timings                        Zamanlamalar
+profiler_totaltime                      Toplam
+profiler_glfinishcaption                glBitiriş
+profiler_reset                          Sıfırlama
 
 
 # =============================================================================
@@ -101,18 +101,18 @@ soundeditor_looptitle			        Loop Type
 soundeditor_sourcetypetitle		        Sound Type
 soundeditor_soundnametitle		        Sound Name
 
-soundeditor_volumetitle			        Volume
+soundeditor_volumetitle			        Ses Düzeyi
 soundeditor_frequencytitle              Frequency
 soundeditor_mindistancetitle            Min Distance
-soundeditor_attacktitle                 Attack
+soundeditor_attacktitle                 Atak
 soundeditor_sustaintitle                Sustain
 soundeditor_releasetitle                Release
 soundeditor_loopdelaytitle              Loop Delay
 soundeditor_dsptitle                    DSP
-soundeditor_nexteventtitle              Next Event
+soundeditor_nexteventtitle              Sonraki Etkinlik
 
-soundeditor_play                        Play
-soundeditor_stop                        Stop
+soundeditor_play                        Oyna
+soundeditor_stop                        Durdur
 
 soundparametereditor_title              Sound Parameter
 soundparametereditor_typetitle          Type
@@ -121,10 +121,10 @@ soundparametereditor_updatetitle        Update Type
 soundparametereditor_smoothing          Smoothing
 soundparametereditor_chaintitle         Chain
 
-soundeditor_newdsp                      Add DSP
-sounddspeditor_title                    DSP Editor
+soundeditor_newdsp                      DSP Ekle
+sounddspeditor_title                    DSP Editörü
 samplebankeditor_title                  Sample Bank Editor
-samplebankeditor_addsample              Add Sound
+samplebankeditor_addsample              Ses Ekle
 samplebank                              (Sample Bank)
 
 
@@ -132,47 +132,47 @@ samplebank                              (Sample Bank)
 # Interface Mode
 # =============================================================================
 
-interfacemode_done                            Done
-interfacemode_destroy                         Destroy
+interfacemode_done                            Bitti
+interfacemode_destroy                         Yok Et
 interfacemode_foundations				      Foundations
-interfacemode_construction                    Materials
-interfacemode_planning                        Planning
-interfacemode_objects                         Objects
-interfacemode_designation                     Rooms
+interfacemode_construction                    Materyaller
+interfacemode_planning                        Planlama
+interfacemode_objects                         Objeler
+interfacemode_designation                     Odalar
 interfacemode_utilities                       Utilities
 interfacemode_staff                           Staff
 interfacemode_deployment                      Deployment
 interfacemode_logistics                       Logistics
-interfacemode_prisoners                       Prisoners
-interfacemode_needs                           Needs
+interfacemode_prisoners                       Mahkumlar
+interfacemode_needs                           İhtiyaçlar
 interfacemode_threats                         Threats
 interfacemode_overlays                        Overlays
 interfacemode_research                        Bureaucracy
 interfacemode_emergencies                     Emergencies
-interfacemode_clone                           Clone
+interfacemode_clone                           Klon
 interfacemode_contraband                      Intelligence
 interfacemode_grading                         Grading
 interfacemode_spawn                           (Spawn)
 interfacemode_properties                      (Properties)
-interfacemode_cutscenes                       (Cutscenes)
-interfacemode_selection                       Select
-interfacemode_prefabs                         Quick Build
+interfacemode_cutscenes                       (Ara Sahneler)
+interfacemode_selection                       Seç
+interfacemode_prefabs                         Hızlı İnşaat
 
-interfaceoverlay_security                       Security
+interfaceoverlay_security                       Güvenlik
 interfaceoverlay_patrols                        Patrols
 interfaceoverlay_decay                          Decay
-interfaceoverlay_territory                      Territory
+interfaceoverlay_territory                      Terörist
 interfaceoverlay_contraband                     Contraband
 
 interfaceproperty_indoor                        Indoor
-interfaceproperty_visible                       Visible
+interfaceproperty_visible                       Görünür
 interfaceproperty_territoryprisoner             Gangs
 interfaceproperty_territoryguard                Guards
 interfaceproperty_sectorprisoner                Rioting
-interfaceproperty_tunnel                        Tunnel
+interfaceproperty_tunnel                        Tünel
 
 
-interfacedeployment_removeguards                Remove Guards
+interfacedeployment_removeguards                Güvenlikleri Çıkar
 interfacedeployment_clearpatrols                Clear Patrols
 interfacedeployment_targetting                  Logistics
 interfacedeployment_targettingfood              Food Logistics
@@ -201,26 +201,26 @@ interfacelogistics_removejobs                   Remove Labour
 interfacelogistics_targettingfood               Food Distribution
 interfacelogistics_targettinglaundry            Laundry Distribution
 interfacelogistics_roomquality                  Room Quality
-interfacelogistics_weathermap                   Temperature
+interfacelogistics_weathermap                   Sıcaklık
 
 interfaceplanning_wall							Walls
 interfaceplanning_object						Objects
 interfaceplanning_route							Pathways
 interfaceplanning_clear							Clear
-interfaceplanning_zone1							Zone 1
-interfaceplanning_zone2							Zone 2
-interfaceplanning_zone3							Zone 3
-interfaceplanning_zone4							Zone 4
-interfaceplanning_zone5							Zone 5
-interfaceplanning_zone6							Zone 6
-interfaceplanning_zone7							Zone 7
-interfaceplanning_zone8							Zone 8
-interfaceplanning_zone9							Zone 9
+interfaceplanning_zone1							Bölge 1
+interfaceplanning_zone2							Bölge 2
+interfaceplanning_zone3							Bölge 3
+interfaceplanning_zone4							Bölge 4
+interfaceplanning_zone5							Bölge 5
+interfaceplanning_zone6							Bölge 6
+interfaceplanning_zone7							Bölge 7
+interfaceplanning_zone8							Bölge 8
+interfaceplanning_zone9							Bölge 9
 
-interfacecontraband_source                      Dangers
-interfacecontraband_day                         -24 Hours
-interfacecontraband_week                        -7 Days
-interfacecontraband_alltime                     -30 Days
+interfacecontraband_source                      Tehlikeler
+interfacecontraband_day                         -24 Saat
+interfacecontraband_week                        -7 Gün
+interfacecontraband_alltime                     -30 Gün
 interfacecontraband_stolenfrom					Stolen From
 interfacecontraband_informants                  Informants
 interfacecontraband_gangs                       Gangs
@@ -231,10 +231,10 @@ interfacecallout_armedpolice                    Armed Police
 interfacecallout_paramedics                     Paramedics
 interfacecallout_soldiers                       Soldiers
 
-interfaceclone_copy                             Copy
-interfaceclone_paste                            Paste
+interfaceclone_copy                             Kopyala
+interfaceclone_paste                            Yapıştır
 interfaceclone_cancel                           Cancel Quickbuild
-interfaceclone_clone                            Clone
+interfaceclone_clone                            Klonla
 
 interfacetopbar_todo							Todo
 interfacetopbar_balance							Bank *B
@@ -249,8 +249,8 @@ interfacetopbar_title_cctv						CCTV
 interfacetopbar_title_day						Day
 interfacetopbar_title_prisoners					Prisoners
 interfacetopbar_title_guards					Guards
-interfacetopbar_title_tension                   Danger
-interfacetopbar_title_weathericon               Weather
+interfacetopbar_title_tension                   Tehlike
+interfacetopbar_title_weathericon               Hava
 
 interfacetopbar_tooltip_balance					How much cash you have in the bank.\n\nClick to raise more funds through the Grants list.
 interfacetopbar_tooltip_budget					The amount of money you will receive each day, based on your current expenses and income.\n\nClick to access a detailed financial breakdown of income and expenses. 
@@ -263,7 +263,7 @@ interfacetopbar_tooltip_weathericon             The current weather and temperat
 
 interfacetopbar_tooltip_recenttransactions      Recent Transactions
 
-interfacetopbar_tooltip_gametime                Total time played : *X hours, *Y minutes, *Z seconds
+interfacetopbar_tooltip_gametime                Toplam Oynanılan Süre : *X hours, *Y minutes, *Z seconds
 
 interfacetopbar_tooltip_totalguards             *X total guards
 interfacetopbar_tooltip_guardincapacitated      *X Incapacitated
@@ -284,7 +284,7 @@ interfacetopbar_tooltip_dogs                    There are *X Dog handlers
 interfacetopbar_tooltip_snipers					There are *X Snipers
 
 interfacetopbar_unlimitedfunds                  UNLIMITED FUNDS
-interfacetopbar_cheatsenabled					CHEATS ENABLED
+interfacetopbar_cheatsenabled					Hileler Aktif
 
 interfacetopbar_budget_moneyin					Money In: $*M /day
 interfacetopbar_budget_moneyout					Money Out: $*M /day
@@ -292,15 +292,15 @@ interfacetopbar_budget_cantgonegative           You cannot have a negative cashf
 
 interfacetopbar_prisoners_types					Currently holding *X Prisoners:
 interfacetopbar_prisoners_capacity              Maximum safe capacity: *X
-interfacetopbar_prisonercells_shared            Shared capacity: *X
-interfacetopbar_prisonercells_unlocked          Unlocked capacity: *X
-interfacetopbar_prisonercells_minseconly        Minimum capacity: *X
-interfacetopbar_prisonercells_medseconly        Medium capacity: *X
-interfacetopbar_prisonercells_maxseconly        Maximum capacity: *X
+interfacetopbar_prisonercells_shared            Paylaşılan kapasite: *X
+interfacetopbar_prisonercells_unlocked          Açılan kapasite: *X
+interfacetopbar_prisonercells_minseconly        En düşük kapasite: *X
+interfacetopbar_prisonercells_medseconly        Ortalama kapasite: *X
+interfacetopbar_prisonercells_maxseconly        En yüksek kapasite: *X
 interfacetopbar_prisonercells_protectedonly     Protected capacity: *X
 interfacetopbar_prisonercells_supermaxonly      SuperMax capacity: *X
 interfacetopbar_prisonercells_deathrowonly      Death Row capacity: *X
-interfacetopbar_prisonercells_staffonly         Unavailable: *X
+interfacetopbar_prisonercells_staffonly         Geçersiz: *X
 interfacetopbar_prisoners_nocells               *X Prisoners are unable to be assigned a cell
 interfacetopbar_prisonercells_parents           Parent Capacity: *X
 
@@ -308,9 +308,9 @@ interfacetopbar_cctv_current					Currently running *C cameras
 interfacetopbar_cctv_cap						Space for *C cameras
 
 interfacetopbar_tension_currentlevel            The danger level is *X
-interfacetopbar_tension_currentlevellow         Low
-interfacetopbar_tension_currentlevelmedium      Medium
-interfacetopbar_tension_currentlevelhigh        High
+interfacetopbar_tension_currentlevellow         Düşük
+interfacetopbar_tension_currentlevelmedium      Orta
+interfacetopbar_tension_currentlevelhigh        Yüksek
 interfacetopbar_tension_increasing              and is increasing
 interfacetopbar_tension_decreasing              and is decreasing
 interfacetopbar_tension_description             FACTORS:
@@ -342,7 +342,7 @@ interfacetopbar_staffmorale_staffpayverygood	+ Staff are incredibly well paid
 interfacetopbar_staffmorale_staffpaygood		+ Staff are paid well
 interfacetopbar_staffmorale_staffpaybad 		- Staff are not paid enough
 
-interfacecontrol_mainmenu                       Main Menu (Esc)
+interfacecontrol_mainmenu                       Ana Menü (Esc)
 interfacecontrol_mainmenu_tooltip               Toggle the main menu (New/Load/Save/Exit etc)
 interfacecontrol_todo                           Todo List
 interfacecontrol_todo_tooltip                   Toggle the todo list
@@ -361,32 +361,32 @@ interface_landbuylabel                          *Xm x *Ym. Total area *A sq metr
 
 interface_action_dismantle                      Dismantle
 interface_action_dump                           Dump
-interface_action_repair                         Repair
+interface_action_repair                         Düzelt
 interface_action_medicalbay                     Medical Bay
-interface_action_search                         Search
+interface_action_search                         Ara
 interface_action_searchcell                     Search Cell
 interface_action_searchcellblock                Search Cell Block
 interface_action_searchtoilets                  Search Toilets
 interface_action_sack                           Sack
-interface_action_dooropen                       Open Door
-interface_action_doormodenormal                 Door Mode: Normal
+interface_action_dooropen                       Kapıyı Aç
+interface_action_doormodenormal                 Kapı Modu: Normal
 interface_action_doormodelockedshut             Lock shut
 interface_action_doormodelockedopen             Lock open
-interface_action_switchon                       Switch On
-interface_action_switchoff                      Switch Off
+interface_action_switchon                       Açık
+interface_action_switchoff                      Kapalı
 interface_action_sellobject                     Sell Object
 interface_action_dismiss                        Dismiss
-interface_action_connect                        Connect
+interface_action_connect                        Bağlan
 interface_action_clearconnections               Clear Connections
 interface_action_servoopen                      Open On Trigger
 interface_action_servoclose                     Close On Trigger
-interface_action_follow                         Follow
+interface_action_follow                         Takip Et
 interface_action_rapsheet                       Show Rapsheet
 
 interface_contents_container                    Contents : *X 
 interface_contents_stack                        Contents : *X x *Y 
 
-interface_skip                                  SKIP
+interface_skip                                  GEÇ
 
 interface_error_riotmove                        Cannot Enter: Riot
 
@@ -396,7 +396,7 @@ riot_status_prisoners                           *X prisoners are rioting
 shakedown_underway                              SHAKEDOWN UNDERWAY
 shakedown_found                                 Found:
 
-gameover_caption                                Press ESC to Continue
+gameover_caption                                Devam Etmek İçin ESC'ye Bas
 
 sector_jobs_max                                 Max Jobs *X
 sector_jobs_qualified                           Qualified Prisoners: *X
@@ -411,20 +411,20 @@ sector_insecure                                 INSECURE
 
 hardware_compat_title					Hardware Compatibility Test
 hardware_compat_message					With your permission, we would like to collect the following hardware data from your computer.\n\nThis information is completely anonymous and will help us to ensure Prison Architect is supported on the widest possible range of computer hardware.\n\nThank you!
-hardware_compat_accept					Accept
-hardware_compat_decline					Decline
+hardware_compat_accept					Kabul Et
+hardware_compat_decline					Reddet
 
-connectionmenu_connect                  Connect
-connectionmenu_disconnect               Disconnect
-connectionmenu_clear                    Clear
-connectionmenu_done                     Done
+connectionmenu_connect                  Bağlan
+connectionmenu_disconnect               Bağlantıyı Kes
+connectionmenu_clear                    Temiz
+connectionmenu_done                     Tamanlandı
 
 
 # =============================================================================
 # Build Toolbar
 # =============================================================================
 
-buildtoolbar_title                      Build
+buildtoolbar_title                      İnşa et
 buildtoolbar_reports                    Reports
 buildtoolbar_bangup                     Bangup
 buildtoolbar_lockdown                   Lockdown
@@ -447,10 +447,10 @@ buildtoolbar_upkeep						Upkeep : $*W per day
 buildtoolbar_outdoor					Outdoor only
 buildtoolbar_indoor						Indoor only
 buildtoolbar_walk_speed					Walk Speed : *S
-buildtoolbar_walk_speed_slow			Slow
+buildtoolbar_walk_speed_slow			Yavaş
 buildtoolbar_walk_speed_norm			Normal
-buildtoolbar_walk_speed_fast			Fast
-buildtoolbar_walk_speed_Veryfast		Very Fast
+buildtoolbar_walk_speed_fast			Hızlı
+buildtoolbar_walk_speed_Veryfast		Çok Hızlı
 buildtoolbar_locked                     LOCKED
 buildtoolbar_locked_research			LOCKED (You require *B)
 buildtoolbar_locked_administrator		LOCKED (*B required)
@@ -1041,9 +1041,9 @@ codex_timelapse_cam_fitmap              Fit Map
 codex_timelapse_cam_fitheight           Fit Map Height
 codex_timelapse_cam_fitwidth            Fit Map Width
 codex_timelapse_fps_value               *X FPS
-codex_timelapse_quality_high            High
-codex_timelapse_quality_med             Medium
-codex_timelapse_quality_low             Low
+codex_timelapse_quality_high            Yüksek
+codex_timelapse_quality_med             Orta
+codex_timelapse_quality_low             Düşük
 codex_timelapse_interval_value          *X Game Minutes
 timelapse_caption                       Timelapse recording length *X:*Y, *Z frames recorded, backlog: *T
 
@@ -1057,10 +1057,10 @@ codex_performance_numframes				Num Frames: *T
 
 codex_last_modified						Last Modified: *T
 codex_sortbydesc						Sort By Date
-codex_sortname							Name
-codex_sortdate							Date
-codex_apply								Apply
-codex_select                            Select
+codex_sortname							İsim
+codex_sortdate							Tarih
+codex_apply								Tamam
+codex_select                            Seç
 
 codex_mods								Mods
 codex_mod_activetitle					Active Mods
@@ -1070,9 +1070,9 @@ codex_mod_wiki							Find more mods (Wiki)
 codex_mod_openmodsfolder				Open Mods Folder
 codex_mod_moresteammods					Find more mods (Steam Workshop)
 codex_mod_findsteamtranslations         Find more translations (Steam Workshop)
-codex_authortitle                       Author
-codex_versiontitle                      Version
-codex_datetitle                         Date
+codex_authortitle                       Yapımcı
+codex_versiontitle                      Versiyon
+codex_datetitle                         Tarih
 codex_urltitle                          URL
 codex_typetitle							Type
 codex_mod_graphicsandsound				Graphics and Sounds
