@@ -222,12 +222,12 @@ interfacecontraband_day                         -24 Saat
 interfacecontraband_week                        -7 Gün
 interfacecontraband_alltime                     -30 Gün
 interfacecontraband_stolenfrom			        Tarafından Çalındı
-interfacecontraband_informants                  Informants
-interfacecontraband_gangs                       Gangs
+interfacecontraband_informants                  Köstebekler
+interfacecontraband_gangs                       Çeteler
 
-interfacecallout_fireengine                     Fire Engine
-interfacecallout_riotpolice                     Riot Police
-interfacecallout_armedpolice                    Armed Police
+interfacecallout_fireengine                     İtfaiye Aracı
+interfacecallout_riotpolice                     Çevik Kuvvet
+interfacecallout_armedpolice                    Silahlı Kuvvet
 interfacecallout_paramedics                     Paramedics
 interfacecallout_soldiers                       Soldiers
 
