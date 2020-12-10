@@ -228,37 +228,37 @@ interfacecontraband_gangs                       Çeteler
 interfacecallout_fireengine                     İtfaiye Aracı
 interfacecallout_riotpolice                     Çevik Kuvvet
 interfacecallout_armedpolice                    Silahlı Kuvvet
-interfacecallout_paramedics                     Paramedics
-interfacecallout_soldiers                       Soldiers
+interfacecallout_paramedics                     Sağlık Görevlisi
+interfacecallout_soldiers                       Asker
 
 interfaceclone_copy                             Kopyala
 interfaceclone_paste                            Yapıştır
-interfaceclone_cancel                           Cancel Quickbuild
+interfaceclone_cancel                           Hızlı Kurulumu Iptal Et
 interfaceclone_clone                            Klonla
 
-interfacetopbar_todo							Todo
-interfacetopbar_balance							Bank *B
-interfacetopbar_budget							Cashflow *C
-interfacetopbar_income							Income *I
-interfacetopbar_expenses						Costs *C
-interfacetopbar_day								DAY *D
+interfacetopbar_todo							Yapılacaklar
+interfacetopbar_balance							Banka *B
+interfacetopbar_budget							Nakit Akışı *C
+interfacetopbar_income							Gelir *I
+interfacetopbar_expenses						Harcamalar *C
+interfacetopbar_day								GÜN *D
 
-interfacetopbar_title_balance					Bank Balance
-interfacetopbar_title_budget					Daily Cashflow
+interfacetopbar_title_balance					Banka Bakiyesi
+interfacetopbar_title_budget					Günlük Para Akışı
 interfacetopbar_title_cctv						CCTV
-interfacetopbar_title_day						Day
-interfacetopbar_title_prisoners					Prisoners
-interfacetopbar_title_guards					Guards
+interfacetopbar_title_day						Gün
+interfacetopbar_title_prisoners					Mahkumlar
+interfacetopbar_title_guards					Korumalar
 interfacetopbar_title_tension                   Tehlike
-interfacetopbar_title_weathericon               Hava
+interfacetopbar_title_weathericon               Hava Durumu
 
-interfacetopbar_tooltip_balance					How much cash you have in the bank.\n\nClick to raise more funds through the Grants list.
-interfacetopbar_tooltip_budget					The amount of money you will receive each day, based on your current expenses and income.\n\nClick to access a detailed financial breakdown of income and expenses. 
-interfacetopbar_tooltip_cctv					The number of CCTV cameras and monitors you currently have.
-interfacetopbar_tooltip_day						How long you've been running your prison.
-interfacetopbar_tooltip_prisoners				The number of prisoners you currently have, and how many you can hold, in your prison.
-interfacetopbar_tooltip_guards					How many guards you have available for work in your prison.
-interfacetopbar_tooltip_tension                 The overall danger level of your prison, according to your security chief.
+interfacetopbar_tooltip_balance					Bankanızda ne kadar nakit para bulunduğu.\n\nHibeler vasıtasıyla daha fazla fon yaratmak için tıklayın.
+interfacetopbar_tooltip_budget					Gelir ve giderleriniz baz alınarak, günlük alacağınız para miktarı.\n\nGelir ve giderlerinizin daha detaylı bir finansal analizi için tıklayın. 
+interfacetopbar_tooltip_cctv					Sahip olduğunuz CCTV kamera ve ekran miktarı.
+interfacetopbar_tooltip_day						Ne kadar süre boyunca hapishaneyi yürüttüğünüz.
+interfacetopbar_tooltip_prisoners				Mevcut mahkum miktarınız, ve ne kadar makhumu hapishanenizde ağırlayabildiğiniz.
+interfacetopbar_tooltip_guards					Ne kadar korumanın iş yapmak için mevcut bulunduğu.
+interfacetopbar_tooltip_tension                 Emniyet amiri'ne göre hapishanenizin genel tehlike durumu.
 interfacetopbar_tooltip_weathericon             The current weather and temperature.
 
 interfacetopbar_tooltip_recenttransactions      Recent Transactions
