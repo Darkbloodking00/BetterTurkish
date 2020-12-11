@@ -353,70 +353,70 @@ interfacecontrol_grading_tooltip                Hapishane Derecelendirme ekranı
 interfacecontrol_graphs                         Grafikler
 interfacecontrol_graphs_tooltip                 Grafik ekranını açar, burası hapishanenizin çeşitli yönlerdeki grafiklerini karşılaştırmanıza izin verir.
 
-interface_confirmlandbuy                        Are you sure you wish to buy this plot of land for $*X?
-interface_loadconfirm                           Are you sure you wish to load this map? All unsaved progress will be lost.
-interface_saveconfirm                           Are you sure you wish to save with this file name? Existing data will be overwritten.
+interface_confirmlandbuy                        Bu arsayı $*X paraya almak istediğinizden emin misiniz ?
+interface_loadconfirm                           Bu haritayı yüklemek istediğinizden emin misiniz ? Kaydedilmemiş bütün ilerleme kaybedilecek.
+interface_saveconfirm                           Kaydetme işlemini bu dosya adıyla yapmak istediğinden emin misiniz? Var olan verinin üzerine yazılacak.
 
-interface_landbuylabel                          *Xm x *Ym. Total area *A sq metres. *C
+interface_landbuylabel                          *Xm x *Ym. Toplam alan *A metrekare. *C
 
-interface_action_dismantle                      Dismantle
-interface_action_dump                           Dump
-interface_action_repair                         Düzelt
-interface_action_medicalbay                     Medical Bay
+interface_action_dismantle                      Boz
+interface_action_dump                           Çöpe at
+interface_action_repair                         Tamir et
+interface_action_medicalbay                     Tıbbi Bölüm
 interface_action_search                         Ara
-interface_action_searchcell                     Search Cell
-interface_action_searchcellblock                Search Cell Block
-interface_action_searchtoilets                  Search Toilets
-interface_action_sack                           Sack
+interface_action_searchcell                     Hücreyi Ara
+interface_action_searchcellblock                Hücre Bloğunu Ara
+interface_action_searchtoilets                  Tuvaletleri Ara
+interface_action_sack                           Sakla
 interface_action_dooropen                       Kapıyı Aç
 interface_action_doormodenormal                 Kapı Modu: Normal
-interface_action_doormodelockedshut             Lock shut
-interface_action_doormodelockedopen             Lock open
-interface_action_switchon                       Açık
-interface_action_switchoff                      Kapalı
-interface_action_sellobject                     Sell Object
-interface_action_dismiss                        Dismiss
-interface_action_connect                        Bağlan
-interface_action_clearconnections               Clear Connections
-interface_action_servoopen                      Open On Trigger
-interface_action_servoclose                     Close On Trigger
+interface_action_doormodelockedshut             Kilit kapalı
+interface_action_doormodelockedopen             Kilit açık
+interface_action_switchon                       Anahtar Açık
+interface_action_switchoff                      Anahtar Kapalı
+interface_action_sellobject                     Nesneleri Sat
+interface_action_dismiss                        Vazgeç
+interface_action_connect                        Bağla
+interface_action_clearconnections               Bağlantıları Kaldır
+interface_action_servoopen                      Tetiği Aç
+interface_action_servoclose                     Tetiği Kapat
 interface_action_follow                         Takip Et
-interface_action_rapsheet                       Show Rapsheet
+interface_action_rapsheet                       Sicili Göster
 
-interface_contents_container                    Contents : *X 
-interface_contents_stack                        Contents : *X x *Y 
+interface_contents_container                    İçerikler : *X 
+interface_contents_stack                        İçerikler : *X x *Y 
 
 interface_skip                                  GEÇ
 
-interface_error_riotmove                        Cannot Enter: Riot
+interface_error_riotmove                        Girilemiyor: İsyan
 
-interface_foundationsinprogress                 Foundations in progress
-riot_underway                                   RIOT UNDERWAY
-riot_status_prisoners                           *X prisoners are rioting
-shakedown_underway                              SHAKEDOWN UNDERWAY
-shakedown_found                                 Found:
+interface_foundationsinprogress                 Altyapılar yapım aşamasında
+riot_underway                                   İSYAN SÜRÜYOR
+riot_status_prisoners                           *X mahkum isyane ediyor
+shakedown_underway                              ARAMA SÜRÜYOR
+shakedown_found                                 Bulunanlar:
 
 gameover_caption                                Devam Etmek İçin ESC'ye Bas
 
-sector_jobs_max                                 Max Jobs *X
-sector_jobs_qualified                           Qualified Prisoners: *X
-sector_jobs_required                            (Required: *X)
-sector_noaccess                                 NO ACCESS
-sector_insecure                                 INSECURE
+sector_jobs_max                                 Maks İşler *X
+sector_jobs_qualified                           Uygun Mahkumlar: *X
+sector_jobs_required                            (Gerekli olan: *X)
+sector_noaccess                                 ERİŞİM YOk
+sector_insecure                                 GÜVENSİZ
 
 
 # =============================================================================
 # Hardware Compatibility
 # =============================================================================
 
-hardware_compat_title					Hardware Compatibility Test
-hardware_compat_message					With your permission, we would like to collect the following hardware data from your computer.\n\nThis information is completely anonymous and will help us to ensure Prison Architect is supported on the widest possible range of computer hardware.\n\nThank you!
+hardware_compat_title					Donanım Uyumluluk Testi
+hardware_compat_message					Sizin izninizle beraber, donanımınız hakkında belirtilen verileri toplayacağız.\n\nBu bilgi tamamen anonim olarak toplanacak ve Prison Architect'in en geniş çeşitlilikte bilgisayar donanımda desteklenmesi konusunda bize yardımcı olacak.\n\nTeşekkür ederiz!
 hardware_compat_accept					Kabul Et
 hardware_compat_decline					Reddet
 
 connectionmenu_connect                  Bağlan
 connectionmenu_disconnect               Bağlantıyı Kes
-connectionmenu_clear                    Temiz
+connectionmenu_clear                    Temizle
 connectionmenu_done                     Tamanlandı
 
 
@@ -425,12 +425,12 @@ connectionmenu_done                     Tamanlandı
 # =============================================================================
 
 buildtoolbar_title                      İnşa et
-buildtoolbar_reports                    Reports
-buildtoolbar_bangup                     Bangup
-buildtoolbar_lockdown                   Lockdown
-buildtoolbar_shakedown                  Shakedown
-buildtoolbar_weaponsfree                Freefire
-buildtoolbar_rollcall                   Roll Call
+buildtoolbar_reports                    Rapor et
+buildtoolbar_bangup                     Hücreye tık
+buildtoolbar_lockdown                   Tecrit et
+buildtoolbar_shakedown                  Arama yap
+buildtoolbar_weaponsfree                Serbest ateş
+buildtoolbar_rollcall                   Yokla
 
 buildtoolbar_tooltip_reports			Open up the reports window to see information on your prisoners, staff, income, grants, and more.
 buildtoolbar_tooltip_bangup				Send all (willing) prisoners back to their cells. This will make your prisoners very angry if you leave them locked up for too long.
