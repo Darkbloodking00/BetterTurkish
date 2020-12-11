@@ -259,99 +259,99 @@ interfacetopbar_tooltip_day						Ne kadar süre boyunca hapishaneyi yürüttüğ
 interfacetopbar_tooltip_prisoners				Mevcut mahkum miktarınız, ve ne kadar makhumu hapishanenizde ağırlayabildiğiniz.
 interfacetopbar_tooltip_guards					Ne kadar korumanın iş yapmak için mevcut bulunduğu.
 interfacetopbar_tooltip_tension                 Emniyet amiri'ne göre hapishanenizin genel tehlike durumu.
-interfacetopbar_tooltip_weathericon             The current weather and temperature.
+interfacetopbar_tooltip_weathericon             Mevcut hava durumu ve sıcaklık.
 
-interfacetopbar_tooltip_recenttransactions      Recent Transactions
+interfacetopbar_tooltip_recenttransactions      En Sonki İşlemler
 
-interfacetopbar_tooltip_gametime                Toplam Oynanılan Süre : *X hours, *Y minutes, *Z seconds
+interfacetopbar_tooltip_gametime                Toplam oynanılan süre : *X saat, *Y dakika, *Z saniye
 
-interfacetopbar_tooltip_totalguards             *X total guards
-interfacetopbar_tooltip_guardincapacitated      *X Incapacitated
-interfacetopbar_tooltip_guardstationed          *X Stationed 
-interfacetopbar_tooltip_guardpatrolling         *X Patrolling
-interfacetopbar_tooltip_guardavailable          *X Available
-interfacetopbar_tooltip_guardresting            *X Resting
-interfacetopbar_tooltip_guardonbreak            *X On Break
-interfacetopbar_tooltip_guardwantsabreak        (*X need a break)
-interfacetopbar_tooltip_guardactive             (*X Responding to incidents)
-interfacetopbar_tooltip_guarddoingjob           *X Doing Jobs
-interfacetopbar_tooltip_idle                    (*X are idle)
-interfacetopbar_tooltip_guardsstriking          *X ARE ON STRIKE
+interfacetopbar_tooltip_totalguards             *X toplam koruma
+interfacetopbar_tooltip_guardincapacitated      *X Alıkoyulmuş
+interfacetopbar_tooltip_guardstationed          *X Konuşlandırılmış
+interfacetopbar_tooltip_guardpatrolling         *X Devriyede
+interfacetopbar_tooltip_guardavailable          *X Mevcut
+interfacetopbar_tooltip_guardresting            *X Dinleniyor
+interfacetopbar_tooltip_guardonbreak            *X Molada
+interfacetopbar_tooltip_guardwantsabreak        (*X kişiye mola gerek)
+interfacetopbar_tooltip_guardactive             (*X Kişi olaylara cevap veriyor)
+interfacetopbar_tooltip_guarddoingjob           *X Kişi iş yapıyor
+interfacetopbar_tooltip_idle                    (*X kişi boşta)
+interfacetopbar_tooltip_guardsstriking          *X KİŞİ SALDIRIDA
 
-interfacetopbar_tooltip_regularguards			There are *X regular Guards
-interfacetopbar_tooltip_armedguards             There are *X Armed Guards
-interfacetopbar_tooltip_dogs                    There are *X Dog handlers
-interfacetopbar_tooltip_snipers					There are *X Snipers
+interfacetopbar_tooltip_regularguards			*X normal Koruma bulunuyor
+interfacetopbar_tooltip_armedguards             *X Silahlı Koruma bulunuyor
+interfacetopbar_tooltip_dogs                    *X Köpek Eğitmeni bulunuyor
+interfacetopbar_tooltip_snipers					*X Keskin Nişancı bulunuyor
 
-interfacetopbar_unlimitedfunds                  UNLIMITED FUNDS
-interfacetopbar_cheatsenabled					Hileler Aktif
+interfacetopbar_unlimitedfunds                  SINIRSIZ FON
+interfacetopbar_cheatsenabled					HİLELER AKTİF
 
-interfacetopbar_budget_moneyin					Money In: $*M /day
-interfacetopbar_budget_moneyout					Money Out: $*M /day
-interfacetopbar_budget_cantgonegative           You cannot have a negative cashflow (ie have more expenses than income) until you have hired an Accountant to manage your finances.
+interfacetopbar_budget_moneyin					Gelen para: $*M /günde
+interfacetopbar_budget_moneyout					Giden para: $*M /günde
+interfacetopbar_budget_cantgonegative           Finansal işlemlerinizi yönetecek bir Muhasebeciyi işe almadığınız sürece negatif para akışınız (yani giderlerinizin gelirlerinizden fazla olması) olamaz.
 
-interfacetopbar_prisoners_types					Currently holding *X Prisoners:
-interfacetopbar_prisoners_capacity              Maximum safe capacity: *X
-interfacetopbar_prisonercells_shared            Paylaşılan kapasite: *X
+interfacetopbar_prisoners_types					Şu anki mevcut *X adet Makhum:
+interfacetopbar_prisoners_capacity              En yüksek güvenlik kapasitesi: *X
+interfacetopbar_prisonercells_shared            Paylaşımlı kapasite: *X
 interfacetopbar_prisonercells_unlocked          Açılan kapasite: *X
 interfacetopbar_prisonercells_minseconly        En düşük kapasite: *X
 interfacetopbar_prisonercells_medseconly        Ortalama kapasite: *X
 interfacetopbar_prisonercells_maxseconly        En yüksek kapasite: *X
-interfacetopbar_prisonercells_protectedonly     Protected capacity: *X
-interfacetopbar_prisonercells_supermaxonly      SuperMax capacity: *X
-interfacetopbar_prisonercells_deathrowonly      Death Row capacity: *X
-interfacetopbar_prisonercells_staffonly         Geçersiz: *X
-interfacetopbar_prisoners_nocells               *X Prisoners are unable to be assigned a cell
-interfacetopbar_prisonercells_parents           Parent Capacity: *X
+interfacetopbar_prisonercells_protectedonly     İhtiyati kapasitesi: *X
+interfacetopbar_prisonercells_supermaxonly      SüperMaks kapasitesi: *X
+interfacetopbar_prisonercells_deathrowonly      Ölüm-Mahkumları kapasitesi: *X
+interfacetopbar_prisonercells_staffonly         Mevcut Olmayan: *X
+interfacetopbar_prisoners_nocells               *X adet Mahkum bir hücreye atanamıyor
+interfacetopbar_prisonercells_parents           Ebeveyn Kapasitesi: *X
 
-interfacetopbar_cctv_current					Currently running *C cameras
-interfacetopbar_cctv_cap						Space for *C cameras
+interfacetopbar_cctv_current					Şu anda *C Kamera çalışır durumda
+interfacetopbar_cctv_cap						*C adet kamera için boşluk var
 
-interfacetopbar_tension_currentlevel            The danger level is *X
+interfacetopbar_tension_currentlevel            Tehlike seviyesi *X
 interfacetopbar_tension_currentlevellow         Düşük
 interfacetopbar_tension_currentlevelmedium      Orta
 interfacetopbar_tension_currentlevelhigh        Yüksek
-interfacetopbar_tension_increasing              and is increasing
-interfacetopbar_tension_decreasing              and is decreasing
-interfacetopbar_tension_description             FACTORS:
-interfacetopbar_tension_happyprisoners          - *X prisoners say they are well treated
-interfacetopbar_tension_unhappyprisoners        + *X prisoners have serious complaints
-interfacetopbar_tension_lockedupprisoners       + *X prisoners are shackled in their cells or in solitary
-interfacetopbar_tension_riotingprisoners        + *X prisoners are rioting
-interfacetopbar_tension_wellfedprisoners        - *X prisoners are well fed
-interfacetopbar_tension_suppressedprisoners     = *X prisoners are suppressed (compliant)
-interfacetopbar_tension_activeriotguards        + *X riot police are on site
-interfacetopbar_tension_activearmedguards       + *X armed guards are in service
-interfacetopbar_tension_recentdeaths            + *X people have been killed recently
-interfacetopbar_tension_recentsearches          + *X prisoners have been unnecessarily searched recently
-interfacetopbar_tension_angrygangmembers        + *X GANG MEMBERS ARE FURIOUS (leader being punished)
-interfacetopbar_tension_recentpunishments       = (DETERRENT) *X punishments have been handed down recently
-interfacetopbar_tension_recentcalmed            - *X prisoners have been calmed recently
-interfacetopbar_tension_staffmorale_low			+ Staff morale is low
-interfacetopbar_tension_staffmorale_high		- Staff morale is high
-interfacetopbar_tension_staffonstrike           + Your Staff are on strike
-interfacetopbar_tension_dangerzone				+ DANGER ZONE!
-interfacetopbar_tension_hoursonrollcall         + Prisoners are angry about Roll Call
+interfacetopbar_tension_increasing              ve yükseliyor
+interfacetopbar_tension_decreasing              ve düşüyor
+interfacetopbar_tension_description             NEDENLER:
+interfacetopbar_tension_happyprisoners          - *X mahkum iyi muamele gördüğünü söylüyor
+interfacetopbar_tension_unhappyprisoners        + *X mahkumun ciddi şikayetleri var
+interfacetopbar_tension_lockedupprisoners       + *X mahkum hücrelerinde zincirlenmiş veya yalnızlık içinde
+interfacetopbar_tension_riotingprisoners        + *X mahkum isyan ediyor
+interfacetopbar_tension_wellfedprisoners        - *X makhum iyi beslenmiş
+interfacetopbar_tension_suppressedprisoners     = *X mahkum bastırıldı (şikayet)
+interfacetopbar_tension_activeriotguards        + *X çevik kuvvet sahada bulunuyor
+interfacetopbar_tension_activearmedguards       + *X silahlı koruma hizmet başında
+interfacetopbar_tension_recentdeaths            + *X kişi yakın zamanda öldürüldü
+interfacetopbar_tension_recentsearches          + *X mahkum yakın zamanda gereksiz yere arandı
+interfacetopbar_tension_angrygangmembers        + *X ÇETE LİDERI ÖFKELİ (lider cezalandırılıyor)
+interfacetopbar_tension_recentpunishments       = (CAYDIRICI) *X cezaya yakın zamanda karar verildi
+interfacetopbar_tension_recentcalmed            - *X mahkum yakın zamanda sakinleştirildi
+interfacetopbar_tension_staffmorale_low			+ Personel morali düşük
+interfacetopbar_tension_staffmorale_high		- Personal morali yüksek
+interfacetopbar_tension_staffonstrike           + Personalleriniz saldırıda
+interfacetopbar_tension_dangerzone				+ TEHLIKELI BÖLGE!
+interfacetopbar_tension_hoursonrollcall         + Mahkumlarınız yoklama konusunda sinirli
 
-interfacetopbar_staffmorale_title				STAFF MORALE
-interfacetopbar_staffmorale_happystaff			+ *X staff are happy in their job
-interfacetopbar_staffmorale_unhappystaff		- *X staff have serious complaints 
-interfacetopbar_staffmorale_injuredstaff		- *X staff are injured
-interfacetopbar_staffmorale_staffdeaths			- *X staff have died on duty
-interfacetopbar_staffmorale_staffpayverygood	+ Staff are incredibly well paid
-interfacetopbar_staffmorale_staffpaygood		+ Staff are paid well
-interfacetopbar_staffmorale_staffpaybad 		- Staff are not paid enough
+interfacetopbar_staffmorale_title				PERSONAL MORALI
+interfacetopbar_staffmorale_happystaff			+ *X personal işlerinden memnun
+interfacetopbar_staffmorale_unhappystaff		- *X personalin ciddi şikayeti var
+interfacetopbar_staffmorale_injuredstaff		- *X personal yaralandı
+interfacetopbar_staffmorale_staffdeaths			- *X personal görevi sırasında öldü
+interfacetopbar_staffmorale_staffpayverygood	+ Personal çok iyi ödeme alıyor
+interfacetopbar_staffmorale_staffpaygood		+ Personal iyi ödeme alıyor
+interfacetopbar_staffmorale_staffpaybad 		- Personal yeteri kadar ödeme almıyor
 
 interfacecontrol_mainmenu                       Ana Menü (Esc)
-interfacecontrol_mainmenu_tooltip               Toggle the main menu (New/Load/Save/Exit etc)
-interfacecontrol_todo                           Todo List
-interfacecontrol_todo_tooltip                   Toggle the todo list
-interfacecontrol_research                       Bureaucracy
-interfacecontrol_research_tooltip               Opens the Bureaucracy screen, where you can assign your administrators to unlock new items, staff types, and facilities.
-interfacecontrol_grading                        Prison Grading
-interfacecontrol_grading_tooltip                Opens the Prison Grading screen, which shows you an overall rating of how successful you have been.
-interfacecontrol_graphs                         Graphs
-interfacecontrol_graphs_tooltip                 Opens the Graphs screen, which allows you to compare graphs of various aspects of your prison.
+interfacecontrol_mainmenu_tooltip               Ana Menü'ye geçiş yap (Yeni/Yükle/Kaydet/Çıkış vs)
+interfacecontrol_todo                           Yapılacaklar listesi
+interfacecontrol_todo_tooltip                   Yapılacaklar listesine geç
+interfacecontrol_research                       Bürokrasi
+interfacecontrol_research_tooltip               Bürokrasi ekranını açar, yeni tesisler, personal tipleri ve yönetiminizi atayarak yeni eşyalar açabileceğiniz yerdir.
+interfacecontrol_grading                        Hapishane Derecelendirme
+interfacecontrol_grading_tooltip                Hapishane Derecelendirme ekranını açar, burası sizin genel başarı derecenizi gösterir.
+interfacecontrol_graphs                         Grafikler
+interfacecontrol_graphs_tooltip                 Grafik ekranını açar, burası hapishanenizin çeşitli yönlerdeki grafiklerini karşılaştırmanıza izin verir.
 
 interface_confirmlandbuy                        Are you sure you wish to buy this plot of land for $*X?
 interface_loadconfirm                           Are you sure you wish to load this map? All unsaved progress will be lost.
