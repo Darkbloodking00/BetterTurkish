@@ -432,75 +432,75 @@ buildtoolbar_shakedown                  Arama yap
 buildtoolbar_weaponsfree                Serbest ateş
 buildtoolbar_rollcall                   Yokla
 
-buildtoolbar_tooltip_reports			Open up the reports window to see information on your prisoners, staff, income, grants, and more.
-buildtoolbar_tooltip_bangup				Send all (willing) prisoners back to their cells. This will make your prisoners very angry if you leave them locked up for too long.
-buildtoolbar_tooltip_lockdown			Instantly lock all doors in the prison.
-buildtoolbar_tooltip_shakedown          Order an immediate search of all Cells. This will take some time and will annoy the hell out of your inmates.
-buildtoolbar_tooltip_weaponsfree        Authorises your armed guards to use lethal force. Snipers will no longer fire warning shots before taking a target down.
-buildtoolbar_tooltip_nostrike           Not available during Staff Strikes.
-buildtoolbar_tooltip_rollcall           Call all of your prisoners to stand outside of their cells. Only avaiable during sleep regimes and during the night.
+buildtoolbar_tooltip_reports			Raporlar penceresini açarak mahkum, personal, gelir, hibeler ve daha fazlasına bakabilirsiniz.
+buildtoolbar_tooltip_bangup				Bütün (istekli) mahkumları hücrelerine gönder. Bu mahkumlarınızı eğer onları uzun süre kilitli bırakırsanız sinirli yapacak.
+buildtoolbar_tooltip_lockdown			Hapishanedeki bütün kapıları hemen kapatır.
+buildtoolbar_tooltip_shakedown          Hemen bütün Hücreleri aramayı emret. Bu biraz zaman alacak ve mahkumlarınızın baya sinirini bozacak.
+buildtoolbar_tooltip_weaponsfree        Silahlı korumalarınıza silahlı güç kullanmak için izin verir. Kesin Nişancılar bir hedefi vurmadan önce uyarı atışı yapmayacak.
+buildtoolbar_tooltip_nostrike           Personal Saldırılarında mevcut değil.
+buildtoolbar_tooltip_rollcall           Bütün makhumlarınızı dışarda dikilmek için hücrelerinden çağırır. Yalnızca geceleri ve uyku programı esnasında mevcut.
 
-buildtoolbar_cost						Cost: $*C
-buildtoolbar_cost_sqrft					Cost: $*C /sq
-buildtoolbar_wages						Wages : $*W per day
-buildtoolbar_upkeep						Upkeep : $*W per day
-buildtoolbar_outdoor					Outdoor only
-buildtoolbar_indoor						Indoor only
-buildtoolbar_walk_speed					Walk Speed : *S
+buildtoolbar_cost						Tutar: $*C
+buildtoolbar_cost_sqrft					Tutar: $*C /metrekare
+buildtoolbar_wages						Maaşlar : Günlük $*W 
+buildtoolbar_upkeep						Masraf : Günlük $*W
+buildtoolbar_outdoor					Yalnızca dışarısı
+buildtoolbar_indoor						Yalnızca içerisi
+buildtoolbar_walk_speed					Yürüme Hızı : *S
 buildtoolbar_walk_speed_slow			Yavaş
 buildtoolbar_walk_speed_norm			Normal
 buildtoolbar_walk_speed_fast			Hızlı
 buildtoolbar_walk_speed_Veryfast		Çok Hızlı
-buildtoolbar_locked                     LOCKED
-buildtoolbar_locked_research			LOCKED (You require *B)
-buildtoolbar_locked_administrator		LOCKED (*B required)
-buildtoolbar_room						Room
+buildtoolbar_locked                     KİLİTLİ
+buildtoolbar_locked_research			KİLİTLİ (*B gerekli)
+buildtoolbar_locked_administrator		KİLİTLİ (*B gerekli)
+buildtoolbar_room						Oda
 
-buildtoolbar_electrical                 - Electrical
-buildtoolbar_highpower                  - High Powered 
-buildtoolbar_water                      - Requires Water Connection
-buildtoolbar_wired                      - Wired (connects to other wired objects)
-buildtoolbar_modcontent                 - Mod Content
+buildtoolbar_electrical                 - Elektriksel
+buildtoolbar_highpower                  - Yüksek Beslemeli 
+buildtoolbar_water                      - Tesisat Bağlantısı Gerekli
+buildtoolbar_wired                      - Kablolu (diğer kablolu nesnelere bağlanır)
+buildtoolbar_modcontent                 - Mod İçeriği
 
-buildtoolbar_popup_foundations			Construct/Demolish buildings in order to shape your prison.
-buildtoolbar_popup_construction			Different types of floors and walls.
-buildtoolbar_popup_designation			Designate areas of your prison with a specific function. Right-click and hold to drag and clear rooms.
-buildtoolbar_popup_objects				Place useful items around your prison.
-buildtoolbar_popup_overlays				Visually identify weaknesses in your prison's layout.
-buildtoolbar_popup_utilities			Plumbing and electrical systems.
-buildtoolbar_popup_staff				Employ the necessary people to keep your prison running.
-buildtoolbar_popup_deployment			Assign staff to areas of your prison.
-buildtoolbar_popup_logistics            Assign prisoners to work around your prison. Also manual control over the canteen and laundry assignments.
-buildtoolbar_popup_research				Unlock new possibilities for your prison.
-buildtoolbar_popup_emergencies			Call in the emergency services if things take a turn for the worse.
-buildtoolbar_popup_clone				Copy and paste your existing structures.
-buildtoolbar_popup_properties			Find out about shit.
-buildtoolbar_popup_contraband           Show the sources of Contraband, and all recently recovered contraband in your prison. Also shows your Confidential Informants and their information.
-buildtoolbar_popup_grading              See your overall prison grading on four key metrics - Punishment, Reform, Security, and Health. Also shows the re-offending rate for your prison.
-buildtoolbar_popup_prefabs              Copy and paste existing parts of your prison, or place predefined rooms.
-buildtoolbar_popup_room_cell			Where your prisoners live.
-buildtoolbar_popup_room_holdingcell		A room where new recruits are placed until a cell is found for them.
-buildtoolbar_popup_room_solitary		An isolated form of imprisonment for the worst of the worst.
-buildtoolbar_popup_room_dormitory       A variable-size room for housing multiple prisoners. The bigger the dormitory, the more prisoners it can house.
-buildtoolbar_popup_room_familycell      Where your prisoners live, if they have babies. 
-buildtoolbar_popup_room_sharedcell      A multiple-occupancy cell for holding multiple prisoners. Can hold up to 8 prisoners.
-buildtoolbar_popup_room_canteen			Where your prisoners will take their afternoon tea.
-buildtoolbar_popup_room_kitchen			Area for cooks to prepare food for your prisoners.
-buildtoolbar_popup_room_shower			Used to keep your prisoners squeaky clean, and lice free.
-buildtoolbar_popup_room_yard			Let your prisoners see the sun for a few hours a day under the watchful eye of your sniper towers.
-buildtoolbar_popup_room_storage			Area designated to hold any materials your prison staff need.
-buildtoolbar_popup_room_deliveries		Where your goods, materials, and prisoners are dropped off.
-buildtoolbar_popup_room_garbage			Where your waste is collected from.
-buildtoolbar_popup_room_execution		Where you send your prisoners to die.
-buildtoolbar_popup_room_workshop		Where you send your prisoners to die of boredom while making you car license plates.
-buildtoolbar_popup_room_security		Offices for your Officers.
-buildtoolbar_popup_room_office			An area for your administrative staff to work.
-buildtoolbar_popup_room_medicalward		Area for your medical staff to work.
-buildtoolbar_popup_room_morgue			Where you send your dead prisoners and staff to.
-buildtoolbar_popup_room_commonroom		Allowing your prisoners some free time to relax.
-buildtoolbar_popup_room_kennel          Where your dogs live.
-buildtoolbar_popup_room_chapel          What happens when a bureaucratic committee gets together and designs a solution to inmate's religious needs? A 'Multi Faith Prayer Room', that's what. We refer to it as the Chapel.
-buildtoolbar_popup_room_paroleroom      Your prisoners will be eligible for parole after serving 50% and 75% of their terms. Their fate will be decided in this room, with the Warden and the Chief.\n\nPlease note Extra security is advised. Prisoners have been known to become quite upset when their parole is denied.
+buildtoolbar_popup_foundations			Hapishaneni şekillendirmek için binaları Yık/Kur.
+buildtoolbar_popup_construction			Farklı çeşit zeminler ve duvarlar.
+buildtoolbar_popup_designation			Hapishanenizdeki bölümleri belli bir amaç için ata. Sağ-tıkla ve basılı tutarken bırak ve odaları kaldır.
+buildtoolbar_popup_objects				Hapishanenizin etrafına işe yarar eşyalar koyun.
+buildtoolbar_popup_overlays				Hapishanenizin tasarımda bulunan hataları görsel olarak tanımla.
+buildtoolbar_popup_utilities			Tesisat ve elektrik sistemleri.
+buildtoolbar_popup_staff				Hapishanenizini yürütmek için gerekli kişileri işe al.
+buildtoolbar_popup_deployment			Personelinizi hapishanenizin bölgelerine ata.
+buildtoolbar_popup_logistics            Hapishanenizin etrafında çalışmak için mahkum ata. Ayrıca kantin ve çamaşırhane atamalarını kontrol edin.
+buildtoolbar_popup_research				Mahkumlarınız için yeni imkanların kilidini aç.
+buildtoolbar_popup_emergencies			Eğer işler kötüye giderse acil servisi ara.
+buildtoolbar_popup_clone				Mevcut yapılarınızı kopyala ve yapıştır.
+buildtoolbar_popup_properties			Siktiğimin konuları hakkında bilgi edin.
+buildtoolbar_popup_contraband           Kaçak eşyaları ve yeni ele geçirilmiş olanlarını göster. Ayrıca Köstebeklerinizi ve edindikleri bilgileri göster.
+buildtoolbar_popup_grading              Dört ana ölçümle hapishanenizin genel kalitesini göster - Ceza, Reform, Güvenlik, ve Sağlık. Ayrıca hapishanenizin yeniden suç işleme oranını gösterir.
+buildtoolbar_popup_prefabs              Önceden belirlenmiş odaları veya hapishanenizin mevcut parçalarını kopyala veya yapıştır.
+buildtoolbar_popup_room_cell			Mahkumlarınızın yaşadığı yer.
+buildtoolbar_popup_room_holdingcell		Yeni yetmelerin onlara hücre bulunana kadar yerleştirildiği yer.
+buildtoolbar_popup_room_solitary		En kötünün de kötüsü izole bir formdaki hapis cezası.
+buildtoolbar_popup_room_dormitory       Birden fazla mahkumu ağırlamak için değişken-boyutlu bir yerleşim. Ne kadar büyük koğuş, o kadar fazla mahkum için ev.
+buildtoolbar_popup_room_familycell      Mahkumlarınızın bebek sahibi olmaları durumda yaşayacağı yer. 
+buildtoolbar_popup_room_sharedcell      Birden fazla makhum için birden fazla-yerleşimli bir hücre. 8 mahkuma kadar ağırlayabiliyor.
+buildtoolbar_popup_room_canteen			Mahkumlarınızın öğleden sonra çay içtiği yer.
+buildtoolbar_popup_room_kitchen			Mahkumlarınıza yemek hazırlayan aşçılar için bulunan bölge.
+buildtoolbar_popup_room_shower			Makhumlarınız bitlerden uzak ve tertemiz tutmak için kullanılır.
+buildtoolbar_popup_room_yard			Keskin nişancıların kartal gözetiminde mahkumlarınızın günde birkaç saat güneşlenmesine izin verir.
+buildtoolbar_popup_room_storage			Personalinizn bütün ihtiyaçları için ayarlanmış alan.
+buildtoolbar_popup_room_deliveries		Mal, materyal ve mahkumlarınızın bırakıldığı yer.
+buildtoolbar_popup_room_garbage			Çöplerinizin toplandığı yer.
+buildtoolbar_popup_room_execution		Mahkumlarınızı ölüme gönderdiğiniz yer.
+buildtoolbar_popup_room_workshop		Mahkumlarınızı sıkılmaktan ölüme gönderip o esnada size araba plakaları ürettirdiğiniz yer.
+buildtoolbar_popup_room_security		Memurlarınız için Ofisler.
+buildtoolbar_popup_room_office			Yönetim personalinizin çalışması için bölge.
+buildtoolbar_popup_room_medicalward		Tıppı personalinizin çalışması için bölge.
+buildtoolbar_popup_room_morgue			Ölü personal ve mahkumları yolladığınız yer.
+buildtoolbar_popup_room_commonroom		Mahkumlarınızın kafasını rahatlatmak için serbest zaman.
+buildtoolbar_popup_room_kennel          Köpeklerinizin yaşadığı yer.
+buildtoolbar_popup_room_chapel          Bürökratik bir komisyon bir araya gelerek mahkumların dini ihtiyaçları için bir çözüm tasarlarlarsa ne olur? Bir 'Çok Dinli İbadet Odası', işte. Biz ona Şapel diyoruz.
+buildtoolbar_popup_room_paroleroom      Mahkumlarınız hükümlerinin %50 ve %75 kadarını çektikten sonra şartlı tahliyeye uygun olacak. Müdür ve Amirle birlikte kaderleri bu odada belirlenecek.\n\nLütfen ekstra güvenliğe ihtiyaç olduğunu not edin. Mahkumların şartlı tahliyeleri reddedilince oldukça mutsuz oldukları biliniyor.
 buildtoolbar_popup_room_library         Your prison will be sent boxes of discarded and used books from around the country. Prisoners will need to sort those books onto the shelves.
 buildtoolbar_popup_room_intake          Where your prisoners are first taken when they arrive.
 buildtoolbar_popup_room_nursery         Activity room for prisoners with babies. 
