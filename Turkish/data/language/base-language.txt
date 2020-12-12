@@ -425,7 +425,7 @@ connectionmenu_done                     Tamanlandı
 # =============================================================================
 
 buildtoolbar_title                      İnşa et
-buildtoolbar_reports                    Rapor et
+buildtoolbar_reports                    Raporlar
 buildtoolbar_bangup                     Hücreye tık
 buildtoolbar_lockdown                   Tecrit et
 buildtoolbar_shakedown                  Arama yap
