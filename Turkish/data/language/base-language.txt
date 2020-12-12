@@ -486,7 +486,7 @@ buildtoolbar_popup_room_familycell      Mahkumlarınızın bebek sahibi olmalar�
 buildtoolbar_popup_room_sharedcell      Birden fazla makhum için birden fazla-yerleşimli bir hücre. 8 mahkuma kadar ağırlayabiliyor.
 buildtoolbar_popup_room_canteen			Mahkumlarınızın öğleden sonra çay içtiği yer.
 buildtoolbar_popup_room_kitchen			Mahkumlarınıza yemek hazırlayan aşçılar için bulunan bölge.
-buildtoolbar_popup_room_shower			Makhumlarınız bitlerden uzak ve tertemiz tutmak için kullanılır.
+buildtoolbar_popup_room_shower			Makhumlarınızı bitlerden uzak ve tertemiz tutmak için kullanılır.
 buildtoolbar_popup_room_yard			Keskin nişancıların kartal gözetiminde mahkumlarınızın günde birkaç saat güneşlenmesine izin verir.
 buildtoolbar_popup_room_storage			Personalinizn bütün ihtiyaçları için ayarlanmış alan.
 buildtoolbar_popup_room_deliveries		Mal, materyal ve mahkumlarınızın bırakıldığı yer.
