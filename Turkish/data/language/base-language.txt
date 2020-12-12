@@ -835,298 +835,298 @@ spritebankeditor_markermodetitle        Marker Mode
 # Codex
 # =============================================================================
 
-codex_mainmenu                          Main Menu
-codex_campaign                          Campaign
-codex_cutscenes                         Cutscenes
-codex_qualifications                    Qualifications
-codex_load                              Load Prison
-codex_loadcampaign                      Load Campaign
-codex_save                              Save Prison
-codex_savecampaign                      Save Campaign
-codex_performance						Performance Test
-codex_developer_load                    (Developer) Load Map
-codex_developer_save                    (Developer) Save Map
-codex_developer_clearach                (Developer) Clear Achievements
-codex_contacts                          Contacts
-codex_materials                         Materials
-codex_play                              Play
-codex_play_escape                       Play Escape Mode
-codex_polaroids                         Polaroids
-codex_introduction                      Introduction
-codex_restartintroduction               Restart Introduction
-codex_restartchapter                    Restart Chapter
-codex_help                              Help (wiki)
-codex_opensavefolder                    Open Save Folder
-codex_options							Options
-codex_nitgs								Names in the Game
-codex_workshop							Prison Sharing (Steam)
-codex_steamtrending                     Most Popular Prisons (Steam)
-codex_checkforupdates                   Check for updates
-codex_preorder                          Pre-order Now
-codex_termsconditions                   Terms and Conditions
+codex_mainmenu                          Ana Menü
+codex_campaign                          Hikaye modu
+codex_cutscenes                         Ara sahneler
+codex_qualifications                    Nitelikler
+codex_load                              Hapishane Yükle
+codex_loadcampaign                      Hikaye Modu Yükle
+codex_save                              Hapishaneyi Kaydet
+codex_savecampaign                      Hikaye Modunu Kaydet
+codex_performance						Performans TEsti
+codex_developer_load                    (Geliştirici) Haritayı Yükle
+codex_developer_save                    (Geliştirici) Haritayı Kaldır
+codex_developer_clearach                (Geliştirici) Başarımları Sil
+codex_contacts                          Rehber
+codex_materials                         Materyaller
+codex_play                              Oyna
+codex_play_escape                       Kaçış Modu Oyna
+codex_polaroids                         Kareler
+codex_introduction                      Tanıtım
+codex_restartintroduction               Tanıtımı Yeniden Başlat
+codex_restartchapter                    Bölümü Yeniden başlat
+codex_help                              Yardım (wiki)
+codex_opensavefolder                    Kayıt Klasörünü Aç
+codex_options							Seçenekler
+codex_nitgs								Oyundaki İsimler
+codex_workshop							Hapishane Paylaşımı (Steam)
+codex_steamtrending                     En Popüler Hapishaneler (Steam)
+codex_checkforupdates                   Güncellemeyi kontrol et
+codex_preorder                          Önceden-sipariş ver
+codex_termsconditions                   Şartlar ve Koşullar
 codex_twitter                           Twitter
-codex_extras                            Extras
-codex_unlocked                          Unlocked *X/*Y
-codex_mapsettings                       Map Settings
-codex_othergames						Other Introversion Games
-codex_mutators                          Mutators
+codex_extras                            Ekstralar
+codex_unlocked                          Açıldı *X/*Y
+codex_mapsettings                       Harita Ayarları
+codex_othergames						Diğer "Introversion" Oyunları
+codex_mutators                          Ekcikler
 
-codex_cloudsavedesc                     Save to the Cloud
-codex_cloud_enabled						New saves will be stored in the cloud.
-codex_cloud_notaccount					Steam Cloud is disabled in the Steam client. Please re-enable it to use this feature.
-codex_cloud_notapp						New saves will be stored on your hard drive.
-codex_saveload_delete					Delete
+codex_cloudsavedesc                     Buluta Kaydet
+codex_cloud_enabled						Yeni kayıtlar Buluta kaydedilecek.
+codex_cloud_notaccount					Steam Cloud hizmeti Steam istemcisi üzerinden devre dışı bırakıldı. Lütfen bu özelliği kullanmak için yeniden açın.
+codex_cloud_notapp						Yeni kayıtlar sabit diskiniz üzerine kaydedilecek.
+codex_saveload_delete					Sil
 
-codex_load_failed_title                 Load Prison.
-codex_load_failed_message               Cannot load this prison file because it is corrupt.
+codex_load_failed_title                 Hapishane Yükle.
+codex_load_failed_message               Bu hapishane yüklenemiyor çünkü dosya bozulmuş.
 
-codex_new                               Create New Prison
-codex_new_worldsize                     World Size
-codex_new_small                         Small
-codex_new_medium                        Medium
-codex_new_large                         Large
-codex_new_selectwarden                  Choose your warden
-codex_new_selectgender                  Select Prisoner Gender
+codex_new                               Yeni Hapishane Oluştur
+codex_new_worldsize                     Dünya Boyutu
+codex_new_small                         Küçük
+codex_new_medium                        Orta
+codex_new_large                         Büyük
+codex_new_selectwarden                  Müdürü seç
+codex_new_selectgender                  Mahkum Cinsiyetini seç
 
-codex_options_graphics					Graphics
-codex_options_resolution				Resolution
-codex_options_resolutionauto			Auto
-codex_options_windowed					Windowed
-codex_options_highdpi					High DPI
-codex_options_filtering					Filtering
-codex_options_nofiltering				Off
-codex_options_multisampled				Multisampled
-codex_options_supersampled				Supersampled
+codex_options_graphics					Grafikler
+codex_options_resolution				Çözünürlük
+codex_options_resolutionauto			Otomatik
+codex_options_windowed					Pencere Modu
+codex_options_highdpi					Yüksek DPI
+codex_options_filtering					Filtreleme
+codex_options_nofiltering				Kapalı
+codex_options_multisampled				Çoklu örnekleme
+codex_options_supersampled				Süper örnekleme
 
-codex_options_audio						Audio
-codex_options_volume					Master Volume
-codex_options_frequency					Mix Frequency
-codex_options_swapstero					Swap Stereo
-codex_options_dspenabled				Enable DSP
+codex_options_audio						Ses
+codex_options_volume					Ana Ses
+codex_options_frequency					Frekans
+codex_options_swapstero					Stereo Değiştir
+codex_options_dspenabled				DSP Aç
 codex_options_11khz						11025 Hz
 codex_options_22khz						22050 Hz
 codex_options_44khz						44100 Hz
 
-codex_options_clocktype                 Clock Type
-codex_options_clocktype_analogue        Analogue
-codex_options_clocktype_12h             12 Hour
-codex_options_clocktype_24h             24 Hour
+codex_options_clocktype                 Saat Tipi
+codex_options_clocktype_analogue        Analog
+codex_options_clocktype_12h             12 Saat
+codex_options_clocktype_24h             24 Saat
 
-codex_options_directions				Floor Signage Display
-codex_options_dirrender_hidden			Hidden
-codex_options_dirrender_visible			Visible
-codex_options_dirrender_zoom			Zoom
+codex_options_directions				Zemin İşaret Ekranı
+codex_options_dirrender_hidden			Gizli
+codex_options_dirrender_visible			Görünür
+codex_options_dirrender_zoom			Yakınlaştırılmış
 
-codex_options_tempscale                 Display Temperature in Celsius
+codex_options_tempscale                 Sıcaklığı Santigrat Cinsiden Göster
 
-codex_options_gameplay					Game
-codex_options_autosave					Autosave Timer
-codex_options_renderrooms				Room Checkerbox
-codex_options_apply						Apply
-codex_options_v2gui						Version 2.0 GUI
-codex_options_zoomtomouse				Zoom To Mouse
-codex_options_oneclickrapsheet			One Click Rapsheet
-codex_options_disableanalytics			Disable Analytics
-codex_tooltip_disableanalytics          We collect anonymised statistics to help improve the game experience. The data we collect is viewable in metrics.txt
+codex_options_gameplay					Oyun
+codex_options_autosave					Otomatik Kayıt Aralığı
+codex_options_renderrooms				Oda Kontrol Ekranı
+codex_options_apply						Onayla
+codex_options_v2gui						Sürüm 2.0 GUI
+codex_options_zoomtomouse				Fareye Yakınlaştır
+codex_options_oneclickrapsheet			Tek Tık Sicil
+codex_options_disableanalytics			Analitiği Kapat
+codex_tooltip_disableanalytics          Anonim istatistikler toplayarak oyunun deneyimini daha iyi hale getiriyoruz. Topladığımız veri metrics.txt dosyasında görüntülenebilir.
 
-codex_options_language					Language
+codex_options_language					Dil
 
-codex_options_experimental              Experimental
-codex_options_enablevbo                 Enable Vertex Buffer Objects
-codex_options_disableattract            Disable Startup Attract Screen
-codex_options_enableturbomode			Enable Turbo Mode
+codex_options_experimental              Deneysel
+codex_options_enablevbo                 Vertex Buffer Objects'i Aç
+codex_options_disableattract            Açılış Ekranını Devre Dışı Bırak
+codex_options_enableturbomode			Turbo Mod'u Etkinleştir
 
-codex_nitgs_authwarning                 Important: If you have recently changed your Name in the Game entry, it will need to be authorised before it will appear in the list.
+codex_nitgs_authwarning                 Önemli: İsminizi daha yeni değiştirdiyseniz, listede bulunması için yetkilendirilmesi gerekecektir.
 
-codex_nitgs_filtercaption               Filter
-codex_nitgs_filterall                   All
-codex_nitgs_filtermen                   Men
-codex_nitgs_filterwomen                 Women
+codex_nitgs_filtercaption               Filitre
+codex_nitgs_filterall                   Hepsi
+codex_nitgs_filtermen                   Adamlar
+codex_nitgs_filterwomen                 Kadınlar
 
-codex_nitgs_checkingforupdate           Checking for update...
-codex_nitgs_updateavailable             Update available
-codex_nitgs_downloading                 Downloading update...
-codex_nitgs_downloadcomplete            Download complete.
-codex_nitgs_downloadfailed              Download failed.
+codex_nitgs_checkingforupdate           Güncelleme kontrol ediliyor...
+codex_nitgs_updateavailable             Güncelleme mevcut
+codex_nitgs_downloading                 Güncelleme indiriliyor...
+codex_nitgs_downloadcomplete            İndirme işlemi tamamlandı.
+codex_nitgs_downloadfailed              İndirme işlemi başarısız.
 
-codex_enabled                           Enabled
-codex_disabled                          Disabled
+codex_enabled                           Aktif
+codex_disabled                          Devre dışı
 
-codex_option_intake                     Continuous Intake
-codex_tooltip_intake                    If enabled, you will receive a random number of new prisoners every day... forever.\n\nIf disabled, you can chose when you are ready to receive prisoners by going to the reports and clicking on the prisoner tab.
-codex_option_fogofwar                   Fog of War
-codex_tooltip_fogofwar                  You will lose visibility of the insides of your prison buildings, unless you have Guards patrolling the area or CCTV cameras covering the area.
-codex_option_lakes                      Generate Lakes
-codex_tooltip_lakes                     Random lakes will block sections of your land. WARNING: Experimental.
-codex_option_forests                    Generate Forests
-codex_tooltip_forests                   Clusters of trees will appear on your land.
-codex_option_buildings                  Generate Buildings
-codex_tooltip_buildings                 Random derelict buildings will be left behind on your land, which you can use as you wish.
-codex_option_failure                    Failure Conditions
-codex_tooltip_failure                   An extra challenge! You will be sacked and it will be game over if you let things get too bad. (Riots, Bankruptcy, too many Deaths or Escapes, etc.)
-codex_option_unlimitedfunds             Unlimited Funds
-codex_tooltip_unlimitedfunds            Pure Sandbox Mode! You can spend as much money as you like right from the start, without having to worry or wait for more later.
-codex_option_gangs                      Gangs
-codex_tooltip_gangs                     Some prisoners will arrive with gang allegiences, and will attack rival gang members on site. Extra challenge.
-codex_option_events                     Events
-codex_tooltip_events                    Causes events to occur during the game to keep you on your toes. Adds extra challenge and an element of unpredictability. 
-codex_option_weather                    Weather and Temperature
-codex_tooltip_weather                   Adds changing weather and varying temperatures to your prison, requiring you to think about heating.
-codex_option_enablecheats				Enable Tools and Cheats
-codex_tooltip_enablecheats				Enables developer tools and cheats in this prison. If selected, this can not be disabled, achievements are not awarded, and you will not be able to sell this prison.
-codex_option_staffneeds                 Staff Needs 
-codex_tooltip_staffneeds                Enable Needs for your Guards, meaning they will require food, rest and other comforts in order to do their jobs properly. 
-codex_option_escapeplans                Escape Plans
-codex_tooltip_escapeplans               Enables more escape options for prisoners. They will now attempt to climb over your walls when trying to escape.
-codex_option_wardenmode                 Warden Mode
-codex_tooltip_wardenmode                Play as the warden working on site of the prison you are building.
-codex_option_wardenmode_permadeath      Permadeath
-codex_tooltip_wardenmode_permadeath     If you die as the Warden it's Game Over!
+codex_option_intake                     Sürekli Alım
+codex_tooltip_intake                    Eğer bu seçenek açılırsa her gün rastgele bir sayıda mahkum teslim alacaksın... sonsuza dek.\n\nEğer bu seçenek açılmazsa, hazır olduğun zaman mahkum alımını raporlar ve ardından mahkumlar bölmesine tıklayarak değiştirebilirsin.
+codex_option_fogofwar                   Sis
+codex_tooltip_fogofwar                  CCTV kameraları veya devriye korumaları ile bölgeyi kaplamadığın sürece binaların içini görüş kabiliyetini kaybedeceksin.
+codex_option_lakes                      Gölleri Oluştur
+codex_tooltip_lakes                     Rastgele göller bölgenizin belli kesitlerini engelleyecekler. UYARI: Deneysel.
+codex_option_forests                    Ormanları Oluştur
+codex_tooltip_forests                   Ağaç kümeleri bölgenizde belirecek.
+codex_option_buildings                  Binaları Oluştur
+codex_tooltip_buildings                 Bölgenizde rastgele terkedilmiş binalar bulunacak, isterseniz bunları kullanabilirsiniz.
+codex_option_failure                    Kırılma Koşulu
+codex_tooltip_failure                   Ekstra bir meydan okuma! Eğer işler çok kötüye giderse çuvala doldurulacaksın ve bu senin için son olacak. (İsyanlar, İflas, çok fazla Ölüm ve Firarlar, vs.)
+codex_option_unlimitedfunds             Sınırsız Fon
+codex_tooltip_unlimitedfunds            Ham Sandbox Modu! Daha fazla beklemeden veya endişelenmeden başından beri istediğin kadar parayı istediğin gibi harcayabilirsin.
+codex_option_gangs                      Çeteler
+codex_tooltip_gangs                     Bazı mahkumlar çete sadakati ile gelecek ve karşı düşman çete üyeleri ile savaşacaklar. Ekstra zor.
+codex_option_events                     Olaylar
+codex_tooltip_events                    Gözünü dört açasın diye rastgele olaylar meydana gelir. Ekstra zorluk ve tahminedilemezlik unsuru ekler. 
+codex_option_weather                    Hava Durumu ve Sıcaklık
+codex_tooltip_weather                   Hapishanenize değişken hava ve sıcaklık türleri ekler, sizi ısıtma çözümleri düşünmenize sevk eder.
+codex_option_enablecheats				Araçları ve Hileleri Aç
+codex_tooltip_enablecheats				Bu Hapishane için geliştirici araçları ve hileleri açar. Eğer bu seçilirse, artık bu seçenek kapatılamyacak, başarımlar ödüllendirilmeyecek ve bu hapishaneyi satamayacaksın.
+codex_option_staffneeds                 Personal İhtiyaçları
+codex_tooltip_staffneeds                Korumaların İhtiyaçlarını Açar, bunun anlamı işlerini düzgün yapabilmek adına, yemeğe, dinlenmeye ve diğer conforlara ihtiyaçları olacak. 
+codex_option_escapeplans                Kaçış Planları
+codex_tooltip_escapeplans               Mahkumlar için daha fazla kaçış seçeneği açar. Artık firar etmeye çalışırken duvardan tırmanmaya teşebbüs edecekler.
+codex_option_wardenmode                 Müdür Modu
+codex_tooltip_wardenmode                Müdür olarak kurmaktan olduğun hapishanede oynarsın.
+codex_option_wardenmode_permadeath      Kesin Ölüm
+codex_tooltip_wardenmode_permadeath     Müdür olarak ölürsen bu Oyunun Sonu Demektir!
 
-codex_option_funds                      Funds
-codex_tooltip_funds                     You will start with this much money in your bank account. Sell your established prisons from the Valuation screen to start with more funds.
+codex_option_funds                      Fonlar
+codex_tooltip_funds                     Hesabında bu kadar parayla başlayacaksın. Kurulmuş hapishanelerinizi Değerlendirme ekranında satarak daha fazla fonla başlayabilirsiniz.
 
-codex_transfer							Transfer
-codex_transferring						Transferring
-codex_in_prison							Currently Incarcerated
-codex_unavailable                       Unavailable
-codex_useravatar                        This is me
-codex_tooltip_useravatar                Mark this prisoner as your own entry. If you should somehow end up in prison yourself, this is the prisoner that will represent you.
-codex_tooltip_flagbio                   Report this bio as objectionable or offensive.
+codex_transfer							Taşıma
+codex_transferring						Taşınıyor
+codex_in_prison							Şu Anda Hapsedilmiş
+codex_unavailable                       Mevcut Değil
+codex_useravatar                        Bu benim
+codex_tooltip_useravatar                Bu mahkumu kendi girdiniz olarak hesaplayın. Eğer bir gün kendinizi bir şekilde hapishanede bulursanız, sizi temsil edecek mahkum bu olacak.
+codex_tooltip_flagbio                   Bu öz geçmişi sakıncalı ve saldırgan olarak bildirin.
 
-codex_workshop_current					Current Prison
-codex_workshop_publish					Publish this prison
-codex_workshop_update					Update
-codex_workshop_play						Play
-codex_workshop_downloading				Downloading
-codex_workshop_download_failed			Download Failed
-codex_workshop_publishing				Publishing...
-codex_workshop_new						NEW
-codex_workshop_title					Title
-codex_workshop_desc						Description
-codex_workshop_view_in_workshop			View in Steam Workshop
-codex_workshop_heading_pubed			Your published prisons
-codex_workshop_heading_subed			Subscribed prisons
-codex_workshop_published_by				Published by *P
-codex_workshop_published_by_you			Published by you
-codex_workshop_published_good			Prison Published
-codex_workshop_published_good_msg		Your prison has been published successfully.
-codex_workshop_published_bad			Failed To Publish Prison
-codex_workshop_published_bad_msg		Your prison failed to publish.
-codex_workshop_published_bad_msg_new	Your new prison has failed to publish. Please try again.
-codex_workshop_busy						Some magic is already happening with Steam. Please wait for that to finish first, then try again.
-codex_workshop_file_exists				You've already published a prison with this name. Please pick a different name.
-codex_workshop_generic_fail				Failed to publish your prison. Please try again.
-codex_workshop_download_bad				Failed To Download Prison
-codex_workshop_pa_workshop				Open Prison Architect Workshop
-codex_workshop_agreement				By submitting this item, you agree to the [url=http://steamcommunity.com/sharedfiles/workshoplegalagreement]workshop terms of service[/url].
-codex_workshop_update_warning			Updating Published Prison
-codex_workshop_update_warning_msg		Updating this Published Prison will override the published prison with the currently loaded prison. This will delete the published prison, permanently replacing it with the prison you are currently playing. This action can not be undone.\n\nAre you sure you wish to proceed?
+codex_workshop_current					Mevcut Hapishaneler
+codex_workshop_publish					Bu hapishaneyi yayınla
+codex_workshop_update					Güncelle
+codex_workshop_play						Oyna
+codex_workshop_downloading				İndiriliyor
+codex_workshop_download_failed			İndirilme Başarısız
+codex_workshop_publishing				Yayınlanıyor...
+codex_workshop_new						YENİ
+codex_workshop_title					Başlık
+codex_workshop_desc						Açıklama
+codex_workshop_view_in_workshop			Steam Atölye'de Göz At
+codex_workshop_heading_pubed			Yayınlanmış hapishaneleriniz
+codex_workshop_heading_subed			Abone olunmuş hapishaneler
+codex_workshop_published_by				*P Tarafından Yayınlanmış
+codex_workshop_published_by_you			Sizin tarafınızdan yayınlanmış
+codex_workshop_published_good			Hapishane Yayınlandı
+codex_workshop_published_good_msg		Hapishaneniz başarılı bir şekilde yayınlandı.
+codex_workshop_published_bad			Hapishane Yayınlanırken başarısız oldu
+codex_workshop_published_bad_msg		Hapishaneniz yayınlanırken başarısız oldu
+codex_workshop_published_bad_msg_new	Yeni hapishaneniz yayınlanırken başarısız oldu. Lütfen tekrar deneyin.
+codex_workshop_busy						Bir tür büyü zaten Steam üzerinde oluşuyor. Lütfen ilk bunun geçmesini bekleyin, daha sonra tekrar deneyin.
+codex_workshop_file_exists				Zaten bu isimle bir hapishane yayınladınız. Lütfen başka bir isim seçin.
+codex_workshop_generic_fail				Hapishaneniz yüklenirken başarısız oldu. Lütfen tekrar deneyin.
+codex_workshop_download_bad				Hapishane İndirilirken Başarısız Oldu
+codex_workshop_pa_workshop				Prison Architect Atölyesi'ni Aç
+codex_workshop_agreement				Bu eşyayı göndererek, [url=http://steamcommunity.com/sharedfiles/workshoplegalagreement]workshop hizmet şartlarını kabul etmiş oluyorsunuz[/url].
+codex_workshop_update_warning			Yayınlanmış Hapishane Güncelleniyor
+codex_workshop_update_warning_msg		Yayınlamış Hapishaneyi Güncellemek mevcut yüklenmiş hapishanenin üzerine yazacak. Bu yayınlanmış hapishaneyi silecek, ve kalıcı olarak onu şu anki oynadığınız hapishane ile değiştirecek. Bu eylem geri alınamaz.\n\nDevam etmek istediğine emin misin?
 
-codex_options_timelapse					Time Lapse
-codex_timelapse_record					Record Time Lapse
-codex_timelapse_stop					Stop Time Lapse
-codex_timelapse_camera					Camera Mode
-codex_timelapse_customresw				Custom Res Width
-codex_timelapse_customresh				Custom Res Height
-codex_timelapse_resolution				Resolution
-codex_timelapse_fps						Playback Rate
-codex_timelapse_interval				Capture Interval
-codex_timelapse_quality					Quality
-codex_timelapse_unsupported				This feature is unavailable on your hardware.
-codex_timelapse_savesettings			Save Settings
+codex_options_timelapse					Hızlı Zaman
+codex_timelapse_record					Hızlı Zamanı Kaydet
+codex_timelapse_stop					Hızlı Zamanı Durdur
+codex_timelapse_camera					Kamera Modu
+codex_timelapse_customresw				Kamera Çöz. Genişliği
+codex_timelapse_customresh				Kamera Çöz. Yüksekliği
+codex_timelapse_resolution				Çözünürlük
+codex_timelapse_fps						Oynatım Oranı
+codex_timelapse_interval				Kayıt Aralığı
+codex_timelapse_quality					Kalıte
+codex_timelapse_unsupported				Bu özellik donanımınızda bulunmuyor.
+codex_timelapse_savesettings			Ayarları Kaydet
 
-codex_timelapse_cam_zoom                Zoom Camera
-codex_timelapse_cam_fitmap              Fit Map
-codex_timelapse_cam_fitheight           Fit Map Height
-codex_timelapse_cam_fitwidth            Fit Map Width
+codex_timelapse_cam_zoom                Kamerayı Yakınlaştır
+codex_timelapse_cam_fitmap              Haritaya Sığdır
+codex_timelapse_cam_fitheight           Haritanın Yük. Sığdr
+codex_timelapse_cam_fitwidth            Haritanın Geniş. Sığdır
 codex_timelapse_fps_value               *X FPS
 codex_timelapse_quality_high            Yüksek
 codex_timelapse_quality_med             Orta
 codex_timelapse_quality_low             Düşük
-codex_timelapse_interval_value          *X Game Minutes
-timelapse_caption                       Timelapse recording length *X:*Y, *Z frames recorded, backlog: *T
+codex_timelapse_interval_value          *X Oyun Dakikası
+timelapse_caption                       Hızlı Zaman kayıt uzunluğu *X:*Y, *Z kare kaydedildi, arkagünlük: *T
 
-codex_performance_running				Performance Test Running
-codex_performance_time					Time Left: *Ts
-codex_performance_current				Current Frame Time: *Tms
-codex_performance_min					Min Frame Time: *Tms
-codex_performance_avg					Average Frame Time: *Tms
-codex_performance_max					Max Frame Time: *Tms
-codex_performance_numframes				Num Frames: *T
+codex_performance_running				Performans Testi Yürütülüyor
+codex_performance_time					Kalan Zaman: *Ts
+codex_performance_current				Mevcut Kare Zamanı: *Tms
+codex_performance_min					Min Kare Zamanı: *Tms
+codex_performance_avg					Ortalama Kare Zamanı: *Tms
+codex_performance_max					Maks Kare Zamanı: *Tms
+codex_performance_numframes				Kare Miktarı: *T
 
-codex_last_modified						Last Modified: *T
-codex_sortbydesc						Sort By Date
+codex_last_modified						Son Değişiklik: *T
+codex_sortbydesc					    Tarihe Göre Sırala
 codex_sortname							İsim
 codex_sortdate							Tarih
-codex_apply								Tamam
+codex_apply								Onayla
 codex_select                            Seç
 
-codex_mods								Mods
-codex_mod_activetitle					Active Mods
-codex_mod_inactivetitle					Available Mods
-codex_mod_deactivate					Deactivate all mods
-codex_mod_wiki							Find more mods (Wiki)
-codex_mod_openmodsfolder				Open Mods Folder
-codex_mod_moresteammods					Find more mods (Steam Workshop)
-codex_mod_findsteamtranslations         Find more translations (Steam Workshop)
+codex_mods								Modlar
+codex_mod_activetitle					Aktif Modlar
+codex_mod_inactivetitle					Mevcut Modlar
+codex_mod_deactivate					Bütün modları kapat
+codex_mod_wiki							Daha fazla mod bul (Wiki)
+codex_mod_openmodsfolder				Mod Klasörünü Aç
+codex_mod_moresteammods					Daha fazla mod bul (Steam Workshop)
+codex_mod_findsteamtranslations         Daha fazla çeviri bul (Steam Workshop)
 codex_authortitle                       Yapımcı
-codex_versiontitle                      Versiyon
+codex_versiontitle                      Sürüm
 codex_datetitle                         Tarih
 codex_urltitle                          URL
-codex_typetitle							Type
-codex_mod_graphicsandsound				Graphics and Sounds
-codex_mod_translation					Translation
-codex_mod_scenario						Scenario
-codex_mod_content						Content
-codex_mod_load_scenario					Play Scenario
-codex_publishmod						Publish This Mod
+codex_typetitle							Tür
+codex_mod_graphicsandsound				Grafik ve Sesler
+codex_mod_translation					Çeviri
+codex_mod_scenario						Senaryo
+codex_mod_content						İçerik
+codex_mod_load_scenario					Senaryo Oyna
+codex_publishmod						Bu Modu Yayınla
 
-codex_mod_update						Update This Mod
-codex_mod_published_good				Mod Published
-codex_mod_published_good_msg			Your mod has been published successfully.
-codex_mod_published_bad					Failed To Publish Mod
-codex_mod_published_bad_msg				Your mod failed to publish.
-codex_mod_modsupdated					Mods Updated
-codex_mod_modsupdated_msg				Some of your active mods have been updated. Click OK to apply the new changes. Your game will be autosaved.
-codex_mod_translationcaption            Is this a translation to another language?
+codex_mod_update						Bu Modu Güncelle
+codex_mod_published_good				Mod Yayınlandı
+codex_mod_published_good_msg			Modunuz başarılı bir şekilde yayınlandı.
+codex_mod_published_bad					Mod yayınlanırken başarısız oldu
+codex_mod_published_bad_msg				Modunuz yayınlanırken başarısız oldu.
+codex_mod_modsupdated					Modlar Güncellendi
+codex_mod_modsupdated_msg				Bazı aktif modlarınız güncellendi. OK'a basarak yeni değişiklikleri onaylayın. Oyununuz otomatik olarak kaydedilecek.
+codex_mod_translationcaption            Bu başka bir dile tercüme mü ?
 
-codex_language                          Language
-codex_language_englishdefault           English (Default)
-codex_language_default                  Default Language
-codex_language_download                 Download
-codex_language_failed_download          Failed To Download Translation
-codex_language_failed_download_msg      Your selected translation has failed to download.
-codex_language_searching_workshop       Searching Steam Workshop
-codex_language_community                This translation is created and maintained by the community - Thank You!
+codex_language                          Dil
+codex_language_englishdefault           İngilizce (Default)
+codex_language_default                  Varsayılan Dil
+codex_language_download                 İndir
+codex_language_failed_download          Çeviri İndirilirken Başarısz Oldu
+codex_language_failed_download_msg      Seçtiğiniz çeviri indirilirken başarısız oldu.
+codex_language_searching_workshop       Steam Atölyesi Aranıyor
+codex_language_community                Bu çeviri topluluk tarafından oluşturuldu ve idame ediliyor - Teşekkür Ederiz!
 
-codex_polaroids_new                     NEW
+codex_polaroids_new                     YENİ
 
-codex_save_confirm                      Are you sure you wish to overwrite *X with the current prison?
-codex_researtchapter_confirm            Are you sure you wish to restart the current chapter? Unsaved progress will be lost.
-codex_delete_confirm                    Are you sure you wish to permanently delete *X?
+codex_save_confirm                      *X adlı hapishaneyi mevcut olanın üzerine yazmak istediğinden emin misin?
+codex_researtchapter_confirm            Mevcut bölümü yeniden başlatmak istediğinden emin misin? Kaydedilmemiş ilerleme kaybedilecek.
+codex_delete_confirm                    *X? adlı hapishaneyi kalıcı olarak silmek istediğinden emin misin ?
 
-codex_premadeprisons                    Premade Prisons
+codex_premadeprisons                    Hazır Hapishaneler
 
 codex_trending_more                     ...
-codex_sortbycaption                     Sort By:
-codex_trending_oneday                   One Day
-codex_trending_oneweek                  One Week
-codex_trending_threemonths              Three Months
-codex_trending_sixmonths                Six Months
-codex_trending_oneyear                  One Year
-codex_trending_alltime                  All Time
-codex_trending_failedtogetlist          Failed to get prison list
-codex_trending_failedtogetlist_msg      Failed to get the list of trending prisons.
+codex_sortbycaption                     Sıralama Türü:
+codex_trending_oneday                   Bir Gün
+codex_trending_oneweek                  Bir Hafta
+codex_trending_threemonths              Üç Ay
+codex_trending_sixmonths                Altı Ay
+codex_trending_oneyear                  Bir Yıl
+codex_trending_alltime                  Tüm Zamanlar
+codex_trending_failedtogetlist          Hapishane listesi getirilirken başarısız oldu
+codex_trending_failedtogetlist_msg      Popüler olan hapishanelerin listesi getirilirken başarısız oldu
 
-codex_settings                          Map Settings
-codex_settings_gangs                    Enable Gangs
-codex_settings_events                   Enable Events
-codex_settings_weather                  Enable Weather
-codex_settings_staffneeds               Enable Staff Needs
-codex_settings_escapeplans              Enable Escape Plans
-codex_settings_failureconditions        Enable Failure Conditions
-codex_settings_confirm                  Once enabled, this setting cannot be deactivated. Are you sure you wish to enable *X?
+codex_settings                          Harita Ayarları
+codex_settings_gangs                    Çeteleri Aç
+codex_settings_events                   Olayları Aç
+codex_settings_weather                  Hava Durumunu Aç
+codex_settings_staffneeds               Personelleri Aç
+codex_settings_escapeplans              Kaçış Planlarını Aç
+codex_settings_failureconditions        Kırılma Koşulunu Aç
+codex_settings_confirm                  *X Bir kez açıldığında bir daha geri kapatılamaz, açmak istediğinden emin misin ?
 
 codex_packrects							Pack Rectangles
 codex_addboxbutton						Add New Rectangle
