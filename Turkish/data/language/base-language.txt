@@ -2386,49 +2386,49 @@ grant_property_atmost                               No More Than *X
 # =============================================================================
                                               
                                                                                                        
-object_none                              None
-object_box                               Box
-object_stack                             Stack
-object_bed                               Bed
-object_bunkbed                           Bunk Bed
-object_crib                              Crib
-object_toilet                            Toilet
-object_table                             Table
-object_chair                             Chair
-object_bench                             Bench
-object_electricchair                     Electric Chair
-object_jaildoor                          Jail Door
-object_jaildoorlarge                     Large Jail Door
-object_door                              Door
-object_solitarydoor                      Solitary Door
-object_staffdoor                         Staff Door
-object_remotedoor                        Remote Door
-object_roadgate                          Road Gate
-object_jailbars                          Jail Bars
-object_window                            Window
-object_windowlarge                       Large Window
-object_tree                              Tree
-object_light                             Light
-object_cooker                            Cooker
-object_fridge                            Fridge
-object_bin                               Bin
-object_sink                              Sink
-object_servingtable                      Serving Table
-object_showerhead                        Shower Head
-object_brick                             Brick
-object_concrete                          Concrete
-object_steel                             Steel
-object_ingredients                       Ingredients
-object_ingredientscooking                Ingredients (Cooking)
-object_ingredientscooked                 Ingredients (Cooked)
-object_ingredientsspoiled                Ingredients (Spoiled)
-object_meal                              Meal
-object_foodtray                          Food Tray
-object_foodtraydirty                     Food Tray (Dirty)
-object_grassturf                         Grass Turf
-object_prisoneruniform                   Prisoner Uniform
-object_dirtyprisoneruniform              Prisoner Uniform (Dirty)
-object_crumpledprisoneruniform           Prisoner Uniform (Crumpled)
+object_none                              Hiçbiri
+object_box                               Kutu
+object_stack                             Yığın
+object_bed                               Yatak
+object_bunkbed                           Ranza
+object_crib                              Beşik
+object_toilet                            Tuvalet
+object_table                             Masa
+object_chair                             Sandalye
+object_bench                             Bank
+object_electricchair                     Elektrikli Sandalye
+object_jaildoor                          Hapishane Kapısı
+object_jaildoorlarge                     Geniş Hapishane Kapısı
+object_door                              Kapı
+object_solitarydoor                      Tek Hücre
+object_staffdoor                         Personel Kapısı
+object_remotedoor                        Kapalı Devre Kapı
+object_roadgate                          Sürgülü Yol Kapısı
+object_jailbars                          Hapishane Barları
+object_window                            Pencere
+object_windowlarge                       Geniş Pencere
+object_tree                              Ağaç
+object_light                             Işık
+object_cooker                            Ocak
+object_fridge                            Buzdolabı
+object_bin                               Çöp
+object_sink                              Lavabo
+object_servingtable                      Servis Masası
+object_showerhead                        Duş Başlığı
+object_brick                             Tuğla
+object_concrete                          Beton
+object_steel                             Çelik
+object_ingredients                       Malzemeler
+object_ingredientscooking                Malzemeler (Pişiriliyor)
+object_ingredientscooked                 Malzemeler (Pişti)
+object_ingredientsspoiled                Malzemeler (Bozulmuş)
+object_meal                              Öğün
+object_foodtray                          Yemek Tepsisi
+object_foodtraydirty                     Yemek Tepsisi (Kirli)
+object_grassturf                         Yapay Çim
+object_prisoneruniform                   Mahkum Üniforması
+object_dirtyprisoneruniform              Makhum Üniforması (Kirli)
+object_crumpledprisoneruniform           Mahkum Üniforması (Buruşmuş)
 object_bleach                            Bleach
 object_sheetmetal                        Sheet Metal
 object_licenseplateblank                 License Plates (Blank)
