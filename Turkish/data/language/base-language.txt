@@ -2481,7 +2481,7 @@ object_morgueslab                        Morg Levhası
 object_equipment                         Ekipman
 object_prop                              Dekor
 object_dummy                             Manken
-object_powerstation                      Elektrik Santali
+object_powerstation                      Elektrik Santrali
 object_capacitor                         Kondansatör
 object_electricalcable                   Elektrik Kablosu
 object_powerswitch                       Güç Şalteri
@@ -2629,7 +2629,7 @@ room_kitchen                             Mutfak
 room_shower                              Duş
 room_yard                                Avlu
 room_storage                             Depo
-room_deliveries                          Teslimatlar
+room_deliveries                          Teslimat
 room_garbage                             Çöp
 room_execution                           İnfaz
 room_workshop                            Atölye
@@ -2639,7 +2639,7 @@ room_medicalward                         Revir
 room_morgue                              Morg
 room_commonroom                          Dinlenme Odası
 room_laundry                             Çamaşırhane
-room_visitation                          Ziyaret Yeri
+room_visitation                          Ziyaret Odası
 room_cleaningcupboard                    Temizlik Dolabı
 room_kennel                              Köpek Kulübesi
 room_armoury                             Cephanelik
@@ -2647,7 +2647,7 @@ room_staffroom                           Personal Odası
 room_library                             Kütüphane
 room_forestry                            Ormanlık
 room_classroom                           Sınıf
-room_exports                             İhraçlar
+room_exports                             İhraç
 room_chapel                              Şapel
 room_intake                              Kabulhane
 room_clearrooms                          Clear Rooms
