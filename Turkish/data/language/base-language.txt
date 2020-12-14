@@ -2658,61 +2658,61 @@ room_nursery                             Kreş
 room_dock								 Rıhtım
 room_Helipad							 Helikopter Pisti
 
-equipment_none                           None
-equipment_fists                          Fists
-equipment_baton                          Baton
-equipment_club                           Club
-equipment_shank                          Shank
-equipment_knife                          Knife
-equipment_fork                           Fork
-equipment_gun                            Gun
-equipment_spoon                          Spoon
-equipment_needle                         Needle
-equipment_booze                          Booze
-equipment_poison                         Poison
-equipment_cigs                           Cigs
-equipment_saw                            Saw
-equipment_jailkeys                       Jail Keys
-equipment_mobilephone                    Cellphone
-equipment_lighter                        Lighter
+equipment_none                           Hiçbiri
+equipment_fists                          Yumruklar
+equipment_baton                          Cop
+equipment_club                           Tokmak
+equipment_shank                          Metal Parçası
+equipment_knife                          Bıçak
+equipment_fork                           Çatal
+equipment_gun                            Silah
+equipment_spoon                          Kaşık
+equipment_needle                         Şırınga
+equipment_booze                          Alkol
+equipment_poison                         Zehir
+equipment_cigs                           Sigara
+equipment_saw                            Testere
+equipment_jailkeys                       Anahtarlar
+equipment_mobilephone                    Cep Telefonu
+equipment_lighter                        Çakmak
 equipment_screwdriver                    Screwdriver
-equipment_drugs                          Drugs
-equipment_sheers                         Shears
-equipment_mop                            Mop
-equipment_rake                           Rake
-equipment_hose                           Hose
+equipment_drugs                          Uyuşturucu
+equipment_sheers                         Makas
+equipment_mop                            Paspas
+equipment_rake                           Tırmık
+equipment_hose                           Hortum
 equipment_spatula                        Spatula
-equipment_woodenspoon                    Wooden Spoon
-equipment_cleaningbrush                  Cleaning Brush
-equipment_hammer                         Hammer
-equipment_clipboard                      Clipboard
-equipment_drill                          Drill
-equipment_pianowire                      PianoWire
-equipment_scissors                       Scissors
-equipment_medicine                       Medicine
-equipment_shotgun                       Shotgun
-equipment_moneybag                      Money Bag
-equipment_tazer                         Tazer
-equipment_guarduniform                  Guard Uniform
-equipment_stabvest                      Stab Vest
-equipment_rifle                         Rifle
-equipment_dogleash                      Dog Leash
-equipment_assaultrifle                  Assault Rifle
-equipment_woodenpickaxe                 Wooden Pickaxe
-equipment_cbradio                       Cb radio
-equipment_axe                           Axe
-equipment_spade                         Spade
-equipment_book                          Book
-equipment_megaphone                     Megaphone
-equipment_magazine                      Magazine
-equipment_batteringram                  Battering Ram
-equipment_iron                          Iron
-equipment_microphone                    Microphone
-equipment_torch                         Torch
-equipment_bookclosed                    Book
-equipment_rope							Rope
+equipment_woodenspoon                    Tahta Kaşık
+equipment_cleaningbrush                  Temizlik Fırçası
+equipment_hammer                         Çekiç
+equipment_clipboard                      Pano
+equipment_drill                          Matkap
+equipment_pianowire                      Çelik Tel
+equipment_scissors                       Makas
+equipment_medicine                       İlaç
+equipment_shotgun                       Av Tüfeği
+equipment_moneybag                      Para Çantası
+equipment_tazer                         Elektroşok Cihazı
+equipment_guarduniform                  Koruma Üniforması
+equipment_stabvest                      Bıçak Yeleği
+equipment_rifle                         Tüfek
+equipment_dogleash                      Köpek Kayışı
+equipment_assaultrifle                  Saldırı Tüfeği
+equipment_woodenpickaxe                 Tahta Kazma
+equipment_cbradio                       Cb radyo
+equipment_axe                           Balta
+equipment_spade                         Kürek
+equipment_book                          Kitap
+equipment_megaphone                     Megafon
+equipment_magazine                      Şarjör
+equipment_batteringram                  Koçbaşı
+equipment_iron                          Demir
+equipment_microphone                    Mikrofon
+equipment_torch                         El Feneri
+equipment_bookclosed                    Kitap
+equipment_rope							Halat
 
-research_requires_short                 Requires a *X
+research_requires_short                 *X Gerekiyor
 
 reformprogram_workshopinduction         Workshop Safety Induction
 reformprogram_foundationeducation       Foundation Education Program
