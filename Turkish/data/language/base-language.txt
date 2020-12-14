@@ -137,7 +137,7 @@ interfacemode_destroy                         Yok Et
 interfacemode_foundations				      Temeller
 interfacemode_construction                    Materyaller
 interfacemode_planning                        Planlama
-interfacemode_objects                         Objeler
+interfacemode_objects                         Nesneler
 interfacemode_designation                     Odalar
 interfacemode_utilities                       Araçlar
 interfacemode_staff                           Personel
@@ -2429,234 +2429,234 @@ object_grassturf                         Yapay Çim
 object_prisoneruniform                   Mahkum Üniforması
 object_dirtyprisoneruniform              Makhum Üniforması (Kirli)
 object_crumpledprisoneruniform           Mahkum Üniforması (Buruşmuş)
-object_bleach                            Bleach
-object_sheetmetal                        Sheet Metal
-object_licenseplateblank                 License Plates (Blank)
-object_licenseplate                      License Plates
-object_log                               Log
-object_wood                              Wood
-object_workman                           Workman
-object_truckdriver                       Truck Driver
-object_guard                             Guard
-object_riotguard                         Riot Guard
-object_armedguard                        Armed Guard
-object_prisoner                          Prisoner
-object_doctor                            Doctor
-object_paramedic                         Paramedic
-object_cook                              Cook
-object_gardener                          Gardener
-object_janitor                           Janitor
-object_fireman                           Fireman
+object_bleach                            Çamaşır Suyu
+object_sheetmetal                        Sac
+object_licenseplateblank                 Araba Plakası (Boş)
+object_licenseplate                      Araba Plakası
+object_log                               Kütük
+object_wood                              Odun
+object_workman                           Usta
+object_truckdriver                       Kamyon Sürücüsü
+object_guard                             Koruma
+object_riotguard                         Çevik Kuvvet
+object_armedguard                        Silahlı Koruma
+object_prisoner                          Mahkum
+object_doctor                            Doktor
+object_paramedic                         Sağlık Görevlisi
+object_cook                              Aşçı
+object_gardener                          Bahçıvan
+object_janitor                           Hademe
+object_fireman                           İtfaiyeci
 object_avatar                            Avatar
-object_actor                             Actor
-object_visitor                           Visitor
-object_executionwitness                  Execution Witness
-object_doghandler                        Dog Handler
-object_dog                               Guard Dog 
-object_dogcrate                          Dog Crate
-object_teacher                           Teacher
-object_soldier                           Soldier
-object_sniper                            Sniper
-object_warden                            Warden
+object_actor                             Aktör
+object_visitor                           Ziyaretçi
+object_executionwitness                  İnfaz Şahitleri
+object_doghandler                        Köpek Eğitmeni
+object_dog                               Bekçi Köpeği 
+object_dogcrate                          Köpek Kafesi
+object_teacher                           Öğretmen
+object_soldier                           Asker
+object_sniper                            Keskin Nişancı
+object_warden                            Müdür
 object_chief                             Chief
-object_foreman                           Foreman
-object_psychologist                      Psychologist
-object_accountant                        Accountant
-object_lawyer                            Lawyer
-object_supplytruck                       Supply Truck
-object_prisonerbus                       Prisoner Bus
-object_fireengine                        Fire Engine
-object_riotvan                           Riot Van
-object_ambulance                         Ambulance
+object_foreman                           Ustabaşı
+object_psychologist                      Psikolog
+object_accountant                        Muhasebeci
+object_lawyer                            Avukat
+object_supplytruck                       Tedarik Kamyonu
+object_prisonerbus                       Mahkum Otobüsü
+object_fireengine                        İtfaiye Arabası
+object_riotvan                           Polis Panzeri
+object_ambulance                         Ambulans
 object_hearse                            Hearse
-object_trooptruck                        Troop Truck
-object_fire                              Fire
-object_garbage                           Garbage
-object_rubble                            Rubble
-object_bookshelf                         Bookshelf
-object_officedesk                        Office Desk
-object_filingcabinet                     Filing Cabinet
-object_medicalbed                        Medical Bed
-object_morgueslab                        Morgue Slab
-object_equipment                         Equipment
-object_prop                              Prop
-object_dummy                             Dummy
-object_powerstation                      Power Station
-object_capacitor                         Capacitor
-object_electricalcable                   Electrical Cable
-object_powerswitch                       Power Switch
-object_logiccircuit                      Logic Circuit
-object_logicbridge                       Logic Bridge
-object_waterpumpstation                  Water Pump Station
-object_pipevalve                         Pipe Valve
-object_pipelarge                         Large Pipe
-object_pipesmall                         Small Pipe
-object_drain                             Drain
-object_sprinkler                         Sprinkler
-object_metaldetector                     Metal Detector
-object_weightsbench                      Weights Bench
-object_phonebooth                        Phone Booth
+object_trooptruck                        Akseri Kamyon
+object_fire                              Ateş
+object_garbage                           Çöp
+object_rubble                            Moloz
+object_bookshelf                         Kitaplık
+object_officedesk                        Ofis Masası
+object_filingcabinet                     Evrak Dolabı
+object_medicalbed                        Tıbbi Yatak
+object_morgueslab                        Morg Levhası
+object_equipment                         Ekipman
+object_prop                              Dekor
+object_dummy                             Manken
+object_powerstation                      Elektrik Santali
+object_capacitor                         Kondansatör
+object_electricalcable                   Elektrik Kablosu
+object_powerswitch                       Güç Şalteri
+object_logiccircuit                      Mantık Devresi
+object_logicbridge                       Mantık Köprüsü
+object_waterpumpstation                  Su Pompalama İstasyonu
+object_pipevalve                         Su Vanası
+object_pipelarge                         Büyük Boru
+object_pipesmall                         Küçük Boru
+object_drain                             Gider
+object_sprinkler                         Fıskiye
+object_metaldetector                     Metal Dedektörü
+object_weightsbench                      Ağırlık Sehpası
+object_phonebooth                        Telefon Kulübesi
 object_tv                                Tv
-object_largetv                           Large Tv
-object_pooltable                         Pool Table
-object_polaroid                          Polaroid
+object_largetv                           Geniş Tv
+object_pooltable                         Bilardo Masası
+object_polaroid                          Kare
 object_cctv                              CCTV
-object_cctvmonitor                       CCTV Monitor
-object_laundrymachine                    Laundry Machine
-object_laundrybasket                     Laundry Basket
-object_ironingboard                      Ironing Board
-object_visitortable                      Visitor Table
-object_visitortablesecure                Visitor Booth
-object_workshopsaw                       Workshop Saw
-object_workshoppress                     Workshop Press
-object_carpentertable                    Carpenter Table
-object_boombox                           Boombox
-object_guardlocker                       Guard Locker
-object_sofachairsingle                   Sofa
-object_sofachairdouble                   Wide Sofa
-object_drinkmachine                      Drink Machine
-object_arcadecabinet                     Arcade Cabinet
-object_radio                             Radio
-object_radiator                          Radiator
-object_bookshelflarge                    Library Bookshelf
-object_weaponrack                        Weapon Rack 
-object_treestump                         Tree Stump
-object_schooldesk                        School Desk
-object_superiorbed                       Superior Bed
-object_doorcontrolsystem                 Door Control System
-object_phonemonitor                      Phone Tap
-object_servo                             Door Servo
-object_doortimer                         Door Timer
-object_pressurepad                       Pressure Pad
-object_statuslight                       Status Light
-object_wire                              Connect
-object_dismantleobject                   Dismantle Object
-object_dismantleutility                  Dismantle Utility
-object_sellobject                        Sell Object
-object_canceljobs                        Cancel Jobs
-object_showallwires                      Show Wires
-object_tidywires                         Tidy Wires
-object_cutscenepolaroid                  Cutscene Polaroid
-object_cutscenecamera                    Cutscene Camera
-object_cutscenecue                       Cutscene Cue
-object_cutscenecaption                   Cutscene Caption
-object_foodwaste                         Food Waste
-object_altar                             Altar
-object_pews                              Pews
-object_prayermat                         Prayer Mat
-object_paroleofficer                     Parole Officer
-object_parolelawyer                      Parole Lawyer
-object_spiritualleader                   Spiritual Leader
-object_librarybookshelf                  Library Shelf
-object_librarybookunsorted               Library Book (Unsorted)
-object_librarybooksorted                 Library Book (Sorted)
-object_sortingtable                      Sorting Desk
-object_ruinedbook                        Ruined Book
-object_foodbowl                          Food
-object_appealslawyer                     Appeals Lawyer
-object_appealsmagistrate                 Appeals Magistrate
-object_mailsatchel                       Mail Satchel
-object_mailunsorted                      Unsorted Mail
-object_mailsorted                        Sorted Mail
-object_prisonermail                      Mail
-object_prisonermailopened                Mail (Opened)
-object_shopfront                         Shop Front
-object_shopgoods                         Shop Goods
-object_shopshelf                         Shop Shelf
-object_playmat                           Play Mat
-object_guardtower                        Guard Tower
-object_waterboiler                       Water Boiler
-object_pipehotwater                      Hot Water Pipe
-object_stafffood                         Staff Meals
-object_stafffoodboxed                    Staff Meals
-object_newspaper                         Newspaper
-object_strikefire                        Protest Fire
-object_climbingrope                      Climbing Rope
-object_roadbarrier                       Road Barrier
-object_barbedwire                        Barbed Wire
-object_banner                            Banner
+object_cctvmonitor                       CCTV Ekranı
+object_laundrymachine                    Çamaşır Makinesi
+object_laundrybasket                     Çamaşır Sepeti
+object_ironingboard                      Ütü Masası
+object_visitortable                      Ziyaretçi Masası
+object_visitortablesecure                Ziyaretçi Kulübesi
+object_workshopsaw                       Tezgah Testeresi
+object_workshoppress                     Baskı Makinesi
+object_carpentertable                    Marangoz Tezgahı
+object_boombox                           Teyp
+object_guardlocker                       Koruma Dolabı
+object_sofachairsingle                   Kanepe
+object_sofachairdouble                   Geniş Kanepe
+object_drinkmachine                      İçecek Otomatıs
+object_arcadecabinet                     Atari Kabini
+object_radio                             Radyo
+object_radiator                          Kalorifer
+object_bookshelflarge                    Kütüphane Kitaplığı
+object_weaponrack                        Silah Rafı 
+object_treestump                         Ağaç Kökü
+object_schooldesk                        Okul Sırası
+object_superiorbed                       Üstün Yatak
+object_doorcontrolsystem                 Kapı Kontrol Sistemi
+object_phonemonitor                      Telefon Dinleme
+object_servo                             Kapı Otomatı
+object_doortimer                         Kapı Zamanlayıcısı
+object_pressurepad                       Basınç Plağı
+object_statuslight                       Durum Işığı
+object_wire                              Bağla
+object_dismantleobject                   Nesneyi Sök
+object_dismantleutility                  Aracı Sök
+object_sellobject                        Nesneyi Sat
+object_canceljobs                        İşi İptal Et
+object_showallwires                      Kabloları Göster
+object_tidywires                         Kabloları Düzenle
+object_cutscenepolaroid                  Arasahne Karesi
+object_cutscenecamera                    Arasahne Kamerası
+object_cutscenecue                       Arasahne Repliği
+object_cutscenecaption                   Arasahne Alt Yazısı
+object_foodwaste                         Yemek Atığı
+object_altar                             Sunak
+object_pews                              Kilise Sırası
+object_prayermat                         Dua Halısı
+object_paroleofficer                     Şartlı Tahliye Memuru
+object_parolelawyer                      Şartlı Tahliye Avukatı
+object_spiritualleader                   Ruhani Lider
+object_librarybookshelf                  Kütüphane Rafı
+object_librarybookunsorted               Kütüphane Kitabı (Dizilmemiş)
+object_librarybooksorted                 Kütüphane Kitabı (Dizilmiş)
+object_sortingtable                      Dizme Masası
+object_ruinedbook                        Mahvolmuş Kitap
+object_foodbowl                          Yemek
+object_appealslawyer                     Temyiz Avukatı
+object_appealsmagistrate                 Sulh Yargıcı
+object_mailsatchel                       Postacı Çantası
+object_mailunsorted                      Dizilmemiş Posta
+object_mailsorted                        Dizilmiş Posta
+object_prisonermail                      Posta
+object_prisonermailopened                Posta (Açılmış)
+object_shopfront                         Dükkan Önü
+object_shopgoods                         Dükkan Malları
+object_shopshelf                         Dükkan Rafı
+object_playmat                           Oyun Halısı
+object_guardtower                        Koruma Kulesi
+object_waterboiler                       Sıcak Su Kazanı
+object_pipehotwater                      Sıcak Su Borusu
+object_stafffood                         Personal Yemekleri
+object_stafffoodboxed                    Personal Yemekleri
+object_newspaper                         Gazete
+object_strikefire                        Gösteri Ateşi
+object_climbingrope                      Tırmanma Halatı
+object_roadbarrier                       Yol Engeli
+object_barbedwire                        Dikenli Tel
+object_banner                            Pankart
 object_stand                             Stand
 
 
-material_none                            None
-material_building                        Building (Brick)
-material_buildingconcrete                Building (Concrete)
-material_demolish                        Bulldoze
-material_clearindoorarea                 Clear Indoor Area
-material_demolishwalls                   Demolish Walls
-material_removetunnels                   Remove Tunnels
-material_canceljobs                      Cancel Jobs
-material_dirt                            Dirt
-material_sand                            Sand
-material_pavingstone                     Paving Stone
-material_grass                           Grass
-material_gravel                          Gravel
-material_road                            Road
-material_roadmarkings                    Road Markings
-material_roadmarkingsleft                Road Markings (Left)
-material_roadmarkingsright               Road Markings (Right)
-material_stone                           Stone
-material_fence                           Fence
-material_concretetiles                   Concrete Tiles
-material_concretefloor                   Concrete Floor
-material_woodenfloor                     Wooden Floor
-material_ceramicfloor                    Ceramic Floor
-material_mosaicfloor                     Mosaic Floor
-material_metalfloor                      Metal Floor
-material_marbletiles                     Marble Tiles
-material_whitetiles                      White Tiles
-material_fancytiles                      Fancy Tiles
-material_concretewall                    Concrete Wall
-material_brickwall                       Brick Wall
-material_perimeterwall                   Perimeter Wall
-material_burntfloor                      Burnt Floor
-material_burntwall                       Burnt Wall
-material_buildingframe                   Building Frame
-material_roof                            Roof
-material_water							 Water
+material_none                            Hiçbiri
+material_building                        Bina (Tuğla)
+material_buildingconcrete                Bina (Beton)
+material_demolish                        Yık
+material_clearindoorarea                 İç Mekanı Kaldır
+material_demolishwalls                   Duvarları Yık
+material_removetunnels                   Tünelleri Kaldır
+material_canceljobs                      İşleri İptal Et
+material_dirt                            Toprak
+material_sand                            Kum
+material_pavingstone                     Kaldırım Taşı
+material_grass                           Çim
+material_gravel                          Çakıl
+material_road                            Yol
+material_roadmarkings                    Yol İşaretleri
+material_roadmarkingsleft                Yol İşaretleri (Sol)
+material_roadmarkingsright               Yol İşaretleri (Sağ)
+material_stone                           Taş
+material_fence                           Telörgü
+material_concretetiles                   Beton Fayans
+material_concretefloor                   Beton Zemin
+material_woodenfloor                     Ahşap Zemin
+material_ceramicfloor                    Seramik Zemin
+material_mosaicfloor                     Mozaik Zemin
+material_metalfloor                      Metal Zemin
+material_marbletiles                     Mermer Fayans
+material_whitetiles                      Beyaz Fayans
+material_fancytiles                      Süslü Fayans
+material_concretewall                    Beton Duvar
+material_brickwall                       Tuğla Duvar
+material_perimeterwall                   Çevre Duvarı
+material_burntfloor                      Yanmış Zemin
+material_burntwall                       Yanmuş Zemin
+material_buildingframe                   Bina Çerçevesi
+material_roof                            Çatı
+material_water							 Su
 
-room_none                                None
-room_cell                                Cell
-room_holdingcell                         Holding Cell
-room_solitary                            Solitary
-room_superiorcell                        Superior Cell
-room_dormitory                           Dormitory
-room_familycell                          Family Cell
-room_sharedcell                          Shared Cell
-room_canteen                             Canteen
-room_canteen_staff						 Staff Canteen
-room_kitchen                             Kitchen
-room_shower                              Shower
-room_yard                                Yard
-room_storage                             Storage
-room_deliveries                          Deliveries
-room_garbage                             Garbage
-room_execution                           Execution
-room_workshop                            Workshop
-room_security                            Security
-room_office                              Office
-room_medicalward                         Infirmary
-room_morgue                              Morgue
-room_commonroom                          Common Room
-room_laundry                             Laundry
-room_visitation                          Visitation
-room_cleaningcupboard                    Cleaning Cupboard
-room_kennel                              Kennel
-room_armoury                             Armoury
-room_staffroom                           Staffroom
-room_library                             Library
-room_forestry                            Forestry
-room_classroom                           Classroom
-room_exports                             Exports
-room_chapel                              Chapel
-room_intake                              Reception
+room_none                                Hiçbiri
+room_cell                                Hücre
+room_holdingcell                         Nezarethane
+room_solitary                            Tek Hücre
+room_superiorcell                        Üstün Hücre
+room_dormitory                           Koğuş
+room_familycell                          Aile Hücresi
+room_sharedcell                          Paylaşımlı Hücre
+room_canteen                             Yemekhane
+room_canteen_staff						 Personal Yemekhanesi
+room_kitchen                             Mutfak
+room_shower                              Duş
+room_yard                                Avlu
+room_storage                             Depo
+room_deliveries                          Teslimatlar
+room_garbage                             Çöp
+room_execution                           İnfaz
+room_workshop                            Atölye
+room_security                            Güvenlik
+room_office                              Ofis
+room_medicalward                         Revir
+room_morgue                              Morg
+room_commonroom                          Dinlenme Odası
+room_laundry                             Çamaşırhane
+room_visitation                          Ziyaret Yeri
+room_cleaningcupboard                    Temizlik Dolabı
+room_kennel                              Köpek Kulübesi
+room_armoury                             Cephanelik
+room_staffroom                           Personal Odası
+room_library                             Kütüphane
+room_forestry                            Ormanlık
+room_classroom                           Sınıf
+room_exports                             İhraçlar
+room_chapel                              Şapel
+room_intake                              Kabulhane
 room_clearrooms                          Clear Rooms
-room_paroleroom                          Parole
-room_mailroom                            Mail Room
-room_shop                                Shop
-room_nursery                             Nursery
-room_dock								 Dock
-room_Helipad							 Helipad
+room_paroleroom                          Şartlı Tahliye
+room_mailroom                            Posta Odası
+room_shop                                Dükkan
+room_nursery                             Kreş
+room_dock								 Rıhtım
+room_Helipad							 Helikopter Pisti
 
 equipment_none                           None
 equipment_fists                          Fists
