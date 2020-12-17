@@ -2798,7 +2798,7 @@ reform_program_difficulty_expert        - Uzman
 
 regime_nothing                          Kilitleme
 regime_sleep                            Uyku
-regime_eat                              Yeme
+regime_eat                              Yemek
 regime_shower                           Banyo
 regime_yard                             Avlu
 regime_work                             İş/Boş Zaman
