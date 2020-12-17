@@ -2714,99 +2714,99 @@ equipment_rope							Halat
 
 research_requires_short                 *X Gerekiyor
 
-reformprogram_workshopinduction         Workshop Safety Induction
-reformprogram_foundationeducation       Foundation Education Program
-reformprogram_generaleducation          General Education Qualification
-reformprogram_carpentry                 Carpentry Apprenticeship
-reformprogram_kitcheninduction          Kitchen Safety and Hygiene
-reformprogram_therapy                   Behavioural Therapy
-reformprogram_methadone                 Pharmacological Treatment of Drug Addiction
-reformprogram_alcoholicsmeeting         Alcoholics Group Therapy
-reformprogram_tazertraining             Guard Tazer Certification
-reformprogram_spiritualguidance         Spiritual Guidance
-reformprogram_parolehearing             Parole Hearing
-reformprogram_deathrowappeal            Death Row Appeal
+reformprogram_workshopinduction         Atölye Güvenliği Karşılaması
+reformprogram_foundationeducation       Temel Eğitim Programı
+reformprogram_generaleducation          Ortaöğretim Derecelendirme
+reformprogram_carpentry                 Marangozluk Çıraklık Eğitimi
+reformprogram_kitcheninduction          Mutfak Hijyeni ve Güvenliği
+reformprogram_therapy                   Davranış Terapisi
+reformprogram_methadone                 Uyuşturucu Bağımlılığının İlaçla Tedavisi
+reformprogram_alcoholicsmeeting         Alkolik Grup Tedavisi
+reformprogram_tazertraining             Koruma Elektroşok Cihazı Sertifikası
+reformprogram_spiritualguidance         Ruhani Rehberlik
+reformprogram_parolehearing             Şartlı Tahliye Duruşması
+reformprogram_deathrowappeal            Ölüm Mahkumu Temyizi
 
-reformprogram_tazertrained              Certified : Tazer
+reformprogram_tazertrained              Sertifikalı : Elektroşok Cihazı
 
-reformprogram_workshopinduction_text    Safety first! Inmates must pass this course before they are permitted to work in the Workshop.
-reformprogram_foundationeducation_text  Many inmates lack even a basic foundation in reading, writing, and maths skills. This course brings inmates up to that level. Passing allows prisoners to work in the Library.
-reformprogram_carpentry_text            A complex tradeskill that requires good practical ability. Qualified inmates can use this skill to create high value wooden items on the carpenters table.
-reformprogram_kitcheninduction_text     Food standards are important when catering for hundreds of people at once. Inmates must complete this course before they are permitted to work in the kitchen.
-reformprogram_therapy_text              Inmates often struggle to control their violent nature. These one-on-one sessions with the prison psychologist aims to give them the tools necessary to de-escalate any situation they find themselves in before it turns violent.
-reformprogram_methadone_text            A course of 5 pharmacological substitutes, used to combat a prisoner's addiction to narcotics. Each treatment helps the prisoner with their addiction need, and completing the course has a chance to remove the addiction all together.
-reformprogram_alcoholicsmeeting_text    A group therapy meeting for alcoholics. Helps reduce the desire for alcohol. Never completely removes the need.
-reformprogram_parolehearing_text        A hearing to determine is a prisoner is eligible for early release. A successful release in which a prisoner doesn't reoffend will award a nice bonus. 
-reformprogram_spiritualguidance_text    Some prisoners are religious, or have a general need for some spirituality in their life. Bring in a spiritual leader from the local community to lead them through prayers and instil a sense of calm amongst your prisoners.
+reformprogram_workshopinduction_text    Önce iş güvenliği! Mahkumlar Atölye'de çalışmaya başlamadan önce ilk bu kursu geçmeleri gerekiyor.
+reformprogram_foundationeducation_text  Çoğu Mahkum okuma, yazma ve matematik becerileri gibi basit temellerden bile yoksundur. Bu kurs mahkumları bu seviyeye çıkarmak için var. Bu kursu geçmek mahkumların Kütüphanede çalışmasına izin verir.
+reformprogram_carpentry_text            İyi bir pratik beceri gerektiren karmaşık bir meslek. Mahkumlar, marangoz sehpası ile bu beceriyi kullarak odundan yüksek değerde eşyalar yapabilirler.
+reformprogram_kitcheninduction_text     Yemek kalitesi yüzlerce kişiye yemek servis ederken önemli bir faktör. Mahkumlar bu işe kabul edilmeden önce bu kursu tamamlamalılar.
+reformprogram_therapy_text              Mahkumlar sık sık şiddet dolu doğalarını kontrol ederken zorlanırlar. Bu psikologla yapılacak olan teke-tek oturumlar mahkumlara kendilerini buldukları her durumda şiddete başvurmamaları konusunda hızlarını düşürecek.
+reformprogram_methadone_text            5 farmakolojik ikame için kurs, mahkumunların narkotiklere karşı olan savaşında kullanıldı. Her tedavi mahkumun bağımlılık yapıcı ihtiyaçları konusunda yardım edicidir, ve bu kursu tamamlamak bağımlılıklardan tamamıyla kurtulma şansıyla birlikte geliyor.
+reformprogram_alcoholicsmeeting_text    Alkolikler için grup buluşma terapisi. alkole olan arzuyu azaltmak konusunda yardımcı olur. Asla ihtiyacı tamamıyla yok etmez.
+reformprogram_parolehearing_text        Bir mahkumun erken serbest bırakılmaya uygun olup olmadığına karar verilen duruşma. Başarılı ibr serbest bırakmada eğer mahkum tekrardan suç işlemezse güzel bir bonus ile ödüllendirilirsiniz. 
+reformprogram_spiritualguidance_text    Bazı mahkumlar dindadır, ya da genel olarak hayatlarında bazı ruhani arzular vardır. Mahkumlara ibadet ve aralarına sakinlik tohumu serpmeleri konusunda önderlik yapmak için yerel topluluktan bir ruhani lider getirt.
 
-reformerror_unscheduled                 UNSCHEDULED
-reformerror_noroom                      NO ROOM FOUND
-reformerror_nofreetimeslot              ALL ROOMS BOOKED
-reformerror_staffonly                   ALL ROOMS STAFF ONLY
-reformerror_noobjects                   NO EQUIPMENT
-reformerror_noregimetime                NO REGIME TIMESLOT
-reformerror_noteachers                  NO TEACHER
+reformerror_unscheduled                 PROGRAMLANMAMIŞ
+reformerror_noroom                      HİÇ ODA BULUNAMADI
+reformerror_nofreetimeslot              BUTUN ODALAR ÖNCEDEN AYRILMIŞ
+reformerror_staffonly                   BÜTÜN ODALAR YALNIZCA PERSONELE AIT
+reformerror_noobjects                   EKİPMAN YOK
+reformerror_noregimetime                PROGRAMDA AYARLI SAAT YOK
+reformerror_noteachers                  ÖĞRETMEN YOK
 
-reform_interested                       *X Interested 
-reform_interested_qualified             *X Interested/Qualified 
-reform_queued                           *X in Queue 
-reform_completion                       - *X Finished - *Y Passed (*P%)
-reform_locked                           LOCKED
-reform_start                            START
-reform_costpersession                   *X per session
-reform_placespersession                 *X places / *Y sessions
-reform_program_starting                 Starting
-reform_program_active                   ACTIVE
-reform_program_paused                   Paused
-reform_program_stop                     STOP
-reform_program_ledby                    - Led by a *P in a *Z
-reform_program_ledwith                  - Assisted by a *S
-reform_program_length                   - Session Length: *X hours
-reform_program_requirements             - Each prisoner requires a *X
-reform_program_requirements_alt         - Each prisoner requires a *X or a *Y
-reform_program_prereqs                  Prisoners must have completed:
-reform_program_research_required        Required: *X
+reform_interested                       *X kişi İlgili 
+reform_interested_qualified             *X kişi İlgili/Uygun 
+reform_queued                           *X kişiSırada 
+reform_completion                       - *X kişi Bitirdi - *Y kişi Geçti (*P%)
+reform_locked                           KİLİTLİ
+reform_start                            BAŞLAT
+reform_costpersession                   Kişi başı *X oturum
+reform_placespersession                 *X adet yer / *Y adet oturum
+reform_program_starting                 Başlıyor
+reform_program_active                   ETKIN
+reform_program_paused                   Duraklatıldı
+reform_program_stop                     DURDUR
+reform_program_ledby                    - *P tarafından *Z bölgesinde yönetiliyor
+reform_program_ledwith                  - *S tarafından destekleniyor
+reform_program_length                   - Oturum Süresi: *X saat
+reform_program_requirements             - Her mahkuma bir *X gerekiyor
+reform_program_requirements_alt         - Her mahkuma bir *X veya bir *Y gerekiyor
+reform_program_prereqs                  Mahkumlar tamamlamış olmalı:
+reform_program_research_required        Gereken: *X
 
-reform_program_intake_none                      None
-reform_program_intake_mandatory                 Mandatory
-reform_program_intake_voluntary                 Voluntary
-reform_program_intake_referralviolence          Referral: Violence
-reform_program_intake_referraldrugaddiction     Referral: Drug Addiction
-reform_program_intake_referralalcoholism        Referral: Alcoholism
-reform_program_intake_guards                    For Guards Only
-reform_program_intake_parole                    After either 50% or 75% of sentence has been served
-reform_program_intake_needrequired              Each prisoner requires a specific need before joining
-reform_program_intake_deathrow                  Prisoner is on Death Row
+reform_program_intake_none                      Hiçbiri
+reform_program_intake_mandatory                 Gerekli
+reform_program_intake_voluntary                 Gönüllü
+reform_program_intake_referralviolence          Başvuru: Şiddet
+reform_program_intake_referraldrugaddiction     Başvuru: Uyuşturucu Bağımlılığı
+reform_program_intake_referralalcoholism        Başvuru: Alkolizm
+reform_program_intake_guards                    Yalnızca Korumalar İçin
+reform_program_intake_parole                    %50 veya %75 huküm sürdükten sonra.
+reform_program_intake_needrequired              Her mahkum katılmadan önce özel bir ihtiyaca gereksinim duyar.
+reform_program_intake_deathrow                  Mahkum, Ölüm Mahkumudur
 
-reform_program_properties_canhireexternally     Can Hire Externally
-reform_program_properties_studentssit           Students Sit
-reform_program_properties_academic              Academic
-reform_program_properties_practical             Practical
-reform_program_properties_repeatable            Repeatable
-reform_program_properties_passive               Passive
-reform_program_properties_staffonly             Staff Only
-reform_program_properties_outsideofwork         Can be outside of work hours
-reform_program_properties_teacherssit           Teachers Sit
-reform_program_properties_canescortstudent      Students can be escorted by guards
+reform_program_properties_canhireexternally     Harici Olarak İşe Alabilir
+reform_program_properties_studentssit           Öğrenci Oturağı
+reform_program_properties_academic              Akademik
+reform_program_properties_practical             Pratik
+reform_program_properties_repeatable            Tekrarlanabilir
+reform_program_properties_passive               Pasif
+reform_program_properties_staffonly             Yalnızca Personel
+reform_program_properties_outsideofwork         Çalışma saatlerinin dışında olabilir
+reform_program_properties_teacherssit           Öğretmenler Oturağı
+reform_program_properties_canescortstudent      Öğrenciler korumalar tarafından eşlik edilebilir
 
-reform_program_waittime                         Can only be done once every *T days
+reform_program_waittime                         Yalnıca her *T günde bir kere yapılabilir
 
-reform_program_difficulty_easy          - Easy
-reform_program_difficulty_intermediate  - Intermediate
-reform_program_difficulty_advanced      - Advanced
-reform_program_difficulty_expert        - Expert
+reform_program_difficulty_easy          - Kolay
+reform_program_difficulty_intermediate  - Orta
+reform_program_difficulty_advanced      - Gelişmiş
+reform_program_difficulty_expert        - Uzman
 
-regime_nothing                          Lockup
-regime_sleep                            Sleep
-regime_eat                              Eat
-regime_shower                           Shower
-regime_yard                             Yard
-regime_work                             Work/FreeTime
-regime_lockdown                         Lockdown
+regime_nothing                          Kilitleme
+regime_sleep                            Uyku
+regime_eat                              Yeme
+regime_shower                           Banyo
+regime_yard                             Avlu
+regime_work                             İş/Boş Zaman
+regime_lockdown                         Tecrit
 regime_freetime                         FreeTime
-regime_currenttime                      Now
-regime_unspecified                      Unspecified
-regime_worklockdown                     Work/Lockup
+regime_currenttime                      Şu an
+regime_unspecified                      Belirtilmemiş
+regime_worklockdown                     İş/Kilitleme
 
 regimetooltip_nothing                   Prisoners are locked in their cells. They have nothing to do but reflect on the choices they made that led them to this place.\n\nLong stretches of lockup can prove a decisive punishment to even the hardest of prisoners.
 regimetooltip_sleep                     Prisoners are locked in their cells, and the lights are turned out. Everyone goes to sleep.\n\nExcept those who are digging escape tunnels...
