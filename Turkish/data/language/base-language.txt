@@ -1516,7 +1516,7 @@ report_staff_group_prisoners_protected  Protective Custody
 report_staff_group_prisoners_supermax   SuperMax
 report_staff_group_prisoners_deathrow   Death Row
 
-report_staff_fire                       FIRE
+report_staff_fire                       KOV
 
 report_intake_title                     Intake
 report_intake_catheader_cat             Category
@@ -2798,7 +2798,7 @@ reform_program_difficulty_expert        - Uzman
 
 regime_nothing                          Kilitleme
 regime_sleep                            Uyku
-regime_eat                              Yemek
+regime_eat                              Yemek	
 regime_shower                           Banyo
 regime_yard                             Avlu
 regime_work                             İş/Boş Zaman
