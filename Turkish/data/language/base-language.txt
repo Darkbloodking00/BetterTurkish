@@ -2803,7 +2803,7 @@ regime_shower                           Banyo
 regime_yard                             Avlu
 regime_work                             İş/Boş Zaman
 regime_lockdown                         Tecrit
-regime_freetime                         FreeTime
+regime_freetime                         Boş Zaman
 regime_currenttime                      Şu an
 regime_unspecified                      Belirtilmemiş
 regime_worklockdown                     İş/Kilitleme
