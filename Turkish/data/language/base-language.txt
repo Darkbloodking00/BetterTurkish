@@ -2817,62 +2817,62 @@ regimetooltip_work                      Mahkumlar hapishanede çalıştırılır
 regimetooltip_freetime                  Mahkumlar hücrelerinden salınmış ve hapishanede bulunan her tesisi kullanmalarına izin verilmiştir. Mahkumlar en fazla bu zamandan hoşlanır ve zamanlarını ihtiyaçlarını en iyi şekilde karşılamak ve sosyalleşmek için geçirirler.\n\n Uzun süreli boş zaman hapishanedeki stres ve gerginliği azaltabilir, ama çoğu kişi bunun güç bela bir cezalandırma olarak görür.
 regimetooltip_worklockdown              Mahkumlar hapishanede çalıştırılırlar.  Açılan her işin yeri doldurulacak ve mahkumlar otomatik olarak çalıştıkları yerlerin konumunu rapor edecekler. (Yeni iş kapılarını Konuşlandırma ekranından ayarlayabilirsiniz.)\n\nAyrıca bütün Reform programları da bu sürede gerçekleşir.  Mahkumlar hiçbir iş veya Reform programına atanmadıysa 'Kilitleme' adı altında hücrelerinde kısıtlandırılırlar.
 
-regime_clear                            Clear the regime for this category of prisoner, and use the default Normal Security regime instead.
+regime_clear                            Bu kategorideki mahkumlar için programı kaldırır, ve yerine varsayılan Normal Güvenlikli programına geçilir.
 
-schedule_editor_students                Students: *X/*Y
-schedule_editor_error_staffonly         Target room is marked as Staff Only
-schedule_editor_error_noregimetime      Program is outside a valid Work regime
-schedule_editor_error_noteachers        No teachers exist for this program
-schedule_editor_error_noobjects         The objects required for this program cannot be found in a valid room
-schedule_editor_pin                     Pin this program in place
-schedule_editor_unpin                   Unpin this program
+schedule_editor_students                Öğrenciler: *X/*Y
+schedule_editor_error_staffonly         Belirtilmiş oda Yalnızca Personal erişimine açık
+schedule_editor_error_noregimetime      Program geçerli bir İş programının dışında
+schedule_editor_error_noteachers        Bu program için hiç öğretmen bulunmuyor
+schedule_editor_error_noobjects         Bu program için gerekli nesneler geçerli bir odada bulunmuyor
+schedule_editor_pin                     Bu programı yerine sabitle
+schedule_editor_unpin                   Bu programı sabitlemeden çıkar
 
 # =============================================================================
 # DoorTimer stuff
 # =============================================================================
 
-doortimer_title                         Door Timer Control
-doortimer_connected_servos              *X Connected Servos
-doortimer_state_open                    Open
-doortimer_state_closed                  Closed
+doortimer_title                         Kapı Zamanlayıcı Kontrolü
+doortimer_connected_servos              *X Bağlı Tetik
+doortimer_state_open                    Açık
+doortimer_state_closed                  Kapalı
 
-doortimer_security_none                 Any Security
-doortimer_security_minsec               Minimum Security
-doortimer_security_normal				Medium Security
-doortimer_security_maxsec               Maximum Security
-doortimer_security_Protected            Protective Custody
-doortimer_security_SuperMax             SuperMax
-doortimer_security_DeathRow             Death Row
+doortimer_security_none                 Her Güvenlikli
+doortimer_security_minsec               Minimum Güvenlikli
+doortimer_security_normal				Orta Güvenlikli
+doortimer_security_maxsec               En Yüksek Güvenlikli
+doortimer_security_Protected            İhtiyati Tutuklama
+doortimer_security_SuperMax             SüperMaks
+doortimer_security_DeathRow             Ölüm Makhumları
 
 
 # =============================================================================
 # Execution
 # =============================================================================
 
-execution_stage_completed               COMPLETED
-execution_stage_authorise               AUTHORISE
-execution_stage_Start                   Execution initiated
-execution_stage_Lockdown                Initiate prison-wide lockdown
-execution_stage_Testing                 Test facility
-execution_stage_Assemble                Assemble execution detail
-execution_stage_Witnesses               Escort witnesses to facility
-execution_stage_Escort                  Escort prisoner to facility
-execution_stage_Execution               EXECUTION
-execution_stage_Dismissed               Dismiss staff and witnesses
-execution_stage_FinalReport             Final report
+execution_stage_completed               TAMAMLANDI
+execution_stage_authorise               ONAYLA
+execution_stage_Start                   İnfaz başlatıldı
+execution_stage_Lockdown                Hapishane-çapında kilitleme başlat
+execution_stage_Testing                 Test tesisi
+execution_stage_Assemble                İnfaz detayını topla
+execution_stage_Witnesses               Şahitleri tesise eşlik et
+execution_stage_Escort                  Mahkumu tesise eşlik et
+execution_stage_Execution               İNFAZ
+execution_stage_Dismissed               Personelleri ve tanıkları çıkar
+execution_stage_FinalReport             Son Rapor
 
-execution_stagetooltip_start            You have scheduled the execution of this inmate, and must now follow the official procedure.
-execution_stagetooltip_lockdown         All prisoners are sent back to their cells and the prison is locked down.
-execution_stagetooltip_testing          The final test pass to ensure everything is working. The electrical supply to the chair is tested under load.  In addition, the final route of the prisoner is planned out - he must be able to walk to the execution room himself.
-execution_stagetooltip_assemble         The Warden and the Chief make their way to the condemned inmate's cell.  In addition, a priest or spiritual leader of the prisoners choice arrives on site and visits the prisoner in his cell to say final prayers.
-execution_stagetooltip_witnesses        Witnesses to the execution arrive on site, and make their way to the execution facility. This group can include family members of the condemned inmate, and also members of the victims family.\n\nNb. Execution witnesses should be provided with chairs.
-execution_stagetooltip_escort           The condemned inmate is escorted from his cell to the execution facility. The Warden, Chief, and Priest accompany him.
-execution_stagetooltip_execution        With everyone in place and all procedures followed, the final authorisation for the execution is given.
-execution_stagetooltip_dismissed        The staff and witnesses are dismissed and may leave the facility.
-execution_stagetooltip_finalreport      With the execution completed, a report is compiled, and your performance graded.
+execution_stagetooltip_start            Bu tutuklunun infaz edilmesini belirledin, ve resmi prosedürü takip etmek zorundasın.
+execution_stagetooltip_lockdown         Bütün mahkumlar hücrelerine yollanır ve hapishane kilitlenir.
+execution_stagetooltip_testing          Her şeyin düzgün çalıştığından emin olman için yaptığın son test. Güç kaynağına elektrikli sandalya ile yük testi yapılır  Ayrıca, mahkumun son yolculuğu da planlamış olur - infaz odasına kendi başına gidebiliyor olması gerekmektedir.
+execution_stagetooltip_assemble         Müdür ve Amir hükümlü tutuklunun hüceresine giderler.  Ayrıca, son dualarını etmeleri için bir rahip veya mahkumun belirlediği bir ruhani lider mahkumun hücresine gider.
+execution_stagetooltip_witnesses        İnfaz Şahitleri hapishanin içine gelirler, ve infaz tesisine kadar giderler. Bu grup hükümlü tutuklunun ailesi olabileceği gibi ayrıca mağdurun ailesi de olabilirs.\n\nNb. İnfaz şahitlerine oturmaları için sandalye verilmesi gerekir.
+execution_stagetooltip_escort           Hükümlü tutuklu hücresinden infaz tesisine kadar eşlik edilir. Müdür, Amir ve Rahip de yanında olur.
+execution_stagetooltip_execution        Herkes yerinde ve prosedür de takip edildiğinden infaz için son yetki de verilir.
+execution_stagetooltip_dismissed        Personel ve şahitler dağıtılmış olup tesisten ayrılabilirler.
+execution_stagetooltip_finalreport      İnfazın tamamlanması ile birlikte bir rapor derlendi ve performansın değerlendirildi.
 
-execution_underway                      EXECUTION UNDERWAY
-execution_result_ok                     The mandated execution of *N was carried out at *T as scheduled, by electric chair, in the presence of witnesses. The standard compensation of $10,000 is awarded to the institution for their part in this process.
+execution_underway                      İNFAZ SEYİR HALİNDE
+execution_result_ok                     *N zanlısının elektrikli sandalya ile ve şahitlerin gözetimindeki infaz kararı *T bölgesinde belirlendi. Bu süreçteki rölü nedeniyle hapishane $10.000 tazminat ile ödüllendirilmiştir.
 execution_result_appealed               The mandated execution of *N was carried out at *T as scheduled, by electric chair, in the presence of witnesses. Regrettably, new information came to light after the fact that would have affected his appeal for clemency, though no action will be taken against the institution and they will receive the standard compensation of $10,000 for their part in the process.
 execution_result_innocent               The mandated execution of *N was carried out at *T as scheduled, by electric chair, in the presence of witnesses. Regrettably, evidence was later uncovered that revealed *N's innocence, though no action will be taken against the institution and they will receive the standard compensation of $10,000 for their part in the process.
 execution_result_illegal                The execution of *N was carried out at *T as scheduled, by electric chair, in the presence of witnesses. Due to the failure to follow the legally required appeals process and the discovery of information that would have ultimately resulted in a successful appeal, the institution is fined $50,000. Due to the failure to follow proper protocol, executions are suspended until a later date, and any remaining Death Row prisoners will be transferred to another facility. 
@@ -2901,188 +2901,188 @@ mail_contents                            Contents: *X Letters
 mail_opened_from                         Letter from *X's *F
 mail_closed_from                         Letter to *X
 
-object_dump                             Garbage
-object_todo                             Todo: *X
-object_sale_price                       Sale Price: *X
+object_dump                             Çöp
+object_todo                             Yapılacaklar: *X
+object_sale_price                       Satış Ücreti: *X
 
-object_door_cyclepermissions            Click to cycle Access Permissions
-object_door_cyclepermissions_1          (Open, Staff Only, Closed)
+object_door_cyclepermissions            Tıkla ve yetkiler arasında geçiş yap
+object_door_cyclepermissions_1          (Açık, Yalnızca Personel, Kapalı)
 
-object_firemen_hosehelp_move            Click Right Mouse to order your Firemen to move there
-object_firemen_hosehelp_intro           Firemen will aim hoses at any nearby fire
-object_firemen_hosehelp                 Press H to Aim their hoses manually
+object_firemen_hosehelp_move            Sağ Fare Tuşuna tıklayarak İtfaiyecilerini oraya yönlendir
+object_firemen_hosehelp_intro           İtfaiyeciler hortumlarını yakındaki yangına yönlendirecekler
+object_firemen_hosehelp                 H Tuşuna Basarak hortumları manuel Yönlendir
 
-interface_clone_help_copy               Hold Right Mouse and drag to select an area to clone
-interface_clone_help_paste              Click Left Mouse to copy selected area
+interface_clone_help_copy               Sağ Fare Tuşuna basılı tutup sürükleyerek seçili alanı klonla
+interface_clone_help_paste              Sol Fare Tuşuna basarak seçili alanı kopyala
 
-object_inactive                         INACTIVE
-object_cctv_moremonitors                Build more CCTV Monitors
-object_cctvmonitor_needsguards          Guard Required to Operate Monitor
-object_processor_blocked                Working Position Cannot be Reached
+object_inactive                         PASİF
+object_cctv_moremonitors                Daha fazla CCTV Ekranı kur
+object_cctvmonitor_needsguards          Ekran'ı İdare Etmek için Koruma Gerek
+object_processor_blocked                Çalışma Noktasına Erişilemiyor
 
-administrator_requiresoffice            Requires Office
-administrator_requiresoffice_2          *X Requires Office
-office_ownership                        *X's Office
+administrator_requiresoffice            Ofis Gerekiyor
+administrator_requiresoffice_2          *X Ofis Gerektiriyor
+office_ownership                        *X Personel Ofisi
 
-teacher_teaching                        Teaching
-teacher_preparing                       Preparing
+teacher_teaching                        Öğretiliyor
+teacher_preparing                       Hazırlanıyor
 
-prisoner_assignedto                     Requires: *X
-prisoner_roomquality                    Cell quality: *X (*Y)
-prisoner_roomquality_average            Average
-prisoner_roomquality_aboveaverage       Above average
-prisoner_roomquality_wayaboveaverage    Way above average
-prisoner_roomquality_belowaverage       Below average
-prisoner_roomquality_waybelowaverage    Way below average
-prisoner_attendance                     Attendance
-prisoner_concentration                  Concentration
-prisoner_understanding                  Understanding
-prisoner_concentration_0                Terrible
-prisoner_concentration_1                Bad
-prisoner_concentration_2                Adequate
-prisoner_concentration_3                Good
-prisoner_concentration_4                Excellent
-prisoner_passchance                     Success Chance: *X%
-prisoner_informant                      Confidential Informant
+prisoner_assignedto                     *X Gerektiriyor
+prisoner_roomquality                    Hücre Kalitesi: *X (*Y)
+prisoner_roomquality_average            Ortalama
+prisoner_roomquality_aboveaverage       Ortalamanın üstü
+prisoner_roomquality_wayaboveaverage    Ortalamanın çok üstü
+prisoner_roomquality_belowaverage       Ortalamanın altı
+prisoner_roomquality_waybelowaverage    Ortalamanın çok altı
+prisoner_attendance                     Katılım
+prisoner_concentration                  Yoğunlaşma
+prisoner_understanding                  Anlaşılma
+prisoner_concentration_0                Berbat
+prisoner_concentration_1                Kötü
+prisoner_concentration_2                Yeterli
+prisoner_concentration_3                İyi
+prisoner_concentration_4                Mükemmel
+prisoner_passchance                     Başarı Şansı: *X%
+prisoner_informant                      Köstebek
 
-prisoner_dayswithoutincident            *X days without incident
-prisoner_availablemoney                 Cash : $*X
+prisoner_dayswithoutincident            *X gün olaysız geçti
+prisoner_availablemoney                 Para : $*X
 
-informant_title                         INFORMANT
-informant_coverage						COVERAGE
-informant_suspicion						SUSPICION
-informant_status						STATUS
-informant_none                          You Have No CI's On Record
+informant_title                         KÖSTEBEK
+informant_coverage						KAPSAMA
+informant_suspicion						ŞÜPHE SEVİYESİ
+informant_status						DURUM
+informant_none                          Kayıtlarda hiç köstebeğiniz yok
 informant_hint                          (Recruit Prisoners under Duress - eg in Solitary)
-informant_recruitable                   (Potential CI)
-informant_target                        Target
-informant_dead                          DEAD
-informant_released                      Released
-informant_coverblown                    COVER BLOWN
-informant_activate                      Activate
-informant_deactivate                    Deactivate
-informant_idle                          Idle
-informant_onroute                       On Route...
-informant_active                        Active
-informant_coveragecaps                  COVERAGE *X%
+informant_recruitable                   (Potansiyel Köstebek)
+informant_target                        Hedef
+informant_dead                          ÖLÜ
+informant_released                      Serbest Bırakılmış
+informant_coverblown                    FOYASI MEYDANA ÇIKTI
+informant_activate                      Etkinleştir
+informant_deactivate                    Etkisizleştir
+informant_idle                          Boşta
+informant_onroute                       Yolda...
+informant_active                        Etkin
+informant_coveragecaps                  KAPSAMA *X%
 
 
-contraband_owner                        Owner: *X
-contraband_ownerunknown                 Owner Unknown
-contraband_stolenfrom                   Stolen from *X, *Y hours ago
-contraband_smuggledthrough              Smuggled through *X, *Y hours ago
-contraband_smuggledin                   Smuggled in by Prisoner, *Y hours ago
-contraband_type                         Type: *X
-contraband_tradevalue_title             Trade prices
+contraband_owner                        Sahip: *X
+contraband_ownerunknown                 Sahip Bilinmiyor
+contraband_stolenfrom                   *X adlı kişiden , *Y saat önce çalındı
+contraband_smuggledthrough              *X vasıtasıyla, *Y saat önce sokuldu
+contraband_smuggledin                   *Y saat önce, mahkumlar tarafında sokuldu
+contraband_type                         Tür: *X
+contraband_tradevalue_title             Toptan fiyatlar
 contraband_tradevalue_low               $
 contraband_tradevalue_medium            $$
 contraband_tradevalue_high              $$$
 contraband_tradevalue_veryhigh          $$$$
 
-staff_exhausted                         Exhausted
-staff_tired                             Tired
-staff_pissedoff							Pissed Off
-staff_onstrike                          On Strike
-staff_needsrest                         Staff prefer to rest in a Staff Room.
+staff_exhausted                         Tükenmiş
+staff_tired                             Yorgun
+staff_pissedoff							Sinirlenmiş
+staff_onstrike                          Grevde
+staff_needsrest                         Personal Yalnızca Personellere ait bir odada dinlenmeyi tercih ediyor.
 
-dog_needskennel                         Dogs need a Kennel to sleep in.
+dog_needskennel                         Köpeklerin uyuması için Kulübeye ihtiyaçları var.
 
-doctor_requireinfirmary                 Requires an Infimary
+doctor_requireinfirmary                 Revire ihtiyacı var
 
-entity_carryingequipment                Carrying *X
-entity_carryingkeys                     Carrying Jail Keys
-entity_carryingstaffkeys                Carrying Staff Key
-entity_wearingarmour                    Wearing a *X
+entity_carryingequipment                *X Taşıyor
+entity_carryingkeys                     Anahtar Taşıyor
+entity_carryingstaffkeys                Personel Anahtarı Taşıyor
+entity_wearingarmour                    *X giyiyor
 
-reports_schedule                        Reschedule All Programs
-reports_edit                            Edit Schedule
-reports_bankloan                        Bank Loan
-reports_increaseloan                    Increase
-reports_decreaseloan                    Decrease
-reports_unlockbankloans                 Unlocked by Accountant
+reports_schedule                        Bütün Programları Tekrar Zamanla
+reports_edit                            Zamanlamayı Düzenle
+reports_bankloan                        Banka Borcu
+reports_increaseloan                    Arttır
+reports_decreaseloan                    Azalt
+reports_unlockbankloans                 Muhasebeci Tarafından Açıldı
 
-drugs_heroin                            Heroin
-drugs_cocaine                           Cocaine
+drugs_heroin                            Eroin
+drugs_cocaine                           Kokain
 
-#                                       Eg "Bob's Mother"
-visitor_relationship                    *X's *Y
-visitor_age                             Age : *X
+#                                       Örn "Bob'un Annesi"
+visitor_relationship                    *X adlı kişinin *Y
+visitor_age                             Yaş : *X
 
-family_wife                             Wife
-family_exwife                           Ex-Wife
-family_girlfriend                       Girlfriend
-family_son                              Son
-family_daughter                         Daughter
-family_mother                           Mother
-family_father                           Father
-family_brother                          Brother
-family_sister                           Sister
-family_lawyer                           Lawyer
-family_priest                           Priest
-family_victims                          Victim's family
-family_caption                          Family: 
-family_none                             None
-family_husband                          Husband
-family_exhusband                        Ex-Husband
-family_boyfriend                        Boyfriend
+family_wife                             Eş
+family_exwife                           Eski Eş
+family_girlfriend                       Kız Arkadaş
+family_son                              Oğlan
+family_daughter                         Kız Evlat
+family_mother                           Anne
+family_father                           Baba
+family_brother                          Erkek Kardeş
+family_sister                           Kız Kardeş
+family_lawyer                           Avukat
+family_priest                           Rahip
+family_victims                          Mağdur'un Ailesi
+family_caption                          Aile: 
+family_none                             Yok
+family_husband                          Eş
+family_exhusband                        Eski Eş
+family_boyfriend                        Erkek Arkadaş
 
-damage_dead                             Dead
-damage_unconscious                      Unconscious
-damage_serious                          Seriously Injured
-damage_injured                          Injured
-damage_amount                           *X% Damaged
+damage_dead                             Ölü
+damage_unconscious                      Baygın
+damage_serious                          Ciddi Yaralı
+damage_injured                          Yaralı
+damage_amount                           *X% Hasarlı
 
-message_autosaving                      Auto-Saving...
+message_autosaving                      Otomatik Kaydediliyor...
 
-buildtoolbar_entersearchterm            enter search term...
+buildtoolbar_entersearchterm            arama terimini girin...
 
-deploymentscheduler_title               DEPLOYMENT SCHEDULER
-deploymentscheduler_patrolonly          [Schedule *X only]
-deploymentscheduler_schedulenow         Showing deployment NOW
-deploymentscheduler_scheduletime        Showing deployment for *X.00 - *Y.00
-supplyanddemand_supplyheader            SUPPLY
-supplyanddemand_demandheader            DEMAND
+deploymentscheduler_title               KONUŞLANDIRMA ZAMANLAYICI
+deploymentscheduler_patrolonly          [Yalnızca *X zamanla ]
+deploymentscheduler_schedulenow         ŞİMDİ Konuşlandırma gösteriliyor
+deploymentscheduler_scheduletime        *X.00 - *Y.00 için konuşlandırma gösteriliyor
+supplyanddemand_supplyheader            ARZ
+supplyanddemand_demandheader            TALEP
 
-tooltip_multipleobjects                 TAB: Cycle Objects
-remotedoor_noservo                      Remote Doors will not open without a working servo attached.
+tooltip_multipleobjects                 TAB: Nesneler Arasında Geçiş
+remotedoor_noservo                      Çalışır durumda olan bir otomat olmadığı sürece Kapalı Devre Kapı açılmayacak.
 
-targettingfood_prisonersassigned        Prisoners assigned : *X
-targettingfood_predicteddemand          = PREDICTED DEMAND =
-targettingfood_demand                   DEMAND *X
-targettingfood_supply                   SUPPLY *X (+*Y)
-targettingfood_prisoners                prisoners
-targettingfood_required                 Meals required : *X
-targettingfood_ready                    Meals ready : *X
-targettingfood_cooked                   Meals being cooked : *X
+targettingfood_prisonersassigned        Mahkumlar Atandı : *X
+targettingfood_predicteddemand          = TAHMİNİ TALEP =
+targettingfood_demand                   *X TALEP
+targettingfood_supply                   *X (+*Y) ARZ
+targettingfood_prisoners                mahkumlar
+targettingfood_required                 Gerekli yemekler : *X
+targettingfood_ready                    Hazır yemekler : *X
+targettingfood_cooked                   Pişirilen Yemekler : *X
 
-roomgrading                             Room Grading
-roomgrading_cell_roomsize               [*E] Room size at least *X Squares
-roomgrading_cell_cleanliness            [*E] Cleanliness above *X%
-roomgrading_cell_outsidewindow          [*E]*Y Outdoor Window
-roomgrading_cell_item                   [*E] Item : *X
+roomgrading                             Oda Derecelendirmesi
+roomgrading_cell_roomsize               [*E] Oda boyutu en az *X Metrekare
+roomgrading_cell_cleanliness            [*E] Temizlik *X% değerinden yukarda
+roomgrading_cell_outsidewindow          [*E]*Y Dış Pencere
+roomgrading_cell_item                   [*E] Eşya : *X
 
-roomgrading_dormitory_roomsize          [*E] Room size at least *X Squares per Prisoner
-roomgrading_dormitory_cleanliness       [*E] Cleanliness above *X%
-roomgrading_dormitory_outsidewindow     [*E] *Y Outdoor Window per 8 Prisoners
-roomgrading_dormitory_item              [*E] Item : *X per 4 Prisoners
+roomgrading_dormitory_roomsize          [*E] Oda boyutu mahkum başına en az *X Metrekare
+roomgrading_dormitory_cleanliness       [*E] Temizlik *X% değerinden yukarda
+roomgrading_dormitory_outsidewindow     [*E] 8 Mahkum Başına Düşen *Y Dış Pencere 
+roomgrading_dormitory_item              [*E] Eşya : 4 mahkum başına *X 
 
-roomgrading_sharedcell_roomsize          [*E] Room size at least *X Squares per Prisoner
-roomgrading_sharedcell_cleanliness       [*E] Cleanliness above *X%
-roomgrading_sharedcell_outsidewindow     [*E] *Y Outdoor Window
-roomgrading_sharedcell_item              [*E] Item : *X per 4 Prisoners
+roomgrading_sharedcell_roomsize          [*E] Oda boyutu mahkum başına en az *X Metrekare
+roomgrading_sharedcell_cleanliness       [*E] Temizlik *X% değerinden yukarda
+roomgrading_sharedcell_outsidewindow     [*E] *Y Dış Pencere
+roomgrading_sharedcell_item              [*E] Eşya : 4 Mahkum başına *X
 
-roomgrading_result                      Grade *X/*Y
-roomgrading_currentoccupant             Occupant entitled to grade *X
-roomgrading_unoccupied                  Unoccupied
-roomgrading_shared_occupuants           Current Occupants: *X / *Y
+roomgrading_result                      Derece *X/*Y
+roomgrading_currentoccupant             Sakin *X ile derecelendirildi
+roomgrading_unoccupied                  Boş
+roomgrading_shared_occupuants           Şimdiki sakinleri: *X / *Y
 
-weathermap_temperature_title            Temperature
+weathermap_temperature_title            Sıcaklık
 weathermap_temperature_text             *CC / *FF
 weathermap_temperature_c                *CC
 weathermap_temperature_f                *FF
 
-roomerror_nokitchen                     There are no kitchens capable of sending food to this canteen
-roomerror_noprisoners                   There are no prisoners assigned to eat at this canteen
+roomerror_nokitchen                     Bu yemekhaneye yiyecek yollayabilecek mevcut bir mutfak bulunmuyor
+roomerror_noprisoners                   Bu yemekhanede zıkkımlanacak mahkumlar atanmadı
 roomerror_nocanteen_cells               There are no canteens accessible by this cell. Prisoners in this cell will have nowhere to eat
 roomerror_nocanteen_kitchen             There are no canteens accessible by this kitchen. It will not cook any food for meal time
 
