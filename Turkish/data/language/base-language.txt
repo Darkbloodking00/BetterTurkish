@@ -435,7 +435,7 @@ buildtoolbar_rollcall                   Yokla
 buildtoolbar_tooltip_reports			Raporlar penceresini açarak mahkum, personal, gelir, hibeler ve daha fazlasına bakabilirsiniz.
 buildtoolbar_tooltip_bangup				Bütün (istekli) mahkumları hücrelerine gönder. Bu mahkumlarınızı eğer onları uzun süre kilitli bırakırsanız sinirli yapacak.
 buildtoolbar_tooltip_lockdown			Hapishanedeki bütün kapıları hemen kapatır.
-buildtoolbar_tooltip_shakedown          Hemen bütün Hücreleri aramayı emret. Bu biraz zaman alacak ve mahkumlarınızın baya sinirini bozacak.
+buildtoolbar_tooltip_shakedown          Hemen bütün Hücreleri aramayı emret. Bu biraz zaman alacak ve tutukluların baya sinirini bozacak.
 buildtoolbar_tooltip_weaponsfree        Silahlı korumalarınıza silahlı güç kullanmak için izin verir. Kesin Nişancılar bir hedefi vurmadan önce uyarı atışı yapmayacak.
 buildtoolbar_tooltip_nostrike           Personal Saldırılarında mevcut değil.
 buildtoolbar_tooltip_rollcall           Bütün makhumlarınızı dışarda dikilmek için hücrelerinden çağırır. Yalnızca geceleri ve uyku programı esnasında mevcut.
@@ -499,7 +499,7 @@ buildtoolbar_popup_room_medicalward		Tıppı personalinizin çalışması için 
 buildtoolbar_popup_room_morgue			Ölü personal ve mahkumları yolladığınız yer.
 buildtoolbar_popup_room_commonroom		Mahkumlarınızın kafasını rahatlatmak için serbest zaman.
 buildtoolbar_popup_room_kennel          Köpeklerinizin yaşadığı yer.
-buildtoolbar_popup_room_chapel          Bürökratik bir komisyon bir araya gelerek mahkumların dini ihtiyaçları için bir çözüm tasarlarlarsa ne olur? Bir 'Çok Dinli İbadet Odası', işte. Biz ona Şapel diyoruz.
+buildtoolbar_popup_room_chapel          Bürökratik bir komisyon bir araya gelerek tutukluların dini ihtiyaçları için bir çözüm tasarlarlarsa ne olur? Bir 'Çok Dinli İbadet Odası', işte. Biz ona Şapel diyoruz.
 buildtoolbar_popup_room_paroleroom      Mahkumlarınız hükümlerinin %50 ve %75 kadarını çektikten sonra şartlı tahliyeye uygun olacak. Müdür ve Amirle birlikte kaderleri bu odada belirlenecek.\n\nLütfen ekstra güvenliğe ihtiyaç olduğunu not edin. Mahkumların şartlı tahliyeleri reddedilince oldukça mutsuz oldukları biliniyor.
 buildtoolbar_popup_room_library         Your prison will be sent boxes of discarded and used books from around the country. Prisoners will need to sort those books onto the shelves.
 buildtoolbar_popup_room_intake          Where your prisoners are first taken when they arrive.
@@ -2729,11 +2729,11 @@ reformprogram_deathrowappeal            Ölüm Mahkumu Temyizi
 
 reformprogram_tazertrained              Sertifikalı : Elektroşok Cihazı
 
-reformprogram_workshopinduction_text    Önce iş güvenliği! Mahkumlar Atölye'de çalışmaya başlamadan önce ilk bu kursu geçmeleri gerekiyor.
-reformprogram_foundationeducation_text  Çoğu Mahkum okuma, yazma ve matematik becerileri gibi basit temellerden bile yoksundur. Bu kurs mahkumları bu seviyeye çıkarmak için var. Bu kursu geçmek mahkumların Kütüphanede çalışmasına izin verir.
+reformprogram_workshopinduction_text    Önce iş güvenliği! Tutuklular Atölye'de çalışmaya başlamadan önce ilk bu kursu geçmeleri gerekiyor.
+reformprogram_foundationeducation_text  Çoğu Tutuklu okuma, yazma ve matematik becerileri gibi basit temellerden bile yoksundur. Bu kurs tutukluları bu seviyeye çıkarmak için var. Bu kursu geçmek mahkumların Kütüphanede çalışmasına izin verir.
 reformprogram_carpentry_text            İyi bir pratik beceri gerektiren karmaşık bir meslek. Mahkumlar, marangoz sehpası ile bu beceriyi kullarak odundan yüksek değerde eşyalar yapabilirler.
-reformprogram_kitcheninduction_text     Yemek kalitesi yüzlerce kişiye yemek servis ederken önemli bir faktör. Mahkumlar bu işe kabul edilmeden önce bu kursu tamamlamalılar.
-reformprogram_therapy_text              Mahkumlar sık sık şiddet dolu doğalarını kontrol ederken zorlanırlar. Bu psikologla yapılacak olan teke-tek oturumlar mahkumlara kendilerini buldukları her durumda şiddete başvurmamaları konusunda hızlarını düşürecek.
+reformprogram_kitcheninduction_text     Yemek kalitesi yüzlerce kişiye yemek servis ederken önemli bir faktör. Tutuklular bu işe kabul edilmeden önce bu kursu tamamlamalılar.
+reformprogram_therapy_text              Tutuklular sık sık şiddet dolu doğalarını kontrol ederken zorlanırlar. Bu psikologla yapılacak olan teke-tek oturumlar mahkumlara kendilerini buldukları her durumda şiddete başvurmamaları konusunda hızlarını düşürecek.
 reformprogram_methadone_text            5 farmakolojik ikame için kurs, mahkumunların narkotiklere karşı olan savaşında kullanıldı. Her tedavi mahkumun bağımlılık yapıcı ihtiyaçları konusunda yardım edicidir, ve bu kursu tamamlamak bağımlılıklardan tamamıyla kurtulma şansıyla birlikte geliyor.
 reformprogram_alcoholicsmeeting_text    Alkolikler için grup buluşma terapisi. alkole olan arzuyu azaltmak konusunda yardımcı olur. Asla ihtiyacı tamamıyla yok etmez.
 reformprogram_parolehearing_text        Bir mahkumun erken serbest bırakılmaya uygun olup olmadığına karar verilen duruşma. Başarılı ibr serbest bırakmada eğer mahkum tekrardan suç işlemezse güzel bir bonus ile ödüllendirilirsiniz. 
@@ -2811,7 +2811,7 @@ regime_worklockdown                     İş/Kilitleme
 regimetooltip_nothing                   Mahkumlar hücrelerinde kilitli kalır. Yaptıkları seçimlerin onları buraya getirmiş olduğunu düşünmek dışında yapacak hiçbir şeyleri yoktur.\n\nUzun sürelere esnetilmiş bir kilitleme en sert mahkumlara bile belirleyici bir ceza olarak kendini kanıtlamıştır.
 regimetooltip_sleep                     Mahkumlar hücrelerine kilitlenmiş, ve ışıklar kapalı durumdadır. Herkes uykuya geçer.\n\n Yalnıca şu kaçış tünellerini kazanlar dışında...
 regimetooltip_eat                       Mahkumlar en yakın erişime açık yemekhaneye doğru yola koyulur ve öğle yemeği için yerlerine otururlar.\n\n Mahkumlar yemekhanede bulunan her tesisi kullanmak konusunda serbesttir, ancak bu süre zarfında yemekhaneden ayrılmalarına izin verilmez.
-regimetooltip_shower                    Mahkumlar banyoya girmek için kıyafetlerini çıkarırlar. Günlük banyo süresi mahkumların hijyeni için gereklidir, ancak bazı mahkumlar onları zorlamadığınız sürece banyo yapmaya zahmet etmeyeceklerdir.
+regimetooltip_shower                    Mahkumlar banyoya girmek için kıyafetlerini çıkarırlar. Günlük banyo süresi tutukluların hijyeni için gereklidir, ancak bazı mahkumlar onları zorlamadığınız sürece banyo yapmaya zahmet etmeyeceklerdir.
 regimetooltip_yard                      Mahkumlar temiz hava, gün ışığı ve egzersiz yapmak için tesisten avluya çıkmalarına izin verilir.\n\nMahkumlar avluda bulunan egersiz sehpası, sevdikleri ile konuşmak için telefon kulübesi ve duş vs gibi tesislerden yararlanabilirler.
 regimetooltip_work                      Mahkumlar hapishanede çalıştırılırlar. Açılan her işin yeri doldurulacak ve mahkumlar otomatik olarak çalıştıkları yerlerin konumunu rapor edecekler. (Yeni iş kapılarını Konuşlandırma ekranından ayarlayabilirsiniz.)\n\nAyrıca bütün Reform programları da bu sürede gerçekleşir.  Mahkumlar hiçbir iş veya Reform programına atanmadıysa etrafta 'Boş Zaman' adı altında etrafta dolaşmak konusunda özgürdür.
 regimetooltip_freetime                  Mahkumlar hücrelerinden salınmış ve hapishanede bulunan her tesisi kullanmalarına izin verilmiştir. Mahkumlar en fazla bu zamandan hoşlanır ve zamanlarını ihtiyaçlarını en iyi şekilde karşılamak ve sosyalleşmek için geçirirler.\n\n Uzun süreli boş zaman hapishanedeki stres ve gerginliği azaltabilir, ama çoğu kişi bunun güç bela bir cezalandırma olarak görür.
@@ -3088,85 +3088,85 @@ roomerror_nocanteen_kitchen             There are no canteens accessible by this
 
 ceos_letter                             Dear Sir/Madam,\n\n\nCongratulations on completing your basic induction - you are now a fully qualified Prison Architect!  Soon you'll be designing, building and running your own prisons starting from nothing but an empty plot of land and a few stacks of bricks.  Before you get started, I thought I might share some important lessons with you.\n\n1. Every prison needs a Warden - he should be one of your first hires.  Build him a nice office and he'll open up a whole range of advanced facilities via the bureaucracy system.\n\n2. Individual jail cells are expensive, especially early on when funds are very tight.  Save money by starting with a single large Holding Cell, which can be shared between many prisoners at once.\n\n3. Get your Kitchen and Canteen up and running before the first prisoners show up, and be sure to hire some Cooks - nothing irritates a prisoner more than an empty stomach!\n\n4. Building a prison is an expensive undertaking, and you need to become a master of raising large volumes of money through grants and contracts. You can access these grants through the 'Reports' screens.\n\nThat's about everything - good luck!\n\nThe CEO,\nPrison Architects Corp.
 
-quickbuild_basiccell                    Basic Cell
-quickbuild_solitarycell                 Solitary Cell
-quickbuild_office                       Office
-quickbuild_luxurycell                   Luxury Cell
-quickbuild_sharedcell                   Shared Cell
-quickbuild_kitchen                      Kitchen
-quickbuild_canteen                      Canteen
-quickbuild_utilityroom                  Utility Room
-quickbuild_classroom                    Class Room
-quickbuild_commonroom                   Common Room
+quickbuild_basiccell                    Sıradan Hücre
+quickbuild_solitarycell                 Tek Hücre
+quickbuild_office                       Ofis
+quickbuild_luxurycell                   Lüks Hücre
+quickbuild_sharedcell                   Paylaşımlı Hücre
+quickbuild_kitchen                      Mutfak
+quickbuild_canteen                      Yemekhane
+quickbuild_utilityroom                  Araç Gereç Odası
+quickbuild_classroom                    Sınıf
+quickbuild_commonroom                   Dinlenme Odası
 
-season_current                          Current Season: *X
-season_spring                           Spring
-season_summer                           Summer
-season_autumn                           Autumn
-season_winter                           Winter
+season_current                          Geçerli Sezon: *X
+season_spring                           İlkbahar
+season_summer                           Yaz
+season_autumn                           Sonbahar
+season_winter                           Kış
 
-weather_current                         Current Weather: *X
-weather_none                            Sunny
-weather_overcast                        Overcast
-weather_rain                            Rain
-weather_snow                            Snow
-weather_heatwave                        Heatwave
-weather_torrentialrain                  Torrential Rain
+weather_current                         Geçerli Hava Durumu: *X
+weather_none                            Güneşli
+weather_overcast                        Bulutlu
+weather_rain                            Yağmurlu
+weather_snow                            Karlı
+weather_heatwave                        Sıcak Dalgası
+weather_torrentialrain                  Sağanak Yağmur
 
-prisoner_cellerror_nonefree             There are no free cells for this prisoner
-prisoner_cellerror_toohighquality       All of the available cells are too high quality for this prisoner
-prisoner_cellerror_nosolitary           This prisoner requires solitary confinement, but no solitary cells are available
+prisoner_cellerror_nonefree             Bu makhum için hiç boş hücre yok
+prisoner_cellerror_toohighquality       Diğer bütün mevcut hücreler bu mahkum için fazla kaliteli
+prisoner_cellerror_nosolitary           Bu mahkumun tek hücreye kapatılması gerekiyor, fakat hiç tek hücre bulunmuyor
 
-group_all_staff                         All Staff
-staff_onbreak                           On Break
-staff_onbreakremaining					On Break (*Xm)
-staff_breaktime                         Break Times :  
+group_all_staff                         Bütün Personel
+staff_onbreak                           Molada
+staff_onbreakremaining					Mıkada (*Xdk)
+staff_breaktime                         Mola Saatleri :  
 
-banner_tooltip                          Click on the banner to support @WarChildUK
-banner_donate_text                      2018 marks 100 years since the Armistice that ended the First World War, yet more children are affected by war today than at any time in history. \n\nJoin War Child UK and Children in Conflict to raise funds to help provide a better future for children surrounded by conflict.
-banner_donate_confirm                   Donate 
-banner_donate_cancel                    Not Now
+banner_tooltip                          Pankart'a tıklayarak @WarChildUK'i destekle
+banner_donate_text                      2018 1. Dünya Savaşını bitiren ateşkesin 100. yılını temsil ediyor. Ancak savaştan etiklenen çocuk sayısı tarihte hiç olmadığı kadar fazla	\n\nWar Child UK ve Children in Conflict'e katılarak çocukları çevreleyen bu çekişmede, onlara daha iyi bir gelecek bırakmak için sen de bağış yap.
+banner_donate_confirm                   Bağış Yap
+banner_donate_cancel                    Şimdi Değil
 
 
 # =============================================================================
 # Campaign info
 # =============================================================================
 
-campaignchapter_chapternumber			Chapter *C
+campaignchapter_chapternumber			Bölüm *C
 
 
 # =============================================================================
 # Death Row
 # =============================================================================
 
-campaignchapter_deathrow                Death Row
+campaignchapter_deathrow                Ölüm Makhumları
 
-campaignchapter_deathrow_description    We've been contracted to build an Execution Chamber at this prison, in time for the scheduled execution of one of their inmates.
+campaignchapter_deathrow_description    Bir tutuklunun tam zamanında belirlenmiş infazı için yapılması gereken bir infaz odası konusunda sözleşme aldık .
 
-campaigncutscene_deathrowmurder         Double Murder
-campaigncutscene_deathrowconfession     Confession
+campaigncutscene_deathrowmurder         Çifte Cinayet
+campaigncutscene_deathrowconfession     Günah Çıkarma
 
-adviser_deathrow_murder1                I knew I'd catch you two here.
-adviser_deathrow_murder2                Edward! I...
-adviser_deathrow_murder25               Don't.  Just... don't.
-adviser_deathrow_murder3                What are you going to do?
+adviser_deathrow_murder1                Siz ikinizi burada yakalıyacağımı biliyordum.
+adviser_deathrow_murder2                Edward! Ben...
+adviser_deathrow_murder25               Çabalama.  çabalama... bile.
+adviser_deathrow_murder3                Aklından ne geçiyor?
 
-adviser_deathrow_church1                Can I help you?
+adviser_deathrow_church1                Yardımcı olabilir miyim?
 adviser_deathrow_church15               ...
-adviser_deathrow_church2                Are you looking for forgiveness?
-adviser_deathrow_church3                I don't know. I have to do something, I can't live with the things I've done.
-adviser_deathrow_church4                You have to turn yourself in. Whatever you've done, you cannot evade the consequences. 
-adviser_deathrow_church5                You will never be able to live with yourself until you face up to your past.
-adviser_deathrow_church6                I want to go back. I want to forgive her. I want her to forgive me.
-adviser_deathrow_church7                God will forgive you, no matter what you have done, if you ask him to. 
-adviser_deathrow_church8                But you must answer for your crimes in the eyes of the law.  There is no other way.
+adviser_deathrow_church2                Bağışlanmayı mı arıyorsun?
+adviser_deathrow_church3                Bilmiyorum. Bir şeyler yapmam gerek, yaptığım şeylerle yaşayamam.
+adviser_deathrow_church4                Teslim olmak zorundasın. Her ne yaptıysan sonuçlarından artık kaçamazsın. 
+adviser_deathrow_church5                Geçmişinle yüzleşmediğin sürece kendinle asla barışık olamazsın.
+adviser_deathrow_church6                Geriye gitmek istiyorum. Onu bağışlamayı, onun da beni bağışlamasını istiyorum.
+adviser_deathrow_church7                Ne yapmış olursan ol Tanrı'dan istediğin zaman o seni bağışlayacak. 
+adviser_deathrow_church8                Ancak kanunun nazarında işlemiş olduğun suçların cevabını vermek zorundasın.  Başka bir yolu yok.
 
-adviser_deathrowintro_1                 This is a tough one.
-adviser_deathrowintro_2                 There's a prisoner incarcerated at this facility who's been convicted of a double murder, and sentenced to death.  
-adviser_deathrowintro_3                 That's where we come in.  We've been contracted to construct an execution chamber in time for the guy's big day.
-adviser_deathrowintrob_1                This is where I want the new facility to be built.
-adviser_deathrowintrob_2                The first step with any project like this is to construct the building itself - with enough space inside to fit an execution room and a holding cell.
-adviser_deathrowintrob_3                So let's get started.  Construct a new building here.
+adviser_deathrowintro_1                 Bu seferki kaya gibi sert biri.
+adviser_deathrowintro_2                 Bu tesiste çifte cinayetten hüküm giymiş ve infaz edilmek üzere yargılanmış bir mahkum yatıyor.  
+adviser_deathrowintro_3                 İşte biz burada devreye giriyoruz.  Bu elemanın büyük günü için infaz odası inşa etmek üzere sözleşme yaptık.
+adviser_deathrowintrob_1                İşte burası yeni tesisin kurulmasını istediğim yer.
+adviser_deathrowintrob_2                Her projede olduğu gibi bu projede de ilk yapmamız gereken adım yapının kendisini inşa etmek - ve tabii ki infaz odası ve nezarethane için yeterli boşluk da.
+adviser_deathrowintrob_3                O zaman hadi başlayalım.  Buraya yeni bir yapı inşa et.
 
 adviser_deathrow_explain1               Your Workmen are responsible for the construction of buildings.
 adviser_deathrow_explain2               They'll collect the steel and concrete from this store room and take it to the construction site.
