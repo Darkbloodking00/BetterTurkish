@@ -370,10 +370,10 @@ interface_action_searchtoilets                  Tuvaletleri Ara
 interface_action_sack                           Sakla
 interface_action_dooropen                       Kapıyı Aç
 interface_action_doormodenormal                 Kapı Modu: Normal
-interface_action_doormodelockedshut             Kilit kapalı
-interface_action_doormodelockedopen             Kilit açık
-interface_action_switchon                       Anahtar Açık
-interface_action_switchoff                      Anahtar Kapalı
+interface_action_doormodelockedshut             Kilidi kapalı tut
+interface_action_doormodelockedopen             Kilidi açık tut
+interface_action_switchon                       Şalteri Aç
+interface_action_switchoff                      Şalteri Kapat
 interface_action_sellobject                     Nesneleri Sat
 interface_action_dismiss                        Vazgeç
 interface_action_connect                        Bağla
@@ -499,7 +499,7 @@ buildtoolbar_popup_room_medicalward		Tıppı personalinizin çalışması için 
 buildtoolbar_popup_room_morgue			Ölü personal ve mahkumları yolladığınız yer.
 buildtoolbar_popup_room_commonroom		Mahkumlarınızın kafasını rahatlatmak için serbest zaman.
 buildtoolbar_popup_room_kennel          Köpeklerinizin yaşadığı yer.
-buildtoolbar_popup_room_chapel          Bürökratik bir komisyon bir araya gelerek tutukluların dini ihtiyaçları için bir çözüm tasarlarlarsa ne olur? Bir 'Çok Dinli İbadet Odası', işte. Biz ona Şapel diyoruz.
+buildtoolbar_popup_room_chapel          Bürökratik bir komisyon bir araya gelerek tutukluların dini ihtiyaçları için bir çözüm tasarlarlarsa ne olur? Bir, 'Çok Dinli İbadet Odası', işte. Biz ona Şapel diyoruz.
 buildtoolbar_popup_room_paroleroom      Mahkumlarınız hükümlerinin %50 ve %75 kadarını çektikten sonra şartlı tahliyeye uygun olacak. Müdür ve Amirle birlikte kaderleri bu odada belirlenecek.\n\nLütfen ekstra güvenliğe ihtiyaç olduğunu not edin. Mahkumların şartlı tahliyeleri reddedilince oldukça mutsuz oldukları biliniyor.
 buildtoolbar_popup_room_library         Your prison will be sent boxes of discarded and used books from around the country. Prisoners will need to sort those books onto the shelves.
 buildtoolbar_popup_room_intake          Where your prisoners are first taken when they arrive.
@@ -2458,7 +2458,7 @@ object_teacher                           Öğretmen
 object_soldier                           Asker
 object_sniper                            Keskin Nişancı
 object_warden                            Müdür
-object_chief                             Chief
+object_chief                             Amir
 object_foreman                           Ustabaşı
 object_psychologist                      Psikolog
 object_accountant                        Muhasebeci
@@ -2643,7 +2643,7 @@ room_visitation                          Ziyaret Odası
 room_cleaningcupboard                    Temizlik Dolabı
 room_kennel                              Köpek Kulübesi
 room_armoury                             Cephanelik
-room_staffroom                           Personal Odası
+room_staffroom                           Personel Odası
 room_library                             Kütüphane
 room_forestry                            Ormanlık
 room_classroom                           Sınıf
