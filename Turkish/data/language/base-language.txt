@@ -3467,7 +3467,7 @@ crime_forgery                     Belgede Sahtecilik
 crime_fraud                       Hilecilik
 crime_counterfeightingcurrency    Sahte Para Basma
 crime_falseaccounting             Yanlış Bilgi Verme Suçu
-crime_insidertr	ading             Borsa Manipülasyonu
+crime_insidertrading              Borsa Manipülasyonu
 crime_moneylaundering             Kara para Aklama
 crime_aggravatedvehicletheft      Kasten Yaralama ve Araba Çalma
 crime_joyriding                   Çalıntı Araba Sürme
