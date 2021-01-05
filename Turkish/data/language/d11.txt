@@ -810,7 +810,7 @@ BuildCost_CloneRoom								CloneRoom
 
 codex_startonline                   Go Online
 codex_start                         Create Game
-codex_joinonline                    Çeviriçi Oyuna Katıl
+codex_joinonline                    Çevirimçi Oyuna Katıl
 codex_join                          Join Game
 codex_usernamelabel                 Username:
 codex_namelabel                     Game Name:
