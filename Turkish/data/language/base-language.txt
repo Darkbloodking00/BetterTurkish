@@ -2957,7 +2957,7 @@ informant_hint                          (Recruit Prisoners under Duress - eg in 
 informant_recruitable                   (Potansiyel Köstebek)
 informant_target                        Hedef
 informant_dead                          ÖLÜ
-informant_released                      Serbest Bırakılmış
+informant_released                      Tahliye Edilmiş
 informant_coverblown                    FOYASI MEYDANA ÇIKTI
 informant_activate                      Etkinleştir
 informant_deactivate                    Etkisizleştir
@@ -3455,87 +3455,87 @@ warden_consultingfee                    Consulting Fee
 # Crime names
 # =============================================================================
 
-crime_bribery                     Bribery
-crime_aggravatedburglary          Aggravated Burglary
-crime_burglary                    Burglary
-crime_arson                       Arson
-crime_criminaldamage              Criminal Damage
+crime_bribery                     Rüşvet
+crime_aggravatedburglary          Kasten Yaralama ve Hırsızlık
+crime_burglary                    Hırsızlık
+crime_arson                       Kundak
+crime_criminaldamage              Mala Zarar Verme
 crime_vandalism                   Vandalism
-crime_possession                  Possession
-crime_possessionintenttosupply    Possession Intent To Supply
-crime_forgery                     Forgery
-crime_fraud                       Fraud
-crime_counterfeightingcurrency    Counterfeighting Currency
-crime_falseaccounting             False Accounting
-crime_insidertrading              Insider Trading
-crime_moneylaundering             Money Laundering
-crime_aggravatedvehicletheft      Aggravated Vehicle Theft
-crime_joyriding                   Joy Riding
-crime_dangerousdriving            Dangerous Driving
-crime_deathbydangerousdriving     Death By Dangerous Driving
-crime_drivingunderinfluence       Driving Under Influence
-crime_kidnapping                  Kidnapping
-crime_falseimprisonment           False Imprisonment
-crime_torture                     Torture
-crime_assault                     Assault
-crime_aggravatedassault           Aggravated Assault
-crime_assaultinganofficer         Assaulting An Officer
-crime_greviousbodilyharm          Grevious Bodily Harm
-crime_murder                      Murder
-crime_attemptedmurder             Attempted Murder
-crime_manslaughter                Manslaughter
-crime_pervertingcourseofjustice   Perverting Course Of Justice
-crime_contemptofcourt             Contempt Of Court
-crime_drunkdisorderlybehaviour    Drunk Disorderly Behaviour
-crime_escapingfromlawfulcustody   Escaping From Lawful Custody
-crime_perjury                     Perjury
-crime_rioting                     Rioting
-crime_espionage                   Espionage
-crime_violentdisorder             Violent Disorder
-crime_trafficking                 Trafficking
-crime_armedrobbery                Armed Robbery
-crime_robbery                     Robbery
-crime_carjacking                  Car Jacking
-crime_blackmail                   Blackmail
-crime_handlingstolengoods         Handling Stolen Goods
-crime_videogamepiracy             Video Game Piracy
-crime_indievideogamepiracy        Indie Video Game Piracy
-crime_shoplifting                 Shoplifting
-crime_pickpocketing               Pickpocketing
-crime_cartheft                    Car Theft
-crime_rape                        Rape
-crime_grossindecency              Gross Indecency
-crime_voyeurism                   Voyeurism
+crime_possession                  Tehlikeli Madde Bulundurma
+crime_possessionintenttosupply    Tehlikeli Madde Bulundurma ve Taşıma
+crime_forgery                     Belgede Sahtecilik
+crime_fraud                       Hilecilik
+crime_counterfeightingcurrency    Sahte Para Basma
+crime_falseaccounting             Yanlış Bilgi Verme Suçu
+crime_insidertr	ading             Borsa Manipülasyonu
+crime_moneylaundering             Kara para Aklama
+crime_aggravatedvehicletheft      Kasten Yaralama ve Araba Çalma
+crime_joyriding                   Çalıntı Araba Sürme
+crime_dangerousdriving            Tehlikeli Araç Kullanma
+crime_deathbydangerousdriving     Tehlikeli Araç Sürme ve Öldürme
+crime_drivingunderinfluence       Alkollü Araç Kullanma
+crime_kidnapping                  Kaçırma
+crime_falseimprisonment           Haksız Tutuklama
+crime_torture                     İşgence
+crime_assault                     Tehdit
+crime_aggravatedassault           Tehdit ve Kasten Yaralama
+crime_assaultinganofficer         Memuru Tehdit Etme
+crime_greviousbodilyharm          Kasten Ağır Yaralama
+crime_murder                      Cinayet
+crime_attemptedmurder             Cinayete Teşebbüs
+crime_manslaughter                Kasıtsız Cinayet
+crime_pervertingcourseofjustice   Kongre'yi Engelleme Suçu
+crime_contemptofcourt             Mahkemeye İtaatsizlik
+crime_drunkdisorderlybehaviour    Sarhoşluk
+crime_escapingfromlawfulcustody   Nezaretten Kaçma Suçu
+crime_perjury                     Yalancı Şahitlik
+crime_rioting                     İstan Etme
+crime_espionage                   Casusluk
+crime_violentdisorder             Şiddetli Tavır
+crime_trafficking                 Kaçakçılık
+crime_armedrobbery                Silahlı Soygun
+crime_robbery                     Soygun
+crime_carjacking                  Araba Soygunu
+crime_blackmail                   Şantaj
+crime_handlingstolengoods         Çalıntı Malları Bulundurma
+crime_videogamepiracy             Video Oyunu Korsanlığı
+crime_indievideogamepiracy        Bağımsız Video Oyunu Korsanlığı
+crime_shoplifting                 Dükkandan Mal Aşırma
+crime_pickpocketing               Yankesicilik
+crime_cartheft                    Araba Hırsızlığı
+crime_rape                        Tecavüz
+crime_grossindecency              Hayasızca Hareketler Suçu
+crime_voyeurism                   Röntgencilik
 
 # =============================================================================
 # Cause of death
 # =============================================================================
 
-causeofdeath_fight                  Killed in fight with *X
-causeofdeath_fight_weapon           Killed by *X with *W
-causeofdeath_fight_prisoner         Murdered by *X
-causeofdeath_fight_prisoner_weapon  Murdered by *X with *W
-causeofdeath_fight_actor            Killed with *W
-causeofdeath_gang                   Killed by rival gang member
-causeofdeath_gang_weapon            Killed by rival gang member with *W
-causeofdeath_fire                   Died in a fire
-causeofdeath_escaping               Killed by *X while trying to escape
-causeofdeath_escaping_weapon        Killed by *X with *W while trying to escape
-causeofdeath_mauled                 Mauled to death by Guard Dog
-causeofdeath_snitch                 Killed for being a Snitch
-causeofdeath_exlaw                  Killed for being Ex Law Enforcement
-causeofdeath_copkiller              Killed by guards for being a Cop Killer
-causeofdeath_explosion              Killed in an explosion
-causeofdeath_electrocution          Killed by Electrocution
-causeofdeath_starvation             Starved to death
-causeofdeath_virus                  Died from infection
-causeofdeath_overdosed              Overdosed
-causeofdeath_bledout                Bled to death 
-causeofdeath_riot                   Killed during a riot
-causeofdeath_executed               Executed by Electric Chair
-causeofdeath_exposure               Froze to death
-causeofdeath_unknown_1				Cause of Death Unknown.
-causeofdeath_unknown_2 				Unlock Intelligence to determine.
+causeofdeath_fight                  *X adlı kişiyle dövüşürken öldürüldü
+causeofdeath_fight_weapon           *X tarafından *W ile öldürüldü
+causeofdeath_fight_prisoner         *X tarafından katledildi
+causeofdeath_fight_prisoner_weapon  *X tarafından *W ile katledildi
+causeofdeath_fight_actor            *W ile öldürüldü
+causeofdeath_gang                   Düşman çete üyesi tarafından öldürüldü
+causeofdeath_gang_weapon            Düşman çete üyesi tarafından *W ile öldürüldü
+causeofdeath_fire                   Yangında öldü
+causeofdeath_escaping               *X tarafından firar etmeye çalışırken öldürüldü
+causeofdeath_escaping_weapon        *X tarafından *W ile firar etmeye çalışırken öldürüldü
+causeofdeath_mauled                 Koruma köpeği tarafından ölümüne pençelendi
+causeofdeath_snitch                 Muhbir olduğu için öldürüldü
+causeofdeath_exlaw                  Eski Kolluk Kuvveti olduğu için öldürüldü
+causeofdeath_copkiller              Polis Katili olduğu için korumalar tarafından öldürüldü
+causeofdeath_explosion              Bir patlamada öldü
+causeofdeath_electrocution          Elektrikle İdam Edildi
+causeofdeath_starvation             Açlıktan Öldü
+causeofdeath_virus                  Enfeksiyondan öldü
+causeofdeath_overdosed              Yüksek dozdan öldü
+causeofdeath_bledout                Kan kaybından öldü 
+causeofdeath_riot                   Bir isyan esnasında öldürüldü
+causeofdeath_executed               Elektrikli Sandalye ile öldürüldü
+causeofdeath_exposure               Donarak öldü
+causeofdeath_unknown_1				Ölüm Nedeni Bilinmiyor.
+causeofdeath_unknown_2 				İstihbaratları açarak ne olduğunu öğren.
 
 
 # =============================================================================
@@ -3630,48 +3630,48 @@ mutator_title_somethingdifferent_tooltip    This is the weird stuff. They might 
 # Attract screen
 # =============================================================================
 
-attract_pressanykey                     Press Any Key...
+attract_pressanykey                     Herhangi bir tuşa basın...
 
 # =============================================================================
 # Help warnings
 # =============================================================================
 
-help_warning_gangleader                 The leader of one of the gangs in the prison is currently being punished. It's your choice how to proceed, but all of their gang members are going to cause a lot of trouble while the punishment is in place.
-help_warning_deathrow                   Our first Death Row prisoner has just arrived. We'll need to make sure we have a Death Row Appeal program set up in a Parole Room, so that they can have their appeal hearings. 
+help_warning_gangleader                 Hapishanede bulunan bir çete lideri şu anda cezalandırılmış bulunuyor. Nasıl ilerleyeceğin senin seçimin, ancak ona bağlı bütün çete liderleri o cezasını çekmeye devam ettiği sürece çok fazla karışıklık çıkaracaklar.
+help_warning_deathrow                   İlk Ölüm Mahkumu hapishanemize geldi. Temyiz duruşmalarını sağlamak için Ölüm Mahkumu Temyiz programını bir Şartlı Tahliye Odasına ayarladığımızdan emin olmamız gerek
 
 # =============================================================================
 # Graphs
 # =============================================================================
 
-graph_title                             Graphs
+graph_title                             Grafikler
 
-graph_label_1                           Data Type 1
-graph_label_2                           Data Type 2
-graph_label_day                         Day
+graph_label_1                           Veri Türü 1
+graph_label_2                           Veri Türü 2
+graph_label_day                         Gün
 
-graph_axis_none                         None
-graph_axis_profit                       Profit
-graph_axis_funds                        Funds
-graph_axis_prisonsize                   Prison Size (m²)
-graph_axis_numprisoners                 Num Prisoners
-graph_axis_numstaff                     Num Staff
-graph_axis_releasedprisoners            Released Prisoners
-graph_axis_totalreleasedprisoners       Total Released Prisoners
-graph_axis_escapedprisoners             Escaped Prisoners
-graph_axis_totalescapedprisoners        Total Escaped Prisoners
-graph_axis_entitydeath                  Deaths
-graph_axis_totaldeaths                  Total Deaths
-graph_axis_prisonerdeaths               Prisoner Deaths
-graph_axis_guarddeaths                  Guard Deaths
-graph_axis_securitygrading              Security Grading
-graph_axis_healthgrading                Health Grading
-graph_axis_reformgrading                Reform Grading
-graph_axis_punishmentgrading            Punishment Grading
-graph_axis_reoffendingrate              Reoffending Rate
-graph_axis_prisonvalue                  Prison Value
-graph_axis_prisonercapacity             Prisoner Capacity
-graph_axis_numincidents                 Num Incidents
-graph_axis_totalincidents               Total Incidents
+graph_axis_none                         Hiçbiri
+graph_axis_profit                       Kâr
+graph_axis_funds                        Fonlar
+graph_axis_prisonsize                   Hapishane Boyutu (m²)
+graph_axis_numprisoners                 Mahkum Sayısı
+graph_axis_numstaff                     Personel Sayısı
+graph_axis_releasedprisoners            Tahliye Edilmiş Mahkumlar
+graph_axis_totalreleasedprisoners       Toplam Tahliye Ed. Mahkumlar
+graph_axis_escapedprisoners             Kaçmış Mahkumlar
+graph_axis_totalescapedprisoners        Toplam Kaçan Mahkum
+graph_axis_entitydeath                  Ölümler
+graph_axis_totaldeaths                  Toplam Ölüm
+graph_axis_prisonerdeaths               Mahkum Ölümleri
+graph_axis_guarddeaths                  Koruma Ölümleri
+graph_axis_securitygrading              Güvenlik Derecesi
+graph_axis_healthgrading                Sağlık Derecesi
+graph_axis_reformgrading                Reform Derecesi
+graph_axis_punishmentgrading            Ceza Derecesi
+graph_axis_reoffendingrate              Tekrar-Suç Oranı
+graph_axis_prisonvalue                  Hapishane Değeri
+graph_axis_prisonercapacity             Mahkum Kapasitesi
+graph_axis_numincidents                 Olay Sayısı
+graph_axis_totalincidents               Toplam Olay
 
 
 # =============================================================================
