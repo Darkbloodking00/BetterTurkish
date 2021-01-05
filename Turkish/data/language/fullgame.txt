@@ -849,13 +849,13 @@ codex_mcexport_adventure				Adventure
 escapemode_help_title                   Escape - It's your only way out
 escapemode_help                         Step One: Reputation - Your reputation means everything in here\n\n• Boost your reputation by starting fights. Hurting people will really get you noticed but breaking things is a good place to start. The more damage you can cause in one fight the better.\n• Leave no witnesses. If a guard spots you fighting you'll get punished for it, unless of course they're no longer around.\n• Getting knocked out looks bad. You're better off ending a fight on your own terms.\n\nStep Two: Squad - Recruit others to join your escape attempt\n\n• Whistle to call them over and they'll stick with you everywhere you go. (Click their name in the top left)\n• They'll even join you in fights which can help you increase your reputation even faster.\n• Train up your squad. You'll never know when having a skilled fighter or competitive sprinter nearby will end up being useful.\n\nStep Three: Contraband - You'll need weapons and tools\n\n• Find a room where there will be something you want. Take a look around and you'll quickly find something useful you can steal.\n• Watch out for metal detectors and guards trying to search you. If you're found with anything they'll grab it and throw you in solitary.\n• Stash your equipment. You can hide your findings in your cell or the cells of others, just remember where you've left things.\n\nStep Four: Tunnels - The quiet way out\n\n• Grab a digging tool and start a tunnel from the toilet in your cell.\n• Digging is slow. Get your squad members to help you dig.\n• Don't get spotted. If a guard sees you entering or exiting a tunnel you'll be rumbled.\n\nGood luck. You're going to need it.
 
-codex_escapemode                        Escape Mode
-codex_escapemode_developer              (Developer) Escape Mode
-codex_escapemode_new                    New Escape Attempt
-codex_escapemode_load                   Load Escape Attempt
-codex_escapemode_save                   Save Escape Attempt
-codex_escapemode_workshop               Escape Mode (Steam Workshop)
-codex_escapemode_workshop_star_rating   *S Stars or over
+codex_escapemode                        Firar Modu
+codex_escapemode_developer              (Geliştirici) Firar Modu
+codex_escapemode_new                    Yeni Firar Girişimi
+codex_escapemode_load                   Firar Girişimini Yükle
+codex_escapemode_save                   Firar Girişimini Kaydet
+codex_escapemode_workshop               Firar Modu (Steam Atölyesi)
+codex_escapemode_workshop_star_rating   *S Yıldız ve üstü
 
 escapemode_combat_attack                Attack
 escapemode_combat_attack_button         Left Click
@@ -914,8 +914,8 @@ escapemode_gameover_totaltime_title     Time Taken
 escapemode_gameover_time_days           *D Days, *H Hours and *M Minutes
 escapemode_gameover_time                *H Hours and *M Minutes
 
-codex_workshop_select_random_prison     Random Workshop Prison
-codex_workshop_searching                Searching
+codex_workshop_select_random_prison     Rastgele (Atölye) Hapishane
+codex_workshop_searching                Aranıyor
 
 
 # =============================================================================

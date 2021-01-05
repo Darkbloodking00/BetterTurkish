@@ -273,11 +273,11 @@ codex_changelog_next                            Next >
 codex_changelog_prev                            < Previous
 codex_credits                                   Credits
 
-codex_options_screenshotmode					Screenshot Mode
+codex_options_screenshotmode					Ekran Görüntüsü Modu
 codex_tooltip_screenshotmode					When in Screenshot Mode, hold the [*K] KEY and press [*E], to turn ALL UI and HUD off/on
 codex_sso_content_message						You have successfully signed up for a Paradox Account.\n\nAs a thank you, new Guard Pavilion towers are now unlocked in the game! Find them in the Objects menu.
-codex_options_borderless_windowed               Borderless
-codex_options_monitor                           Monitor
+codex_options_borderless_windowed               Kenarlıksız
+codex_options_monitor                           Ekran
 
 ############################### PSYCH WARD UPDATE ###############################
 
@@ -796,7 +796,7 @@ schedule_zone_insaneSecOnly						Insane Sec
 codex_option_lunar								Lunar Plot
 codex_tooltip_lunar								Generate a starting plot of land that resembles a lunar surface.
 
-codex_option_doubleClick						Double Click to Move Objects
+codex_option_doubleClick						Nesne. Harkt. Ettirmek için Çift Tıkla
 
 # =============================================================================
 # Clone Tool
@@ -810,7 +810,7 @@ BuildCost_CloneRoom								CloneRoom
 
 codex_startonline                   Go Online
 codex_start                         Create Game
-codex_joinonline                    Join Online Game
+codex_joinonline                    Çeviriçi Oyuna Katıl
 codex_join                          Join Game
 codex_usernamelabel                 Username:
 codex_namelabel                     Game Name:
@@ -840,7 +840,7 @@ multiplayer_incorrectpassword       Incorrect Password
 multiplayer_disconnected            Lost connection to server.
 multiplayer_syncerror               Disconnected due to synchronisation error.\n\nPlease attempt to rejoin your game.
 multiplayer_hostonly                Only available for host player.
-multiplayer_modsdisabled            Mods are disabled for online play
+multiplayer_modsdisabled            Modlar çevirmiçi oyun için kapalıdır
 multiplayer_mutatorsdisabled        Mutators are disabled for online play
 multiplayer_kicked                  You were kicked from the game.
 multiplayer_kick                    Kick
