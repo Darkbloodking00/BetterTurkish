@@ -501,59 +501,59 @@ buildtoolbar_popup_room_commonroom		Mahkumlarınızın kafasını rahatlatmak i�
 buildtoolbar_popup_room_kennel          Köpeklerinizin yaşadığı yer.
 buildtoolbar_popup_room_chapel          Bürökratik bir komisyon bir araya gelerek tutukluların dini ihtiyaçları için bir çözüm tasarlarlarsa ne olur? Bir, 'Çok Dinli İbadet Odası', işte. Biz ona Şapel diyoruz.
 buildtoolbar_popup_room_paroleroom      Mahkumlarınız hükümlerinin %50 ve %75 kadarını çektikten sonra şartlı tahliyeye uygun olacak. Müdür ve Amirle birlikte kaderleri bu odada belirlenecek.\n\nLütfen ekstra güvenliğe ihtiyaç olduğunu not edin. Mahkumların şartlı tahliyeleri reddedilince oldukça mutsuz oldukları biliniyor.
-buildtoolbar_popup_room_library         Your prison will be sent boxes of discarded and used books from around the country. Prisoners will need to sort those books onto the shelves.
-buildtoolbar_popup_room_intake          Where your prisoners are first taken when they arrive.
-buildtoolbar_popup_room_nursery         Activity room for prisoners with babies. 
-buildtoolbar_popup_room_shop            Shops give your prisoners a place to spend their hard-earned money in order to satisfy their need for luxuries. Can also help with hygiene, food and recreation. You'll receive money for each sale plus a commission each day for the total goods sold.
+buildtoolbar_popup_room_library         Hapishaneniz atılmış ve kullanılmış kitaplarları ülkenin dört bir yanına yollayacak. Mahkumlarınızın bu kitapları raflara dizmesi gerekecek.
+buildtoolbar_popup_room_intake          Mahkumlarınızın hapishaneye vardığında ilk alındığı yer.
+buildtoolbar_popup_room_nursery         Bebekli mahkumlar için faaliyet odası. 
+buildtoolbar_popup_room_shop            Dükkanlar; mahkumlarınızın güç bela kazandığı parayı onların lüks ihtiyaçlarını tatmin etmek için harcayabilecekleri bir yerdir. Hijyen, yemek ve eğlence konusunda da yardımcı olabilir. Her satıştan para kazanacaksınız, artı toplam satılan mallardan günlük komisyon alacaksınız.
 
-buildtoolbar_popup_obj_bed				Not too soft, not too hard, just right. Well, actually, really hard and too small.
-buildtoolbar_popup_obj_toilet			A basic human right, if you believe all those crackpots.
-buildtoolbar_popup_obj_table			Goes excellently with a chair.
-buildtoolbar_popup_obj_chair			Goes brilliantly with a table.
-buildtoolbar_popup_obj_bench			For sitting on.
-buildtoolbar_popup_obj_electricchair	To deliver 2000V of justice.
-buildtoolbar_popup_obj_jaildoor			Keep your prisoners where they should be.
-buildtoolbar_popup_obj_jaildoorlarge	Keep lots of your prisoners where they should be.
-buildtoolbar_popup_obj_door				A simple door.
-buildtoolbar_popup_obj_solitarydoor		A heavyset door to stop even the strongest of prisoners from escaping.
-buildtoolbar_popup_obj_staffdoor		A locked door that can be opened by any member of staff, not just Guards.
-buildtoolbar_popup_obj_window			To glimpse the sun through.
-buildtoolbar_popup_obj_windowlarge		To glimpse lots of the sun through.
-buildtoolbar_popup_obj_tree				Taking steps against global warming is all of our responsibility.
-buildtoolbar_popup_obj_light			Ensure you can see your prisoners at all times of the day.
-buildtoolbar_popup_obj_cooker			Give your prisoners the life of luxury with hot food.
-buildtoolbar_popup_obj_fridge			Keep your food supplies from rotting.
-buildtoolbar_popup_obj_bin				Tidiness is important when it comes to contraband.
-buildtoolbar_popup_obj_sink				All employees are required to wash their hands. Will work faster if connected to hot water.
-buildtoolbar_popup_obj_servingtable		Dish up food to your prisoners.
-buildtoolbar_popup_obj_showerhead		The head of a shower. For showering. Showering with hot water makes your prisoners happier.
-buildtoolbar_popup_obj_bookshelf		A shelf that holds books. 
-buildtoolbar_popup_obj_officedesk		Your staff need to write things down a lot. Give them a shiny office desk to do it on.
-buildtoolbar_popup_obj_filingcabinet	Your staff need to keep the things they write ordered nicely.
-buildtoolbar_popup_obj_medicalbed		A place to hold the narcotics until your prisoners steal them.
-buildtoolbar_popup_obj_morgueslab		Ensure the dead have a respectful place to rest before moving.
-buildtoolbar_popup_obj_drain			Remove water from the floor.
-buildtoolbar_popup_obj_sprinkler		Automatically sprays the area with water in the event of a fire.
-buildtoolbar_popup_obj_metaldetector	Find contraband on your prisoners that pass through these. Will require a guard to be nearby to take the contraband.
-buildtoolbar_popup_obj_weightsbench		Allow your prisoners to exercise, which keeps them happy.
-buildtoolbar_popup_obj_phonebooth		Prisoners might want to talk to their family, and these handy phonebooths let them.
-buildtoolbar_popup_obj_tv				Pacify your prisoners with mind-numbing mediocrity. Requires a place for prisoners to sit in front of the TV.
-buildtoolbar_popup_obj_largetv			Allow lots of your prisoners to share the experience of brain rot. Requires a place for prisoners to sit in front of the TV.
-buildtoolbar_popup_obj_radio            Lets your prisoners listen to their favourite boy bands as they go about their day. Makes all prisoners in the same room slightly happier. 
-buildtoolbar_popup_obj_pooltable		Remove the monotony of prison life with a game of pool. 
-buildtoolbar_popup_obj_dismantleobject	Remove an object from your prison.
-buildtoolbar_popup_obj_altar            Relays your prayers directly to your higher power of choice.
-buildtoolbar_popup_obj_pews             Seats for the faithful. Made from the hardest, most unpadded of woods.
-buildtoolbar_popup_obj_prayermat        Protect your prisoners from the dirty floor while they offer their prayers. 
-buildtoolbar_popup_obj_guardtower       A tower from which your snipers (hired separately) can watch over your prison.
-buildtoolbar_popup_obj_roadbarrier      A sturdy road barricade that can stop even speeding trucks. Only closes during Lockdown.
+buildtoolbar_popup_obj_bed				Ne çok yumuşak, ne de çok sert, yalnızca olması gereken. Yani, aslına bakarsak çok sert ve küçük.
+buildtoolbar_popup_obj_toilet			Temel insan hakkı, eğer bütün bu mankafalara inanıyorsan.
+buildtoolbar_popup_obj_table			Bir sandalya ile harika gider.
+buildtoolbar_popup_obj_chair			Bir masa ile nefis gider.
+buildtoolbar_popup_obj_bench			Oturmak için.
+buildtoolbar_popup_obj_electricchair	Adaleti 2000V vermek için.
+buildtoolbar_popup_obj_jaildoor			Mahkumlarınızı olması gerektiği yerlerinde tutun.
+buildtoolbar_popup_obj_jaildoorlarge	Bir sürü makhumu olmaları gerektiği yerlerinde tutun.
+buildtoolbar_popup_obj_door				Sıradan bir kapı.
+buildtoolbar_popup_obj_solitarydoor		En güçlü mahkumun bile kaçmasını engellemek için tıknaz bir kapı.
+buildtoolbar_popup_obj_staffdoor		Sadece koruma değil, personelin de açabileceği kilitli bir kapı.
+buildtoolbar_popup_obj_window			İçeriye doğru güneşin göz kırpması için.
+buildtoolbar_popup_obj_windowlarge		İçeriye doğru daha fazla güneşin göz kırpması için.
+buildtoolbar_popup_obj_tree			    Küresel ısınmaya karşı attığımız adımlar hepimizin sorumluluğunda.
+buildtoolbar_popup_obj_light			Gün içinde bütün saatlerde mahkumlarınızı görmenize olanak sağlar.
+buildtoolbar_popup_obj_cooker			Mahkumlarınıza bir lüks olarak sıcak yiyecek verin.
+buildtoolbar_popup_obj_fridge			Yemeklerinizin çürümesini engeller.
+buildtoolbar_popup_obj_bin				İş kaçakçılığa geldiğinde derli toplu olmak önemlidir.
+buildtoolbar_popup_obj_sink				Bütün çalışanlarınızın ellerini yıkması gerekir. Sıcak su kaynağına bağlanması durumunda daha hızlı çalışır.
+buildtoolbar_popup_obj_servingtable		Mahkumlarınıza yemek servis edin.
+buildtoolbar_popup_obj_showerhead		Duşun başlığı. Duş yapmak için. Sıcak suyla duş almak makhumlarınızı mutlu eder.
+buildtoolbar_popup_obj_bookshelf		Kitapları bulunduran bir raf. 
+buildtoolbar_popup_obj_officedesk		Personelinizin çok fazla şeyi kaydetmesi gerekir. Onlara işlerini yapmaları için parlak bir ofis masası ver.
+buildtoolbar_popup_obj_filingcabinet	Personelinizin kaydettiği şeylerin güzelce düzenli durması gerekir.
+buildtoolbar_popup_obj_medicalbed		Makhumlarınız onları çalmadan önce narkotiklerin tutulduğu yer.
+buildtoolbar_popup_obj_morgueslab		O taşınmadan önce merhumun ona yakışır bir yerde dinlenmesini sağlar.
+buildtoolbar_popup_obj_drain			Zemindeki suyu kaldırır.
+buildtoolbar_popup_obj_sprinkler		Bir yangın durumunda etrafa otomatik olarak su sıkar.
+buildtoolbar_popup_obj_metaldetector	Mahkumlarınızın üzerindeki kaçak malları onlar bunların içinden geçerken bul. Kaçak malı alması için yakınlarda bir korumanın olması gerekecek.
+buildtoolbar_popup_obj_weightsbench		Mahkumlarınızn egzersiz yapmasını sağla, bu onları mutlu kılacak.
+buildtoolbar_popup_obj_phonebooth		Mahkumlar aileleri ile konuşmak isteyebilir, işte bu pratik telefon kulübesi onlara bunu sağlar.
+buildtoolbar_popup_obj_tv				Beyin büzüştüren mediokrasi ile makhumlarınızı sakinleştirin. Mahkumlarınızın TV'nin önünde oturabileceği bir yer gerektirir.
+buildtoolbar_popup_obj_largetv			Birçok mahkumun beyin mıncıklama deneyimini bir arada paylaşmasını sağlar. Mahkumlarınızın TV'nin önünde oturabileceği bir yer gerektirir.
+buildtoolbar_popup_obj_radio            Mahkumlarınızın; onlar günlerini geçirirken favori erkek gruplarını dinlemesini sağlar. Bir odada bulunan bütün makhumları biraz mutlu eder. 
+buildtoolbar_popup_obj_pooltable		Tek düze mahkum hayatını bir bilardo oyunu ile kaldır. 
+buildtoolbar_popup_obj_dismantleobject	Hapishanenizdeki nesneleri kaldırır.
+buildtoolbar_popup_obj_altar            İbadet eden kişileri direkt olarak daha üst bir güce bağlar.
+buildtoolbar_popup_obj_pews             İnançlı kişi için oturaklar. Odunların en serti ve rahatsız edici olanından yapılmıştır.
+buildtoolbar_popup_obj_prayermat        Onlar dualarını ederken mahkumlarınızın pis zeminden korunmasını sağlar. 
+buildtoolbar_popup_obj_guardtower       Hapishanenizizi izlemek üzere konumlandırılmış keski nişancılarınız (ayriyetten işe alınır) için yapılmış bir kule.
+buildtoolbar_popup_obj_roadbarrier      Hızlı bir traktörü bile durdurabilen gürbüz bir barikat. Sadece Kilitleme uygulandığı zaman kapanır.
 
-buildtoolbar_popup_staff_workman		Will build your prison for you, based on the plans you provide them.
-buildtoolbar_popup_staff_guard			Used to keep your prisoners in check and out of trouble.
-buildtoolbar_popup_staff_armedguard     Armed with a shotgun, prisoners will think twice before attacking this fellow.\n\nNote: Each armed guard requires his own locker in the Armoury.
-buildtoolbar_popup_staff_doctor			Automatically heals all nearby injured people, whether they are guards or prisoners.
-buildtoolbar_popup_staff_cook			Feeds your prisoners with the meals they prepare.
-buildtoolbar_popup_staff_gardener		Keeps your prison grounds nice and tidy.
+buildtoolbar_popup_staff_workman		Onlara verdiğin plan doğrultusunda hapishaneni inşa edecekler.
+buildtoolbar_popup_staff_guard			Mahkumlarınızı kontrol etmek ve beladan uzak tutmak için kullanılırlar.
+buildtoolbar_popup_staff_armedguard     Av tüfeği ile donatılmıştır. Mahkumlarınız bu herife bulaşmadan önce iki kez düşünecek.\n\nNot: Her Silahlı Koruma, cephanelikte kendide ait birer adet kilitli dolap gerektirir.
+buildtoolbar_popup_staff_doctor			Mahkum veya koruma olsun ya da olmasın yakında bulunan ve yaralanmış kişileri otomatik olarak iyileştirirler.
+buildtoolbar_popup_staff_cook			Hazırladıkları yemekler sayesinde mahkumları besler.
+buildtoolbar_popup_staff_gardener		Hapishanenizin yerlerini güzel ve düzenli tutar.
 buildtoolbar_popup_staff_janitor		Keeps the inside of your prison nice and tidy. Can also help with the prison laundry.
 buildtoolbar_popup_staff_warden			The grand overseer of your prison. Required before you can research and hire advanced staff members.
 buildtoolbar_popup_staff_chief			An advanced staff member that gives access to the deployment, CCTV, and riot guards research items.
@@ -886,7 +886,7 @@ codex_new_small                         Küçük
 codex_new_medium                        Orta
 codex_new_large                         Büyük
 codex_new_selectwarden                  Müdürü seç
-codex_new_selectgender                  Mahkum Cinsiyetini seç
+codex_new_selectgender                  Mahkum Cinsiyetini Seç
 
 codex_options_graphics					Grafikler
 codex_options_resolution				Çözünürlük
@@ -3584,7 +3584,7 @@ mutator_name_noclipstaff                Spectral Staff
 mutator_tooltip_bigheads                Gives your prisoners big heads!
 mutator_tooltip_moreviolentprisoners    Significantly increases the number of prisoners with violent tendancies that you'll receive.
 mutator_tooltip_noviolentprisoners      Only receive prisoners that have no violent tendacies. 
-mutator_tooltip_fastwalking             Everyone in your prison walks twice as fast.
+mutator_tooltip_fastwalking  	           Everyone in your prison walks twice as fast.
 mutator_tooltip_biggerfights            Makes prisoners far more likely to join in on fights, and less likely to back down from a fight.
 mutator_tooltip_morevolatileprisoners   Makes roughly half your prisoners have the Volatile trait, making them cause trouble just for fun.
 mutator_tooltip_endlesswinter           Brings back the dreaded Exposure status effect, and plunges the world into an eternal freezing winter. (No effect if Weather is disabled.)
