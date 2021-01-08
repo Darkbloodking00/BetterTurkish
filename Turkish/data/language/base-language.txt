@@ -546,7 +546,7 @@ buildtoolbar_popup_obj_altar            İbadet eden kişileri direkt olarak dah
 buildtoolbar_popup_obj_pews             İnançlı kişi için oturaklar. Odunların en serti ve rahatsız edici olanından yapılmıştır.
 buildtoolbar_popup_obj_prayermat        Onlar dualarını ederken mahkumlarınızın pis zeminden korunmasını sağlar. 
 buildtoolbar_popup_obj_guardtower       Hapishanenizizi izlemek üzere konumlandırılmış keski nişancılarınız (ayriyetten işe alınır) için yapılmış bir kule.
-buildtoolbar_popup_obj_roadbarrier      Süratli bir traktörü bile durdurabilen gürbüz bir barikat. Sadece Kilitleme uygulandığı zaman kapanır.
+buildtoolbar_popup_obj_roadbarrier      Süratli bir traktörü bile durdurabilen gürbüz bir barikat. Sadece Tecrit uygulandığı zaman kapanır.
 
 buildtoolbar_popup_staff_workman		Onlara verdiğin plan doğrultusunda hapishaneni inşa edecekler.
 buildtoolbar_popup_staff_guard			Mahkumlarınızı kontrol etmek ve beladan uzak tutmak için kullanılırlar.
@@ -577,18 +577,18 @@ buildtoolbar_popup_uts_DoorControlSystem  Korumalar tarafından işletilmek üze
 buildtoolbar_popup_uts_phonemonitor     Korumalar tarafından işletilmek üzere, güvenlik odası içine kurulmak amacıyla tasarlandı. Tutuklularınız tarafından dışa giden bütün aramaları dinlemenizi sağlar.\n\nBağlama aracını kullarak bu sistemi Telefon kulübelerinize bağla.
 buildtoolbar_popup_uts_Servo            Tetiği uzaktan kontrol etmek istediğin bir kapıya yerleştir. Motor mekanizmasının doğrudan kapının üzerinde olduğundan emin ol.\n\nBir kere kurulduğunda ve tetiğin kendisi harekete geçirildiğinde kapı açılacak - tipik olarak bir Kapı Kontrol Sistemi vasıtası, veya bir Kapı Zamanlayıcısıyla.\n\nTetikler birbirlenine zincirlenebilir, yani biri açıldığında diğerleri de daha sonrasında tetiklenek.
 buildtoolbar_popup_uts_LogicCircuit     Yalnızca gelişmiş mimarlar için.\n\nVerilen girdiye bağlı olarak ona bağlı çıktılar veren mantık işlemleri yapan basit bir devre kutusu.\n\nMevcut işlemler: Ve / Veya / Değil / Değil-Ve / Değil-Veya / Özel-Veya\n\nSağ tıklayarak mantıksal işlemler arasında geçiş yap.
-buildtoolbar_popup_uts_LogicBridge      Advanced architects only.\n\nTakes its incoming signal, and bridges it onto Electrical Cable installed in the same square. That Electrical cable will carry the signal to any other Logic Circuits installed on the same Electrical Cable.\n\nCan be used to 'broadcast' a common signal all around your prison, eg Useful to pass around a common Clock signal.
-buildtoolbar_popup_uts_DoorTimer        Can be used to automatically open doors at certain times of day.\n\nUse the Connect tool to connect this timer to your Door Servos.
-buildtoolbar_popup_uts_Wire             Connect your remote access systems together.
-buildtoolbar_popup_uts_showallwires		Show every connected wire in your prison.
-buildtoolbar_popup_uts_remotedoor       A strong metal door that cannot be opened with a key (Can only be opened remotely). Use this to prevent mass escape events when a prisoner has Jail Keys.
-buildtoolbar_popup_uts_dismantleutility	Remove a utility object from your prison.
-buildtoolbar_popup_uts_pressurepad      Sends a signal to connected objects whenever something is on top of the pad.
-buildtoolbar_popup_uts_statuslight      Lights up either red or green, depending on the signal it is receiving. 
+buildtoolbar_popup_uts_LogicBridge      Yalnızca gelişmiş mimarlar için.\n\nİletilmiş sinyalini alır, ve bu sinyali aynı kare üzerinde bulunan Elektrik Kablosuna köprüler. Bu Elektrik Kablosu herhangi bir diğer aynı Elektrik Kablosu üzerinde bulunan Mantık Devresine bu sinyali taşır .\n\nHapishanenizin her köşesine sıradan bir 'yayın' yapmak için kullanılabilir, örn Sıradan bir Saat sinyalini taşımak için kullanışlıdır.
+buildtoolbar_popup_uts_DoorTimer        Günün belli saatlerinde kapıları otomatik olarak açmak için kullanılabilir.\n\nBağlama aracını kullanarak bu zamanlayıcıyı Kapı Tetiklerine bağla.
+buildtoolbar_popup_uts_Wire             Uzaktan erişimli sistemlerinizi birbirine bağla.
+buildtoolbar_popup_uts_showallwires		Hapishanenizdeki bütün bağlanmış kabloları göster.
+buildtoolbar_popup_uts_remotedoor       Anahtarla açılamayan güçlü bir çelik kapı (Yalnızca uzaktan açılabilir). Bunu kullanarak bir mahkumun anahtarları elde etmesi durumunda büyük kaçış olaylarına mani ol.
+buildtoolbar_popup_uts_dismantleutility	Hapishanenizden araç bölümüne ait nesneleri kaldır.
+buildtoolbar_popup_uts_pressurepad      Plağın üzerine ne varsa bağlı olduğu nesneye sinyal yollar.
+buildtoolbar_popup_uts_statuslight      Aldığı sinyale göre, kırmızı veya yeşil yanar. 
 
-buildtoolbar_popup_autolights_name      Auto Lights
-buildtoolbar_popup_autolights           Automatic Light Placement
-buildtoolbar_popup_autolights_desc      When selected, lights will automatically be placed throughout your newly created buildings once they are finished.
+buildtoolbar_popup_autolights_name      Oto Işık
+buildtoolbar_popup_autolights           Otomatik Işık Yerleştirme
+buildtoolbar_popup_autolights_desc      Seçildiğinde, yeni oluşturulmuş yapılar bittiği zaman, ışıklar baştan aşağı otomatik olarak yerleştirilecek.
 
 buildtoolbar_contraband_source          Shows all the locations around your prison that contraband could be stolen from.
 buildtoolbar_contraband_day             Shows all contraband confiscated in the last 24 hours. The icons show where the contraband was confiscated.
@@ -1821,66 +1821,66 @@ experiencefactor_passedintermediateprograms     Passed *X intermediate programs
 experiencefactor_passedadvancedprograms         Passed *X advanced programs
 experiencefactor_passedexpertprograms           Passed *X expert programs
 
-experiencefactor_YearsServed            *X years served
-experiencefactor_fights                 Involved in violent incidents
-experiencefactor_murders                Committed murder *X times within your prison
-experiencefactor_escapeattempts         Tried to escape *X times
-experiencefactor_addictions             *X active addictions
-experiencefactor_gangmembership         Gang Member
+experiencefactor_YearsServed            *X yıl hizmet etti
+experiencefactor_fights                 Şiddetli olaylara karışmış
+experiencefactor_murders                Hapishanenizde *X kere cinayet işledi
+experiencefactor_escapeattempts         *X Kere firar etmeyi denedi
+experiencefactor_addictions             *X aktif bağımlılık
+experiencefactor_gangmembership         Çete Üyesi
 
-legend_key                              Key:
+legend_key                              Anahtar:
 
-needs_graphscale_title                  Prisoners:
-needs_graphscale_title_staff            Staff:
-needs_key_critical                      Critical
-needs_key_high                          High
-needs_key_med                           Medium
-needs_key_satisfied                     Satisfied
-needs_key_active                        Active
+needs_graphscale_title                  Mahkumlar:
+needs_graphscale_title_staff            Personel:
+needs_key_critical                      Kritik
+needs_key_high                          Yüksek
+needs_key_med                           Orta
+needs_key_satisfied                     Memnun
+needs_key_active                        Aktif
 
-needs_show_category                     Prisoner Category
-needs_show_category_staff               Staff Category
-needs_show_category_all                 All Prisoners
+needs_show_category                     Mahkum Kategorisi
+needs_show_category_staff               Personel Kategorisi
+needs_show_category_all                 Tüm Mahkumlar
 
-contraband_supplyanddemand              Supply and Demand
-contraband_narcotics                    Narcotics
-contraband_weapons                      Weapons
-contraband_tools                        Tools
-contraband_luxuries                     Luxuries
+contraband_supplyanddemand              Arz ve Talep
+contraband_narcotics                    Narkotikler
+contraband_weapons                      Silahlar
+contraband_tools                        Araçlar
+contraband_luxuries                     Lüks Eşyalar
 contraband_metal                        Metal
-contraband_smelly                       Smelly
-contraband_rangedweapon                 Ranged Weapon
-contraband_improvised                   Improvised
+contraband_smelly                       Kokulu
+contraband_rangedweapon                 Menzilli Silah
+contraband_improvised                   Hazırlıksız
 
-contraband_key_supply                   Supply
-contraband_key_demand                   Demand
-contraband_log_stolen                   STOLEN
-contraband_log_position                 POSITION
-contraband_log_smuggled                 SMUGGLED
-contraband_log_traded                   TRADED
-contraband_log_thrown                   THROWN
-contraband_log_hidden                   HIDDEN
-contraband_log_detected                 DETECTED
-contraband_log_dog                      DOG
-contraband_log_found                    FOUND
-contraband_log_owner                    OWNER
-contraband_log_arranged                 Arranged *X hours ago
+contraband_key_supply                   Arz
+contraband_key_demand                   Talep
+contraband_log_stolen                   ÇALINMIŞ
+contraband_log_position                 KONUM
+contraband_log_smuggled                 KAÇAKÇILIK YAP.
+contraband_log_traded                   TAKAS EDILMIŞ
+contraband_log_thrown                   FIRLATILMIŞ
+contraband_log_hidden                   SAKLI
+contraband_log_detected                 TESBIT EDILDI
+contraband_log_dog                      KÖPEk
+contraband_log_found                    BULUNDU
+contraband_log_owner                    SAHİP
+contraband_log_arranged                 *X saat önce ayarlandı
 
-gangs_guards                            GUARDS *X
-gangs_soldiers                          SOLDIERS *X / *Y MAX
-gangs_evict                             EVICT
-gangs_status                            *X Members . *Y Kills . $*Z
+gangs_guards                            *X KORUMA
+gangs_soldiers                          *X ASKER / *Y MAKS
+gangs_evict                             TAHLIYE
+gangs_status                            *X Üye . *Y Öldürülmüş . $*Z
 
-schedule_zone_shared                    Shared
-schedule_zone_minseconly                Min Sec
-schedule_zone_medseconly                Med Sec
-schedule_zone_maxseconly                Max Sec
-schedule_zone_protectedonly             Protective Custody
-schedule_zone_supermaxonly              Super Max
-schedule_zone_deathrowonly              Death Row
-schedule_zone_staffonly                 Staff Only
-schedule_zone_unlocked                  Unlocked
-schedule_zone_custom					Custom
+schedule_zone_shared                    Paylaşımlı
+schedule_zone_minseconly                Min Güven.
+schedule_zone_medseconly                Ort Güven.
+schedule_zone_maxseconly                Maks Güven.
+schedule_zone_protectedonly             İhtiyati Tutuklama
+schedule_zone_supermaxonly              Süper Maks
+schedule_zone_deathrowonly              Ölüm Mahkumu
+schedule_zone_staffonly                 Yalnızca Personel
+schedule_zone_unlocked                  Açılmış
+schedule_zone_custom					Özel
 
 
 
@@ -1888,141 +1888,141 @@ schedule_zone_custom					Custom
 # Needs / Actions / Bio etc
 # =============================================================================
 
-action_poo                              Poo
-action_wee                              Wee
-action_wash                             Showering
-action_relax                            Relaxing
-action_sleep                            Sleeping
-action_nap                              Napping
-action_getmeal                          Getting Food
-action_sit                              Sitting
-action_exercise                         Exercising
-action_liftweights                      Weightlifting
-action_phonehome                        Phoning Family
-action_watchtv                          Watching Tv
-action_playpool                         Playing Pool
-action_stealknife                       Acting Suspicious
-action_stealspoon                       Acting Suspicious
-action_urinate                          Urinating
+action_poo                              Puu
+action_wee                              Uii
+action_wash                             Yıkanıyor
+action_relax                            Dinleniyor
+action_sleep                            Uyuyor
+action_nap                              Kestiriyor
+action_getmeal                          Yemek alıyor
+action_sit                              Oturuyor
+action_exercise                         Egzersiz Yapıyor
+action_liftweights                      Ağırlık Kaldırıoyr
+action_phonehome                        Ailesine Telefon Ediyor
+action_watchtv                          Tv İzliyor
+action_playpool                         Bilardo Oynuyor
+action_stealknife                       Şüpheli Davranıyor
+action_stealspoon                       Şüpheli Davranıyor
+action_urinate                          İşiyor
 action_soilsuit                         Soiling Suit
-action_eat                              Eating
-action_complain                         Complaining
-action_work                             Working
-action_visitation                       Visitation
-action_parole                           Parole Hearing
-action_none                             None
-action_misbehaving                      Misbehaving
-action_escaping                         Escaping
-action_destroying                       Destroying
-action_spoiling                         Spoiling
-action_fighting                         Fighting
-action_rioting                          Rioting
-action_hostagetaking                    Hostage Taking
-action_reformprogram                    Reform Program
-action_changeclothes                    Changing Clothes
-action_getbook                          Get Book
-action_pray                             Praying
-action_shopping                         Shopping
-action_playinggame                      Playing Game
-action_usecomputer                      Use Computer
+action_eat                              Yiyor
+action_complain                         Şikayet Ediyor
+action_work                             Çalışıyor
+action_visitation                       Ziyaret Ediyor
+action_parole                           Şartlı Tahliye Duruşması
+action_none                             Hiçbiri
+action_misbehaving                      Yaramazlık Yapıyor
+action_escaping                         Firar Ediyor
+action_destroying                       Yıkıyor
+action_spoiling                         Çürüyor
+action_fighting                         Dövüşüyor
+action_rioting                          İsyan Ediyor
+action_hostagetaking                    Rehine Alıyor
+action_reformprogram                    Reform Programı
+action_changeclothes                    Kıyafet Değiştiriyor
+action_getbook                          Kitap Alıyor
+action_pray                             Dua Ediyor
+action_shopping                         Alışveriş Yapıyor
+action_playinggame                      Oyun Oynuyor
+action_usecomputer                      Bilgisayar Kullanıyor
 
-action_foodpoisoning_1                  Oh god make it stop
-action_foodpoisoning_2                  Everything is coming out
-action_foodpoisoning_3                  Vomiting everywhere
-action_foodpoisoning_4                  Why is this happening
-action_foodpoisoning_5                  Literally dying
+action_foodpoisoning_1                  Ah tanrım lütfen bitsin artık
+action_foodpoisoning_2                  Her şey dışarı çıkıyor
+action_foodpoisoning_3                  Her yere kusuyor
+action_foodpoisoning_4                  Neden bu oluyor
+action_foodpoisoning_5                  Resmen ölüyor
 
-status_effect_title						=[Status Effects]=
-status_effect_none						None
-status_effect_suppressed				Suppressed
-status_effect_goodfood					Well Fed
-status_effect_drunk						Drunk
-status_effect_high                      High
-status_effect_withdrawal				Withdrawal
-status_effect_tazed                     Tazed
-status_effect_overdosed                 Overdosed
-status_effect_surrendered               Surrendered
-status_effect_calming                   Calming
-status_effect_angst                     Angry
-status_effect_wounded                   Bleeding
-status_effect_virus                     Sick
-status_effect_virusdeadly               Sick
-status_effect_overheating               Overheating
+status_effect_title						=[Durum Etkileri]=
+status_effect_none						Hiçbiri
+status_effect_suppressed				Bastırılmış
+status_effect_goodfood					İyi Beslenmiş
+status_effect_drunk						Sarhoş
+status_effect_high                      Kafası Güzel
+status_effect_withdrawal				Çekilmiş
+status_effect_tazed                     Şoklanmış
+status_effect_overdosed                 Dozu Aşmış
+status_effect_surrendered               Teslim Oldu
+status_effect_calming                   Sakinleşiyor
+status_effect_angst                     Sinirli
+status_effect_wounded                   Kanıyor
+status_effect_virus                     Hasta
+status_effect_virusdeadly               Hasta
+status_effect_overheating               Sıcaktan Bunalmış
 status_effect_exposure                  Exposure
-status_effect_foodpoisoning             Food Poisoning
-status_effect_riledup                   Riled Up
-status_effect_statusswimming            Swimming
-status_effect_statusdrowning            Drowning
+status_effect_foodpoisoning             Gıda Zehirlenmesi
+status_effect_riledup                   Ürkmüş
+status_effect_statusswimming            Yüzüyor
+status_effect_statusdrowning            Boğuluyor
 
-condition_treated                       Treated
-condition_needstreating                 Needs Treating
+condition_treated                       Tedavi Görmüş
+condition_needstreating                 Tedaviye İhtiyacı Var
 
-experience_totaltime                    Total Time
-experience_misconduct                   Misconduct
-experience_lockeddown                   Lockdown
-experience_regime                       Regime
-experience_sleep                        Sleep
-experience_work                         Work
-experience_class                        Class
-experience_freetime                     Free Time
-experience_moodbad                      Bad
+experience_totaltime                    Toplam Zaman
+experience_misconduct                   Kötü İdare
+experience_lockeddown                   Tecrit
+experience_regime                       Program
+experience_sleep                        Uyku
+experience_work                         İş
+experience_class                        Sınıf
+experience_freetime                     Boş Zaman
+experience_moodbad                      Kötü
 experience_moodnormal                   Normal
-experience_moodgood                     Good
-experience_nocondition                  None
+experience_moodgood                     İyi
+experience_nocondition                  Hiçbiri
 experience_kod                          KOd
-experience_hurt                         Hurt
-experience_suppressed                   Suppressed
-experience_intoxicated                  Intoxicated
-experience_wellfed                      Well Fed
-experience_exercise                     Exercise
+experience_hurt                         İncinmiş
+experience_suppressed                   Bastırlmış
+experience_intoxicated                  Sarhoş
+experience_wellfed                      İyi Beslenmiş
+experience_exercise                     Egersiz
 
-need_name_nothing                       Nothing
-need_name_bladder                       Bladder
-need_name_bowels                        Bowels
-need_name_sleep                         Sleep
-need_name_food                          Food
-need_name_safety                        Safety
-need_name_hygiene                       Hygiene
-need_name_exercise                      Exercise
-need_name_family                        Family
-need_name_recreation                    Recreation
-need_name_comfort                       Comfort
-need_name_environment                   Environment
-need_name_privacy                       Privacy
-need_name_freedom                       Freedom
-need_name_clothing                      Clothing
-need_name_drugs                         Drugs
-need_name_alcohol                       Alcohol
-need_name_starving                      Starving
-need_name_spirituality                  Spirituality
-need_name_literacy                      Literature
-need_name_babysleep                     [Baby] Sleep
-need_name_babyplay                      [Baby] Play
-need_name_warmth                        Warmth
-need_name_staffbladder                  Bladder
-need_name_staffbowels                   Bowels
-need_name_stafffood                     Food 
-need_name_staffsafety                   Safety
-need_name_staffrecreation               Recreation
-need_name_staffcomfort                  Comfort
-need_name_staffenvironment              Environment
-need_name_staffrest                     Rest
-need_name_staffwarmth                   Warmth
-need_name_luxuries                      Luxuries
-needs_locked                            (Psychologist Required To Show Needs)
-needs_title                             =[Needs]=
+need_name_nothing                       Hiçbir şey
+need_name_bladder                       Küçük tuvalet
+need_name_bowels                        Büyük tuvalet
+need_name_sleep                         Uyku
+need_name_food                          Yemek
+need_name_safety                        Güvenlik
+need_name_hygiene                       Hijyen
+need_name_exercise                      Egzersiz
+need_name_family                        Aile
+need_name_recreation                    Eğlenme
+need_name_comfort                       Komfor
+need_name_environment                   Çevre
+need_name_privacy                       Gizlilik
+need_name_freedom                       Özgürlük
+need_name_clothing                      Kıyafet
+need_name_drugs                         Uyuşturucu
+need_name_alcohol                       ALkol
+need_name_starving                      Açlıktan ölüyor
+need_name_spirituality                  Ruhaniyet
+need_name_literacy                      Eğitim
+need_name_babysleep                     [Bebek] Uyku
+need_name_babyplay                      [Bebek] Oyun
+need_name_warmth                        Isı
+need_name_staffbladder                  Küçük tuvalet
+need_name_staffbowels                   Büyük tuvalet
+need_name_stafffood                     Yiyecek 
+need_name_staffsafety                   Güvenlik
+need_name_staffrecreation               Eğlence
+need_name_staffcomfort                  Komfor
+need_name_staffenvironment              Çevre
+need_name_staffrest                     Dinlenme
+need_name_staffwarmth                   Isı
+need_name_luxuries                      Lüks
+needs_locked                            (İhtiyaçları Görmek İçin Psikolog Gerek)
+needs_title                             =[İhtiyaçlar]=
 
-needs_total_prisoners                   *X Prisoners have this need
-needs_total_concerned                   *X Prisoners are concerned about this need
-needs_total_desperate                   *X Prisoners desperately want this need fulfilled
-needs_total_angry                       *X Prisoners are furious that they can't meet this need
-needs_total_active                      *X Prisoners are currently dealing with this need
+needs_total_prisoners                   *X adet Mahkumun bu ihtiyacı var
+needs_total_concerned                   *X adet Mahkum bu ihtiyaç konusunda endişeli
+needs_total_desperate                   *X adet Mahkum bu ihtiyacın doldurulmasını umutsuzca istiyor
+needs_total_angry                       *X adet Mahkum bu ihtiyaç karşılanmadığı için öfkeli
+needs_total_active                      *X adet Mahkum şu anda bu ihtiyaçla uğraşıyor
 
-needs_total_staff                       *X Staff have this need
-needs_total_concerned_staff             *X Staff are concerned about this need
-needs_total_desperate_staff             *X Staff desperately want this need fulfilled
-needs_total_angry_staff                 *X Staff are furious that they can't meet this need
-needs_total_active_staff                *X Staff are currently dealing with this need
+needs_total_staff                       *X adet Personelin bu ihtiyacı var
+needs_total_concerned_staff             *X adet Personel bu ihtiyaç konusunda endişeli
+needs_total_desperate_staff             *X adet Personel bu ihtiyacın doldurulmasını umutsuzca istiyor
+needs_total_angry_staff                 *X adet Personel bu ihtiyaç karşılanmadığı için öfkeli
+needs_total_active_staff                *X adet Personel şu anda bu ihtiyaçla uğraşıyor
 
 needs_help_bladder                      Everyone needs to use the toilet, even prisoners. Don't forget that most parts of your prison Regime are pretty strict - they can't use the toilet in their cell if they are supposed to be in the shower room, for example.
 needs_help_bowels                       Everyone needs to use the toilet, even prisoners. Don't forget that most parts of your prison Regime are pretty strict - they can't use the toilet in their cell if they are supposed to be in the shower room, for example.
@@ -2057,59 +2057,59 @@ needs_help_staffenvironment             Staff don't want to work in a messy pris
 needs_help_staffrest                    Staff need to take breaks during the day, and regain their energy. They prefer to rest in a private staff room with some comfy sofas.
 needs_help_staffwarmth                  Staff need to stay warm, add radiators to your prison to make them more comfortable.
 
-reputation_title                        Reputation
-reputation_hidden                       (Unknown Reputation)
+reputation_title                        İtibar
+reputation_hidden                       (Belirsiz İtibar)
 reputation_hidden_short                 ???
 
-reputation_legendary                    --LEGENDARY--
-reputation_strong                       Strong
-reputation_tough                        Tough
-reputation_volatile                     Volatile
-reputation_snitch                       Snitch
-reputation_deadly                       Deadly
-reputation_stoical                      Stoical
-reputation_fearless                     Fearless
-reputation_exlaw                        Ex Law Enforcement
-reputation_copkiller                    Cop Killer
-reputation_quick                        Quick
-reputation_instigator                   Instigator
-reputation_fighter                      Skilled Fighter
-reputation_gangmember                   Gang Member
-reputation_federalwitness               Federal Witness
-reputation_preacher                     Preacher
-reputation_connected                    Connected
-reputation_workaholic                   Workaholic
-reputation_clean                        Clean
-reputation_pickpocket                   Pick Pocket
-reputation_copycat                      Identity Thief
-reputation_dangerous                    Dangerous
-reputation_escapeartist                 Escape Artist
+reputation_legendary                    --EFSANEVİ--
+reputation_strong                       Güçlü
+reputation_tough                        Sert
+reputation_volatile                     Oynak
+reputation_snitch                       Aşırıcı
+reputation_deadly                       Ölümcül
+reputation_stoical                      Taş gibi
+reputation_fearless                     Korkusuz
+reputation_exlaw                        Eski Kolluk Kuvveti
+reputation_copkiller                    Polis Katili
+reputation_quick                        Hızlı
+reputation_instigator                   Fitneci
+reputation_fighter                      Becerikli Dövüşçü
+reputation_gangmember                   Çete Üyesi
+reputation_federalwitness               Federal Tanık
+reputation_preacher                     Hatip
+reputation_connected                    Bağlantılı
+reputation_workaholic                   İşkolik
+reputation_clean                        Temiz
+reputation_pickpocket                   Yankesici
+reputation_copycat                      Kimlik Hırsızı
+reputation_dangerous                    Tehlikeli
+reputation_escapeartist                 Kaçış Artisti
 
-reputation_strong_high                  Extremely Strong
-reputation_tough_high                   Extremely Tough
-reputation_volatile_high                Extremely Volatile
-reputation_deadly_high                  Extremely Deadly
-reputation_exlaw_high                   Ex Prison Guard
-reputation_quick_high                   Extremely Quick
-reputation_fighter_high                 Expert Fighter
-reputation_connected_high               Well Connected
-reputation_dangerous_high               Extremely Dangerous
+reputation_strong_high                  Aşırı Güçlü
+reputation_tough_high                   Aşırı Sert
+reputation_volatile_high                Aşırı Oynak
+reputation_deadly_high                  Aşırı Ölümcül
+reputation_exlaw_high                   Eski Hapishane Koruması
+reputation_quick_high                   Aşırı Hızlı
+reputation_fighter_high                 Dövüş Uzmanı
+reputation_connected_high               İyi Bağlantılı
+reputation_dangerous_high               Aşırı Tehlikeli
 
-reputation_legendary_high               --LEGENDARY--
-reputation_snitch_high                  Snitch
-reputation_stoical_high                 Stoical
-reputation_fearless_high                Fearless
-reputation_copkiller_high               Cop Killer
-reputation_instigator_high              Instigator
-reputation_gangmember_high              Gang Member
-reputation_federalwitness_high			Federal Witness
-reputation_preacher_high                Preacher
-reputation_workaholic_high              Workaholic
-reputation_clean_high                   Clean
-reputation_pickpocket_high              Pick Pocket
-reputation_copycat_high                 Identity Thief
-reputation_escapeartist_high            Escape Artist
-reputation_swimmer						Swimmer
+reputation_legendary_high               --EFSANEVİ--
+reputation_snitch_high                  Aşırıcı	
+reputation_stoical_high                 Taş gibi
+reputation_fearless_high                Korkusuz
+reputation_copkiller_high               Polis Katili
+reputation_instigator_high              Fitneci
+reputation_gangmember_high              Çete Üyesi
+reputation_federalwitness_high			Federaş Tanık
+reputation_preacher_high                Hatip
+reputation_workaholic_high              İşkolik
+reputation_clean_high                   Temiz
+reputation_pickpocket_high              Yankesici
+reputation_copycat_high                 Kimlik Hırsızı
+reputation_escapeartist_high            Kaçış Artisti
+reputation_swimmer						Yüzücü
 
 reputationtooltip_legendary             This prisoner is a legend of the criminal underworld, and has numerous skills and abilities that make them very dangerous.
 reputationtooltip_strong                This prisoner hits harder with each punch during fights.
@@ -2140,83 +2140,83 @@ reputationtooltip_swimmer				This prisoner is no stranger to water.\nUnlocks the
 # Nameplate status
 # ============================================================================= 
 
-nameplate_working                       Working
-nameplate_stationed                     Stationed
-nameplate_patrolling                    Patrolling
-nameplate_resting                       Resting
-nameplate_tired                         Tired
-nameplate_injured                       Injured
-nameplate_unconscious                   Unconscious
-nameplate_dead                          DEAD
-nameplate_released                      RELEASED
-nameplate_researching                   Researching
-nameplate_overdose                      OVERDOSED
-nameplate_starving                      STARVING
-nameplate_wounded                       BLEEDING
+nameplate_working                       Çalışıyor
+nameplate_stationed                     Konuşlandırıldı
+nameplate_patrolling                    Devriyede
+nameplate_resting                       Dinleniyor
+nameplate_tired                         Yorulmuş
+nameplate_injured                       Yaralanmış
+nameplate_unconscious                   Bilinçsiz
+nameplate_dead                          ÖLÜ
+nameplate_released                      SALINDI
+nameplate_researching                   Araştırılıyor
+nameplate_overdose                      DOZ AŞIMI
+nameplate_starving                      AÇLIKTAN ÖLÜYOR
+nameplate_wounded                       KANIYOR
 
 
 # =============================================================================
 # Objectives, Grants
 # =============================================================================
 
-objective_feedallprisoners              Feed all Prisoners
-objective_caption_prisoners             Prisoners
-objective_caption_meals                 Meals
-objective_readceosletter                Read the CEO's letter
-objective_actionrequired                Incident Reports
+objective_feedallprisoners              Bütün Mahkumları Besle
+objective_caption_prisoners             Mahkumlar
+objective_caption_meals                 Yemekler
+objective_readceosletter                CEO'nun mektubunu oku
+objective_actionrequired                Olay Raporu
 
-objective_deathrowinmates               Death Row Inmates Status
+objective_deathrowinmates               Ölüm Mahkumları Durumu
 
-objective_prisonerintake                Prisoner Intake
-objective_intake_arrivals               *X prisoners arriving 8am
-objective_intake_closed                 Your prison is closed to new inmates
-objective_intake_closed2                (See the Prisoner's Report)
-objective_intake_closed3                (See the Intake Report)
-objective_intake_specials				Special Transfers:
-objective_intake_categories             Categories: 
-objective_intake_minsec                 Min, 
+objective_prisonerintake                Mahkum Alımı
+objective_intake_arrivals               *X adet mahkum sabah 8'de geliyor
+objective_intake_closed                 Hapishaneniz yeni tutuklulara kapalı
+objective_intake_closed2                (Mahkum Raporuna bakın)
+objective_intake_closed3                (Alım Raporuna bakın)
+objective_intake_specials				Özel Nakiller:
+objective_intake_categories             Kategoriler: 
+objective_intake_minsec                 En az, 
 objective_intake_medsec                 Normal, 
-objective_intake_maxsec                 Max
-objective_intake_deathrow               Death Row
-objective_intake_typeclosed             Closed
-objective_intake_typefillcapacity       Fill to capacity
-objective_intake_typetotalprisoners     Fill to *X
-objective_intake_typenumperday          *X per day
-objective_intake_typeallavailable       All available
-objective_intake_closedstrike           Intake unavailable during staff strikes
+objective_intake_maxsec                 Maks
+objective_intake_deathrow               Ölüm Mah.
+objective_intake_typeclosed             Kapalı
+objective_intake_typefillcapacity       Sınıra kadar doldur
+objective_intake_typetotalprisoners     *X adet doldur
+objective_intake_typenumperday          Günde *X adet
+objective_intake_typeallavailable       Mevcut bütün hepsi
+objective_intake_closedstrike           Personel saldırıları sırasında tutuklu alımı yok
 
-objective_firstgrant                    Accept your first Grant
-objective_firstgrant_description        Accept your first monetary grant, by opening the reports window (pressing the button in the bottom right of the screen), selecting the Grants tab and picking one of the available Grants.
+objective_firstgrant                    İlk Hibenizi onaylayın
+objective_firstgrant_description        İlk parasal hibenizi alın, bunun için ilk olarak raporlar ekranından (ekranın sağ altındaki tuşa basarak), Hibeler bölümünden mevcut olan bir Hibe seçin.
 
-objective_builddeliveriesroom           Set up a delivery area 
+objective_builddeliveriesroom           Teslimat alanı belirleyin
 
-objective_outgoing                      Prisoners due for release
-objective_outgoing_count                *X prisoners due for release soon
-objective_outgoing_timer                (*X hrs)
+objective_outgoing                      Salınmak üzere olan mahkumlar
+objective_outgoing_count                *X adet mahkum yakın zamanda salınacak
+objective_outgoing_timer                (*X saat)
 
-objective_visitors                      Visitors (8am - 8pm)
-objective_visitors_waiting              *X families waiting to visit
-objective_visitors_onsite               *X visitors on site in *Y groups
+objective_visitors                      Ziyaretçiler (Sabah 8 - Akşam 8)
+objective_visitors_waiting              *X adet aile ziyaret için bekliyor
+objective_visitors_onsite               *X adet ziyaretçi *Y grup halinde yerinde
 
-objective_staffexhausted                Staff Exhausted
-objective_reststaff_exhausted           *X staff members are exhausted.
-objective_reststaff_resting             (*X are resting)
-objective_reststaff_needstaffroom       Build a Staff Room so they can rest.
+objective_staffexhausted                Personel Tükenmiş
+objective_reststaff_exhausted           *X personel üyesi tükenmiş durumda.
+objective_reststaff_resting             (*X tanesi dinleniyor)
+objective_reststaff_needstaffroom       Personel Odası yap ki dinlensinler.
 
-objective_punishment_solitary           *X in Solitary Confinement
-objective_punishment_solitary_queue     *X awaiting Solitary Confinement
-objective_punishment_solitary_mix       *X in Solitary (+*Y awaiting)
-objective_punishment_lockdown           *X in Lockdown
-objective_incident_medical              *X require medical attention
-objective_incident_dead                 *X dead bodies
+objective_punishment_solitary           *X adet mahkum Tek Hücre hapsinde
+objective_punishment_solitary_queue     *X adet mahkum Tek Hücre hapsini bekliyor
+objective_punishment_solitary_mix       *X adet mahkum Tek Hücrede (+*Y adet bekliyor)
+objective_punishment_lockdown           *X adet mahkum tecritte
+objective_incident_medical              *X kişiye tıbbi yardım gerekli
+objective_incident_dead                 *X ceset
 
-objective_prisonerparole                Prisoner Parole
-objective_parole_count                  *X prisoners up for parole
+objective_prisonerparole                Şartlı Tahliye
+objective_parole_count                  *X mahkum şartlı tahliye için hazır
 
-objective_payment_receivedfull          Payment: *X received
-objective_payment_receivedpart          Payment: *X received out of *Y total
+objective_payment_receivedfull          Tahsilat: *X alındı
+objective_payment_receivedpart          Tahsilat: *X, *Y içinden alındı
 
-objective_grant_bootstraps                  Basic Detention Centre
+objective_grant_bootstraps                  Temel Islahevi
 objective_grant_bootstraps_description      Turn an empty field into a functioning prison.  This government contract gives you the funds necessary to build the absolute minimum facilities for your first set of Prisoners.
 objective_grant_bootstraps_holdingcell      Build a holding cell
 objective_grant_bootstraps_shower           Build a shower
@@ -2365,20 +2365,20 @@ objective_grant_drugsearch                          Crackdown on Drugs
 objective_grant_drugsearch_description              Concerns about drug use in larger prisons is increasing recently. Take a pro-active stance and show that you are tackling the problem.
 objective_grant_drugsearch_find                     Find ten illegal narcotics
 
-objective_grant_contrabandsupply                    Tool Cleanup
+objective_grant_contrabandsupply                    Araç Temizleme
 objective_grant_contrabandsupply_description        Following a number of incidents in other prisons involving stolen items, a group is performing studies on the distribution of tools and weapons throughout prisons. This part of the trial involves trying to remove all such items from your prison population.
 objective_grant_contrabandsupply_tools              Remove the supply of stolen tools
 objective_grant_contrabandsupply_weapons            Remove the supply of stolen weapons
 
-grant_category_completed                            Completed:
-grant_category_unlocked                             Unlocked:
-grant_category_cash                                 Cash:
-grant_category_cashflow                             Cashflow:
-grant_category_debt                                 Debt:
-grant_category_prisoners                            Prisoners:
+grant_category_completed                            Tamamlandı:
+grant_category_unlocked                             Açıldı:
+grant_category_cash                                 Nakit:
+grant_category_cashflow                             Nakit akışı:
+grant_category_debt                                 Borç:
+grant_category_prisoners                            Mahkumlar:
 
-grant_property_atleast                              At Least *X
-grant_property_atmost                               No More Than *X
+grant_property_atleast                              En az *X
+grant_property_atmost                               *X Değer. Fazla Değil
 
 
 # =============================================================================
@@ -2815,7 +2815,7 @@ regimetooltip_shower                    Mahkumlar banyoya girmek için kıyafetl
 regimetooltip_yard                      Mahkumlar temiz hava, gün ışığı ve egzersiz yapmak için tesisten avluya çıkmalarına izin verilir.\n\nMahkumlar avluda bulunan egersiz sehpası, sevdikleri ile konuşmak için telefon kulübesi ve duş vs gibi tesislerden yararlanabilirler.
 regimetooltip_work                      Mahkumlar hapishanede çalıştırılırlar. Açılan her işin yeri doldurulacak ve mahkumlar otomatik olarak çalıştıkları yerlerin konumunu rapor edecekler. (Yeni iş kapılarını Konuşlandırma ekranından ayarlayabilirsiniz.)\n\nAyrıca bütün Reform programları da bu sürede gerçekleşir.  Mahkumlar hiçbir iş veya Reform programına atanmadıysa etrafta 'Boş Zaman' adı altında etrafta dolaşmak konusunda özgürdür.
 regimetooltip_freetime                  Mahkumlar hücrelerinden salınmış ve hapishanede bulunan her tesisi kullanmalarına izin verilmiştir. Mahkumlar en fazla bu zamandan hoşlanır ve zamanlarını ihtiyaçlarını en iyi şekilde karşılamak ve sosyalleşmek için geçirirler.\n\n Uzun süreli boş zaman hapishanedeki stres ve gerginliği azaltabilir, ama çoğu kişi bunun güç bela bir cezalandırma olarak görür.
-regimetooltip_worklockdown              Mahkumlar hapishanede çalıştırılırlar.  Açılan her işin yeri doldurulacak ve mahkumlar otomatik olarak çalıştıkları yerlerin konumunu rapor edecekler. (Yeni iş kapılarını Konuşlandırma ekranından ayarlayabilirsiniz.)\n\nAyrıca bütün Reform programları da bu sürede gerçekleşir.  Mahkumlar hiçbir iş veya Reform programına atanmadıysa 'Kilitleme' adı altında hücrelerinde kısıtlandırılırlar.
+regimetooltip_worklockdown              Mahkumlar hapishanede çalıştırılırlar.  Açılan her işin yeri doldurulacak ve mahkumlar otomatik olarak çalıştıkları yerlerin konumunu rapor edecekler. (Yeni iş kapılarını Konuşlandırma ekranından ayarlayabilirsiniz.)\n\nAyrıca bütün Reform programları da bu sürede gerçekleşir.  Mahkumlar hiçbir iş veya Reform programına atanmadıysa 'Tecrit' adı altında hücrelerinde kısıtlandırılırlar.
 
 regime_clear                            Bu kategorideki mahkumlar için programı kaldırır, ve yerine varsayılan Normal Güvenlikli programına geçilir.
 
@@ -2852,7 +2852,7 @@ doortimer_security_DeathRow             Ölüm Makhumları
 execution_stage_completed               TAMAMLANDI
 execution_stage_authorise               ONAYLA
 execution_stage_Start                   İnfaz başlatıldı
-execution_stage_Lockdown                Hapishane-çapında kilitleme başlat
+execution_stage_Lockdown                Hapishane-çapında tecrit başlat
 execution_stage_Testing                 Test tesisi
 execution_stage_Assemble                İnfaz detayını topla
 execution_stage_Witnesses               Şahitleri tesise eşlik et
@@ -2862,7 +2862,7 @@ execution_stage_Dismissed               Personelleri ve tanıkları çıkar
 execution_stage_FinalReport             Son Rapor
 
 execution_stagetooltip_start            Bu tutuklunun infaz edilmesini belirledin, ve resmi prosedürü takip etmek zorundasın.
-execution_stagetooltip_lockdown         Bütün mahkumlar hücrelerine yollanır ve hapishane kilitlenir.
+execution_stagetooltip_lockdown         Bütün mahkumlar hücrelerine yollanır ve hapishane tecrit edilir.
 execution_stagetooltip_testing          Her şeyin düzgün çalıştığından emin olman için yaptığın son test. Güç kaynağına elektrikli sandalya ile yük testi yapılır  Ayrıca, mahkumun son yolculuğu da planlamış olur - infaz odasına kendi başına gidebiliyor olması gerekmektedir.
 execution_stagetooltip_assemble         Müdür ve Amir hükümlü tutuklunun hüceresine giderler.  Ayrıca, son dualarını etmeleri için bir rahip veya mahkumun belirlediği bir ruhani lider mahkumun hücresine gider.
 execution_stagetooltip_witnesses        İnfaz Şahitleri hapishanin içine gelirler, ve infaz tesisine kadar giderler. Bu grup hükümlü tutuklunun ailesi olabileceği gibi ayrıca mağdurun ailesi de olabilirs.\n\nNb. İnfaz şahitlerine oturmaları için sandalye verilmesi gerekir.
