@@ -546,7 +546,7 @@ buildtoolbar_popup_obj_altar            İbadet eden kişileri direkt olarak dah
 buildtoolbar_popup_obj_pews             İnançlı kişi için oturaklar. Odunların en serti ve rahatsız edici olanından yapılmıştır.
 buildtoolbar_popup_obj_prayermat        Onlar dualarını ederken mahkumlarınızın pis zeminden korunmasını sağlar. 
 buildtoolbar_popup_obj_guardtower       Hapishanenizizi izlemek üzere konumlandırılmış keski nişancılarınız (ayriyetten işe alınır) için yapılmış bir kule.
-buildtoolbar_popup_obj_roadbarrier      Hızlı bir traktörü bile durdurabilen gürbüz bir barikat. Sadece Kilitleme uygulandığı zaman kapanır.
+buildtoolbar_popup_obj_roadbarrier      Süratli bir traktörü bile durdurabilen gürbüz bir barikat. Sadece Kilitleme uygulandığı zaman kapanır.
 
 buildtoolbar_popup_staff_workman		Onlara verdiğin plan doğrultusunda hapishaneni inşa edecekler.
 buildtoolbar_popup_staff_guard			Mahkumlarınızı kontrol etmek ve beladan uzak tutmak için kullanılırlar.
@@ -554,29 +554,29 @@ buildtoolbar_popup_staff_armedguard     Av tüfeği ile donatılmıştır. Mahku
 buildtoolbar_popup_staff_doctor			Mahkum veya koruma olsun ya da olmasın yakında bulunan ve yaralanmış kişileri otomatik olarak iyileştirirler.
 buildtoolbar_popup_staff_cook			Hazırladıkları yemekler sayesinde mahkumları besler.
 buildtoolbar_popup_staff_gardener		Hapishanenizin yerlerini güzel ve düzenli tutar.
-buildtoolbar_popup_staff_janitor		Keeps the inside of your prison nice and tidy. Can also help with the prison laundry.
-buildtoolbar_popup_staff_warden			The grand overseer of your prison. Required before you can research and hire advanced staff members.
-buildtoolbar_popup_staff_chief			An advanced staff member that gives access to the deployment, CCTV, and riot guards research items.
-buildtoolbar_popup_staff_foreman		An advanced staff member that allows you to gain access to Janitors and Gardeners.
-buildtoolbar_popup_staff_psychologist	An advanced staff member that allows you to gain an insight in to the minds of your prisoners. 
-buildtoolbar_popup_staff_accountant		An advanced staff member that gives access to your financial reports.
-buildtoolbar_popup_staff_lawyer			An advanced staff member that helps you bend some of the rules for greater control over your prison.
-buildtoolbar_popup_staff_sniper         A highly trained marksman who will automatically occupy an empty Guard Tower if one is available. Will fire a number of warning shots at prisoners causing trouble within the prison walls before taking a target down. Escaping prisoners are given no such warnings.
+buildtoolbar_popup_staff_janitor		Hapishenin içini güzel ve düzenli tutar. Mahkum çamaşırhanesi konusunda da yardımcı olabilir.
+buildtoolbar_popup_staff_warden			Hapishanenizin büyük idarecisi. Gelişmiş personel üyelerini araştırmak ve işe almadan önce gerekli bir personeldir.
+buildtoolbar_popup_staff_chief			Konuşlandırma, CCTV ve çelik kuvvetleri araştırmanıza olanak sağlayan gelişmiş bir personel üyesi.
+buildtoolbar_popup_staff_foreman		Hademe ve Bahçıvan personeline erişim sağlamanıza olanak oluşturan gelişmiş bir personel üyesi.
+buildtoolbar_popup_staff_psychologist	Mahkumlarınızın aklına içten bir anlayış kazanmanızı sağlayan gelişmiş bir personel üyesi. 
+buildtoolbar_popup_staff_accountant		Finansal raporlarınıza erişim sağlayan gelişmiş bir personel üyesi.
+buildtoolbar_popup_staff_lawyer			Hapishanenize daha iyi bir kontrol sağlamak için bazı kuralları bükmenize yardımcı olan gelişmiş bir personel üyesi.
+buildtoolbar_popup_staff_sniper         Mevcutsa herhangi bir boş Koruma Kulesini otomatik olarak dolduracak, son derece eğitimli bir atıcı. Bir hedefi vurmadan önce, hapishane duvarları içinde karışıklık çıkaran mahkumlara karşı birkaç adet uyarı atışı ateşleyecek. Kaçmakta olan mahkumlara böyle bir uyarı verilmeyecek.
 
-buildtoolbar_popup_uts_powerstation		Generates electricity to be used in your prison.
-buildtoolbar_popup_uts_capacitor		Increases the amount of electricity generated when placed next to a power station.
-buildtoolbar_popup_uts_electricalcable	Distributes electricity around your prison.
-buildtoolbar_popup_uts_powerswitch		Toggles the availability of electricity to any cable connected to it.\n\nRight click to toggle on/off state.
-buildtoolbar_popup_uts_waterpumpstation	Provides a source of water to your prison.
-buildtoolbar_popup_uts_pipevalve		Toggles the availability of water to any pipe connected to it.
-buildtoolbar_popup_uts_pipelarge		Distributes a large volume of water around your prison, under high pressure. Probably big enough for someone to crawl to freedom through five hundred yards of shit smelling foulness.\n\nPlease note: not generally used to connect to sinks, shower heads etc. - the pressure is too high. Use a small pipe for that.
-buildtoolbar_popup_uts_pipesmall		Used to connect items like toilets, showers, sinks etc, to your large pipe network. The pressure is much lower, so there is a limited length that a small pipe can run for before the pressure becomes too low.
-buildtoolbar_popup_uts_cctv				Keep an eye on your prison without the need for guards to be everywhere at once.\n\nYou must Connect a CCTV Monitor to this camera for it to work.
-buildtoolbar_popup_uts_cctvmonitor		Designed to be built in a Security Room, and operated by a Guard. Monitors the CCTV cameras around your prison remotely.\n\nUse the Connect tool to connect this monitor to your CCTV cameras.\n\nNote: A maximum of eight cameras can be viewed at once. If you connect more than eight cameras, the monitor will cycle through them gradually, giving only partial coverage.
-buildtoolbar_popup_uts_DoorControlSystem  Designed to be built in a Security Room, and operated by a Guard. Can be used to remotely open doors around your prison.\n\nUse the Connect tool to connect this system to your Door Servos. The Door Servos should be built over the doors you wish to control remotely.\n\nNote: You can connect this to as many Servos as you wish, however the Guard operating the system can open a maximum of two doors per second.
-buildtoolbar_popup_uts_phonemonitor     Designed to be built in a Security Room and operated by a Guard. Allows you to monitor all outgoing phone calls made by inmates, giving you vital insights into planned illegal activity.\n\nUse the Connect tool to connect this system to your Phone Booths.
-buildtoolbar_popup_uts_Servo            Place a servo over a door you wish to control remotely. Ensure the motor gear is directly above the door.\n\nOnce installed, the door will be opened when the Servo itself is triggered - typically by a Door Control System, or a Door Timer.\n\nServos can be chained together, so that when the first one opens it will trigger the later ones.
-buildtoolbar_popup_uts_LogicCircuit     Advanced architects only.\n\nA simple circuit box that performs a logical operation based on its inputs, and sets its output accordingly.\n\nAvailable operations: And / Or / Not / Nand / Nor / Xor\n\nRight click to cycle through logical operations.
+buildtoolbar_popup_uts_powerstation		Hapishanenizde kullanılmak üzere elektrik üretirs.
+buildtoolbar_popup_uts_capacitor		Güç istasyonunun yanına yerleştirildiği zaman üretilen elektrik miktarını arttırır.
+buildtoolbar_popup_uts_electricalcable	Elektriği hapishanenizin etrafına dağıtır.
+buildtoolbar_popup_uts_powerswitch		Bağlandığı herhangi bir kablonun elektrik mevcudiyetini değiştirir.\n\nSağ tıklayarak Aç/Kapat durumları arasında geçiş yap.
+buildtoolbar_popup_uts_waterpumpstation	Hapishanenize su kaynağı sağlar.
+buildtoolbar_popup_uts_pipevalve		Bağlandığı herhangi bir kablonun su mevcudiyetini değiştirir.
+buildtoolbar_popup_uts_pipelarge		Suyu; yüksek basınç altında geniş bir hacimde dağıtır. Muhtemelen birinin bu beş yüz yard genişliğindeki bok kokulu sidikhaneden sürünerek özgürlüğüne kavuşması için yeterince geniş.\n\nLütfen not edin: Genel olarak; lavabo, düş başlığı vs gibi şeylere bağlanmak için kullanılmaz - basınç çok yüksek. Bunun için küçük boru kullan.
+buildtoolbar_popup_uts_pipesmall		Büyük boru ağınızı, tuvalet, duş, lavabo vs gibi eşyalara bağlamak üzere verdır. Basınç daha düşüktür, bu sebepten ötürü basınç fazla düşük olmadan önce herhangi bir küçük borunun taşıyabileceği basınçın belirli bir uzaklık sınır vardır.
+buildtoolbar_popup_uts_cctv				Korumaların her yerde her an tetikte olmasına gerek duyulmadan hapishanene gözkulak olmanı sağlar.\n\nSistemin çalışması için herhangi bir CCTV ekranını kameralara bağlaman gereklidir.
+buildtoolbar_popup_uts_cctvmonitor		Korumalar tarafından işletilmek üzere, güvenlik odası içine kurulmak amacıyla tasarlandı. Hapishanenin etrafındaki CCTV kameralarını uzaktan izler.\n\nBağlama aracını kullanarak bu ekranı CCTV kameralarına bağla.\n\nNot: Aynı anda en fazla sekiz kamera izlenebilir. Eğer sekizden fazla kamera koyarsan, ekran bunlar arasında yavaş yavaş geçiş yaparak, yalnızca kısıtlı bir alanı kapsayacak.
+buildtoolbar_popup_uts_DoorControlSystem  Korumalar tarafından işletilmek üzere, güvenlik odası içine kurulmak amacıyla tasarlandı. Hapishanenizdeki kapıları uzaktan açmak için kullanılabilir .\n\nBağlama aracını kullarak bu sistemi Kapı Tetiklerine bağla. Kapı Tetikleri uzaktan kontrol edilecek kapılara kurulmalı.\n\nNot: Bu sistemi istediğiniz kadar Tetiğe bağlayabilirsiz, ancak sistemi işleten Koruma saniyede maksimum iki kapıyı açabilir.
+buildtoolbar_popup_uts_phonemonitor     Korumalar tarafından işletilmek üzere, güvenlik odası içine kurulmak amacıyla tasarlandı. Tutuklularınız tarafından dışa giden bütün aramaları dinlemenizi sağlar.\n\nBağlama aracını kullarak bu sistemi Telefon kulübelerinize bağla.
+buildtoolbar_popup_uts_Servo            Tetiği uzaktan kontrol etmek istediğin bir kapıya yerleştir. Motor mekanizmasının doğrudan kapının üzerinde olduğundan emin ol.\n\nBir kere kurulduğunda ve tetiğin kendisi harekete geçirildiğinde kapı açılacak - tipik olarak bir Kapı Kontrol Sistemi vasıtası, veya bir Kapı Zamanlayıcısıyla.\n\nTetikler birbirlenine zincirlenebilir, yani biri açıldığında diğerleri de daha sonrasında tetiklenek.
+buildtoolbar_popup_uts_LogicCircuit     Yalnızca gelişmiş mimarlar için.\n\nVerilen girdiye bağlı olarak ona bağlı çıktılar veren mantık işlemleri yapan basit bir devre kutusu.\n\nMevcut işlemler: Ve / Veya / Değil / Değil-Ve / Değil-Veya / Özel-Veya\n\nSağ tıklayarak mantıksal işlemler arasında geçiş yap.
 buildtoolbar_popup_uts_LogicBridge      Advanced architects only.\n\nTakes its incoming signal, and bridges it onto Electrical Cable installed in the same square. That Electrical cable will carry the signal to any other Logic Circuits installed on the same Electrical Cable.\n\nCan be used to 'broadcast' a common signal all around your prison, eg Useful to pass around a common Clock signal.
 buildtoolbar_popup_uts_DoorTimer        Can be used to automatically open doors at certain times of day.\n\nUse the Connect tool to connect this timer to your Door Servos.
 buildtoolbar_popup_uts_Wire             Connect your remote access systems together.
@@ -775,60 +775,60 @@ buildtoolbar_popup_help_accessonly_3	~Right click the zone to remove the Access-
 buildtoolbar_popup_help_accessonly_4	^Tips
 buildtoolbar_popup_help_accessonly_5	- Access-Only is not a strict setting. It does not explicitly prevent people from entering, especially if their target is inside the marked area. If passing through an Access-Only area is significantly shorter than an alternative (for example, navigating around the entire of the prison), people may still pass through Access-Only zones. 
 
-job_matsassigned                        Materials Assigned
-job_matsavailable                       Materials Available
-job_awaitingmaterials                   Awaiting Materials
-job_inprogress                          -In Progress-
-job_blocked                             -Blocked-
-job_queued                              -Queued-
+job_matsassigned                        Materyaller Atandı
+job_matsavailable                       Materyaller Mevcut
+job_awaitingmaterials                   Materyaller Bekleniyor
+job_inprogress                          -Sürüyor-
+job_blocked                             -Engellendi-
+job_queued                              -Sırada-
 
-job_failed_noroute                      No Route
-job_failed_nomaterials                  No Materials
-job_failed_toodangerous                 Too Dangerous
-job_failed_materialsbeingcarried        Materials On Route
+job_failed_noroute                      Yol yok
+job_failed_nomaterials                  Materyal Yok
+job_failed_toodangerous                 Fazla tehlikeli
+job_failed_materialsbeingcarried        Materyaller Yolda
 
-job_rightclicktocancel                  - Right Click to Cancel
-job_ftofollow							- Press F to follow
-job_makehighpriority					- Ctrl + Left Click to make High Priority
-job_removehighpriority					- Ctrl + Right Click to remove High Priority
-job_makehighpriority_mac				- Alt + Left Click to make High Priority
-job_removehighpriority_mac				- Alt + Right Click to remove High Priority
-job_highpriority_tooltip				- URGENT
-job_refundamount                        - Refund Amount: *X
+job_rightclicktocancel                  - İptal Etmek için Sağ Tıkla
+job_ftofollow							- F tuşuyla takip et
+job_makehighpriority					- Ctrl + Sol Tık ile yüksek öncelik ver
+job_removehighpriority					- Ctrl + Sağ Tık ile yüksek önceliği kaldır
+job_makehighpriority_mac				- Alt + Sol Tık ile yüksek öncelik ver
+job_removehighpriority_mac				- Alt + Sağ Tık ile yüksek önceliği kaldır
+job_highpriority_tooltip				- ACİL
+job_refundamount                        - Geri iade miktarı: *X
 
-failuremessage_blocked                  Blocked
-failuremessage_cantafford               Insufficient Funds
-failuremessage_cantaffordupkeep         Exceeds Daily Budget
-failuremessage_maximumcountreached      Max Hired Already
-failuremessage_maxstaff                 Too Many Staff
+failuremessage_blocked                  Erişim Engelli
+failuremessage_cantafford               Yetersiz Bakiye
+failuremessage_cantaffordupkeep         Günlük Bütçeyi Aşıyor
+failuremessage_maximumcountreached      Maks Alıma Ulaşıldı
+failuremessage_maxstaff                 Çok fazla personel var
 
 
 # =============================================================================
 # Status Toolbar
 # =============================================================================
 
-statustoolbar_deliveries                Deliveries
-statustoolbar_finances                  Finances
-statustoolbar_regime                    Regime
-statustoolbar_escapemap                 Security
-statustoolbar_electricity               Electricity
-statustoolbar_stats                     Stats
-statustoolbar_danger                    Danger
-statustoolbar_jobs                      Jobs
-statustoolbar_gangs                     Gangs
-statustoolbar_staff                     Staff
-statustoolbar_research                  Research
+statustoolbar_deliveries                Teslimatlar
+statustoolbar_finances                  Mali durum
+statustoolbar_regime                    Program
+statustoolbar_escapemap                 Güvenlik
+statustoolbar_electricity               Elektrik
+statustoolbar_stats                     İstatistikler
+statustoolbar_danger                    Tehlike
+statustoolbar_jobs                      İşler
+statustoolbar_gangs                     Çeteler
+statustoolbar_staff                     Personel
+statustoolbar_research                  Araştırma
 
 
 # =============================================================================
 # Sprite Bank Editor + other tools
 # =============================================================================
 
-spritebankeditor_title                  Sprite Bank Editor
-spritebankeditor_create                 Create
-spritebankeditor_rotate                 Rotation
-spritebankeditor_sort                   Sort
-spritebankeditor_markermodetitle        Marker Mode
+spritebankeditor_title                  Sprite Bank Editörü
+spritebankeditor_create                 Oluştur
+spritebankeditor_rotate                 Dönme
+spritebankeditor_sort                   Sırala
+spritebankeditor_markermodetitle        İşaretleme Modu
 
 
 # =============================================================================
@@ -843,7 +843,7 @@ codex_load                              Hapishane Yükle
 codex_loadcampaign                      Hikaye Modu Yükle
 codex_save                              Hapishaneyi Kaydet
 codex_savecampaign                      Hikaye Modunu Kaydet
-codex_performance						Performans TEsti
+codex_performance						Performans Testi
 codex_developer_load                    (Geliştirici) Haritayı Yükle
 codex_developer_save                    (Geliştirici) Haritayı Kaldır
 codex_developer_clearach                (Geliştirici) Başarımları Sil
