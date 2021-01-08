@@ -442,7 +442,7 @@ buildtoolbar_tooltip_rollcall           Bütün makhumlarınızı dışarda diki
 
 buildtoolbar_cost						Tutar: $*C
 buildtoolbar_cost_sqrft					Tutar: $*C /metrekare
-buildtoolbar_wages						Maaşlar : Günlük $*W 
+buildtoolbar_wages						Maaş : Günlük $*W 
 buildtoolbar_upkeep						Masraf : Günlük $*W
 buildtoolbar_outdoor					Yalnızca dışarısı
 buildtoolbar_indoor						Yalnızca içerisi
@@ -1932,7 +1932,7 @@ action_foodpoisoning_3                  Her yere kusuyor
 action_foodpoisoning_4                  Neden bu oluyor
 action_foodpoisoning_5                  Resmen ölüyor
 
-status_effect_title						=[Durum Etkileri]=
+status_effect_title						=[Durum]=
 status_effect_none						Hiçbiri
 status_effect_suppressed				Bastırılmış
 status_effect_goodfood					İyi Beslenmiş
