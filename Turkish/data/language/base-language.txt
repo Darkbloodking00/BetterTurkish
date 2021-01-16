@@ -185,7 +185,7 @@ interfacedeployment_medseczone                  Yalnızca Orta Güv
 interfacedeployment_minseczone                  Yalnızca Min Güv
 interfacedeployment_protectedzone               Yalnızca İhtiyati
 interfacedeployment_supermaxzone                Yalnızca SüperMaks
-interfacedeployment_deathrowzone                Yalnızca Ölüm-Mahkumları
+interfacedeployment_deathrowzone                Yalnızca İdam Mahkumuları
 interfacedeployment_unlockedzone                Erişime açık bölge
 interfacedeployment_zonered                     Kırmızı Kanat
 interfacedeployment_zonegreen                   Yeşil Kanat
@@ -299,7 +299,7 @@ interfacetopbar_prisonercells_medseconly        Ortalama kapasite: *X
 interfacetopbar_prisonercells_maxseconly        En yüksek kapasite: *X
 interfacetopbar_prisonercells_protectedonly     İhtiyati kapasitesi: *X
 interfacetopbar_prisonercells_supermaxonly      SüperMaks kapasitesi: *X
-interfacetopbar_prisonercells_deathrowonly      Ölüm-Mahkumları kapasitesi: *X
+interfacetopbar_prisonercells_deathrowonly      İdam Mahkumu kapasitesi: *X
 interfacetopbar_prisonercells_staffonly         Mevcut Olmayan: *X
 interfacetopbar_prisoners_nocells               *X adet Mahkum bir hücreye atanamıyor
 interfacetopbar_prisonercells_parents           Ebeveyn Kapasitesi: *X
@@ -1877,7 +1877,7 @@ schedule_zone_medseconly                Ort Güven.
 schedule_zone_maxseconly                Maks Güven.
 schedule_zone_protectedonly             İhtiyati Tutuklama
 schedule_zone_supermaxonly              Süper Maks
-schedule_zone_deathrowonly              Ölüm Mahkumu
+schedule_zone_deathrowonly              İdam Mahkumu
 schedule_zone_staffonly                 Yalnızca Personel
 schedule_zone_unlocked                  Açılmış
 schedule_zone_custom					Özel
@@ -2165,7 +2165,7 @@ objective_caption_meals                 Yemekler
 objective_readceosletter                CEO'nun mektubunu oku
 objective_actionrequired                Olay Raporu
 
-objective_deathrowinmates               Ölüm Mahkumları Durumu
+objective_deathrowinmates               İdam Mahkumları Durumu
 
 objective_prisonerintake                Mahkum Alımı
 objective_intake_arrivals               *X adet mahkum sabah 8'de geliyor
@@ -2725,7 +2725,7 @@ reformprogram_alcoholicsmeeting         Alkolik Grup Tedavisi
 reformprogram_tazertraining             Koruma Elektroşok Cihazı Sertifikası
 reformprogram_spiritualguidance         Ruhani Rehberlik
 reformprogram_parolehearing             Şartlı Tahliye Duruşması
-reformprogram_deathrowappeal            Ölüm Mahkumu Temyizi
+reformprogram_deathrowappeal            İdam Mahkumu Temyizi
 
 reformprogram_tazertrained              Sertifikalı : Elektroşok Cihazı
 
@@ -2776,7 +2776,7 @@ reform_program_intake_referralalcoholism        Başvuru: Alkolizm
 reform_program_intake_guards                    Yalnızca Korumalar İçin
 reform_program_intake_parole                    %50 veya %75 huküm sürdükten sonra.
 reform_program_intake_needrequired              Her mahkum katılmadan önce özel bir ihtiyaca gereksinim duyar.
-reform_program_intake_deathrow                  Mahkum, Ölüm Mahkumudur
+reform_program_intake_deathrow                  Mahkum, İdam Mahkumudur
 
 reform_program_properties_canhireexternally     Harici Olarak İşe Alabilir
 reform_program_properties_studentssit           Öğrenci Oturağı
@@ -3637,7 +3637,7 @@ attract_pressanykey                     Herhangi bir tuşa basın...
 # =============================================================================
 
 help_warning_gangleader                 Hapishanede bulunan bir çete lideri şu anda cezalandırılmış bulunuyor. Nasıl ilerleyeceğin senin seçimin, ancak ona bağlı bütün çete liderleri o cezasını çekmeye devam ettiği sürece çok fazla karışıklık çıkaracaklar.
-help_warning_deathrow                   İlk Ölüm Mahkumu hapishanemize geldi. Temyiz duruşmalarını sağlamak için Ölüm Mahkumu Temyiz programını bir Şartlı Tahliye Odasına ayarladığımızdan emin olmamız gerek
+help_warning_deathrow                   İlk İdam Mahkumu hapishanemize geldi. Temyiz duruşmalarını sağlamak için İdam Mahkumu Temyiz programını bir Şartlı Tahliye Odasına ayarladığımızdan emin olmamız gerek
 
 # =============================================================================
 # Graphs
