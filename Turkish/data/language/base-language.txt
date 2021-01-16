@@ -590,11 +590,11 @@ buildtoolbar_popup_autolights_name      Oto Işık
 buildtoolbar_popup_autolights           Otomatik Işık Yerleştirme
 buildtoolbar_popup_autolights_desc      Seçildiğinde, yeni oluşturulmuş yapılar bittiği zaman, ışıklar baştan aşağı otomatik olarak yerleştirilecek.
 
-buildtoolbar_contraband_source          Shows all the locations around your prison that contraband could be stolen from.
-buildtoolbar_contraband_day             Shows all contraband confiscated in the last 24 hours. The icons show where the contraband was confiscated.
-buildtoolbar_contraband_week            Shows all contraband confiscated in the last 7 days. The icons show where the contraband was confiscated.
-buildtoolbar_contraband_alltime         Shows all contraband confiscated in the history of your prison. The icons show where the contraband was confiscated.
-buildtoolbar_contraband_stolenfrom		Shows all contraband from the last 7 days. The icons show where the contraband was stolen from, or smuggled into the prison.
+buildtoolbar_contraband_source          Hapishanenizdeki kaçak malların çalınabileceği bütün yerleri göster.
+buildtoolbar_contraband_day             Son 24 saat içinde el konulmuş kaçak malları göster. Simgeler kaçak malların el konulduğu yerleri gösterir.
+buildtoolbar_contraband_week            Son 7 gün içinde el konulmuş kaçak malları göster. Simgeler kaçak malların el konulduğu yerleri gösterir.
+buildtoolbar_contraband_alltime         Hapishanenizin bütün geçmişi boyunca ele geçirilen kaçak malları göster. Simgeler kaçak malların el konulduğu yerleri gösterir.
+buildtoolbar_contraband_stolenfrom		Son 7 gün içindeki bütün kaçak malları gösterir. Simgeler kaçak malların çalındığı yerleri, veya hapishanenize nasıl sokulduğunu.
 buildtoolbar_contraband_informants      Shows information gathered by your confidential informants.
 buildtoolbar_contraband_gangs           Shows information about your prison's gangs.
 
