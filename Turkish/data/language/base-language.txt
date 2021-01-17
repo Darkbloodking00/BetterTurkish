@@ -595,20 +595,20 @@ buildtoolbar_contraband_day             Son 24 saat içinde el konulmuş kaçak 
 buildtoolbar_contraband_week            Son 7 gün içinde el konulmuş kaçak malları göster. Simgeler kaçak malların el konulduğu yerleri gösterir.
 buildtoolbar_contraband_alltime         Hapishanenizin bütün geçmişi boyunca ele geçirilen kaçak malları göster. Simgeler kaçak malların el konulduğu yerleri gösterir.
 buildtoolbar_contraband_stolenfrom		Son 7 gün içindeki bütün kaçak malları gösterir. Simgeler kaçak malların çalındığı yerleri, veya hapishanenize nasıl sokulduğunu.
-buildtoolbar_contraband_informants      Shows information gathered by your confidential informants.
-buildtoolbar_contraband_gangs           Shows information about your prison's gangs.
+buildtoolbar_contraband_informants      Gizli muhbiriniz tarafından toplanan bilgileri gösterir.
+buildtoolbar_contraband_gangs           Hapishanenizdeki çeteler hakkında bilgi gösterir.
 
 
-buildtoolbar_deployment_SharedZone      All prisoners will be allowed in this sector.
-buildtoolbar_deployment_MinSecZone      Only minimum security prisoners will be permitted to enter this sector.
-buildtoolbar_deployment_MedSecZone      Only medium security prisoners will be permitted to enter this sector.
-buildtoolbar_deployment_MaxSecZone      Only maximum security prisoners will be permitted to enter this sector.
-buildtoolbar_deployment_ProtectedZone   Only 'protected custody' prisoners will be permitted to enter this sector.
-buildtoolbar_deployment_SuperMaxZone    Only 'superMax' security prisoners will be permitted to enter this sector.
-buildtoolbar_deployment_DeathRowZone    Only 'death row' prisoners will be permitted to enter this sector.
-buildtoolbar_deployment_StaffOnlyZone   Only staff will be permitted to enter this sector.
-buildtoolbar_deployment_UnlockedZone    Anyone will be permitted to enter this zone, and all doors will be unlocked.
-buildtoolbar_deployment_accessonly		People will try to avoid Access-Only zones if possible, preferring to take other routes around your prison.
+buildtoolbar_deployment_SharedZone      Bütün mahkumların bu sektörde bulunma izni olacak.
+buildtoolbar_deployment_MinSecZone      Yalnızca Minimum güvenlikli mahkumların bu sektöre girme izni olacak.
+buildtoolbar_deployment_MedSecZone      Yalnızca Orta güvenlikli mahkumların bu sektöre girme izni olacak.
+buildtoolbar_deployment_MaxSecZone      Yalnızca Maksimum güvenlikli mahkumların bu sektöre girme izni olacak.
+buildtoolbar_deployment_ProtectedZone   Yalnızca 'İhtiyati' mahkumların bu sektöre girme izni olacak.
+buildtoolbar_deployment_SuperMaxZone    Yalnızca 'SüperMaks' güvenlikli mahkumlar bu sektöre girme izni olacak.
+buildtoolbar_deployment_DeathRowZone    Yalnızca 'infaz mahkumu' tutukluların bu sektöre girme izni olacak.
+buildtoolbar_deployment_StaffOnlyZone   Yalnızca Personelin bu sektöre girme izni olacak.
+buildtoolbar_deployment_UnlockedZone    Herkesin bu bölgeye girme izni olacak, ve bütün kapılar açılacak.
+buildtoolbar_deployment_accessonly		İnsanlar Yalnızca-Erişimli alanlardan mümkünse uzak duracak, hapishanenizdeki başka yolları tercih edecekler.
 buildtoolbar_deployment_prisonerdirection Click and drag to paint floor signage.\n\nThis gives a hint to your prisoners on which way to go.\nHelps to control the flow of people in your prison.
 buildtoolbar_deployment_staffdirection  Click and drag to paint floor signage.\n\nThis gives a hint to non-prisoners on which way to go.\nHelps to control the flow of people in your prison.
 
@@ -949,7 +949,7 @@ codex_nitgs_downloading                 Güncelleme indiriliyor...
 codex_nitgs_downloadcomplete            İndirme işlemi tamamlandı.
 codex_nitgs_downloadfailed              İndirme işlemi başarısız.
 
-codex_enabled                           Aktif
+codex_enabled                           Etkin
 codex_disabled                          Devre dışı
 
 codex_option_intake                     Sürekli Alım
@@ -1063,7 +1063,7 @@ codex_apply								Onayla
 codex_select                            Seç
 
 codex_mods								Modlar
-codex_mod_activetitle					Aktif Modlar
+codex_mod_activetitle					Etkin Modlar
 codex_mod_inactivetitle					Mevcut Modlar
 codex_mod_deactivate					Bütün modları kapat
 codex_mod_wiki							Daha fazla mod bul (Wiki)
@@ -1088,7 +1088,7 @@ codex_mod_published_good_msg			Modunuz başarılı bir şekilde yayınlandı.
 codex_mod_published_bad					Mod yayınlanırken başarısız oldu
 codex_mod_published_bad_msg				Modunuz yayınlanırken başarısız oldu.
 codex_mod_modsupdated					Modlar Güncellendi
-codex_mod_modsupdated_msg				Bazı aktif modlarınız güncellendi. OK'a basarak yeni değişiklikleri onaylayın. Oyununuz otomatik olarak kaydedilecek.
+codex_mod_modsupdated_msg				Bazı etkin modlarınız güncellendi. OK'a basarak yeni değişiklikleri onaylayın. Oyununuz otomatik olarak kaydedilecek.
 codex_mod_translationcaption            Bu başka bir dile tercüme mü ?
 
 codex_language                          Dil
@@ -1128,233 +1128,233 @@ codex_settings_escapeplans              Kaçış Planlarını Aç
 codex_settings_failureconditions        Kırılma Koşulunu Aç
 codex_settings_confirm                  *X Bir kez açıldığında bir daha geri kapatılamaz, açmak istediğinden emin misin ?
 
-codex_packrects							Pack Rectangles
-codex_addboxbutton						Add New Rectangle
-codex_setsize							Set Space Size
-codex_removeallrects					Remove All Rects
-codex_packrects_widthcaption			Space Width
-codex_packrects_heightcaption			Space Height
-codex_packrects_boxwcaption				Rect Width
-codex_packrects_boxhcaption				Rect Height
+codex_packrects							Pack Dikdörtgeni
+codex_addboxbutton						Yeni Dikdörtgen Ekle
+codex_setsize							Boşluk Boy. Ayarla
+codex_removeallrects					Bütün Dik. Kaldır
+codex_packrects_widthcaption			Boşluk Genişliği
+codex_packrects_heightcaption			Boşluk Yüksekliği
+codex_packrects_boxwcaption				Dik. Genişliği
+codex_packrects_boxhcaption				Dik. Yüksekliği
 
-mods_downscaled_spritesheet				Sprite Sheet Downscaled
-mods_downscaled_spritesheet_msg			The sprite sheet has had to be downscaled due to your graphics card limitations. This is probably a result of activating a lot of mods. Please disable some mods in order to improve quality.
-mods_errors_no_memory					No Mod Sprites Loaded
-mods_errors_no_memory_msg				There is insufficient graphics memory to load additional mod sprites. This is probably a result of activating a lot of mods. Please disable some mods in order to use less memory.
+mods_downscaled_spritesheet				Tümleş. Resim Küçültüldü
+mods_downscaled_spritesheet_msg			Tümleşik Resim; Ekran Kartınızdan ötürü küçültülmüş olması gerekiyor. Bu muhtemelen çok fazla mod açtığınızdan dolayı oluştu. Lütfen kaliteyi açmak için birkaç modu kapatın.
+mods_errors_no_memory					Hiç Mod Tümleş. Resmi Yüklenmedi
+mods_errors_no_memory_msg				VRAM kapasitesi; daha fazla mod ve tümleşik resim yüklemek için yetersiz. Bu muhtemelen çok fazla mod açtığınızdan dolayı oluştu. Lütfen daha az bellek harcamak üzere birkaç modu kapatın.
 
 # =============================================================================
 # Graphics Change Confirmation
 # =============================================================================
 
-graphicschange_message					Do you wish to keep these graphics options? These changes will revert in
-graphicschange_time						seconds.
-graphicschange_accept					Accept
-graphicschange_revert					Revert
+graphicschange_message					Bu grafik seçeneklerini kaydetmek istediğinizden emin misinis? Bu değişikler saniyeler içinde
+graphicschange_time						kaybolacak.
+graphicschange_accept					Onayla
+graphicschange_revert					Geri Al
 
 # =============================================================================
 # Script
 # =============================================================================
 
-scriptdebugger_title                    Script Debugger (F3)
-script_error_critical                   Something went wrong.
-script_error_critical_msg               Something went wrong while executing a game script.\n\nIf you are running a mod please let the mod authors know. Otherwise please file a bug report including your debug.txt.
+scriptdebugger_title                    Script Hata Bulucu (F3)
+script_error_critical                   Bir şeyler ters gitti.
+script_error_critical_msg               Bir oyun script'i çalıştırılırken bir şeyler ters gitti.\n\nEğer bir mod kullanıyorsanız lütfen bunu modun yapımcısına bildirin. Yoksa lütfen debug.txt ile birlikte dosyayı hata raporu olarak gönderin.
 
 # =============================================================================
 # Mod Confirmation
 # =============================================================================
 
-modnotification_title                   Mod Differences Found
-modnotification_info                    These mods were used when the current prison was saved. We highly recommend downloading and activating them before playing this prison.
-modnotification_playnow                 Play Now
-modnotification_active                  Active
-modnotification_inactive                Inactive
-modnotification_new                     New
-modnotification_unknown                 Unknown
-modnotification_popup_title             Mod difference
-modnotification_popup_active            This mod is currently active. Click to deactivate.
-modnotification_popup_inactive          This mod is currently inactive. Click to activate.
-modnotification_popup_new_url           This is a new mod. Click to open it's link in a web browser.
-modnotification_popup_new_steam         This is a new steam mod. Click to subscribe to and download the mod now.
-modnotification_popup_unknown           We were unable to determine where this mod came from. Please find and install this mod yourself.
+modnotification_title                   Mod Değişiklikleri Bulundu
+modnotification_info                    Mevcut hapishane kaydedildiğinde bu modlar kullanılmıştı. Bu hapishaneyi oynamadan önce onları indirmeyi ve etkinleştirmeyi şiddetle tavsiye ediyoruz.
+modnotification_playnow                 Şimdi Oyna
+modnotification_active                  Etkin
+modnotification_inactive                Devre Dışı
+modnotification_new                     Yeni
+modnotification_unknown                 Bilinmiyor
+modnotification_popup_title             Mod Değişiklikleri
+modnotification_popup_active            Bu mod şu anda etkin. Devre dışı bırakmak için tıkla.
+modnotification_popup_inactive          Bu mod şu anda devre dışı. Etkinleştirmek için tıkla.
+modnotification_popup_new_url           Bu yeni bir mod. Linkini bir tarayıcı üzerinden açmak için tıkla.
+modnotification_popup_new_steam         Bu yeni bir steam modu. Moda abone olmak ve indirmek için tıkla.
+modnotification_popup_unknown           Bu modun nereden geldiğini saptayamadık. Lütfen bu modu bulun ve kendiniz kurun.
 
 # =============================================================================
 # Biography
 # =============================================================================
 
-biography_search                        Stop and Search
-biography_selected                      SELECTED
+biography_search                        Durdur ve Ara
+biography_selected                      SEÇİLİ
 biography_prisoner_name                 *S, *F
-biography_prisoner_number               Prisoner #*X
-biography_prisoner_age                  Age : *X
-biography_prisoner_traits               Traits  :
-biography_prisoner_convicted            Convicted of *C (pleaded *P)
-biography_prisoner_sentenced            Sentenced to *X years in jail
-biography_parole_now                    Eligible for parole now
-biography_parole_later                  Eligible for parole after *X years
-biography_prisoner_served               Served *X years
-biography_prisoner_priors               Priors: 
+biography_prisoner_number               Mahkum #*X
+biography_prisoner_age                  Yaş : *X
+biography_prisoner_traits               Özellikler  :
+biography_prisoner_convicted            *C olay. dol. hükümlü (savundu *P)
+biography_prisoner_sentenced            *X yıl hapiste hüküm giydi
+biography_parole_now                    Artık şartlı tahliye için uygun
+biography_parole_later                  Şartlı tahliye için *X yılı var
+biography_prisoner_served               *X yıl hizmet etti
+biography_prisoner_priors               Önsel: 
 
 
 # =============================================================================
 # Rap Sheet
 # =============================================================================
 
-rapsheet_age							Age:
-rapsheet_category						Category:
-rapsheet_traits							Known Traits:
-rapsheet_conviction_text				*C - *Y years
-rapsheet_found_text						(Plea: *P)
-rapsheet_convictions					Convictions
-rapsheet_misconductstitle				Recent Misconduct
-rapsheet_biography                      Biography
-rapsheet_guilty							Guilty
-rapsheet_notguilty						Not guilty
-rapsheet_served							Served
-rapsheet_served_time					Served *Y years
-rapsheet_time							*Y years
-rapsheet_bio							Sentenced to *Y years for *A.
-rapsheet_bio_med						Sentenced to *Y years for multiple crimes including *A, and *B.
-rapsheet_bio_long						Sentenced to *Y years for multiple crimes including *A, *B, and *C.
-rapsheet_category_minsec				Minimum Security
-rapsheet_category_normal				Medium Security
-rapsheet_category_maxsec				Maximum Security
-rapsheet_category_protected             Protective Custody
-rapsheet_category_supermax              SuperMax
-rapsheet_category_deathrow              Death Row
-rapsheet_tab_biography                  Biography
-rapsheet_tab_experience                 Experience
-rapsheet_tab_grading                    Grading
-rapsheet_tab_character                  Character
-rapsheet_action                         Actions
-rapsheet_recruit                        Recruit Informant
+rapsheet_age							Yaş:
+rapsheet_category						Kategori:
+rapsheet_traits							Bilinen Özellikler:
+rapsheet_conviction_text				*C - *Y yıl
+rapsheet_found_text						(Savunma: *P)
+rapsheet_convictions					Hükümleri
+rapsheet_misconductstitle				Son Kötü Davranışları
+rapsheet_biography                      Biografi
+rapsheet_guilty							Suçlu
+rapsheet_notguilty						Suçlu Değil
+rapsheet_served							Hizmet etti
+rapsheet_served_time					*Y yıl hizmet etti
+rapsheet_time							*Y yıl
+rapsheet_bio							*Y yıl *A. için hüküm giydi.
+rapsheet_bio_med						*Y yıl *A, ve *B gibi birçok suçtan dolayı hüküm giydi.
+rapsheet_bio_long						*Y yıl *A, *B, ve *C gibi birçok suçtan dolayı hüküm giydi.
+rapsheet_category_minsec				Minimum Güvenlikli
+rapsheet_category_normal				Orta Güvenlikli
+rapsheet_category_maxsec				Maksimum Güvenlikli
+rapsheet_category_protected             İhtiyati Tutuklama
+rapsheet_category_supermax              SüperMaks
+rapsheet_category_deathrow              İnfaz Mahkumu
+rapsheet_tab_biography                  Biografi
+rapsheet_tab_experience                 Deneyim
+rapsheet_tab_grading                    Derece
+rapsheet_tab_character                  Karakter
+rapsheet_action                         Eylemler
+rapsheet_recruit                        Muhbir Olarak İşe Al
 
-rapsheet_timeinside                     *X days in your prison
-rapsheet_timeinside_hours               *X hours in your prison
-rapsheet_mood                           Mood
-rapsheet_activity                       Activity
-rapsheet_condition                      Condition
+rapsheet_timeinside                     Hapishanenizde *X gün geçirdi
+rapsheet_timeinside_hours               Hapishanenizde *X saat geçirdi
+rapsheet_mood                           Ruh hali
+rapsheet_activity                       Etkinlik
+rapsheet_condition                      Durum
 rapsheet_program                        Program
-rapsheet_passchance                     Success Chance
-rapsheet_reformhistory                  Reform Program History
+rapsheet_passchance                     Başarı Şansı
+rapsheet_reformhistory                  Reform Programı Geçmişi
 
-rapsheet_reform_success                 Success
-rapsheet_reform_successcount            Completed *X times
-rapsheet_reform_failed                  Failed
-rapsheet_reform_failcount               Failed *X times
+rapsheet_reform_success                 Başarı
+rapsheet_reform_successcount            *X kere tamamladı
+rapsheet_reform_failed                  Başarısız oldu
+rapsheet_reform_failcount               *X kere başarısız oldu
 
-rapsheet_grading_punishment             Punishment
-rapsheet_grading_health                 Health
-rapsheet_grading_security               Security
+rapsheet_grading_punishment             Ceza
+rapsheet_grading_health                 Sağlık
+rapsheet_grading_security               Güvenlik
 rapsheet_grading_reform                 Reform
-rapsheet_grading_points                 *X points : 
-rapsheet_grading_penalties              *X penalties : 
+rapsheet_grading_points                 *X puan : 
+rapsheet_grading_penalties              *X ceza : 
 
-rapsheet_scheduleexecution              Schedule Execution
+rapsheet_scheduleexecution              Zamanlanmış İnfaz
 
 
-punish_lockdown_6                       Lockdown (6hrs)
-punish_lockdown_12                      Lockdown (12hrs)
-punish_lockdown_24                      Lockdown (24hrs)
-punish_solitary_6                       Solitary (6hrs)
-punish_solitary_12                      Solitary (12hrs)
-punish_solitary_24                      Solitary (24hrs)
-punish_solitary_perm                    Solitary (Permanent)
-punish_lockdown_perm                    Lockdown (Permanent)
-punish_solitary                         Solitary
-punish_lockdown                         Lockdown
-punish_none                             None
-punish_timer                            *Xh *Ym
-punish_timer_minutes                    *Xm
-punish_active                           ACTIVE
-punish_permanent                        (Permanent)
-punish_end                              End Punishment
+punish_lockdown_6                       Tecrit (6saat)
+punish_lockdown_12                      Tecrit (12saat)
+punish_lockdown_24                      Tecrit (24saat)
+punish_solitary_6                       Tek hücre (6saat)
+punish_solitary_12                      Tek hücre (12saat)
+punish_solitary_24                      Tek hücre (24saat)
+punish_solitary_perm                    Tek hücre (Kalıcı)
+punish_lockdown_perm                    Tecrit (Kalıcı)
+punish_solitary                         Tek hücre
+punish_lockdown                         Tecrit
+punish_none                             Hiçbiri
+punish_timer                            *Xsa *Ydk
+punish_timer_minutes                    *Xdk
+punish_active                           ETKİN
+punish_permanent                        (KALICI)
+punish_end                              Cezayı Bitir
 
-punish_up								Up
-punish_down								Down
+punish_up								Yukarı
+punish_down								Aşağı
 punish_setmin							Min
-punish_setmed							Med
-punish_setmax							Max
-punish_setsuper							Super
+punish_setmed							Orta
+punish_setmax							Maks
+punish_setsuper							Süper
 
 # =============================================================================
 # Misconducts
 # =============================================================================
 
-misconduct_reporttype_none                  None
-misconduct_reporttype_complaint             Complaint
-misconduct_reporttype_destruction           Destruction
-misconduct_reporttype_escapeattempt         Escape Attempt
-misconduct_reporttype_injuredprisoner       Attacked Prisoner
-misconduct_reporttype_injuredstaff          Attacked Staff
-misconduct_reporttype_seriousinjury         Serious Injury
-misconduct_reporttype_murder                Murder
-misconduct_reporttype_contrabandweapons     Found Weapons
-misconduct_reporttype_contrabandtools       Found Tools
-misconduct_reporttype_contrabandnarcotics   Found Drugs
-misconduct_reporttype_contrabandluxuries    Found Luxuries
-misconduct_reporttype_intoxicated           Intoxication
-misconduct_title                            =[Misconduct]=
-misconduct_totalitems						(Plus *X more)
+misconduct_reporttype_none                  Hiçbiri
+misconduct_reporttype_complaint             Şikayet
+misconduct_reporttype_destruction           Yıkım
+misconduct_reporttype_escapeattempt         Firar Girişimi
+misconduct_reporttype_injuredprisoner       Mahkuma Saldırma
+misconduct_reporttype_injuredstaff          Personele Saldıram
+misconduct_reporttype_seriousinjury         Ciddi Yaralanma
+misconduct_reporttype_murder                Cinayet
+misconduct_reporttype_contrabandweapons     Silah Bulundu
+misconduct_reporttype_contrabandtools       Alet Bulundu
+misconduct_reporttype_contrabandnarcotics   Uyuşturucu Bulundu
+misconduct_reporttype_contrabandluxuries    Lüks Eşya Bulundu
+misconduct_reporttype_intoxicated           Şarhoş Olma
+misconduct_title                            =[Kötü Davranış]=
+misconduct_totalitems						(Artı *X daha fazla)
 
-misconduct_report_addiction                 Addicted to *X
-misconduct_report_recoving                  Recovering from *X addiction
-misconduct_report_alcoholic                 Alcoholic
-misconduct_report_recovingalcoholic         Recovering alcoholic
+misconduct_report_addiction                 *X maddesine bağımlı
+misconduct_report_recoving                  *X bağımlılığından kurtarıldı
+misconduct_report_alcoholic                 Alkolik
+misconduct_report_recovingalcoholic         Alkolik iyileştiriliyor
 
 
 # =============================================================================
 # Research Names + Captions
 # =============================================================================
 
-research_required                       You need a *X to prepare this report.
-research_requireunlock                  You need to research '*X' to unlock this report
-research_approved                       APPROVED
-research_cost                           Cost: *X
-research_costperitem                    + *X per item.
-research_timetounlock                   Time to unlock : *X hours
-research_movementpenalty                Movement Penalty: *X%
-research_protectionbonus                Protection: *X%
-research_tap_to_authorise               TAP TO AUTHORISE
+research_required                       Bu raporu hazırlamak için *X adlı şeye ihtiyacın var.
+research_requireunlock                  Bu raporu açmak için '*X' adlı şeyi araştırman gerekiyor
+research_approved                       ONAYLANDI
+research_cost                           Masraf: *X
+research_costperitem                    + *X eşya başı.
+research_timetounlock                   Açmak için : *X saat var
+research_movementpenalty                Hareket Cezası: *X%
+research_protectionbonus                Koruma: *X%
+research_tap_to_authorise               YETKİYE SOKMAK İÇİN BA
 
-research_none                           None
-research_warden                         Warden
-research_maintainance                   Maintenance
-research_security                       Security
-research_legal                          Legal
-research_mentalhealth                   Psychology
-research_finance                        Finance
-research_landexpansion                  Land Expansion
-research_cctv                           Surveillance
-research_riotguards                     Riot Guards
-research_health                         Health
-research_cleaning                       Cleaning
-research_groundskeeping                 Grounds Keeping
-research_clone                          Clone
-research_deployment                     Deployment
-research_patrols                        Patrols
-research_dogs                           Dogs
-research_prisonlabour                   Prison Labour
-research_education                      Education
-research_contraband                     Intelligence
-research_policy                         Prison Policy
-research_armoury                        Armoury
-research_bodyarmour                     Body Armour
-research_tazers                         Tazers
-research_tazersforeveryone              Tazer Rollout
-research_bankloans                      Bank Loan
-research_lowertaxes1                    Tax Relief
-research_lowertaxes2                    Offshore Tax Haven
-research_remoteaccess                   Remote Access
-research_extragrant                     Extra Grant
-research_advancedmanagement             Micromanagement
+research_none                           Hiçbiri
+research_warden                         Müdür
+research_maintainance                   Bakım
+research_security                       Güvenlik
+research_legal                          Kanun
+research_mentalhealth                   Psikoloji
+research_finance                        Finans
+research_landexpansion                  Alan Genişletme
+research_cctv                           Gözetleme
+research_riotguards                     Çevik Kuvvet
+research_health                         Sağlık
+research_cleaning                       Temizlik
+research_groundskeeping                 Yer Bakımı
+research_clone                          Klon
+research_deployment                     Konuşlandırma
+research_patrols                        Devriyeler
+research_dogs                           Köpekler
+research_prisonlabour                   İşçi Mahkum
+research_education                      Eğitim
+research_contraband                     İstihbarat
+research_policy                         Hapishane İlkesi
+research_armoury                        Cephane
+research_bodyarmour                     Çelik Yelek
+research_tazers                         Elektroşok Cihazı
+research_tazersforeveryone              Herkese Elektroşok!!!
+research_bankloans                      Banka Borcu
+research_lowertaxes1                    Vergi İndirimi
+research_lowertaxes2                    Offshore Vergi Cenneti
+research_remoteaccess                   Uzaktan Kontrol
+research_extragrant                     Ekstra Hibe
+research_advancedmanagement             Mikro yönetim
 research_deathrow                       Death Row
-research_permanentpunishment            Permanent Punishments
-research_removemincellsize              Small Cells
-research_reduceexecutionliability       Execution Liability
-research_legalprep                      Legal Prep
-research_legaldefense                   Legal Defense
-research_guardtowers                    Guard Towers
-research_forestrylabour					Forestry Labour
+research_permanentpunishment            Kalıcı Cezalandırma
+research_removemincellsize              Minik Hücreler
+research_reduceexecutionliability       İnfaz Yükümlülüğü
+research_legalprep                      Yasal Hazırlık
+research_legaldefense                   Yasal Savunma
+research_guardtowers                    Muhafız Kulesi
+research_forestrylabour					Ormanlandırma İşçisi
 
 researchtooltip_warden                  Unlocks the Warden, and the entire Bureaucracy system.  Hire him from the Staff toolbar.\n\nLike all Administrators, he requires an office to work.  
 researchtooltip_security                Unlocks the Chief of Security, who can be hired from the staff toolbar.  The chief gives you access to the Deployment screen, and will also give you a realtime report of the danger level of your prison, often predicting future trouble.\n\nLike all Administrators, he requires an office to work.  
@@ -1406,82 +1406,82 @@ research_missingadministrator           REQUIRED:
 # Room Requirements
 # =============================================================================
 
-roomrequirement_required                REQUIRED:
-roomrequirement_recommended             Recommended: 
-roomrequirement_minimumsize             Minimum Size *W x *H
-roomrequirement_minimumsize_short	Size *W x *H
-roomrequirement_indoor                  Indoors
-roomrequirement_outdoor                 Outdoor
-roomrequirement_solidground             Solid Ground
-roomrequirement_secure                  Secure (behind at least one Door)
-roomrequirement_secure_short		Secure
-roomrequirement_enclosed                Enclosed (surrounded by walls and doors)
-roomrequirement_enclosed_short		Enclosed
-requirement_entrance                    Requires Entrance
-roomrequirement_title                   =[Room Requirements]=
-roomrequirement_passed                  [PASSED] 
-roomrequirement_failed                  [FAILED] 
-roomrequirement_adjacentobject          Adjacent to Room: *X
+roomrequirement_required                GEREKLİ:
+roomrequirement_recommended             Öneriliyor: 
+roomrequirement_minimumsize             Minimum boyut *W x *H
+roomrequirement_minimumsize_short	Boyut *W x *H
+roomrequirement_indoor                  İç alan
+roomrequirement_outdoor                 Dış alan
+roomrequirement_solidground             Sabit Zemin
+roomrequirement_secure                  Güvenli (en az bir Kapının arkasında)
+roomrequirement_secure_short		Güvenli
+roomrequirement_enclosed                Kapalı (Duvar ve kapılarla çevrili)
+roomrequirement_enclosed_short		Kapalı
+requirement_entrance                    İçeri Giriş Gerekli
+roomrequirement_title                   =[Oda Gereksinimleri]=
+roomrequirement_passed                  [GEÇTİ] 
+roomrequirement_failed                  [BAŞARISIZ] 
+roomrequirement_adjacentobject          Odaya Bitişik: *X
 
 # =============================================================================
 # Unlocks
 # =============================================================================
 
-unlock_title                            UNLOCKED
+unlock_title                            AÇILDI
 
-unlock_special_electricity              Electrical Systems
-unlock_special_food                     Food Preparation
-unlock_special_officersafety            Officer Safety
-unlock_special_misbehavior              Misbehavior
-unlock_special_accounting               Accounting
-unlock_special_gangs                    Gangs
+unlock_special_electricity              Elektrik Sistemi
+unlock_special_food                     Yemek Hazırlama
+unlock_special_officersafety            Memur Güvenliği
+unlock_special_misbehavior              Kötü Davranış
+unlock_special_accounting               Muhasebe
+unlock_special_gangs                    Çeteler
 
-unlock_electricity_caption              Allows the construction of power stations and electrical cables, providing electricity to all devices that require it.
+unlock_electricity_caption              Güç istasyonlarının ve elektrik kablolarının inşaatını sağlar, elektriğe ihtiyacı olan her cihaza bu hizmeti verir.
 
 
 # =============================================================================
 # Advisers
 # =============================================================================
 
-click_to_continue                       Click to Continue...
-incoming_call                           Incoming Call...
+click_to_continue                       Devam Etmek İçin Tıkla...
+incoming_call                           Gelen Çağrı...
 
-adviser_name_unknown                    Unknown
-adviser_name_ceo                        The CEO
-adviser_name_warden                     The Warden
-adviser_name_governer                   The Governor
-adviser_name_chief                      The Chief
-adviser_name_doctor                     The Doctor
-adviser_name_kingpin                    The KingPin
+adviser_name_unknown                    Bilinmiyor
+adviser_name_ceo                        CEO
+adviser_name_warden                     MÜDÜR
+adviser_name_governer                   Vali
+adviser_name_chief                      Amir
+adviser_name_doctor                     Doktor
+adviser_name_kingpin                    EleBaşı
 adviser_name_edwardshooter              Edward
 adviser_name_edwardsinner               Edward
 adviser_name_edwardinmate               Edward
-adviser_name_edwardswife                Edward's Wife Susan
-adviser_name_priest                     The Priest
-adviser_name_newsreader                 CNDC News
-adviser_name_mayor 						Mayor Calvin Heller
+adviser_name_edwardswife                Edward'ın Karısı Susan
+adviser_name_priest                     Rahip
+adviser_name_newsreader                 CNDC Haber
+adviser_name_mayor 						Belediye Başkanı Calvin Heller
 
 
 # =============================================================================
 # Valuation, Reports etc
 # =============================================================================
 
-report_staff                            Staff
-report_prisoners                        Prisoners
-report_jobs                             Jobs
-report_needs                            Needs
-report_threats                          Threats
-report_regime                           Regime
-report_policy                           Policy
-report_grants                           Grants
-report_finance                          Finance
-report_valuation                        Valuation
-report_contraband                       Contraband
-report_programs                         Programs
-report_schedule                         Scheduler
-report_intake                           Intake
+report_staff                            Personel
+report_prisoners                        Mahkumlar
+report_jobs                             İşler
+report_needs                            İhtiyaçlar
+report_threats                          Tehlikeler
+report_regime                           Rejim
+report_policy                           İlke
+report_grants                           Hibeler
+report_finance                          Finans
+report_valuation                        Değerlendirme
+report_contraband                       Kaçakçılık
+report_programs                         Programlar
+report_schedule                         Zamanlayıcı
+report_intake                           Alım
 
-report_grants_bankloan                  Bank Loan
+report_grants_bankloan                  Banka Borcu
 report_grants_bankloan_text             You can borrow a large lump sum from the bank. In return the bank will charge you interest each day which you must pay out of your cashflow.\n\nAs you make regular payments your credit rating will increase, and the bank will allow you to borrow more. However if you miss payments your credit rating will be decimated and the bank will refuse to lend you more when you need it.\n\nNote: Your loan will never be paid off by daily interest payments alone.  
 report_grants_max1                      You can accept only one grant at a time.\nUse your accountant to raise this limit.
 report_grants_max2                      You can accept no more than two grants at a time.\nUse your accountant to raise this limit.
@@ -1518,25 +1518,25 @@ report_staff_group_prisoners_deathrow   Death Row
 
 report_staff_fire                       KOV
 
-report_intake_title                     Intake
-report_intake_catheader_cat             Category
-report_intake_catheader_pay             Payment
-report_intake_catheader_available       Available
-report_intake_catheader_amount          Ratio
-report_intake_next_header               Next Intake : *X
-report_intake_cat_minsec                Min Sec
-report_intake_cat_normal                Med Sec
-report_intake_cat_maxsec                Max Sec
-report_intake_cat_deathrow              Death Row
+report_intake_title                     Alım
+report_intake_catheader_cat             Kategori
+report_intake_catheader_pay             Ödeme
+report_intake_catheader_available       Mevcut
+report_intake_catheader_amount          Oran
+report_intake_next_header               Sıradaki Alım : *X
+report_intake_cat_minsec                Min Güven.
+report_intake_cat_normal                Orta Güven.
+report_intake_cat_maxsec                Maks Güven.
+report_intake_cat_deathrow              İnfaz Mahk.
 report_intake_slider_minsec             Adjust the Min Sec intake ratio
 report_intake_slider_normal             Adjust the Med Sec intake ratio
 report_intake_slider_maxsec             Adjust the Max Sec intake ratio
 report_intake_slider_deathrow           Adjust the Death Row intake ratio
-report_intake_closed                    CLOSED
-report_intake_locked                    LOCKED
-report_intakeclosed                     Intake Closed
+report_intake_closed                    KAPALI
+report_intake_locked                    KİLİTLİ
+report_intakeclosed                     Alım Kapatıldı
 report_intakeclosed_tooltip             Your prisoner intake is closed. You will not receive any new prisoners until you open it again.
-report_intakenumperday                  Daily Intake
+report_intakenumperday                  Günlük Alım
 report_intakenumperday_tooltip          The total number of prisoners you want delivered in the next intake. You can increase or decrease the number of prisoners you wish to receive in the next intake.\n\nThe number of prisoner from each category is adjusted with the sliders above.
 report_intaketotalprisoners             Total Prisoners
 report_intaketotalprisoners_tooltip     The total number of prisoners you want in your prison. Intake will automatically top up to this number each day.\n\nThe number of prisoner from each category is adjusted with the sliders above.
@@ -1825,7 +1825,7 @@ experiencefactor_YearsServed            *X yıl hizmet etti
 experiencefactor_fights                 Şiddetli olaylara karışmış
 experiencefactor_murders                Hapishanenizde *X kere cinayet işledi
 experiencefactor_escapeattempts         *X Kere firar etmeyi denedi
-experiencefactor_addictions             *X aktif bağımlılık
+experiencefactor_addictions             *X etkin bağımlılık
 experiencefactor_gangmembership         Çete Üyesi
 
 legend_key                              Anahtar:
@@ -1836,7 +1836,7 @@ needs_key_critical                      Kritik
 needs_key_high                          Yüksek
 needs_key_med                           Orta
 needs_key_satisfied                     Memnun
-needs_key_active                        Aktif
+needs_key_active                        Etkin
 
 needs_show_category                     Mahkum Kategorisi
 needs_show_category_staff               Personel Kategorisi
@@ -1845,7 +1845,7 @@ needs_show_category_all                 Tüm Mahkumlar
 contraband_supplyanddemand              Arz ve Talep
 contraband_narcotics                    Narkotikler
 contraband_weapons                      Silahlar
-contraband_tools                        Araçlar
+contraband_tools                        Aletler
 contraband_luxuries                     Lüks Eşyalar
 contraband_metal                        Metal
 contraband_smelly                       Kokulu
@@ -2365,7 +2365,7 @@ objective_grant_drugsearch                          Crackdown on Drugs
 objective_grant_drugsearch_description              Concerns about drug use in larger prisons is increasing recently. Take a pro-active stance and show that you are tackling the problem.
 objective_grant_drugsearch_find                     Find ten illegal narcotics
 
-objective_grant_contrabandsupply                    Araç Temizleme
+objective_grant_contrabandsupply                    Alet Temizleme
 objective_grant_contrabandsupply_description        Following a number of incidents in other prisons involving stolen items, a group is performing studies on the distribution of tools and weapons throughout prisons. This part of the trial involves trying to remove all such items from your prison population.
 objective_grant_contrabandsupply_tools              Remove the supply of stolen tools
 objective_grant_contrabandsupply_weapons            Remove the supply of stolen weapons
