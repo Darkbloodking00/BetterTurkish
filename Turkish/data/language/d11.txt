@@ -271,7 +271,7 @@ interface_undo							Undo
 codex_save_failed                               Failed to save prison.
 codex_changelog_next                            Next >
 codex_changelog_prev                            < Previous
-codex_credits                                   Credits
+codex_credits                                   Emeği Geçenler
 
 codex_options_screenshotmode					Ekran Görüntüsü Modu
 codex_tooltip_screenshotmode					When in Screenshot Mode, hold the [*K] KEY and press [*E], to turn ALL UI and HUD off/on

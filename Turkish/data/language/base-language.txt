@@ -907,7 +907,7 @@ codex_options_11khz						11025 Hz
 codex_options_22khz						22050 Hz
 codex_options_44khz						44100 Hz
 
-codex_options_clocktype                 Saat Tipi
+codex_options_clocktype                 Saat Türü
 codex_options_clocktype_analogue        Analog
 codex_options_clocktype_12h             12 Saat
 codex_options_clocktype_24h             24 Saat
@@ -917,7 +917,7 @@ codex_options_dirrender_hidden			Gizli
 codex_options_dirrender_visible			Görünür
 codex_options_dirrender_zoom			Yakınlaştırılmış
 
-codex_options_tempscale                 Sıcaklığı Santigrat Cinsiden Göster
+codex_options_tempscale                 Sıcaklığı Santigrat Cinsinden Göster
 
 codex_options_gameplay					Oyun
 codex_options_autosave					Otomatik Kayıt Aralığı
@@ -1023,9 +1023,9 @@ codex_workshop_agreement				Bu eşyayı göndererek, [url=http://steamcommunity.
 codex_workshop_update_warning			Yayınlanmış Hapishane Güncelleniyor
 codex_workshop_update_warning_msg		Yayınlamış Hapishaneyi Güncellemek mevcut yüklenmiş hapishanenin üzerine yazacak. Bu yayınlanmış hapishaneyi silecek, ve kalıcı olarak onu şu anki oynadığınız hapishane ile değiştirecek. Bu eylem geri alınamaz.\n\nDevam etmek istediğine emin misin?
 
-codex_options_timelapse					Hızlı Zaman
-codex_timelapse_record					Hızlı Zamanı Kaydet
-codex_timelapse_stop					Hızlı Zamanı Durdur
+codex_options_timelapse					Hızlı Çekim
+codex_timelapse_record					Hızlı Çekimi Kaydet
+codex_timelapse_stop					Hızlı Çekimi Durdur
 codex_timelapse_camera					Kamera Modu
 codex_timelapse_customresw				Kamera Çöz. Genişliği
 codex_timelapse_customresh				Kamera Çöz. Yüksekliği
@@ -3542,64 +3542,64 @@ causeofdeath_unknown_2 				İstihbaratları açarak ne olduğunu öğren.
 # Mutators
 # =============================================================================
 
-codex_mutators_desc                     Mutators modify the way the game plays, adding new challenges or playstyles, but aren't necessarily balanced.
-mutators_random                         Random
+codex_mutators_desc                     Ekcikler oyunu oynanış şeklinizi değiştirir, yeni meydan okumalar veya oyun tarzları ekler, ama dengeli olması zorunlu değildir.
+mutators_random                         Rastgele
 
-mutator_name_bigheads                   Big Head Mode
-mutator_name_moreviolentprisoners       More Violent Prisoners 
-mutator_name_noviolentprisoners         No Violent Prisoners
-mutator_name_fastwalking                Fast Walking
-mutator_name_biggerfights               Bigger Fights
-mutator_name_morevolatileprisoners      Volatile Prisoners
-mutator_name_endlesswinter              Endless Winter
-mutator_name_norevealedreps             No Reputations Revealed
-mutator_name_allrepsrevealed            All Reputations Revealed
-mutator_name_indestructabletrees        Nature Conservation Zone
-mutator_name_alllegendary               The BIG House
-mutator_name_slowdeliveries             Slow Deliveries
-mutator_name_fastdeliveries             Fast Deliveries
-mutator_name_extremelyneedyprisoners    Needy Prisoners
-mutator_name_slowtime                   Slow Time
-mutator_name_burnthedead                Burn The Dead
-mutator_name_gangwarfare                Gang Warfare
-mutator_name_massescapes                Get Me Outta Here!
-mutator_name_notunnels                  No Tunnels
-mutator_name_morecontraband             More Contraband
-mutator_name_nocontrabandlimits         No Contraband Limits
-mutator_name_highdanger                 Danger Zone
-mutator_name_superdrugs                 The Good %$#!
-mutator_name_weirdreputations           Extra Reputations
-mutator_name_nopausing                  No Pausing
-mutator_name_norelease                  No Release
-mutator_name_fastrelease                Short Sentences
-mutator_name_acidrain                   Acid Rain
-mutator_name_permanentday               Permanent Day
-mutator_name_permanentnight             Permanent Night 
-mutator_name_spreadingtrees             Wild Growth
-mutator_name_contrabanddetectors        Contraband Scanners
-mutator_name_superguards                Super-guards
-mutator_name_oldschoolintake            Old-school Intake
-mutator_name_noclipstaff                Spectral Staff
+mutator_name_bigheads                   Koca Kafa Modu
+mutator_name_moreviolentprisoners       Daha Saldırgan Mahkumlar 
+mutator_name_noviolentprisoners         Saldırgan Mahkumlar Yok
+mutator_name_fastwalking                Hızlı Yürüme
+mutator_name_biggerfights               Daha Büyük Kavgalar
+mutator_name_morevolatileprisoners      Oynak Mahkumlar
+mutator_name_endlesswinter              Sonsuz Kış
+mutator_name_norevealedreps             İtibarı Ortaya Çıkarma Yok
+mutator_name_allrepsrevealed            Bütün İtibarı Ortaya Çıkar
+mutator_name_indestructabletrees        Doğayı Koruma Bölgesi
+mutator_name_alllegendary               BÜYÜK Ev
+mutator_name_slowdeliveries             Yavaş Teslimat
+mutator_name_fastdeliveries             Hızlı Teslimat
+mutator_name_extremelyneedyprisoners    Düşkün Mahkumlar
+mutator_name_slowtime                   Yavaş Zaman
+mutator_name_burnthedead                Ölüyü Yak
+mutator_name_gangwarfare                Çete Savaşları
+mutator_name_massescapes                Beni Buradan Kurtar!
+mutator_name_notunnels                  Tünel Yok
+mutator_name_morecontraband             Daha Fazla Kaçakçılık
+mutator_name_nocontrabandlimits         Kaçakçılık Sınırı Yok
+mutator_name_highdanger                 Tehlikeli Bölge
+mutator_name_superdrugs                 Bu Mal Bir Harika %$#!
+mutator_name_weirdreputations           Ekstra İtibar
+mutator_name_nopausing                  Duraklatma Yok
+mutator_name_norelease                  Tahliye Etme Yok
+mutator_name_fastrelease                Kısa Hükümler
+mutator_name_acidrain                   Asit Yağmuru
+mutator_name_permanentday               Kalıcı Gündüz
+mutator_name_permanentnight             Kalıcı Gece 
+mutator_name_spreadingtrees             Vahşi Büyüme
+mutator_name_contrabanddetectors        Kaçakmal Tarayıcı
+mutator_name_superguards                Süper-korumalar
+mutator_name_oldschoolintake            Eski-usul Alım
+mutator_name_noclipstaff                Hayalet Personel
 
-mutator_tooltip_bigheads                Gives your prisoners big heads!
-mutator_tooltip_moreviolentprisoners    Significantly increases the number of prisoners with violent tendancies that you'll receive.
-mutator_tooltip_noviolentprisoners      Only receive prisoners that have no violent tendacies. 
-mutator_tooltip_fastwalking  	           Everyone in your prison walks twice as fast.
-mutator_tooltip_biggerfights            Makes prisoners far more likely to join in on fights, and less likely to back down from a fight.
-mutator_tooltip_morevolatileprisoners   Makes roughly half your prisoners have the Volatile trait, making them cause trouble just for fun.
-mutator_tooltip_endlesswinter           Brings back the dreaded Exposure status effect, and plunges the world into an eternal freezing winter. (No effect if Weather is disabled.)
-mutator_tooltip_norevealedreps          You won't know anything about the reputations of prisoners getting off the bus. 
-mutator_tooltip_allrepsrevealed         Prisoners getting off the bus will always have their reputations visible.
-mutator_tooltip_indestructabletrees     Local conservation laws mean the trees in this area cannot be chopped down. You'll just have to build around them!
-mutator_tooltip_alllegendary            All prisoners are Legendary. Good luck!
-mutator_tooltip_slowdeliveries          Every single thing you buy needs to arrive on a truck. 
-mutator_tooltip_fastdeliveries          No more waiting for trucks; everything arrives directly in your prison as long as you have space for it.
-mutator_tooltip_extremelyneedyprisoners The needs of your prisoners will increase at a far greater rate. 
-mutator_tooltip_slowtime                Makes the game clock slower, which causes days to be much longer.
-mutator_tooltip_burnthedead             Anyone killed in your prison will spontaneously burst into flames.
-mutator_tooltip_gangwarfare             Only gang members will arrive in your prison. (No effect if Gangs are disabled.)
-mutator_tooltip_massescapes             Prisoners are far more likely to try and dig their way out of your prison, removing any usual limits on escape tunnels.
-mutator_tooltip_notunnels               Prisoners cannot dig escape tunnels.
+mutator_tooltip_bigheads                Mahkumlarınıza kocaman kafalar verir!
+mutator_tooltip_moreviolentprisoners    Hapishaneye alacağınız mahkumlardaki şiddet eğilimini önemli ölçüde arttırır.
+mutator_tooltip_noviolentprisoners      Yalnızca şiddete eğilimi olmayan mahkumlar alınır. 
+mutator_tooltip_fastwalking  	        Hapishanendeki herkes iki kat hızlı yürür.
+mutator_tooltip_biggerfights            Hapishanenizdeki mahkumların daha yüksek bir ihtimalle dövüşlere katılmasını, ve daha az bir olasılıkla dövüşten çekilmelerine neden olur.
+mutator_tooltip_morevolatileprisoners   Kabaca mahkumlarınızın yarısını Oynak karakterli yapar, bu onların sadece keyif için sorun yaratmasına sebep olur.
+mutator_tooltip_endlesswinter           Korkunç Maruz Kalma durumunu geri getirir, ve dünyayı ebedi bir soğuğa iter. (Hava Durumu kapalıysa etki göstermeyecek.)
+mutator_tooltip_norevealedreps          Otobüsten inen mahkumların itibarı hakkında hiçbir şey bilemeyeceksin. 
+mutator_tooltip_allrepsrevealed         Otobüsten inen bütün mahkumların itibarları gözüküyor olacak.
+mutator_tooltip_indestructabletrees     Yerel muhafaza etme kanunları bu alandaki ağaçların kesilemeyeceği anlamına gelir. Sadece etrafına inşa etmen gerekecek!
+mutator_tooltip_alllegendary            Bütün mahkumlar efsanevi. İyi Şanslar!
+mutator_tooltip_slowdeliveries          Satın aldığın her şey bir kamyon ile getirilmek zorunda. 
+mutator_tooltip_fastdeliveries          Artık kamyonlar için bekleme yok; onları koyacak yeterince alanın olduğu sürece her şey doğrudan hapishanene gelecek.
+mutator_tooltip_extremelyneedyprisoners Mahkumların ihtiyaçları çok büyük bir değerle artacak. 
+mutator_tooltip_slowtime                Oyunun saatini yavaşlatır, günlerin daha uzun olmasına neden olur.
+mutator_tooltip_burnthedead             Hapishanende ölen herkes kendi kendine alevler içinde kalacak.
+mutator_tooltip_gangwarfare             Yalnızca çete liderleri hapishanenize gelecek. (Çeteler kapalıysa etki göstermeyecek)
+mutator_tooltip_massescapes             Mahkumlar firar etmek için yaptıkları kazma girişimleri daha fazla olacak, removing any usual limits on escape tunnels.
+mutator_tooltip_notunnels               Mahkumlar kaçış tünelleri kazamaz.
 mutator_tooltip_morecontraband          More contrband is smuggled into prison, and prisoners are far more likely to steal contraband when given the opportunity. 
 mutator_tooltip_nocontrabandlimits      Removes limits on the types of contraband that can be imported into the prison. Guns? Mops? Clipboards?! All fair game.
 mutator_tooltip_highdanger              The danger level of your prison is always at maximum, you are far more likely to to get prisoners who are violent, and they are much more likely to get into fights. 
