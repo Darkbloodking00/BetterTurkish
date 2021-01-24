@@ -2468,7 +2468,7 @@ object_prisonerbus                       Mahkum Otobüsü
 object_fireengine                        İtfaiye Arabası
 object_riotvan                           Polis Panzeri
 object_ambulance                         Ambulans
-object_hearse                            Hearse
+object_hearse                            Cenaze Arabası
 object_trooptruck                        Akseri Kamyon
 object_fire                              Ateş
 object_garbage                           Çöp
@@ -2650,7 +2650,7 @@ room_classroom                           Sınıf
 room_exports                             İhraç
 room_chapel                              Şapel
 room_intake                              Kabulhane
-room_clearrooms                          Clear Rooms
+room_clearrooms                          Odaları Temizle
 room_paroleroom                          Şartlı Tahliye
 room_mailroom                            Posta Odası
 room_shop                                Dükkan
@@ -2675,7 +2675,7 @@ equipment_saw                            Testere
 equipment_jailkeys                       Anahtarlar
 equipment_mobilephone                    Cep Telefonu
 equipment_lighter                        Çakmak
-equipment_screwdriver                    Screwdriver
+equipment_screwdriver                    Tornavida
 equipment_drugs                          Uyuşturucu
 equipment_sheers                         Makas
 equipment_mop                            Paspas
@@ -2953,7 +2953,7 @@ informant_coverage						KAPSAMA
 informant_suspicion						ŞÜPHE SEVİYESİ
 informant_status						DURUM
 informant_none                          Kayıtlarda hiç köstebeğiniz yok
-informant_hint                          (Recruit Prisoners under Duress - eg in Solitary)
+informant_hint                          (Mahkumları Baskıyla topla - örn Tek Hücrede)
 informant_recruitable                   (Potansiyel Köstebek)
 informant_target                        Hedef
 informant_dead                          ÖLÜ
@@ -3083,10 +3083,10 @@ weathermap_temperature_f                *FF
 
 roomerror_nokitchen                     Bu yemekhaneye yiyecek yollayabilecek mevcut bir mutfak bulunmuyor
 roomerror_noprisoners                   Bu yemekhanede zıkkımlanacak mahkumlar atanmadı
-roomerror_nocanteen_cells               There are no canteens accessible by this cell. Prisoners in this cell will have nowhere to eat
-roomerror_nocanteen_kitchen             There are no canteens accessible by this kitchen. It will not cook any food for meal time
+roomerror_nocanteen_cells               Bu hücreye erişimi olan bir yemekhane yok. Bu hücredeki mahkumların yemek yiyecek bir yerleri yok
+roomerror_nocanteen_kitchen             Bu mutfağa erişimi olan bir yemekhane yok. Yemek zamanı için hiçbir yemek ısıtılmayacak
 
-ceos_letter                             Dear Sir/Madam,\n\n\nCongratulations on completing your basic induction - you are now a fully qualified Prison Architect!  Soon you'll be designing, building and running your own prisons starting from nothing but an empty plot of land and a few stacks of bricks.  Before you get started, I thought I might share some important lessons with you.\n\n1. Every prison needs a Warden - he should be one of your first hires.  Build him a nice office and he'll open up a whole range of advanced facilities via the bureaucracy system.\n\n2. Individual jail cells are expensive, especially early on when funds are very tight.  Save money by starting with a single large Holding Cell, which can be shared between many prisoners at once.\n\n3. Get your Kitchen and Canteen up and running before the first prisoners show up, and be sure to hire some Cooks - nothing irritates a prisoner more than an empty stomach!\n\n4. Building a prison is an expensive undertaking, and you need to become a master of raising large volumes of money through grants and contracts. You can access these grants through the 'Reports' screens.\n\nThat's about everything - good luck!\n\nThe CEO,\nPrison Architects Corp.
+ceos_letter                             Sayın Bay/Bayan,\n\n\n Temel karşılamanızı tamamladığınızdan dolayı sizi tebrik ederim - artık siz tam nitelikli bir Prison Architectsiniz!  Yakında tasarlayacak, inşa edecek ve boş bir arazide birkaç yığın tuğla dışında hiçbir şeyiniz olmadan kendi hapishanenizi işleteceksiniz.  Başlamadan önce, Size önemli bazı dersler vermem konusunda düşündüm.\n\n1. Bütün Hapishanelerin bir Müdüre ihtiyacı vardır - o işe aldığınız ilk kişilerden olmalı.  Ona güzel bir ofis inşa edin ki ardından size bürokratik sistem yardımıyla çok çeşitli gelişmiş tesisleri açsın.\n\n2. Bireysel hapishane hücreler pahalıdır, özellikle ilk zamanlarda bütçe kısıtlıyken.  Büyük bir Nezarethane ile başlayarak paradan tasaarruf edin, bu birçok mahkumu aynı anda tutacak.\n\n3. İlk mahkumlar gelmeden önce Mutfak ve Yemekhaneyi ayakta çalışır durumda tutun, ve biraz Aşçı aldığınızdan da emin olun - aç karından başka hiçbir şey bir mahkumu sinirlendiremez!\n\n4. Bir hapishane inşa etmek pahalıya patlayacak bir girişim, ve hibeler ve sözleşmeler aracılığıyla para yapmanın ustası olmanız gerekiyor. Bu hibelere 'Raporlar' ekranından ulaşabilirsiniz.\n\nHepsi bu kadar - iyi şanslar!\n\nCEO,\nPrison Architects Şirketi.
 
 quickbuild_basiccell                    Sıradan Hücre
 quickbuild_solitarycell                 Tek Hücre
