@@ -2190,8 +2190,8 @@ objective_firstgrant_description        İlk parasal hibenizi alın, bunun için
 
 objective_builddeliveriesroom           Teslimat alanı belirleyin
 
-objective_outgoing                      Salınmak üzere olan mahkumlar
-objective_outgoing_count                *X adet mahkum yakın zamanda salınacak
+objective_outgoing                      Tahliye edilmek üzere olan mahkumlar
+objective_outgoing_count                *X adet mahkum yakın zamanda tahliye edilecek
 objective_outgoing_timer                (*X saat)
 
 objective_visitors                      Ziyaretçiler (Sabah 8 - Akşam 8)
@@ -3600,31 +3600,31 @@ mutator_tooltip_burnthedead             Hapishanende ölen herkes kendi kendine 
 mutator_tooltip_gangwarfare             Yalnızca çete liderleri hapishanenize gelecek. (Çeteler kapalıysa etki göstermeyecek)
 mutator_tooltip_massescapes             Mahkumlar firar etmek için yaptıkları kazma girişimleri daha fazla olacak, removing any usual limits on escape tunnels.
 mutator_tooltip_notunnels               Mahkumlar kaçış tünelleri kazamaz.
-mutator_tooltip_morecontraband          More contrband is smuggled into prison, and prisoners are far more likely to steal contraband when given the opportunity. 
-mutator_tooltip_nocontrabandlimits      Removes limits on the types of contraband that can be imported into the prison. Guns? Mops? Clipboards?! All fair game.
-mutator_tooltip_highdanger              The danger level of your prison is always at maximum, you are far more likely to to get prisoners who are violent, and they are much more likely to get into fights. 
-mutator_tooltip_superdrugs              Prisoners who take drugs or alcohol will randomly gain a reputation trait, making them progressively more difficult to deal with.
-mutator_tooltip_weirdreputations        Unlocks a range of new reputations your prisoners can have, that will alter their behaviours and how they interact with your prison.
-mutator_tooltip_nopausing               Removes the ability to pause the game clock while playing.
-mutator_tooltip_norelease               Prisoners are never released; their sentences last forever, and there is no parole.
-mutator_tooltip_fastrelease             All sentences are much shorter, meaning prisoners will cycle through your prison much quicker.
-mutator_tooltip_acidrain                Causes rain and snow to damage any prisoners who are outside. (No effect if Weather is disabled.)
-mutator_tooltip_permanentday            It never gets dark in your prison; it's as bright at midnight as it is at noon!
-mutator_tooltip_permanentnight          The sun never rises here. Your prison will permanently be in darkness. 
-mutator_tooltip_spreadingtrees          Trees can spread, and will grow much faster than normal.
-mutator_tooltip_contrabanddetectors     Metal detectors will detect all forms of contraband, but will also use 5 times as much power. 
-mutator_tooltip_superguards             Your guards are the cream of the crop, and they don't screw around. They're bigger, stronger, faster, and more observant.
-mutator_tooltip_oldschoolintake         Once upon a time, a loaded prisoner bus would show up at your prison every day, whether you wanted them or not. Welcome back to the good old days! You'll get bus loads of prisoners, every single day, whether you have space for them or not.
-mutator_tooltip_noclipstaff             Your staff members can walk through walls.
+mutator_tooltip_morecontraband          Hapishanenize daha fazla kaçak mal sokulur, ve mahkumlar ellerine fırsat geçtiği zaman kaçak malları çalmaları daha muhtemeldir. 
+mutator_tooltip_nocontrabandlimits      Hapishaneye sokulabilecek kaçak mal türünün sınırını kaldırır. Silah? Paspas? Pano?! Hepsi meşru.
+mutator_tooltip_highdanger              Hapishanenizin tehlike seviyesi her zaman en yüksektedir, şiddet eğilimli mahkumları almanız daha muhtemeldir, ve kavgalara girişmeleri de daha muhtemeldir. 
+mutator_tooltip_superdrugs              Uyuşturucu alan mahkumlar rastgele olarak bir itibar özelliği kazanacak, bu onlarla başa çıkmayı daha ileri derecede zorlaştıracak.
+mutator_tooltip_weirdreputations        Mahkumlarınızın edinebileceği birçok çeşit yeni itibar ekler, bu onların davranışlarını ve hapishanenizle nasıl etkileşim kuracağını değiştirecek.
+mutator_tooltip_nopausing               Oyundayken saati duraklatma gücünüzü kaldırır.
+mutator_tooltip_norelease               Mahkumlar asla tahliye edilmez; hükümleri daimi devam eder, ve onlara şartlı tahliye de yok.
+mutator_tooltip_fastrelease             Hükümler daha kısadır, bunun anlamı mahkumlar hapishanenizde bir o yana bir bu yana dönecektir.
+mutator_tooltip_acidrain                Yağmur ve kar dışarıda bulunan mahkumlarınızda zarara sebep olacak. (Hava Durumu kapalıysa etki göstermeyecek.)
+mutator_tooltip_permanentday            Hapishanenizde asla karanlık olmaz; gece yarısı öğlen olduğu kadar parlaktır!
+mutator_tooltip_permanentnight          Burada gün asla doğmaz. Hapishaneniz kalıcı olarak karanlığa gömülecektir. 
+mutator_tooltip_spreadingtrees          Ağaçlar yayılacak ve olduğundan daha hızlı büyüyecekler.
+mutator_tooltip_contrabanddetectors     Metal dedektörleri kaçak malların her biçimini tesbit edecek, ama 5 kat daha fazla güç harcayacaklar. 
+mutator_tooltip_superguards             Korumalarınız tam bir kaymak gibi, etrafta aylak aylak dolaşmayacaklar. Daha büyük, güçlü, hızlı ve kartal gibi dikkatliler.
+mutator_tooltip_oldschoolintake         Bir zamanlar, bir fıçı mahkumla dolu otobüs hergün hapishanenin önünde belirirmiş, istesen de istemesen de. Eski güzel günlere hoş geldin! Onları koyacak yeterli alanın olsun ya da olmasın, gün be gün, mahkumlarla dolu bir otobüs alacaksın.
+mutator_tooltip_noclipstaff             Personelleriniz duvarların içinden geçebilir.
 
-mutator_title_extrachallenge            Extra Challenge
-mutator_title_extrachallenge_tooltip    These mutators will make your life more difficult in a variety of ways. Sometimes significantly so!
-mutator_title_lightentheload            Lightening The Load
-mutator_title_lightentheload_tooltip    These mutators make your prison easier to manage or reduce the difficulty in some way.
-mutator_title_changetherules            Changing The Rules
-mutator_title_changetherules_tooltip    These mutators change some of the basic rules of the game,         
-mutator_title_somethingdifferent        Something... different
-mutator_title_somethingdifferent_tooltip    This is the weird stuff. They might not make sense, but they will make life more interesting.
+mutator_title_extrachallenge            Ekstra Meydan Okuma
+mutator_title_extrachallenge_tooltip    Bu ekcikler hayatınızı çeşitli yönlerden daha da zorlaştıracak. Bazen önemli ölçüde!
+mutator_title_lightentheload            Yükü Hafifletme
+mutator_title_lightentheload_tooltip    Bu ekcikler bazı yönlerden hapishanenizi yönetmesi daha kolay ve zorluğu düşük yapar.
+mutator_title_changetherules            Kuralları Değiştirme
+mutator_title_changetherules_tooltip    Bu ekcikler oyunun bazı basit kurallarını değiştirir,         
+mutator_title_somethingdifferent        Farklı... bir şey
+mutator_title_somethingdifferent_tooltip    Bu şey biraz garip. Mantıklı olmayabilirler, ama hayatı daha ilginç kılacaklar.
 
 # =============================================================================
 # Attract screen
