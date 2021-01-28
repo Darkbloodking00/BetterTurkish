@@ -48,7 +48,7 @@ dialogeditor_test                       Test
 dialogeditor_window                     Pencere
 dialogeditor_grid                       Şebeke
 dialogeditor_caption                    Alt yazı
-dialogeditor_component                  Component
+dialogeditor_component                  Bileşen
 dialogeditor_select						Seç
 dialogeditor_create						Oluştur
 dialogeditor_background                 Arkaplan Görseli.
@@ -2177,7 +2177,7 @@ objective_intake_categories             Kategoriler:
 objective_intake_minsec                 En az, 
 objective_intake_medsec                 Normal, 
 objective_intake_maxsec                 Maks
-objective_intake_deathrow               Ölüm Mah.
+objective_intake_deathrow               İnfaz Mah.
 objective_intake_typeclosed             Kapalı
 objective_intake_typefillcapacity       Sınıra kadar doldur
 objective_intake_typetotalprisoners     *X adet doldur
@@ -2842,7 +2842,7 @@ doortimer_security_normal				Orta Güvenlikli
 doortimer_security_maxsec               En Yüksek Güvenlikli
 doortimer_security_Protected            İhtiyati Tutuklama
 doortimer_security_SuperMax             SüperMaks
-doortimer_security_DeathRow             Ölüm Makhumları
+doortimer_security_DeathRow             İnfaz Mahkumları
 
 
 # =============================================================================
@@ -3141,7 +3141,7 @@ campaignchapter_chapternumber			Bölüm *C
 
 campaignchapter_deathrow                Ölüm Makhumları
 
-campaignchapter_deathrow_description    Bir tutuklunun tam zamanında belirlenmiş infazı için yapılması gereken bir infaz odası konusunda sözleşme aldık .
+campaignchapter_deathrow_description    Bir tutuklunun çizelgede belirlenmiş infazı için yapılması gereken bir infaz odası için sözleşme aldık .
 
 campaigncutscene_deathrowmurder         Çifte Cinayet
 campaigncutscene_deathrowconfession     Günah Çıkarma
@@ -3168,7 +3168,7 @@ adviser_deathrowintrob_1                İşte burası yeni tesisin kurulmasın�
 adviser_deathrowintrob_2                Her projede olduğu gibi bu projede de ilk yapmamız gereken adım yapının kendisini inşa etmek - ve tabii ki infaz odası ve nezarethane için yeterli boşluk da.
 adviser_deathrowintrob_3                O zaman hadi başlayalım.  Buraya yeni bir yapı inşa et.
 
-adviser_deathrow_explain1               Your Workmen are responsible for the construction of buildings.
+adviser_deathrow_explain1               Ustalarınız binaların yapımından sorumlular.
 adviser_deathrow_explain2               They'll collect the steel and concrete from this store room and take it to the construction site.
 adviser_deathrow_explain3               They'll use those raw materials to build the foundations and framework of your new building.
 adviser_deathrow_explain4               This is the slowest part of construction, so you should plan ahead when building new facilities.
