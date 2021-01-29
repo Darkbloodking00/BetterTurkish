@@ -19,7 +19,7 @@ dialog_w                                W
 dialog_h                                H
 dialog_exit                             Çıkış
 dialog_cancel                           İptal
-dialog_ok                               Ok
+dialog_ok                               Tamam
 dialog_open                             Aç
 dialog_close                            Kapat
 dialog_closed                           Kapalı
@@ -1347,7 +1347,7 @@ research_lowertaxes2                    Offshore Vergi Cenneti
 research_remoteaccess                   Uzaktan Kontrol
 research_extragrant                     Ekstra Hibe
 research_advancedmanagement             Mikro yönetim
-research_deathrow                       Death Row
+research_deathrow                       İnfaz Mahkumları
 research_permanentpunishment            Kalıcı Cezalandırma
 research_removemincellsize              Minik Hücreler
 research_reduceexecutionliability       İnfaz Yükümlülüğü
@@ -3169,101 +3169,101 @@ adviser_deathrowintrob_2                Her projede olduğu gibi bu projede de i
 adviser_deathrowintrob_3                O zaman hadi başlayalım.  Buraya yeni bir yapı inşa et.
 
 adviser_deathrow_explain1               Ustalarınız binaların yapımından sorumlular.
-adviser_deathrow_explain2               They'll collect the steel and concrete from this store room and take it to the construction site.
-adviser_deathrow_explain3               They'll use those raw materials to build the foundations and framework of your new building.
-adviser_deathrow_explain4               This is the slowest part of construction, so you should plan ahead when building new facilities.
-adviser_deathrow_explain5               While we wait, take a look around.  Use WASD or the arrow keys to move around, and use the mouse wheel to zoom in and out.
+adviser_deathrow_explain2               Çelik ve betonu bu depolama alanından toplayacak ve inşaat sahasına götürecekler.
+adviser_deathrow_explain3               Bu hammaddeleri kullanarak yeni binanızın temelini ve iskeletini inşa edecekler.
+adviser_deathrow_explain4               Bu inşaatın en yavaş aşamasıdır, bu yüzden yeni bir tesis inşa etmeden önce ileriye dönük plan yapmalısın.
+adviser_deathrow_explain5               Biz beklerken, etrafa bir bakın.  WASD veya ok tuşlarını kullanarak etrafta hareket et, ve fareyi kullanarak da ileri ve geri yakınlaştır.
 
-objective_deathrow_building             Construct a building to house the Execution Facility
+objective_deathrow_building             İnfaz Tesisini yerleştirmek için bir bina inşa et.
 
-adviser_deathrow_buildinside1           We will also need an entrance to the new Execution Facility.
-adviser_deathrow_buildinside2           Build a Large Jail Door into the south wall.
+adviser_deathrow_buildinside1           Ayrıca yeni İnfaz Tesisi için bir girişe de ihtiyacımız olacak.
+adviser_deathrow_buildinside2           Güney kapısına bir Büyük Hapishane Kapısı inşa et.
 
-objective_deathrow_buildouterdoor       Build a Large Jail Door entrance
+objective_deathrow_buildouterdoor       Büyük Hapishane Kapısı girişi inşa et
 
-adviser_deathrow_internalwalls1          Inside the building I want a Cell and an Execution Room.
-adviser_deathrow_internalwalls2          Partition the space by constructing some Brick Walls.
+adviser_deathrow_internalwalls1          Binanın içinde birer adet Hücre ve İnfaz Odası istiyorum.
+adviser_deathrow_internalwalls2          Tuğla Duvar inşa ederek iç alanda bulunan boşluğu bölümle.
 
-objective_deathrow_buildinternalwalls   Build internal walls
+objective_deathrow_buildinternalwalls   İç duvar inşa et
 
-adviser_deathrow_internaldoors1          Now add Large Jail Doors to those dividing walls.
-adviser_deathrow_internaldoors2          You can rotate an object before placement by clicking the middle mouse button (or press R).
+adviser_deathrow_internaldoors1          Şimdi bu ayrılmış duvarlara Büyük Hapishane Kapısı ekle.
+adviser_deathrow_internaldoors2          Orta fare tuşuna tıklayarak herhangi bir nesneyi çevirebilirsin (veya R'ye basarak).
 
-objective_deathrow_buildinternaldoors   Build internal doors (Middle Click or press R to rotate an object)
+objective_deathrow_buildinternaldoors   İç kapı inşa et (Orta Fare Tuşu veya R'ye basarak nesneleri çevirebilirsin)
 
-adviser_deathrow_designation1           That's looking good.  We now need to designate Rooms within those spaces.
-adviser_deathrow_designation2           Designate a Cell in the smaller area where our condemned inmate will live.
-adviser_deathrow_designation3           Then designate the Execution Room itself in the larger area.
+adviser_deathrow_designation1           İyi görünüyor.  Şimdi bu boşluklar içinde Odalar atamalıyız.
+adviser_deathrow_designation2           Tutuklumuzun yaşayacağı yer olacak, daha küçük olan alana bir Hücre ata.
+adviser_deathrow_designation3           Ardından İnfaz Odasının kendisini de daha büyük olan alana ata.
 
-objective_deathrow_designatecell        Designate a Cell
-objective_deathrow_designateexecution   Designate an Execution Room
+objective_deathrow_designatecell        Bir Hücre ata
+objective_deathrow_designateexecution   Bir İnfaz Odası ata
 
-adviser_deathrow_roomrequirements1      Those new Rooms have requirements before they become functional.  
-adviser_deathrow_roomrequirements2      The Cell needs a Bed and a Toilet.
-adviser_deathrow_roomrequirements3      The Execution Room requires the Electric Chair.
+adviser_deathrow_roomrequirements1      Çalışır duruma geçmeden önce bu yeni odaların bazı gereksinimleri var.  
+adviser_deathrow_roomrequirements2      Hücreye birer adet Tuvalet ve Yatak gerekli.
+adviser_deathrow_roomrequirements3      İnfaz Odasına Elektrikli Sandalye gerekli.
 
-objective_deathrow_cellobjects1         Build a Bed
-objective_deathrow_cellobjects2         Build a Toilet
-objective_deathrow_executionobjects     Build an Electric Chair
+objective_deathrow_cellobjects1         Bir Yatak  Kur
+objective_deathrow_cellobjects2         Bir Tuvalet Kur
+objective_deathrow_executionobjects     Bir Elektrikli Sandalye Kur
 
-adviser_deathrow_optional1              That's the essentials taken care of.  But there are still a few improvements you could make.
-adviser_deathrow_optional2              It's up to you though, these aren't strictly required.  It depends how much you care about your prisoners and their environment.
-adviser_deathrow_optional3              The Cell itself could be improved with an outward facing Window, and a small Bookshelf.  
-adviser_deathrow_optional4              And the facility would look better with a higher quality floor material - like Wooden Floorboards or Mosaic Tiles.
-adviser_deathrow_optional5              Outside you could add some lighting, and a paved pathway if you think it needs it.
+adviser_deathrow_optional1              Bunlar icabına bakılan gerekliliklerdi.  Ancak halen yapabileceğin bazı iyileştirmeler mevcut.
+adviser_deathrow_optional2              Aslında sana kalmış, çok da gerekli şeyler değiller.  Bu, mahkum ve onun çevresini ne kadar önemsediğinizle alakalı olan bir şey
+adviser_deathrow_optional3              Hücrenin kendisi dışarıya bakan bir Pencere, ve küçük bir Kitaplıkla iyileştirilebilir.  
+adviser_deathrow_optional4              Ve tesis daha kaliteli bir zemin döşemesi ile iyileştirilebilir - Tahta Zemin veya Mozaik Fayans.
+adviser_deathrow_optional5              Eğer gerekli olduğunu düşünüyorsan, dışarıya birkaç ışıklandırma ve biraz kaldırım ekleyebilirsin.
 
-adviser_deathrow_transfer05             This is the man in question, Edward Romsey.  A teacher once, would you believe.
-adviser_deathrow_transfer06             It's not our place to decide if he deserves this.  The Law has made that decision.  We're just here to do a job.
-adviser_deathrow_transfer1              Once you are satisfied the facility is ready, you can begin the Prisoner Transfer to his new cell.
-adviser_deathrow_transfer2              Simply click on the polaroid in his cell to initiate the transfer.
+adviser_deathrow_transfer05             İşte bu söz konusu adam, Edward Romsey.  İnanır mısın, zamanında öğretmenmiş.
+adviser_deathrow_transfer06             Onun bu cezayı hak edip hak etmemesi bizim haddimize değil.  Kanun bu seçimi yaptı.  Biz sadece burada işimizi yapıyoruz.
+adviser_deathrow_transfer1              Tesisin hazır olduğu konusunda tatmin olduysan, Mahkumun, yeni Hücre Geçişine başlayabilirsin.
+adviser_deathrow_transfer2              Geçişi başlatmak için basitçe mahkumun hücresinde bulunan kareye tıkla.
 
-objective_deathrow_path                 (OPTIONAL) Build a Path to the new facility
-objective_deathrow_window               (OPTIONAL) Add a Window to the Cell
-objective_deathrow_bookshelf            (OPTIONAL) Add a Bookshelf to the Cell
-objective_deathrow_flooring             (OPTIONAL) Redo the flooring with higher quality materials
-objective_deathrow_outerlights          (OPTIONAL) Create some outdoor lighting around the facility
-objective_deathrow_transferinmate       When you are done, begin the Prisoner Transfer by clicking on the polaroid in Edward's cell.
+objective_deathrow_path                 (İSTEĞE BAĞLI) Yeni tesise giden bir Yol yap
+objective_deathrow_window               (İSTEĞE BAĞLI) Hücreye bir Pencere ekle
+objective_deathrow_bookshelf            (İSTEĞE BAĞLI) Hücreye bir Kitaplık ekle
+objective_deathrow_flooring             (İSTEĞE BAĞLI) Döşemeyi daha kaliteli bir kaplamayla tekrar yap
+objective_deathrow_outerlights          (İSTEĞE BAĞLI) Tesis boyunca dışarıya birkaç ışıklandırma yap
+objective_deathrow_transferinmate       İşin bittiyse, Edward'ın hücresinde bulunan kareye tıklayarak Hücre Geçişini başlat.
 
-adviser_deathrow_setupmurder1           Don't shed one tear for this guy.  He's a stone cold killer, guilty as charged. 
-adviser_deathrow_setupmurder2           He even confessed.  Wanna hear his description of what he did?  
-adviser_deathrow_setupmurder3           It's juicy stuff.  "It was around 11pm.  The lights were already on.  I knew she was home..."
-adviser_deathrow_postmurder1            Like I said, a stone cold killer.
-adviser_deathrow_postmurder2            Clear as day if you ask me.  Deserves every volt he's gonna get.
-adviser_deathrow_postmurder3            All men deserve forgiveness, even him. Are you so sure in yourself that you can deal out such final judgement?
-adviser_deathrow_postmurder4            Catching your wife with another man is no excuse for what he did. 
-adviser_deathrow_postmurder5            And he went there with a loaded gun, knowing he'd find them together. That's double pre-meditated murder.
-adviser_deathrow_postmurder6            He's done nothing but co-operate with the authorities. This state is making an example of him. 
-adviser_deathrow_postmurder7            If he'd committed his crime 100 miles north he'd be looking at life imprisonment instead. How is that justice?
-adviser_deathrow_postmurder8            Do you want a guy like this running free? I'll sleep just fine at night when I know he's gone.
+adviser_deathrow_setupmurder1           Bu herif için bir gözyaşı dahi dökme.  O taş kalpli bir cani, hükmünce suçlu. 
+adviser_deathrow_setupmurder2           İtiraf bile etti.  Ne yaptığını onun ağzından dinlemek ister misin?  
+adviser_deathrow_setupmurder3           Çok cıvık bir olay.  "Saat akşam 11 civarındaydı.  Işıklar çoktan açıktı.  Onun evde olduğunu biliyordum..."
+adviser_deathrow_postmurder1            Dediğim gibi, o taş kalpli bir cani.
+adviser_deathrow_postmurder2            Bana sorarsan gün gibi ortada.  Alacağı her voltu hak ediyor.
+adviser_deathrow_postmurder3            Herkes bağışlanmayı hak eder, o bile. Böyle bir son yargıyı senin vermen konusunda kendinden çok mu eminsin?
+adviser_deathrow_postmurder4            Karını başka bir adamla yakalamak yaptığı şeyin mazereti yok. 
+adviser_deathrow_postmurder5            Ve oraya dolu bir silahla gitmişti, onları birlikte yakalacağını bilerek. Bu çifte kasıtlı cinayet.
+adviser_deathrow_postmurder6            Yetkililerle iş birliği yapmaktan başka hiçbir şey yapmadı. O, bu eyalet için bir örnek oluyor. 
+adviser_deathrow_postmurder7            Eğer suçunu 100 mil ötede kuzeyde işleseydi şimdi bu ceza yerine müebbet hapis görüyor olurdu. Bu mu adelet?
+adviser_deathrow_postmurder8            Böyle bir herifin etrafta elini kolunu sallayarak dolaşmasını mı istiyorsun? Onun öbür tarafı boyladığını bilince geceleri daha rahat uyuyacağım.
            
 
-adviser_deathrowelectricity_1           Good work so far.
-adviser_deathrowelectricity_2           However there is one problem - the execution room isn't functioning yet, because it doesn't have any power.
-adviser_deathrowelectricity_3           We need to connect it to the electrical supply.
+adviser_deathrowelectricity_1           Her şey yolunda görünüyor.
+adviser_deathrowelectricity_2           Ancak bir sorun var - infaz odası şimdilik çalışmıyor, çünkü ona bağlı hiçbir güç yok.
+adviser_deathrowelectricity_3           Onu elektrik kaynağına bağlamalıyız.
 
-adviser_deathrowelectricityb_1          We are now viewing the prison in Utilities mode, which shows us the electrical wiring layout for the entire prison. 
-adviser_deathrowelectricityb_2          Each building in the prison is connected to the Power Grid by these thick underground electrical cables.  
-adviser_deathrowelectricityb_3          Power is provided to the prison by this substation, which draws electricity from the national grid.
-adviser_deathrowelectricityb_4          As you can see, this entire wing of prison cells is without power.  All of the lights are out.
-adviser_deathrowelectricityb_4b         To fix this problem, we first need to switch into Utilities mode to understand why the lights are without power.
-adviser_deathrowelectricityb_5          The nearest electrical cables are too far away - our engineers can't complete the wiring for this area.
-adviser_deathrowelectricityb_6          Extend the electrical cables nearby to cover this wing of the prison.
+adviser_deathrowelectricityb_1          Şimdi hapishaneyi Araçlar modunda görüyoruz, ki bu bize bütün hapishanenin elektrikli kablo bağlantılarını gösterecek. 
+adviser_deathrowelectricityb_2          Hapishanedeki her bina bu Güç Şebekesiyle geniş elektrikli yeraltı kabloları ile bağlı.  
+adviser_deathrowelectricityb_3          Güç, hapishaneye trafodan karşılanıyor, ki bu da ulusal şebekeden elektrik harcıyor.
+adviser_deathrowelectricityb_4          Gördüğün gibi, bütün bu hapishane kanadı güçten yoksun.  Bütün ışıklar kapalı.
+adviser_deathrowelectricityb_4b         Bu sorunu çözmek için, ilk önce ışıkların neden güçten yoksun olduğunu anlamak üzere Araçlar moduna geçmemiz gerekli.
+adviser_deathrowelectricityb_5          En yakın elektrik kablosu çok uzakta - mühendislerimiz bu alanın kablolamasını tamamlayamıyor.
+adviser_deathrowelectricityb_6          Bu hapishane kanadını da kaplamak için yakındaki elektrik kablolarını uzat.
 
-objective_deathrow_cellpower            Connect the rooms to the Electrical Supply
+objective_deathrow_cellpower            Odaları Elektrik Kaynağına bağla
 
-adviser_deathrow_connectchair_1         Lights aren't the only thing that needs power.  Your new Electric Chair does too.
-adviser_deathrow_connectchair_2         Use the Power Cables to connect the execution facility to the power grid.
-adviser_deathrow_connectchair_3         The Electric Chair itself is a special type of electrical item.  It requires its own dedicated power line. You'll need to connect it up directly with mains cables.
+adviser_deathrow_connectchair_1         Işıklar güç gerektiren tek şey değiller.  Yeni Elektrikli Sandalyen de gerektirir.
+adviser_deathrow_connectchair_2         Güç Kabolarını kullanarak infaz tesisini güç şebekesine bağla.
+adviser_deathrow_connectchair_3         Elektrikli Sandalyenin kendisi özel bir tür elektrikli eşya.  Kendi özel atanmış güç hattına ihtiyaç duyar. Doğrudan şebeke kablolarına bağlaman gerekiyor.
 
-objective_deathrow_chairpower           Connect the Electric Chair to the Electrical Supply
-objective_deathrow_condemnedcellpower   Connect the Cell to the Electrical Supply
+objective_deathrow_chairpower           Elektrikli Sandalyeyi Elektrik Kaynağına Bağla
+objective_deathrow_condemnedcellpower   Hücreyi Elektrik Kaynağına bağla
 
-adviser_deathrow_testchair_1            We are almost done I think.  We should test the new Execution room at least once before we try to use it though.
-adviser_deathrow_testchair_2            I'm just going to turn it on for a few seconds, make sure everything is ok.
-adviser_deathrow_testchair_3            Well, that didn't work.  Looks like we drew too much power, and tripped a circuit breaker in the power station.  The whole prison is dark.
-adviser_deathrow_testchair_4            We're going to need more juice to be able to handle the power spike that the electric chair generates.
-adviser_deathrow_testchair_5            First, we need to turn the power back on.   This is a two step process:
-adviser_deathrow_testchair_5b           Switch the power station back on by clicking on it, and selecting Switch On in the menu that appears.
+adviser_deathrow_testchair_1            Neredeyse bütün işimiz bitti sanırım.  Yeni infaz odasını kullanmadan önce en az bir defa test etmeliyiz.
+adviser_deathrow_testchair_2            Sadece birkaç dakikalığına onu açacağım, her şeyin yolunda olduğundan emin ol.
+adviser_deathrow_testchair_3            Hay, çalışmadı.  Görünüşe göre çok fazla güç çektik, ve elektrik santralindeki bir şalteri attırdık.  Bütün hapishane karanlıklar içinde.
+adviser_deathrow_testchair_4            Elektrikli Sandalyenin yarattığı ani yükselmeyi engellemek için daha fazla cereyana ihtiyacımız olacak.
+adviser_deathrow_testchair_5            Önce, gücü geri açmalıyız.   Bu iki aşamalı bir işlem:
+adviser_deathrow_testchair_5b           Elektrik santralini açmak için üzerine tıkla, ve açılan menüde Şalteri Aç seçeneğine bas.
 adviser_deathrow_testchair_6            Then build three more capacitors so we have enough Power Capacity to handle the electric chair.
 adviser_deathrow_testchair_7            Once you've done that, test the Electric chair again by clicking on it and selecting Switch On in the menu.
 
