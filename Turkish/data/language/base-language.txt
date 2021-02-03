@@ -2217,39 +2217,39 @@ objective_payment_receivedfull          Tahsilat: *X alındı
 objective_payment_receivedpart          Tahsilat: *X, *Y içinden alındı
 
 objective_grant_bootstraps                  Temel Islahevi
-objective_grant_bootstraps_description      Turn an empty field into a functioning prison.  This government contract gives you the funds necessary to build the absolute minimum facilities for your first set of Prisoners.
-objective_grant_bootstraps_holdingcell      Build a holding cell
-objective_grant_bootstraps_shower           Build a shower
-objective_grant_bootstraps_yard             Build a yard 
-objective_grant_bootstraps_kitchen          Build a kitchen
-objective_grant_bootstraps_canteen          Build a canteen
-objective_grant_bootstraps_guard            Hire at least two guards
-objective_grant_bootstraps_chef             Hire at least two cooks
+objective_grant_bootstraps_description      Boş bir araziyi faal durumda bir hapishaneye çevir.  Bu hükümet sözleşmesi, ilk mahkumlarını almak üzere mutlak minimum bir hapisaneyi inşa etmek için size gerekli olan fonu sağlayacak.
+objective_grant_bootstraps_holdingcell      Bir nezarethane inşa et
+objective_grant_bootstraps_shower           Bir duş inşa et
+objective_grant_bootstraps_yard             Bir avlu inşa et
+objective_grant_bootstraps_kitchen          Bir mutfak inşa et
+objective_grant_bootstraps_canteen          Bir yemekhane inşa et
+objective_grant_bootstraps_guard            En az iki korumayı işe al
+objective_grant_bootstraps_chef             En az iki aşçıyı işe al
 
-objective_grant_administration                          Administration Centre
-objective_grant_administration_description              Every prison project needs a functioning administration facility, to ensure things run smoothly and to hold the project accountable.  This contract pays for a Warden and an Accountant and their offices, which will then give us access to the full Federal Grant system.
-objective_grant_administration_offices                  Build two offices
-objective_grant_administration_warden                   Hire a Warden 
-objective_grant_administration_accountant_research      Unlock Finance through Bureaucracy
-objective_grant_administration_accountant               Hire an Accountant
+objective_grant_administration                          Yönetim Merkezi
+objective_grant_administration_description              Her hapishane projesi faal durumda olan bir yönetim tesisine ihtiyaç duyar, bu projenin sorumluluğunu geçerli kılma ve her şeyin saat gibi işlediğinden emin olmak için var.  Bu sözleşme bir Müdür ve Muhasebeciye, ayrıca onlar için birer ofis gerektirir, ki bu bize Federal Hibe sistemine tam erişim sağlayacak.
+objective_grant_administration_offices                  İki ofis inşa et
+objective_grant_administration_warden                   Bir müdür işe al 
+objective_grant_administration_accountant_research      Bürokrasi yardımıyla Finans'ı aç
+objective_grant_administration_accountant               Bir Muhasabeciyi işe al
 
-objective_grant_firstcellblock                  Cell Block A
-objective_grant_firstcellblock_description      The basics are up and running.  It is time to build your first cell block, and transfer the existing prisoners into cells of their own.
-objective_grant_firstcellblock_cells            Raise your Prisoner Capacity to 15
+objective_grant_firstcellblock                  Hücre Bloğu A
+objective_grant_firstcellblock_description      Temeller hazır ve çalışır durumda.  İlk hücre bloğunu inşa etme, ve varolan mahkumların kendi hücrelerine naklini gerçekleştirme zamanı geldi.
+objective_grant_firstcellblock_cells            Mahkum Kapasiteni 15'e Çıkar
 
-objective_grant_health                      Inmate Health and Well Being
-objective_grant_health_description          The physical and mental health of our inmates is very important to us.  This grant is to facilitate the construction of a state of the art medical ward, and to hire doctors and psychologists to look after the inmates health needs.
-objective_grant_health_ward                 Build a medical ward
-objective_grant_health_doctors              Hire at least two doctors
-objective_grant_health_psychologist         Hire a psychologist (Requires an Office)
+objective_grant_health                      Tutukluğu Sağlığı ve Refahı
+objective_grant_health_description          Tutuklularımızın fiziki ve mental sağlığı bizim için önemlidir.  Bu hibe, en son teknoloji tıbbi koğuşun inşaatına olanak sağlayacak, ve doktor ve psikologları işe alarak tutukluların sağlık ihtiyaçlarıyla ilgilenecek.
+objective_grant_health_ward                 Bir tıbbi koğuş inşa et
+objective_grant_health_doctors              En az iki doktor işe al
+objective_grant_health_psychologist         Bir psikolog işe al (Ofis Gerektirir)
 
-objective_grant_bailout                     Government Bailout
-objective_grant_bailout_description         The government is deeply unhappy with your performance, but has decided your prison is too big to fail. Tax-payer funds will be issued to rescue the prison from bankruptcy. However you must balance your books - return your prison to a positive cashflow (daily income higher than expenses), and clear your debts with the bank.
-objective_grant_bailout_cashflow            Income higher than expenses
-objective_grant_bailout_debt                Clear your debts
+objective_grant_bailout                     Devlet Yardımı
+objective_grant_bailout_description         Hükümet performansın konusunda derinden mutsuz, ancak hapishanenin başarısız olması için çok büyük olduğuna karar verdi. Vergi-sorumlusu fonları hapishaneyi iflastan kurtarmak için verilecek. Yine de dengeyi sağlamalısın - hapishaneni pozitif parakışına getir (günlük gelir, giderlerden fazla olunca), ve banka borçlarını kapat.
+objective_grant_bailout_cashflow            Giderden dada fazla gelir
+objective_grant_bailout_debt                Borçlarını kapat
 
 
-objective_grant_maintenance                         Prison Maintenance
+objective_grant_maintenance                         Hapishane Bakımı
 objective_grant_maintenance_description             General upkeep and maintenance of the prison and its grounds are important for both the security and safety of the staff and inmates. Hire the necessary personnel to keep your prison clean and orderly.
 objective_grant_maintenance_research_root           Unlock Maintenance through Bureaucracy
 objective_grant_maintenance_research_cleaning       Unlock Cleaning through Bureaucracy
@@ -2799,7 +2799,7 @@ reform_program_difficulty_expert        - Uzman
 regime_nothing                          Kilitleme
 regime_sleep                            Uyku
 regime_eat                              Yemek	
-regime_shower                           Banyo
+regime_shower                           Duş
 regime_yard                             Avlu
 regime_work                             İş/Boş Zaman
 regime_lockdown                         Tecrit
@@ -2811,7 +2811,7 @@ regime_worklockdown                     İş/Kilitleme
 regimetooltip_nothing                   Mahkumlar hücrelerinde kilitli kalır. Yaptıkları seçimlerin onları buraya getirmiş olduğunu düşünmek dışında yapacak hiçbir şeyleri yoktur.\n\nUzun sürelere esnetilmiş bir kilitleme en sert mahkumlara bile belirleyici bir ceza olarak kendini kanıtlamıştır.
 regimetooltip_sleep                     Mahkumlar hücrelerine kilitlenmiş, ve ışıklar kapalı durumdadır. Herkes uykuya geçer.\n\n Yalnıca şu kaçış tünellerini kazanlar dışında...
 regimetooltip_eat                       Mahkumlar en yakın erişime açık yemekhaneye doğru yola koyulur ve öğle yemeği için yerlerine otururlar.\n\n Mahkumlar yemekhanede bulunan her tesisi kullanmak konusunda serbesttir, ancak bu süre zarfında yemekhaneden ayrılmalarına izin verilmez.
-regimetooltip_shower                    Mahkumlar banyoya girmek için kıyafetlerini çıkarırlar. Günlük banyo süresi tutukluların hijyeni için gereklidir, ancak bazı mahkumlar onları zorlamadığınız sürece banyo yapmaya zahmet etmeyeceklerdir.
+regimetooltip_shower                    Mahkumlar duşa girmek için kıyafetlerini çıkarırlar. Günlük duş süresi tutukluların hijyeni için gereklidir, ancak bazı mahkumlar onları zorlamadığınız sürece duş yapmaya zahmet etmeyeceklerdir.
 regimetooltip_yard                      Mahkumlar temiz hava, gün ışığı ve egzersiz yapmak için tesisten avluya çıkmalarına izin verilir.\n\nMahkumlar avluda bulunan egersiz sehpası, sevdikleri ile konuşmak için telefon kulübesi ve duş vs gibi tesislerden yararlanabilirler.
 regimetooltip_work                      Mahkumlar hapishanede çalıştırılırlar. Açılan her işin yeri doldurulacak ve mahkumlar otomatik olarak çalıştıkları yerlerin konumunu rapor edecekler. (Yeni iş kapılarını Konuşlandırma ekranından ayarlayabilirsiniz.)\n\nAyrıca bütün Reform programları da bu sürede gerçekleşir.  Mahkumlar hiçbir iş veya Reform programına atanmadıysa etrafta 'Boş Zaman' adı altında etrafta dolaşmak konusunda özgürdür.
 regimetooltip_freetime                  Mahkumlar hücrelerinden salınmış ve hapishanede bulunan her tesisi kullanmalarına izin verilmiştir. Mahkumlar en fazla bu zamandan hoşlanır ve zamanlarını ihtiyaçlarını en iyi şekilde karşılamak ve sosyalleşmek için geçirirler.\n\n Uzun süreli boş zaman hapishanedeki stres ve gerginliği azaltabilir, ama çoğu kişi bunun güç bela bir cezalandırma olarak görür.
