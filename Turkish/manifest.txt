@@ -1,8 +1,10 @@
 
-Name                 "Better Turkish"  
+Name                 BetterTurkish  
+Author               Darkblood_king  
 Description          "Better than official translation"  
-IsTranslation        true     
-SteamAuthor          76561198129640435
-Date                 06/12/2020  
-SteamTags            mod,translation  
-Author               DarkBlood_King
+Version              PreRev56  
+Date                 04/02/2021  
+URL                  https://github.com/Darkbloodking00/BetterTurkish  
+IsTranslation        true  
+FileID               F2383916847  
+SteamAuthor          A76561198129640435  
