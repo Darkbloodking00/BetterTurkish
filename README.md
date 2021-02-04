@@ -1,4 +1,4 @@
- #BetterTurkish
+ # BetterTurkish
 [İndir/Download](https://github.com/Darkbloodking00/BetterTurkish/releases)
 
 ### Turkish
