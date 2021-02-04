@@ -1,6 +1,6 @@
 
 Name                 "Better Turkish"  
-Description          "Because official translation sucks"  
+Description          "Better than official translation"  
 IsTranslation        true     
 SteamAuthor          76561198129640435
 Date                 06/12/2020  
