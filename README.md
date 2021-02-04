@@ -12,12 +12,15 @@ Prison Architect Unofficial Turkish Translation.
 
 ### Windows
 
-Zip dosyasının içinden çıkarmış olduğunuz klasörü(PrisonArchitectTR), "%localappdata%\Introversion\Prison Architect\mods" adresine atınız.
+1-Yamayı indirin
+2-Zip dosyasının içindeki klasörü "%localappdata%\Introversion\Prison Architect\mods" adresine atın.
 
 ### Linux
 
-Zip dosyasının içinden çıkarmış olduğunuz klasörü(PrisonArchitectTR), "~/.Prison Architect/mods" adresine atınız.
+1-Yamayı indirin), 
+2-Zip dosyasının içindeki klasörü "~/.Prison Architect/mods" adresine atın.
 
 ### Mac
 
-Zip dosyasının içinden çıkarmış olduğunuz klasörü(PrisonArchitectTR), "~/Library/Application Support/Prison Architect/mods" adresine atınız.
+1-Yamayı indirin
+2-Zip dosyasının içindeki klasörü "~/Library/Application Support/Prison Architect/mods" adresine atın.
