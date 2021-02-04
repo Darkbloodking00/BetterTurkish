@@ -185,7 +185,7 @@ interfacedeployment_medseczone                  Yalnızca Orta Güv
 interfacedeployment_minseczone                  Yalnızca Min Güv
 interfacedeployment_protectedzone               Yalnızca İhtiyati
 interfacedeployment_supermaxzone                Yalnızca SüperMaks
-interfacedeployment_deathrowzone                Yalnızca İdam Mahkumuları
+interfacedeployment_deathrowzone                Yalnızca İnfaz Mahkumuları
 interfacedeployment_unlockedzone                Erişime açık bölge
 interfacedeployment_zonered                     Kırmızı Kanat
 interfacedeployment_zonegreen                   Yeşil Kanat
@@ -299,7 +299,7 @@ interfacetopbar_prisonercells_medseconly        Ortalama kapasite: *X
 interfacetopbar_prisonercells_maxseconly        En yüksek kapasite: *X
 interfacetopbar_prisonercells_protectedonly     İhtiyati kapasitesi: *X
 interfacetopbar_prisonercells_supermaxonly      SüperMaks kapasitesi: *X
-interfacetopbar_prisonercells_deathrowonly      İdam Mahkumu kapasitesi: *X
+interfacetopbar_prisonercells_deathrowonly      İnfaz Mahkumu kapasitesi: *X
 interfacetopbar_prisonercells_staffonly         Mevcut Olmayan: *X
 interfacetopbar_prisoners_nocells               *X adet Mahkum bir hücreye atanamıyor
 interfacetopbar_prisonercells_parents           Ebeveyn Kapasitesi: *X
@@ -1482,39 +1482,39 @@ report_schedule                         Zamanlayıcı
 report_intake                           Alım
 
 report_grants_bankloan                  Banka Borcu
-report_grants_bankloan_text             You can borrow a large lump sum from the bank. In return the bank will charge you interest each day which you must pay out of your cashflow.\n\nAs you make regular payments your credit rating will increase, and the bank will allow you to borrow more. However if you miss payments your credit rating will be decimated and the bank will refuse to lend you more when you need it.\n\nNote: Your loan will never be paid off by daily interest payments alone.  
-report_grants_max1                      You can accept only one grant at a time.\nUse your accountant to raise this limit.
-report_grants_max2                      You can accept no more than two grants at a time.\nUse your accountant to raise this limit.
-report_grants_max3                      You can accept no more than three grants at a time.
-report_grants_bankloan_amount           Current Bank Loan: *X
-report_grants_bankloan_interest         Interest: *X per day
-report_grants_bankloan_max              Maximum Loan: *X
-report_grants_creditrating              Your Credit Rating: *X
-report_grants_inprogress_tt             (IN PROGESS)
-report_grants_completed_tt              (COMPLETED)
-report_grants_locked_tt                 (LOCKED)
-report_grants_advancepayment            *X Advance payment
-report_grants_completionbonus           *X Completion bonus
-report_grants_objectives                [Objectives]
-report_grants_prereqs                   [Pre-requisites]
-report_grants_completed                 COMPLETED
-report_grants_locked                    Locked
-report_grants_inprogress                In Progress
-report_grants_hidden                    (*X more hidden)
-report_grants_taptoaccept               TAP TO ACCEPT
-report_grants_cancelfee                 Cancellation cost: *X
+report_grants_bankloan_text             Bankadan büyük meblağ bir borç alabilirsin. Banka dönüş olarak her gün için size faiz yükleyecek, ki bu değer para akışınızdan kesilecek.\n\nSıradan ödemelerinizi yaptığınızda kredi skorunuz yükselecek, ve banka daha fazla borca girmenize izin verecek. Ancak eğer ödemelerinizi kaçırırsanız kredi skorunuz yok olacak ve banka gereksinim duyduğunuz zaman size daha fazla borç para vermeyecek.\n\nNot: Borçlarınız tek başına asla günlük faiz ödemeleri ile tamamlanamaz.  
+report_grants_max1                      Tek seferde yalnızca bir adet hibe kabul edebilirsiniz.\nMuhasebecinizi kullanarak bu sınırı yükselt.
+report_grants_max2                      Tek seferde ikiden fazla hibe kabul edemezsin.\nMuhasebecinizi kullanarak bu sınırı yükselt.
+report_grants_max3                      Tek seferde üçten fazla hibe kabul edemezsin.
+report_grants_bankloan_amount           Mevcut Banka Borcu: *X
+report_grants_bankloan_interest         Faiz: *X per day
+report_grants_bankloan_max              Maksimum Borç: *X
+report_grants_creditrating              Kredi Skorunuz: *X
+report_grants_inprogress_tt             (İŞLEM SÜRÜYOR)
+report_grants_completed_tt              (TAMAMLANDI)
+report_grants_locked_tt                 (KİLİTLİ)
+report_grants_advancepayment            *X Peşin ödeme
+report_grants_completionbonus           *X Tamamlama bonusu
+report_grants_objectives                [Görevler]
+report_grants_prereqs                   [Ön-koşullar]
+report_grants_completed                 TAMAMLANADI
+report_grants_locked                    Kilitli
+report_grants_inprogress                İşlem Sürüyor
+report_grants_hidden                    (*X daha saklı)
+report_grants_taptoaccept               KABUL ETMEK İÇİN TIKLA
+report_grants_cancelfee                 İptal bedeli: *X
 
-report_staff_title                      Total Staff: *X
-report_prisoners_title                  Total Prisoners: *X
-report_staff_group_builders             Workers
-report_staff_group_guards               Guards
-report_staff_group_staff                Staff
-report_staff_group_administrators       Administrators
-report_staff_group_otherstaff           Other
-report_staff_group_prisoners            Prisoners
-report_staff_group_prisoners_protected  Protective Custody
-report_staff_group_prisoners_supermax   SuperMax
-report_staff_group_prisoners_deathrow   Death Row
+report_staff_title                      Toplam Personel: *X
+report_prisoners_title                  Toplam Mahkum: *X
+report_staff_group_builders             Ustalar
+report_staff_group_guards               Korumalar
+report_staff_group_staff                Personeller
+report_staff_group_administrators       Yönetmenler
+report_staff_group_otherstaff           Diğerleri
+report_staff_group_prisoners            Mahkumlar
+report_staff_group_prisoners_protected  İhtiyati Tutuklu
+report_staff_group_prisoners_supermax   SüperMaks
+report_staff_group_prisoners_deathrow   İnfaz Mahkumları
 
 report_staff_fire                       KOV
 
@@ -1528,180 +1528,180 @@ report_intake_cat_minsec                Min Güven.
 report_intake_cat_normal                Orta Güven.
 report_intake_cat_maxsec                Maks Güven.
 report_intake_cat_deathrow              İnfaz Mahk.
-report_intake_slider_minsec             Adjust the Min Sec intake ratio
-report_intake_slider_normal             Adjust the Med Sec intake ratio
-report_intake_slider_maxsec             Adjust the Max Sec intake ratio
-report_intake_slider_deathrow           Adjust the Death Row intake ratio
+report_intake_slider_minsec             Min Güven. alım oranını değiştir
+report_intake_slider_normal             Orta Güven. alım oranını değiştir
+report_intake_slider_maxsec             Maks Güven. alım oranını değiştir
+report_intake_slider_deathrow           İnfaz Mahumu alım oranını değiştir
 report_intake_closed                    KAPALI
 report_intake_locked                    KİLİTLİ
 report_intakeclosed                     Alım Kapatıldı
-report_intakeclosed_tooltip             Your prisoner intake is closed. You will not receive any new prisoners until you open it again.
+report_intakeclosed_tooltip             Hapishanenize alımlar kapatıldı. Tekrar açmadığınız sürece daha fazla mahkum almayacaksın.
 report_intakenumperday                  Günlük Alım
 report_intakenumperday_tooltip          The total number of prisoners you want delivered in the next intake. You can increase or decrease the number of prisoners you wish to receive in the next intake.\n\nThe number of prisoner from each category is adjusted with the sliders above.
-report_intaketotalprisoners             Total Prisoners
+report_intaketotalprisoners             Toplam Mahkum
 report_intaketotalprisoners_tooltip     The total number of prisoners you want in your prison. Intake will automatically top up to this number each day.\n\nThe number of prisoner from each category is adjusted with the sliders above.
-report_intakeallavailable               All Available
+report_intakeallavailable               Mevcut Hepsi
 report_intakeallavailable_tooltip       All available prisoners, from all open intake pools, will be delivered in the next intake.
-report_intakefillcapacity               Fill Capacity
+report_intakefillcapacity               Kapasiteyi Doldur
 report_intakefillcapacity_tooltip       Take as many prisoners as possible from available intake pools in order to fill your prison to capacity.\n\nThe number of prisoner from each category is adjusted with the sliders above.
-reports_intaketypenone                  Closed
-reports_intaketypefillcapacity          Fill Capacity
-reports_intaketypetotalprisoners        Total Prisoners
-reports_intaketypenumperday             Num Per Day
-reports_intaketypeallavailable          All Available
+reports_intaketypenone                  Kapalı
+reports_intaketypefillcapacity          Kapasiteyi Doldur
+reports_intaketypetotalprisoners        Toplam Mahkum
+reports_intaketypenumperday             Günlük Alım
+reports_intaketypeallavailable          Mevcut Hepsi
 report_intakemaxperdaydecr              <<
 report_intakemaxperdayincr              >>
-report_intakemaxperdaynone              None
-report_intakemaxperdayall               All
-reports_intakedelivernow                Deliver Now
-report_intakepayment                    Payment
-report_intakeall                        ALL
-report_intakefill                       Fill to *X
-report_intakefill_mothers               Fill to *X (Family Cells not counted)
-report_intake_list_tooltip_title        Intake Categories
+report_intakemaxperdaynone              Hiçbiri
+report_intakemaxperdayall               Hepsi
+reports_intakedelivernow                Şimdi Getirt
+report_intakepayment                    Ödeme
+report_intakeall                        Hepsi
+report_intakefill                       *X adet doldur
+report_intakefill_mothers               *X adet doldur (Aile Hücreleri sayılmazsa)
+report_intake_list_tooltip_title        Alım Kategorileri
 report_intake_list_tooltip              A list of all categories you can have delivered to your prison.\n\nThe pool size shows the total number of prisoners available to be delivered in each category. This number will grow over time depending on the ratio of the sliders.\n\nYou can adjust the sliders to change the ratio of prisoner categories you will receive in the next intake.
 report_intake_list_tooltip_dr           \n\nDeathrow inmates require a specifically designated Deathrow cell before they are able to be transferred in to your prison. The Deathrow intake is also a lot slower than regular intake, and you won't always get an increase to the Deathrow pool. These inmates are few and far between.
-report_intake_buttons_tooltip_title     Next Intake
+report_intake_buttons_tooltip_title     Sonraki Alım
 report_intake_buttons_tooltip           You can increase or decrease the number of prisoners you wish to receive in the next intake using this section.\n\nSelecting "None" will close your prison to new prisoners, while selecting "All" will take the total number of available prisoners.\n\nThe number of prisoner from each category is adjusted with the sliders above.
-report_intake_overview_tooltip_title    Intake Overview
+report_intake_overview_tooltip_title    Alıma Önbakış
 report_intake_overview_tooltip          Here you can view your next prisoner delivery, and the payment you will receive. The number of prisoners being delivered, and their category, can be changed with the sliders and buttons above. The payment is based on the number of prisoners in each category.
 
-report_needs_prisoners                  Prisoner Needs
-report_needs_staff                      Staff Needs
+report_needs_prisoners                  Mahkum İhtiyaçları
+report_needs_staff                      Personel İhtiyaçları
 
-valuation_categoryprison                Prison Value
-valuation_construction                  Bricks and Mortar
-valuation_objects                       Fixtures and Fittings
+valuation_categoryprison                Hapishane Değeri
+valuation_construction                  Tuğla ve Harç
+valuation_objects                       Demirbaşlar ve Taşınabilir Eşyalar
 valuation_stock                         Stock and Materials
-valuation_staff                         Staff
-valuation_startupgrant                  Starting Grant
-valuation_capacity                      Prisoner Capacity
-valuation_cash                          Cash
-valuation_debt                          Bank Loans
-valuation_categoryperformance           Safety and Security
-valuation_bonustimewithoutincident      [Bonus] Time without incident
-valuation_finedeath                     [Penalty] Deaths in past 24h
-valuation_fineescape                    [Penalty] Escapes in past 24h
-valuation_total                         TOTAL
-valuation_sell                          SELL
-valuation_sellprison                    SELL PRISON
+valuation_staff                         Personel
+valuation_startupgrant                  Başlangıç Hibesi
+valuation_capacity                      Hapishane Kapasitesi
+valuation_cash                          Para
+valuation_debt                          Banka Borçları
+valuation_categoryperformance           Güvenlik ve Emniyet
+valuation_bonustimewithoutincident      [Bonus] Olaysız geçen zaman
+valuation_finedeath                     [Penalty] Son 24sa içindeki ölümler
+valuation_fineescape                    [Penalty] Son 24sa içindeki firarlar
+valuation_total                         TOPLAM
+valuation_sell                          SAT
+valuation_sellprison                    HAPİSHANEYİ SAT
 valuation_sell_tooltip                  Selling your prison will allow you to take the profits from this prison and start a new one with a much higher starting bank balance.\n\nYou will still be able to continue running this prison, but you can only sell a prison once. All profit from the sale will be transferred to your new site.
-valuation_sold                          This prison was sold for: *X
-valuation_donotown                      You cannot sell this prison as you do not own it.
-valuation_sellsome                      Sell shares
-valuation_buysome                       Buy shares
-valuation_shares                        Buy and Sell Shares
+valuation_sold                          Bu hapishane *X değerine satıldı.
+valuation_donotown                      Sahip olmadığın bu hapisaneyi satamazsın.
+valuation_sellsome                      Hisse sat
+valuation_buysome                       Hisse al
+valuation_shares                        Hisseleri Al ve Sat
 valuation_shares_tooltip                You can sell up to 50% of your prison as shares to outside investors. You will be paid in cash immediately. In return for their investment, your shareholders will take their fraction of the total sale price when you sell your prison.\n\nEg if you sell 30% shares in your prison, you will only receive 70% of the final sale value. You can buy back shares you have previously sold at any time - although the cost may be higher than the sale price you received.
-valuation_ownership                     You own *X% of your prison
-valuation_saleprice                     Sale Price: *X
-valuation_title                         =[VALUATION]=
-valuation_totalprisonvalue              Total Prison Value : *X
-valuation_subcashreserves               Minus Cash Reserves : *X
-valuation_tenpercentprice               Price for 10% : *X
-valuation_profit                        Your Profit : *X
-valuation_tap_to_authorise              TAP TO AUTHORISE
+valuation_ownership                     Hapishanenin *X% kadarına sahipsin
+valuation_saleprice                     Satış Fiyatı: *X
+valuation_title                         =[DEĞERLEME]=
+valuation_totalprisonvalue              Toplam Hapishane Değeri : *X
+valuation_subcashreserves               Negatif Para Rezervi : *X
+valuation_tenpercentprice               10%'luk değeri : *X
+valuation_profit                        Kârınız : *X
+valuation_tap_to_authorise              ONAYLAMAK İÇİN TIKLA
 
-salecondition_title                     SALE REQUIREMENTS
-salecondition_cannotsell                You cannot sell your prison or trade in shares until the conditions below are met.
-salecondition_minimumvalue              Minimum value of $50,000
-salecondition_cashflow                  Positive cashflow
-salecondition_accountant                Accountant on site
-salecondition_minprisoners              At least 20 prisoners
-salecondition_recentdeaths              No recent deaths
-salecondition_recentescapes             No recent escapes
-salecondition_passed                    [PASSED] 
-salecondition_failed                    [FAILED] 
+salecondition_title                     SATIŞ GEREKSİNİMLERİ
+salecondition_cannotsell                Aşağıdaki şartlar tamamlanmadan hapishaneni veya onun hisselerini satamazsın.
+salecondition_minimumvalue              En az $50,000 değerinde
+salecondition_cashflow                  Pozitif para akışında
+salecondition_accountant                Muhasabeci var
+salecondition_minprisoners              En az 20 mahkum var
+salecondition_recentdeaths              Yakın zamanda ölüm yok
+salecondition_recentescapes             Yakın zamanda firar yok
+salecondition_passed                    [GEÇTİ] 
+salecondition_failed                    [GEÇEMEDİ] 
 
-policy_title                            INCIDENT
-policy_search                           - SEARCH -
-policy_prisoner                         HIM
-policy_prisoner_f                       HER
-policy_cell                             CELL
-policy_security							SEC
-policy_punishment                       PUNISHMENT
-policy_quantity                         TIME
-policy_punishmenttime                   *X hrs
-policy_mealcost                         $*X / day
-policy_totalmealcost                    (TOTAL: $*X / day)
-policy_cell_quality						Use Cell quality ratings
-policy_cell_quality_tooltip_title		Use Cell Quality
+policy_title                            OLAYLAr
+policy_search                           - ARA -
+policy_prisoner                         ONU
+policy_prisoner_f                       ONU
+policy_cell                             HÜCRE
+policy_security							GÜVEN.
+policy_punishment                       CEZALANDIRMA
+policy_quantity                         ZAMAN
+policy_punishmenttime                   *X saat
+policy_mealcost                         $*X / gün
+policy_totalmealcost                    (TOPLAM: $*X / gün)
+policy_cell_quality						Hücre kalite skorunu kullan
+policy_cell_quality_tooltip_title		Hücre Kalitesini Kullan
 policy_cell_quality_tooltip				If enabled, Prisoners will only be assigned to a cell of a quality they deserve, based on their behaviour. Poorly behaved prisoners will never be assigned to a high quality cell, even if there are no other cells available.\nIf disabled, prisoners will be assigned to any cell regardless of quality, but prisoners in cells of lower quality than average will be more resentful. Prisoners will still be upgraded to higher quality cells if they behave well.
-policy_staffbreak_length                Staff Break Length: *P mins
-policy_staffbreak_num                   Num Staff Breaks: *P
-policy_staffbreakmax					Max Staff Taking Break: *P%
-policy_staffbreakmax_title				Max Staff Taking Break
+policy_staffbreak_length                Personel Mola Süresi: *P dk
+policy_staffbreak_num                   Personel Mola Sayısı: *P
+policy_staffbreakmax					Maks Personel Molası: *P%
+policy_staffbreakmax_title				Maks Personel Molası
 policy_staffbreakmax_info				The maximum percentage of your staff who are permitted to take a break at any one time. Set this low to force your staff to work harder and longer without breaks. Set it high to allow guards to take breaks whenever they please.
-reports_staffpaytitle					Staff Pay
-reports_payup							Pay Raise 10%
-reports_paydown							Pay Cut 10%
-reports_payrisepercent					Total Pay Rise: *X%
-reports_perday							Per day
+reports_staffpaytitle					Personel Maaşları
+reports_payup							Maaş Artışı 10%
+reports_paydown							Maaş Düşürme 10%
+reports_payrisepercent					Toplam Maaş Artışı: *X%
+reports_perday							Günlük
 
-job_construct                           Construct *X
-job_installobject                       Install *X
-job_installobjectinroom                 Install *X in *Y
-job_moveobject                          Move *X
-job_moveobjecttoroom                    Move *X to *Y
-job_loadobjectinto                      Load *X Into *Y
-job_storeobject                         Store *X in *Y
-job_dismantleobject                     Dismantle *X
-job_dumpobject                          Dump *X
-job_repairobject                        Repair *X
-job_operateequipment                    Operate *X
-job_escortprisoner                      Escort Prisoner to *X
-job_punishprisoner                      Process Prisoner
-job_searchobject                        Search *X 
-job_searchentity                        Search Prisoner
-job_searchingentity						Searching Prisoner
-job_searchcell                          Search Cell
-job_searchcellblock                     Search Cell Block
-job_searchtoilets                       Search Toilets
-job_improvecellindoor                   Clean indoor area
-job_improvecelloutdoor                  Garden outdoor area
-job_opendoor                            Open Locked Door
-job_giveuniform                         Give Prisoner Uniform
-job_failurecount                        Failed *X times
-job_feedprisoner                        Feed Prisoner
-job_healprisoner                        Heal Prisoner
-job_delivermail                         Deliver Mail
+job_construct                           *X İnşa et
+job_installobject                       *X nesnesini Kur
+job_installobjectinroom                 *X nesnesini *Y odasına kur
+job_moveobject                          *X nesnesini taşı
+job_moveobjecttoroom                    *X nesnesini *Y odasına taşı
+job_loadobjectinto                      *X nesnesini *Y nesnesine yükle
+job_storeobject                         *X nesnesini *Y nesnesine depola
+job_dismantleobject                     *X nesnesini sök
+job_dumpobject                          *X nesnesini çöpe at
+job_repairobject                        *X nesnesini tamir et
+job_operateequipment                    *X nesnesini idare et
+job_escortprisoner                      Mahkumu *X odasına eşlik et
+job_punishprisoner                      Mahkumu Cezalandır
+job_searchobject                        *X nesnesini ara 
+job_searchentity                        Mahkumu Ara
+job_searchingentity						Mahkum Aranıyor
+job_searchcell                          Hücreyi Ara
+job_searchcellblock                     Hücre Bloğunu Ara
+job_searchtoilets                       Tuvaletleri Ara
+job_improvecellindoor                   İç mekanı ara
+job_improvecelloutdoor                  Dış mekanı tımarla
+job_opendoor                            Kilitli Kapıyı Aç
+job_giveuniform                         Mahkuma Üniforma Ver
+job_failurecount                        *X defa başarısız oldu
+job_feedprisoner                        Mahkumu Besle
+job_healprisoner                        Mahkumu İyileştir
+job_delivermail                         Postayı Teslim Et
        
-finances_title                          Finances
-finances_income                         Income
-finances_expenses                       Expenses
-finances_total                          Total
+finances_title                          Finans
+finances_income                         Gelir
+finances_expenses                       Gider
+finances_total                          Toplam
 finances_profit                         Net
-finances_timewithoutincident            (*X days)
-finances_dailyincome                    *X / day
+finances_timewithoutincident            (*X gün)
+finances_dailyincome                    *X / gün
 
-finances_category_federalgrant          Federal Grant
-finances_category_minsecprisoners       Minsec Prisoner Grant
-finances_category_medsecprisoners       Standard Prisoner Grant
-finances_category_maxsecprisoners       Maxsec Prisoner Grant
-finances_category_prisoners             Prisoner Grant
-finances_category_workmen               Workmen Wages
-finances_category_guards                Guard Wages
-finances_category_admin                 Administrator Wages
-finances_category_staff                 Staff Wages
-finances_category_food                  Prisoner Food
-finances_category_stafffood             Staff Food
-finances_category_electricity           Electricity
-finances_category_workshops             Workshops
-finances_category_upkeep				Upkeep
-finances_category_loaninterest          Loan Interest
-finances_category_reformprogs           Reform Programs
-finances_category_noincident            Days Without Incident
-finances_category_exports               Exports (yesterday)
-finances_category_corptax               Corporation Taxes
-finances_category_prisonerwages         Prisoner Wages (yesterday)
-finances_category_shoprevenue           Shop Revenue (yesterday)
+finances_category_federalgrant          Federal Hibe
+finances_category_minsecprisoners       Mingüven. Mahkum Hibesi
+finances_category_medsecprisoners       Standart Mahkum Hibesi
+finances_category_maxsecprisoners       Maksgüven. Mahkum Hibesi
+finances_category_prisoners             Mahkum Hibesi
+finances_category_workmen               Usta Maaşları
+finances_category_guards                Koruma Maaşları
+finances_category_admin                 Yönetim Maaşları
+finances_category_staff                 Personel Maaşları
+finances_category_food                  Mahkum Yemekleri
+finances_category_stafffood             Personel Yemekleri
+finances_category_electricity           Elektrik
+finances_category_workshops             Atölyeler
+finances_category_upkeep				Masraf
+finances_category_loaninterest          Borç Faizi
+finances_category_reformprogs           Reform Programları
+finances_category_noincident            Olaysız Geçen Gün
+finances_category_exports               İhracat (dün)
+finances_category_corptax               Şirket Vergileri
+finances_category_prisonerwages         Mahkum Maaşları (dün)
+finances_category_shoprevenue           Dükkan Hasılatı (dün)
 
-reports_foodtitle                       Nutritional Policy
-meal_quantity                           Meal Quantity
-meal_variety                            Meal Variety
-meal_cost                               Cost Per Prisoner
+reports_foodtitle                       Besin Değeriyle İlgili İlke
+meal_quantity                           Öğün Niceliği
+meal_variety                            Öğün Çeşidi
+meal_cost                               Mahkum Başı Bedeli
 
-reports_otherpolicytitle				Other Policies
-parole_title                            Parole Release Rate
+reports_otherpolicytitle				Diğer İlkeler
+parole_title                            Şartlı Tahliye Oranı
 parole_desc                             If a prisoner has a reoffending rate less than this value, they will be released at the end of their parole hearing.
 parole_fine                             Prisoner Reoffending Fine
 parole_reward                           Early Release Prisoner Reward
@@ -2250,31 +2250,31 @@ objective_grant_bailout_debt                Borçlarını kapat
 
 
 objective_grant_maintenance                         Hapishane Bakımı
-objective_grant_maintenance_description             General upkeep and maintenance of the prison and its grounds are important for both the security and safety of the staff and inmates. Hire the necessary personnel to keep your prison clean and orderly.
-objective_grant_maintenance_research_root           Unlock Maintenance through Bureaucracy
-objective_grant_maintenance_research_cleaning       Unlock Cleaning through Bureaucracy
-objective_grant_maintenance_research_groundskeeping Unlock Grounds Keeping through Bureaucracy
-objective_grant_maintenance_foreman                 Hire a Foreman (Requires an Office)
-objective_grant_maintenance_janitor                 Hire at least two janitors
-objective_grant_maintenance_gardener                Hire a gardener 
+objective_grant_maintenance_description             Hapishanenin genel onarım ve bakımı, gerek güvenlik gerekse de emniyet açısından hem personel hem de tutuklular için önemli. Gerekli personeli işe alarak hapishanenizi temiz ve düzenli tutun.
+objective_grant_maintenance_research_root           Bakım özelliğini Bürokrasi yardımıyla açın
+objective_grant_maintenance_research_cleaning       Temizlik özelliğini Bürokrasi yardımıyla açın
+objective_grant_maintenance_research_groundskeeping Yer Bakımı özelliğini Bürokrasi yardımıyla açın
+objective_grant_maintenance_foreman                 Bir Ustabaşı işe al (Ofis gerektirir)
+objective_grant_maintenance_janitor                 En az iki adet hademe işe al
+objective_grant_maintenance_gardener                Bir bahçıvan işe al 
 
-objective_grant_visitation                          Visitation Rights
-objective_grant_visitation_description              A number of other facilities in the region are facing legal action for denying prisoners their visitation rights. Investors don't want a scandal, and are providing this grant to ensure adequate facilities are available.
-objective_grant_visitation_room                     Build a visitation room
-objective_grant_visitation_tables                   Add at least three visitors tables
-objective_grant_visitation_commonroom               Build a common room
-objective_grant_visitation_pooltable                Add a pool table
-objective_grant_visitation_tv                       Add at least two TVs
-objective_grant_visitation_phones                   Build at least five phone booths
+objective_grant_visitation                          Ziyaret Hakkı
+objective_grant_visitation_description              Yakındakı bazı hapishanelere mahkumların ziyaret hakkını reddettiği için yasal işlem başlatıldı. Yatırımcılar böyle bir skandal istemezler, ve uygun tesisin mevcut olduğundan emin olmak için bu hibeyi bize verecekler.
+objective_grant_visitation_room                     Bir ziyaretçi odası yap
+objective_grant_visitation_tables                   En az üç adet ziyaretçi masası ekle
+objective_grant_visitation_commonroom               Bir dinlenme odası yap
+objective_grant_visitation_pooltable                Bir bilardo masası ekle
+objective_grant_visitation_tv                       En az iki TV ekle
+objective_grant_visitation_phones                   En az beş telefon kulübesi yap
 
-objective_grant_basicsecurity                       Security Procedure Certification
-objective_grant_basicsecurity_description           A common pitfall at new prisons are security lapses due to the inexperience of the staff with the facility. Ensure we have no early mishaps that might hurt our record in the future by increasing security to an acceptable level.
-objective_grant_basicsecurity_chief                 Hire a Security Chief (Requires an Office)
-objective_grant_basicsecurity_guards                Hire ten guards
-objective_grant_basicsecurity_patrols               Assign three guards to patrol routes
-objective_grant_basicsecurity_research              Unlock Patrols through Bureaucracy
+objective_grant_basicsecurity                       Güvenlik Sertifikası Prosedürü	
+objective_grant_basicsecurity_description           Yeni hapishanelerde sık görülen gizli tehlikelerden biri, personelin tesisteki tecrübesizliğinden kaynaklanan güvenlik aksaklıklarıdır. Güvenliği kabul edilebilir bir seviyeye çıkarak, ilerde bizim sicilimizi etkileyebilecek acemi tersliklerin olmadığından emin ol.
+objective_grant_basicsecurity_chief                 Bir Emniyet Amiri işe al (Ofis gerektirir)
+objective_grant_basicsecurity_guards                On adet koruma al
+objective_grant_basicsecurity_patrols               Üç adet korumayı devriyeye ata
+objective_grant_basicsecurity_research              Devriyeler özelliğini Bürokrasi yardımıyla aç
 
-objective_grant_enhancedsecurity                    Governmental Security Ratings
+objective_grant_enhancedsecurity                    Devlet Güvenlik Derecelendirmesi
 objective_grant_enhancedsecurity_description        The Government has certain requirements regarding security for prisons over a certain size, and applies hefty fines to those that come up short. Ensure this doesn't become a problem.
 objective_grant_enhancedsecurity_armoury            Build an Armoury
 objective_grant_enhancedsecurity_kennel             Build a Kennel
@@ -2283,7 +2283,7 @@ objective_grant_enhancedsecurity_dogs               Hire two Dog Handlers
 objective_grant_enhancedsecurity_patroldogs         Assign two Dog Handlers to a Dog Patrol
 objective_grant_enhancedsecurity_patrolarmed        Assign two Armed Guards to a Patrol
 
-objective_grant_advancedsecurity                    Max-Sec Infrastructure Implementation
+objective_grant_advancedsecurity                    Maks-Güven Altyapı Uygulaması
 objective_grant_advancedsecurity_description        Maintaining security for a large number of prisoners can be difficult, but the cost of a breach is far greater than the cost of implementing the proper security measures. Install the necessary equipment throughout your prison.
 objective_grant_advancedsecurity_guards             Increase the size of your security force
 objective_grant_advancedsecurity_researchcctv       Unlock CCTV through Bureaucracy
@@ -2293,7 +2293,7 @@ objective_grant_advancedsecurity_office             Build a Security Office
 objective_grant_advancedsecurity_cctvmonitor        Build a CCTV Monitor
 objective_grant_advancedsecurity_cctvcameras        Place CCTV Cameras throughout your prison
 
-objective_grant_prisonerworkforce                   Prisoner Acclimatization and Engagement 
+objective_grant_prisonerworkforce                   Mahkum Uyum Sağlama ve İşe Katılma 
 objective_grant_prisonerworkforce_description       Having prisoners work in your prison is a good way of integrating them into the environment while also cutting costs. Complete the necessary training and build the necessary facilities to put your prisoners to work.
 objective_grant_prisonerworkforce_research          Unlock Prisoner Labour through Bureaucracy
 objective_grant_prisonerworkforce_cleaning          Build a Cleaning Cupboard
@@ -2303,7 +2303,7 @@ objective_grant_prisonerworkforce_laundryassigned   Assign three prisoners to wo
 objective_grant_prisonerworkforce_kitchenassigned   Assign three prisoners to work in the Kitchen
 objective_grant_prisonerworkforce_cleaningassigned  Assign three prisoners to work in the Cleaning Cupboard
 
-objective_grant_educationreformprogram              The Reform through Education Initiative
+objective_grant_educationreformprogram              Eğitim Girişimi yoluyla Reform
 objective_grant_educationreformprogram_description  A prominent campaign group is conducting a large scale social experiment into the effects of education on prisoner re-offending rates. Set up some classrooms and begin educating your prisoners.
 objective_grant_educationreformprogram_research     Unlock Education through Bureaucracy
 objective_grant_educationreformprogram_classroom    Build a Classroom
@@ -2311,7 +2311,7 @@ objective_grant_educationreformprogram_desks        Build twenty school desks
 objective_grant_educationreformprogram_foundationed Have ten prisoners pass the Foundation Education Course
 objective_grant_educationreformprogram_generaled    Have one prisoner pass the General Education Course
 
-objective_grant_prisonlabour                        Prison Manufacturing Facility
+objective_grant_prisonlabour                        Hapishane İmalat Tesisi
 objective_grant_prisonlabour_description            Financiers want you to increase your prison's profitability, and are willing to invest funds to help build workshops and turn your prisoners into a labour force.
 objective_grant_prisonlabour_workshop               Build a Workshop
 objective_grant_prisonlabour_saw                    Build two workshop saws
@@ -2319,49 +2319,49 @@ objective_grant_prisonlabour_press                  Build two workshop presses
 objective_grant_prisonlabour_reform                 Have five prisoners pass the Workshop Safety Program
 objective_grant_prisonlabour_plates                 Produce 30 license plates
 
-objective_grant_furnituremanufacturing              Carpentry Apprenticeship Program
+objective_grant_furnituremanufacturing              Marangozluk Çıraklık Programı
 objective_grant_furnituremanufacturing_description  Offering carpentry courses to your prisoners can teach them a valuable skill they can use once they are released, and allow them to produce high end furniture in your workshop which can be sold to increase income. 
 objective_grant_furnituremanufacturing_forestry     Build a Forestry
 objective_grant_furnituremanufacturing_table        Build two carpenters tables
 objective_grant_furnituremanufacturing_reform       Have two prisoners pass the Carpentry course
 objective_grant_furnituremanufacturing_bed          Produce ten Superior Beds
 
-objective_grant_reducestaffstress                   Staff Well-being Initiative
+objective_grant_reducestaffstress                   Personel Refah Girişimi
 objective_grant_reducestaffstress_description       Prison worker unions have been receiving reports of staff being overstressed and overworked, to the point that mistakes are being made. Make sure similar issues do not occur in your facility.
 objective_grant_reducestaffstress_staffroom         Build a Staffroom
 objective_grant_reducestaffstress_freeguards        Have at least five guards without assigned duties
 objective_grant_reducestaffstress_restedstaff       Ensure none of your staff are exhausted
 
-objective_grant_shortterminvestment                 Short-term Investment
+objective_grant_shortterminvestment                 Kısa-vadeli Yatırım
 objective_grant_shortterminvestment_description     Pay money into an investment fund which will ultimately give a reasonable return on your initial sum.
 objective_grant_shortterminvestment_wait            Wait for funds...
 
-objective_grant_longterminvestment                  Long-term Investment
+objective_grant_longterminvestment                  Uzun-vadeli Yatırım
 objective_grant_longterminvestment_description      Pay money into an long-term investment fund which will ultimately give a large return on your initial sum.
 objective_grant_longterminvestment_wait             Wait for funds...
 
-objective_grant_cellblock50                         Cell Block B
+objective_grant_cellblock50                         Hücre Bloğu B
 objective_grant_cellblock50_description             It's time to further expand your prison beyond a simple holding facility. 
 objective_grant_cellblock50_cells                   Raise your prisoner capacity to 50
 
-objective_grant_cellblock100                        Cell Block C
+objective_grant_cellblock100                        Hücre Bloğu C
 objective_grant_cellblock100_description            Make adequate use of your land by continuing to expand your prison.
 objective_grant_cellblock100_cells                  Raise your prisoner capacity to 100
 
-objective_grant_cellblock200                        Cell Block D
+objective_grant_cellblock200                        Hücre Bloğu D
 objective_grant_cellblock200_description            More prisoners means more government funding. Increase your capacity to capitalize on this.
 objective_grant_cellblock200_cells                  Raise your prisoner capacity to 200
 
-objective_grant_cellblock500                        Cell Block E
+objective_grant_cellblock500                        Hücre Bloğu E
 objective_grant_cellblock500_description            The government offers a great many financial incentives to the largest prisons. It's time to work towards that goal.
 objective_grant_cellblock500_cells                  Raise your prisoner capacity to 500
 
-objective_grant_nutritionresearch                   Inmate Nutrition Research
+objective_grant_nutritionresearch                   Tutuklu Besin Değeri Araştırması
 objective_grant_nutritionresearch_description       An independent research group is offering funds in order to participate in a trial on the effects of varying inmate eating habits. 
 objective_grant_nutritionresearch_poor              Serve a single low quantity, low variety meal for two days
 objective_grant_nutritionresearch_good              Serve three high variety, high quantity meals for two days
 
-objective_grant_drugsearch                          Crackdown on Drugs
+objective_grant_drugsearch                          Uyuşturucuya Baskın
 objective_grant_drugsearch_description              Concerns about drug use in larger prisons is increasing recently. Take a pro-active stance and show that you are tackling the problem.
 objective_grant_drugsearch_find                     Find ten illegal narcotics
 
@@ -2920,7 +2920,7 @@ object_cctv_moremonitors                Daha fazla CCTV Ekranı kur
 object_cctvmonitor_needsguards          Ekran'ı İdare Etmek için Koruma Gerek
 object_processor_blocked                Çalışma Noktasına Erişilemiyor
 
-administrator_requiresoffice            Ofis Gerekiyor
+administrator_requiresoffice            Ofis Gerektiriyor
 administrator_requiresoffice_2          *X Ofis Gerektiriyor
 office_ownership                        *X Personel Ofisi
 
@@ -3637,7 +3637,7 @@ attract_pressanykey                     Herhangi bir tuşa basın...
 # =============================================================================
 
 help_warning_gangleader                 Hapishanede bulunan bir çete lideri şu anda cezalandırılmış bulunuyor. Nasıl ilerleyeceğin senin seçimin, ancak ona bağlı bütün çete liderleri o cezasını çekmeye devam ettiği sürece çok fazla karışıklık çıkaracaklar.
-help_warning_deathrow                   İlk İdam Mahkumu hapishanemize geldi. Temyiz duruşmalarını sağlamak için İdam Mahkumu Temyiz programını bir Şartlı Tahliye Odasına ayarladığımızdan emin olmamız gerek
+help_warning_deathrow                   İlk İdam Mahkumu hapishanemize geldi. Temyiz duruşmalarını sağlamak için İnfaz Mahkumu Temyiz programını bir Şartlı Tahliye Odasına ayarladığımızdan emin olmamız gerek
 
 # =============================================================================
 # Graphs
