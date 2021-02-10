@@ -1537,13 +1537,13 @@ report_intake_locked                    KİLİTLİ
 report_intakeclosed                     Alım Kapatıldı
 report_intakeclosed_tooltip             Hapishanenize alımlar kapatıldı. Tekrar açmadığınız sürece daha fazla mahkum almayacaksın.
 report_intakenumperday                  Günlük Alım
-report_intakenumperday_tooltip          The total number of prisoners you want delivered in the next intake. You can increase or decrease the number of prisoners you wish to receive in the next intake.\n\nThe number of prisoner from each category is adjusted with the sliders above.
+report_intakenumperday_tooltip          Bir sonraki alım için teslim edilmesini istediğiniz mahkum sayısı. Bir sonraki alımda teslim edilmesini dilediğiniz mahkum sayısını arttırabilir veya azaltabilirsiniz.\n\nHer bir kategorideki mahkum sayısı aşağıdaki kaydırıcı ile belirlenir.
 report_intaketotalprisoners             Toplam Mahkum
-report_intaketotalprisoners_tooltip     The total number of prisoners you want in your prison. Intake will automatically top up to this number each day.\n\nThe number of prisoner from each category is adjusted with the sliders above.
+report_intaketotalprisoners_tooltip     Hapishanenizde istediğiniz toplam mahkum sayısı. Alım, otomatik olarak her gün bu sayıyı dolduracak.\n\nHer bir kategorideki mahkum sayısı aşağıdaki kaydırıcı ile belirlenir..
 report_intakeallavailable               Mevcut Hepsi
-report_intakeallavailable_tooltip       All available prisoners, from all open intake pools, will be delivered in the next intake.
+report_intakeallavailable_tooltip       Bir sonraki alımda, bütün mevcut alım havuzlarından, mahkum teslim edilecek.
 report_intakefillcapacity               Kapasiteyi Doldur
-report_intakefillcapacity_tooltip       Take as many prisoners as possible from available intake pools in order to fill your prison to capacity.\n\nThe number of prisoner from each category is adjusted with the sliders above.
+report_intakefillcapacity_tooltip       Hapishanenizin kapasitesini doldurmak için mümkün olduğunca bütün mevcut havuzlardan mahkum al.\n\nHer bir kategorideki mahkum sayısı aşağıdaki kaydırıcı ile belirlenir.
 reports_intaketypenone                  Kapalı
 reports_intaketypefillcapacity          Kapasiteyi Doldur
 reports_intaketypetotalprisoners        Toplam Mahkum
@@ -1559,8 +1559,8 @@ report_intakeall                        Hepsi
 report_intakefill                       *X adet doldur
 report_intakefill_mothers               *X adet doldur (Aile Hücreleri sayılmazsa)
 report_intake_list_tooltip_title        Alım Kategorileri
-report_intake_list_tooltip              A list of all categories you can have delivered to your prison.\n\nThe pool size shows the total number of prisoners available to be delivered in each category. This number will grow over time depending on the ratio of the sliders.\n\nYou can adjust the sliders to change the ratio of prisoner categories you will receive in the next intake.
-report_intake_list_tooltip_dr           \n\nDeathrow inmates require a specifically designated Deathrow cell before they are able to be transferred in to your prison. The Deathrow intake is also a lot slower than regular intake, and you won't always get an increase to the Deathrow pool. These inmates are few and far between.
+report_intake_list_tooltip              Hapishanenize teslim edebileceğiniz bütün kategorilerin listesi.\n\nHavuz boyutu her gün teslim edilebilecek toplam mevcut mahkum sayısını gösterir. Kaydırıcıların oranına bağlı olarak bu sayı zamanla artacak.\n\nBir sonraki alım için kaydırıcıyı ayarlarak teslim edilecek mahkum kategori oranını belirleyebilirsin.
+report_intake_list_tooltip_dr           \n\nİnfaz Mahkumları, hapishanenize geçiş yapmadan önce onlara özel olarak tasarlanmış İnfaz Mahkumu Hücrelerine ihtiyaç duyar. Ayrıca İnfaz Mahkumları sıradan tutuklulardan çok daha yavaştır, ve İnfaz Mahkumu havuzunda her zaman bir artış almazsın. Bu tutuklular oldukça nadirdir.
 report_intake_buttons_tooltip_title     Sonraki Alım
 report_intake_buttons_tooltip           You can increase or decrease the number of prisoners you wish to receive in the next intake using this section.\n\nSelecting "None" will close your prison to new prisoners, while selecting "All" will take the total number of available prisoners.\n\nThe number of prisoner from each category is adjusted with the sliders above.
 report_intake_overview_tooltip_title    Alıma Önbakış
