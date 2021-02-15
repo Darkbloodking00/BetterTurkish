@@ -2,7 +2,7 @@
 Name                 BetterTurkish  
 Author               Darkblood_king  
 Description          "Better than official translation"  
-Version              PreRev56  
+Version              PreRev62  
 Date                 04/02/2021  
 URL                  https://github.com/Darkbloodking00/BetterTurkish  
 IsTranslation        true  
