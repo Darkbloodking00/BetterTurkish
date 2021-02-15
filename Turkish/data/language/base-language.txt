@@ -1559,7 +1559,7 @@ report_intakeall                        Hepsi
 report_intakefill                       *X adet doldur
 report_intakefill_mothers               *X adet doldur (Aile Hücreleri sayılmazsa)
 report_intake_list_tooltip_title        Alım Kategorileri
-report_intake_list_tooltip              Hapishanenize teslim edebileceğiniz bütün kategorilerin listesi.\n\nHavuz boyutu her gün teslim edilebilecek toplam mevcut mahkum sayısını gösterir. Kaydırıcıların oranına bağlı olarak bu sayı zamanla artacak.\n\nBir sonraki alım için kaydırıcıyı ayarlarak teslim edilecek mahkum kategori oranını belirleyebilirsin.
+report_intake_list_tooltip              Hapishanenize teslim edebileceğiniz bütün kategorilerin listesi.\n\nHavuz boyutu her gün teslim edilebilecek toplam mevcut mahkum sayısını gösterir. Kaydırıcıların oranına bağlı olarak bu sayı zamanla artacak.\n\nBir sonraki alım için kaydırıcıyı ayarlayarak teslim edilecek mahkum kategori oranını belirleyebilirsin.
 report_intake_list_tooltip_dr           \n\nİnfaz Mahkumları, hapishanenize geçiş yapmadan önce onlara özel olarak tasarlanmış İnfaz Mahkumu Hücrelerine ihtiyaç duyar. Ayrıca İnfaz Mahkumları sıradan tutuklulardan çok daha yavaştır, ve İnfaz Mahkumu havuzunda her zaman bir artış almazsın. Bu tutuklular oldukça nadirdir.
 report_intake_buttons_tooltip_title     Sonraki Alım
 report_intake_buttons_tooltip           Bir sonraki alım için teslim edilmesini dilediğiniz mahkum sayısını bu bölümü kullanarak arttırabilir veya azaltabilirsiniz.\n\n"Hiçbiri" seçeneği hapishanenizi yeni mahkumlara kapatacak, "Hepsi" seçeneği ise mevcut bütün mahkumları alacak.\n\nHer bir kategorideki mahkum sayısı yukarıdaki kaydırıcı ile belirlenir.
