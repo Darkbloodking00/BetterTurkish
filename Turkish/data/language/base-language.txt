@@ -1562,9 +1562,9 @@ report_intake_list_tooltip_title        Alım Kategorileri
 report_intake_list_tooltip              Hapishanenize teslim edebileceğiniz bütün kategorilerin listesi.\n\nHavuz boyutu her gün teslim edilebilecek toplam mevcut mahkum sayısını gösterir. Kaydırıcıların oranına bağlı olarak bu sayı zamanla artacak.\n\nBir sonraki alım için kaydırıcıyı ayarlarak teslim edilecek mahkum kategori oranını belirleyebilirsin.
 report_intake_list_tooltip_dr           \n\nİnfaz Mahkumları, hapishanenize geçiş yapmadan önce onlara özel olarak tasarlanmış İnfaz Mahkumu Hücrelerine ihtiyaç duyar. Ayrıca İnfaz Mahkumları sıradan tutuklulardan çok daha yavaştır, ve İnfaz Mahkumu havuzunda her zaman bir artış almazsın. Bu tutuklular oldukça nadirdir.
 report_intake_buttons_tooltip_title     Sonraki Alım
-report_intake_buttons_tooltip           You can increase or decrease the number of prisoners you wish to receive in the next intake using this section.\n\nSelecting "None" will close your prison to new prisoners, while selecting "All" will take the total number of available prisoners.\n\nThe number of prisoner from each category is adjusted with the sliders above.
+report_intake_buttons_tooltip           Bir sonraki alım için teslim edilmesini dilediğiniz mahkum sayısını bu bölümü kullanarak arttırabilir veya azaltabilirsiniz.\n\n"Hiçbiri" seçeneği hapishanenizi yeni mahkumlara kapatacak, "Hepsi" seçeneği ise mevcut bütün mahkumları alacak.\n\nHer bir kategorideki mahkum sayısı yukarıdaki kaydırıcı ile belirlenir.
 report_intake_overview_tooltip_title    Alıma Önbakış
-report_intake_overview_tooltip          Here you can view your next prisoner delivery, and the payment you will receive. The number of prisoners being delivered, and their category, can be changed with the sliders and buttons above. The payment is based on the number of prisoners in each category.
+report_intake_overview_tooltip          Bir sonraki mahkum teslimi ve alacağınız ödemeyi, işte buradan görebilirsiniz. Teslim edilmekte olan mahkum sayısı ve kategorisi yukarıdaki kaydırıcı ve tuşlarla değiştirilebilir. Ödeme her bir kategorideki mahkum sayısı ile ilişkilidir.
 
 report_needs_prisoners                  Mahkum İhtiyaçları
 report_needs_staff                      Personel İhtiyaçları
@@ -1572,7 +1572,7 @@ report_needs_staff                      Personel İhtiyaçları
 valuation_categoryprison                Hapishane Değeri
 valuation_construction                  Tuğla ve Harç
 valuation_objects                       Demirbaşlar ve Taşınabilir Eşyalar
-valuation_stock                         Stock and Materials
+valuation_stock                         Stoklar ve Materyaller
 valuation_staff                         Personel
 valuation_startupgrant                  Başlangıç Hibesi
 valuation_capacity                      Hapishane Kapasitesi
@@ -1585,13 +1585,13 @@ valuation_fineescape                    [Penalty] Son 24sa içindeki firarlar
 valuation_total                         TOPLAM
 valuation_sell                          SAT
 valuation_sellprison                    HAPİSHANEYİ SAT
-valuation_sell_tooltip                  Selling your prison will allow you to take the profits from this prison and start a new one with a much higher starting bank balance.\n\nYou will still be able to continue running this prison, but you can only sell a prison once. All profit from the sale will be transferred to your new site.
+valuation_sell_tooltip                  Hapishaneni satmak bu hapishanende kazandığın gelirleri almanı ve daha iyi bir banka bütçesi ile yeni bir hapishaneye başlamana olanak sağlar\n\nYine de bu hapishaneyi yürürmeye devam edeceksin, ancak bir hapishaneyi yalnızca bir defa satabilirsin. Satıştan kazandığın bütün gelirler yeni çalışma sahana taşınacak.
 valuation_sold                          Bu hapishane *X değerine satıldı.
 valuation_donotown                      Sahip olmadığın bu hapisaneyi satamazsın.
 valuation_sellsome                      Hisse sat
 valuation_buysome                       Hisse al
 valuation_shares                        Hisseleri Al ve Sat
-valuation_shares_tooltip                You can sell up to 50% of your prison as shares to outside investors. You will be paid in cash immediately. In return for their investment, your shareholders will take their fraction of the total sale price when you sell your prison.\n\nEg if you sell 30% shares in your prison, you will only receive 70% of the final sale value. You can buy back shares you have previously sold at any time - although the cost may be higher than the sale price you received.
+valuation_shares_tooltip                Hapishanenin hisselerini %50'ye kadar dış yatırımcılara satabilirsin. Anınca nakit ödeme alacaksın. Yatırımlarının karşılığı olarak, hissedarlar hapishaneni sattığın zaman kendilerine ait olan payı toplam satış fiyatından alacaklar.\n\nÖrn eğer hapishanenin %30'luk hissesini satarsan, hapishaneni sattığın zaman toplam paradan %70 değerinde pay alacaksın. Daha önce sattığın hisseleri istediğin zaman geri satın alabilirsin - buna karşın bedeli önceki satış fiyatına göre daha yüksek olabilir.
 valuation_ownership                     Hapishanenin *X% kadarına sahipsin
 valuation_saleprice                     Satış Fiyatı: *X
 valuation_title                         =[DEĞERLEME]=
