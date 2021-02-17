@@ -276,7 +276,7 @@ interfacetopbar_tooltip_guardwantsabreak        (*X kişiye mola gerek)
 interfacetopbar_tooltip_guardactive             (*X Kişi olaylara cevap veriyor)
 interfacetopbar_tooltip_guarddoingjob           *X Kişi iş yapıyor
 interfacetopbar_tooltip_idle                    (*X kişi boşta)
-interfacetopbar_tooltip_guardsstriking          *X KİŞİ SALDIRIDA
+interfacetopbar_tooltip_guardsstriking          *X KİŞİ GREVDE
 
 interfacetopbar_tooltip_regularguards			*X normal Koruma bulunuyor
 interfacetopbar_tooltip_armedguards             *X Silahlı Koruma bulunuyor
@@ -329,7 +329,7 @@ interfacetopbar_tension_recentpunishments       = (CAYDIRICI) *X cezaya yakın z
 interfacetopbar_tension_recentcalmed            - *X mahkum yakın zamanda sakinleştirildi
 interfacetopbar_tension_staffmorale_low			+ Personel morali düşük
 interfacetopbar_tension_staffmorale_high		- Personal morali yüksek
-interfacetopbar_tension_staffonstrike           + Personalleriniz saldırıda
+interfacetopbar_tension_staffonstrike           + Personalleriniz grevde
 interfacetopbar_tension_dangerzone				+ TEHLIKELI BÖLGE!
 interfacetopbar_tension_hoursonrollcall         + Mahkumlarınız yoklama konusunda sinirli
 
@@ -437,7 +437,7 @@ buildtoolbar_tooltip_bangup				Bütün (istekli) mahkumları hücrelerine gönde
 buildtoolbar_tooltip_lockdown			Hapishanedeki bütün kapıları hemen kapatır.
 buildtoolbar_tooltip_shakedown          Hemen bütün Hücreleri aramayı emret. Bu biraz zaman alacak ve tutukluların baya sinirini bozacak.
 buildtoolbar_tooltip_weaponsfree        Silahlı korumalarınıza silahlı güç kullanmak için izin verir. Kesin Nişancılar bir hedefi vurmadan önce uyarı atışı yapmayacak.
-buildtoolbar_tooltip_nostrike           Personal Saldırılarında mevcut değil.
+buildtoolbar_tooltip_nostrike           Personal Grevi süresince mevcut değil.
 buildtoolbar_tooltip_rollcall           Bütün makhumlarınızı dışarda dikilmek için hücrelerinden çağırır. Yalnızca geceleri ve uyku programı esnasında mevcut.
 
 buildtoolbar_cost						Tutar: $*C
@@ -1625,12 +1625,12 @@ policy_mealcost                         $*X / gün
 policy_totalmealcost                    (TOPLAM: $*X / gün)
 policy_cell_quality						Hücre kalite skorunu kullan
 policy_cell_quality_tooltip_title		Hücre Kalitesini Kullan
-policy_cell_quality_tooltip				If enabled, Prisoners will only be assigned to a cell of a quality they deserve, based on their behaviour. Poorly behaved prisoners will never be assigned to a high quality cell, even if there are no other cells available.\nIf disabled, prisoners will be assigned to any cell regardless of quality, but prisoners in cells of lower quality than average will be more resentful. Prisoners will still be upgraded to higher quality cells if they behave well.
+policy_cell_quality_tooltip				Etkinleştirilmişse, Mahkumlar yalnızca davranışlarından yola çıkılarak hakettikleri kalitedeki hücrelere atanacaklar. Kötü davranışta bulunan mahkumlar, onlar için geride hiçbir mevcut hücre kalmasa dahi yüksek kaliteli hücrelere asla atanmayacaklar.\nEtkinleştirilmemişse, mahkumlar kalitesinden aldırış edilmeksizin herhangi bir hücreye atanırlar, fakat ortalamadan düşük kalite hücredeki mahkumlar gücenmiş hissedecekler. İyi davranışlar sergileyen mahkumlar yine de yüksek kalitedeki hücrelere yükseltilecekler.
 policy_staffbreak_length                Personel Mola Süresi: *P dk
 policy_staffbreak_num                   Personel Mola Sayısı: *P
 policy_staffbreakmax					Maks Personel Molası: *P%
 policy_staffbreakmax_title				Maks Personel Molası
-policy_staffbreakmax_info				The maximum percentage of your staff who are permitted to take a break at any one time. Set this low to force your staff to work harder and longer without breaks. Set it high to allow guards to take breaks whenever they please.
+policy_staffbreakmax_info				Personelinizin herhangi bir zaman için mola alabilmesine izin verilen maksimum yüzdelik dilim. Personelinizini daha çok ve uzun çalıştırmak için bu değeri düşük belirleyin. Korumalarınıza istedikleri zaman mola verme izni sağlamak için ise bu değeri yüksek belirleyin.
 reports_staffpaytitle					Personel Maaşları
 reports_payup							Maaş Artışı 10%
 reports_paydown							Maaş Düşürme 10%
@@ -1702,54 +1702,54 @@ meal_cost                               Mahkum Başı Bedeli
 
 reports_otherpolicytitle				Diğer İlkeler
 parole_title                            Şartlı Tahliye Oranı
-parole_desc                             If a prisoner has a reoffending rate less than this value, they will be released at the end of their parole hearing.
+parole_desc                             Eğer bir mahkum bu değerden daha düşük bir tekrar suç işleme oranına sahipse, şartı tahliye duruşmalarının ardından tahliye edilirler.
 parole_fine                             Prisoner Reoffending Fine
 parole_reward                           Early Release Prisoner Reward
 
 reports_staffbreaktitle                 Staff Breaks Policy
 
-victory_title                           CERTIFICATION
+victory_title                           SERTİFİKA
 
-victory_PrisonValue                     Prison Value
-victory_Income                          Daily Profits
-victory_Prisoners                       Capacity
-victory_PrisonersReleased               Inmates released
-victory_prisonersdied                   Deaths in Custody
-victory_prisonersescaped                Prisoners Escaped
-victory_Bankrupt                        Bankruptcy
-victory_Riot                            Uncontrolled\nRiot
-victory_TooManyDeaths                   Criminal\nNegligence
-victory_TooManyEscapes                  Security\nDisaster
-victory_failure                         FAILURE
-victory_warning                         WARNING
+victory_PrisonValue                     Hapishane Değeri
+victory_Income                          Günlük Kâr
+victory_Prisoners                       Kapasite
+victory_PrisonersReleased               Tahliye edilen tutuklular
+victory_prisonersdied                   Mahkum Ölümleri
+victory_prisonersescaped                Firari Mahkumlar
+victory_Bankrupt                        İflas
+victory_Riot                            Kontrolsüz\nİsyan
+victory_TooManyDeaths                   Suç\nİhmal
+victory_TooManyEscapes                  Güvenlik\nFelaket
+victory_failure                         BAŞARISIZ
+victory_warning                         UYARI
 victory_remaining                       Remaining
-victory_death                           DEATHS
-victory_escapes                         ESCAPES
-victory_counter                         (*X today)
-victory_executions                      Illegal Executions
-victory_innocentsexecuted               Innocent Prisoner Executed
-victory_staffdeaths						Staff Fatalities
-victory_staffpayrise                    Staff Unhappy
-victory_staffstrike                     Staff On Strike
+victory_death                           ÖLÜMLER
+victory_escapes                         FİRARLAR
+victory_counter                         (Bugün *X adet)
+victory_executions                      Yasadışı İnfaz
+victory_innocentsexecuted               Masum Mahkum İnfaz Edildi
+victory_staffdeaths						Personel Ölümleri
+victory_staffpayrise                    Personel Mutsuz
+victory_staffstrike                     Personel Grevde
 
-victory_warning_bankrupt                You have 24 hours to avert financial disaster.
-victory_warning_riot                    End this riot soon, or our government will be forced to assume control.
-victory_warning_toomanydeaths           You face prosecution if too many more deaths occur today.
-victory_warning_toomanyescapes          You will be fired if too many more escapes occur today.
-victory_warning_executions				You will be fired if another innocent prisoner is executed.
-victory_warning_staffpayrise            Your staff will go on strike if their pay isn't increased.
-victory_warning_staffstrike             Your staff are on strike!            
-victory_warning_staffonstrike           The staff have gone on strike - we've lost about 90% of our guard force! If we don't increase their pay with a day, lots of them are threatening to quit entirely.
+victory_warning_bankrupt                Bu finansal krizi engellemek için 24 saatin var.
+victory_warning_riot                    İsyanı yakın zamanda bitir, yoksa hükümetimiz bu işe zorla el atarak kontrolü alacak
+victory_warning_toomanydeaths           Eğer bugün çok daha fazla ölüm olursa, yargılanacaksın.
+victory_warning_toomanyescapes          Eğer bugün çok daha fazla firar olursa, kovulacaksın.
+victory_warning_executions				Eğer başka bir masum mahkum daha infaz edilirse, kovulacaksın.
+victory_warning_staffpayrise            Personelinizin maaşlarına zam gelmezse grev yapacaklar.
+victory_warning_staffstrike             Personelleriniz grevde!            
+victory_warning_staffonstrike           Personel grevde - yaklaşık olarak koruma kuvvetlerimizin %90'ını kaybettik! Eğer bir gün içinde maaşlarına zam yapmazsak, birçoğu bizi işi bırakmakla tehdit ediyor.
 
 victory_prisoners_units                 Places
-victory_prisonersreleased_units         Released
-victory_toomanydeaths_units             Deaths
-victory_toomanyescapes_units            Escapes
-victory_executions_units				Innocent Executions
-victory_staffpay_units                  Offered Increase
+victory_prisonersreleased_units         Tahliy edildi
+victory_toomanydeaths_units             Ölümler
+victory_toomanyescapes_units            Firarlar
+victory_executions_units				Masum İnfazları
+victory_staffpay_units                  Tehlif Edilen Zam
 
-victory_prisonersparoled                Prisoners Paroled
-victory_prisonersreoffended             Reoffended Prisoners
+victory_prisonersparoled                Şartlı Tah. Edil. Mahumlar
+victory_prisonersreoffended             Tekrar Suç İşleyen Mahkumlar
 
 victory_adviserwarning_toomanydeaths1   Yesterday was a very dark chapter in the history of this prison. Far too many people lost their lives here.
 victory_adviserwarning_toomanydeaths2   Make sure nobody else dies today, or you will face prosecution for criminal negligence.
@@ -1778,15 +1778,15 @@ victory_advisernotice_InnocentsExecuted1 You've just executed someone without fo
 victory_adviserwarning_staffpayrise1    Our staff have become unhappy with their working conditions in the prison and have threatened to go on strike if they don't get a 50% pay rise.
 victory_adviserwarning_staffstrike1     Our staff have gone on strike! They will still be willing to return if they get their 50% pay rise.
 
-score_title                             PRISON GRADING
-score_reoffendingrate                   REOFFENDING RATE
-score_prisonersreleased                 *X prisoners have been released
-score_minimumprisonersreleased          *X prisoners must be released before this report can be compiled
-score_deaths                            *X prisoners died in custody
-score_escapes                           *X prisoners escaped
-score_reoffendingchance                 Estimated Re-offending Chance
+score_title                             HAPİSHANE DERECELENDİRMESİ
+score_reoffendingrate                   TEKRAR SUÇ İŞLEME ORANI
+score_prisonersreleased                 *X mahkum tahliye edildi
+score_minimumprisonersreleased          Bu rapor derlenmeden önce *X adet mahkum tahliye edilmeli
+score_deaths                            *X mahkum tutukluyken öldü
+score_escapes                           *X mahkum firar etti
+score_reoffendingchance                 Tahmini Tekrar Suç İşleme İhtimali
 score_startingreoffendingchance         Estimate on arrival : *X%
-score_prisonersparoled                  Paroled Early (Reoffended)
+score_prisonersparoled                  Erken Şartlı Tahliye Edildi (Tekrar Suç İşl.)
 score_prisonersparoled_info             *P (*E%)
 score_clemencychance                    Likelihood of Clemency
 score_convictionstrength                State Approved Conviction Strength
@@ -2148,7 +2148,7 @@ nameplate_tired                         Yorulmuş
 nameplate_injured                       Yaralanmış
 nameplate_unconscious                   Bilinçsiz
 nameplate_dead                          ÖLÜ
-nameplate_released                      SALINDI
+nameplate_released                      TAHLİYE EDİLDİ
 nameplate_researching                   Araştırılıyor
 nameplate_overdose                      DOZ AŞIMI
 nameplate_starving                      AÇLIKTAN ÖLÜYOR
@@ -2183,7 +2183,7 @@ objective_intake_typefillcapacity       Sınıra kadar doldur
 objective_intake_typetotalprisoners     *X adet doldur
 objective_intake_typenumperday          Günde *X adet
 objective_intake_typeallavailable       Mevcut bütün hepsi
-objective_intake_closedstrike           Personel saldırıları sırasında tutuklu alımı yok
+objective_intake_closedstrike           Personel grevde olduğu sürece tutuklu alımı yok
 
 objective_firstgrant                    İlk Hibenizi onaylayın
 objective_firstgrant_description        İlk parasal hibenizi alın, bunun için ilk olarak raporlar ekranından (ekranın sağ altındaki tuşa basarak), Hibeler bölümünden mevcut olan bir Hibe seçin.
