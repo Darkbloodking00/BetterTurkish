@@ -328,26 +328,26 @@ interfacetopbar_tension_angrygangmembers        + *X ÇETE LİDERI ÖFKELİ (lid
 interfacetopbar_tension_recentpunishments       = (CAYDIRICI) *X cezaya yakın zamanda karar verildi
 interfacetopbar_tension_recentcalmed            - *X mahkum yakın zamanda sakinleştirildi
 interfacetopbar_tension_staffmorale_low			+ Personel morali düşük
-interfacetopbar_tension_staffmorale_high		- Personal morali yüksek
-interfacetopbar_tension_staffonstrike           + Personalleriniz grevde
+interfacetopbar_tension_staffmorale_high		- Personel morali yüksek
+interfacetopbar_tension_staffonstrike           + Personelleriniz grevde
 interfacetopbar_tension_dangerzone				+ TEHLIKELI BÖLGE!
 interfacetopbar_tension_hoursonrollcall         + Mahkumlarınız yoklama konusunda sinirli
 
-interfacetopbar_staffmorale_title				PERSONAL MORALI
-interfacetopbar_staffmorale_happystaff			+ *X personal işlerinden memnun
-interfacetopbar_staffmorale_unhappystaff		- *X personalin ciddi şikayeti var
-interfacetopbar_staffmorale_injuredstaff		- *X personal yaralandı
-interfacetopbar_staffmorale_staffdeaths			- *X personal görevi sırasında öldü
-interfacetopbar_staffmorale_staffpayverygood	+ Personal çok iyi ödeme alıyor
-interfacetopbar_staffmorale_staffpaygood		+ Personal iyi ödeme alıyor
-interfacetopbar_staffmorale_staffpaybad 		- Personal yeteri kadar ödeme almıyor
+interfacetopbar_staffmorale_title				PERSONEL MORALI
+interfacetopbar_staffmorale_happystaff			+ *X personel işlerinden memnun
+interfacetopbar_staffmorale_unhappystaff		- *X personelin ciddi şikayeti var
+interfacetopbar_staffmorale_injuredstaff		- *X personel yaralandı
+interfacetopbar_staffmorale_staffdeaths			- *X personel görevi sırasında öldü
+interfacetopbar_staffmorale_staffpayverygood	+ Personel çok iyi ödeme alıyor
+interfacetopbar_staffmorale_staffpaygood		+ Personel iyi ödeme alıyor
+interfacetopbar_staffmorale_staffpaybad 		- Personel yeteri kadar ödeme almıyor
 
 interfacecontrol_mainmenu                       Ana Menü (Esc)
 interfacecontrol_mainmenu_tooltip               Ana Menü'ye geçiş yap (Yeni/Yükle/Kaydet/Çıkış vs)
 interfacecontrol_todo                           Yapılacaklar listesi
 interfacecontrol_todo_tooltip                   Yapılacaklar listesine geç
 interfacecontrol_research                       Bürokrasi
-interfacecontrol_research_tooltip               Bürokrasi ekranını açar, yeni tesisler, personal tipleri ve yönetiminizi atayarak yeni eşyalar açabileceğiniz yerdir.
+interfacecontrol_research_tooltip               Bürokrasi ekranını açar, yeni tesisler, personel tipleri ve yönetiminizi atayarak yeni eşyalar açabileceğiniz yerdir.
 interfacecontrol_grading                        Hapishane Derecelendirme
 interfacecontrol_grading_tooltip                Hapishane Derecelendirme ekranını açar, burası sizin genel başarı derecenizi gösterir.
 interfacecontrol_graphs                         Grafikler
@@ -432,12 +432,12 @@ buildtoolbar_shakedown                  Arama yap
 buildtoolbar_weaponsfree                Serbest ateş
 buildtoolbar_rollcall                   Yokla
 
-buildtoolbar_tooltip_reports			Raporlar penceresini açarak mahkum, personal, gelir, hibeler ve daha fazlasına bakabilirsiniz.
+buildtoolbar_tooltip_reports			Raporlar penceresini açarak mahkum, personel, gelir, hibeler ve daha fazlasına bakabilirsiniz.
 buildtoolbar_tooltip_bangup				Bütün (istekli) mahkumları hücrelerine gönder. Bu mahkumlarınızı eğer onları uzun süre kilitli bırakırsanız sinirli yapacak.
 buildtoolbar_tooltip_lockdown			Hapishanedeki bütün kapıları hemen kapatır.
 buildtoolbar_tooltip_shakedown          Hemen bütün Hücreleri aramayı emret. Bu biraz zaman alacak ve tutukluların baya sinirini bozacak.
 buildtoolbar_tooltip_weaponsfree        Silahlı korumalarınıza silahlı güç kullanmak için izin verir. Kesin Nişancılar bir hedefi vurmadan önce uyarı atışı yapmayacak.
-buildtoolbar_tooltip_nostrike           Personal Grevi süresince mevcut değil.
+buildtoolbar_tooltip_nostrike           Personel Grevi süresince mevcut değil.
 buildtoolbar_tooltip_rollcall           Bütün makhumlarınızı dışarda dikilmek için hücrelerinden çağırır. Yalnızca geceleri ve uyku programı esnasında mevcut.
 
 buildtoolbar_cost						Tutar: $*C
@@ -488,15 +488,15 @@ buildtoolbar_popup_room_canteen			Mahkumlarınızın öğleden sonra çay içti�
 buildtoolbar_popup_room_kitchen			Mahkumlarınıza yemek hazırlayan aşçılar için bulunan bölge.
 buildtoolbar_popup_room_shower			Makhumlarınızı bitlerden uzak ve tertemiz tutmak için kullanılır.
 buildtoolbar_popup_room_yard			Keskin nişancıların kartal gözetiminde mahkumlarınızın günde birkaç saat güneşlenmesine izin verir.
-buildtoolbar_popup_room_storage			Personalinizin bütün ihtiyaçları için ayarlanmış alan.
+buildtoolbar_popup_room_storage			Personelinizin bütün ihtiyaçları için ayarlanmış alan.
 buildtoolbar_popup_room_deliveries		Mal, materyal ve mahkumlarınızın bırakıldığı yer.
 buildtoolbar_popup_room_garbage			Çöplerinizin toplandığı yer.
 buildtoolbar_popup_room_execution		Mahkumlarınızı ölüme gönderdiğiniz yer.
 buildtoolbar_popup_room_workshop		Mahkumlarınızı sıkılmaktan ölüme gönderip o esnada size araba plakaları ürettirdiğiniz yer.
 buildtoolbar_popup_room_security		Memurlarınız için Ofisler.
-buildtoolbar_popup_room_office			Yönetim personalinizin çalışması için bölge.
-buildtoolbar_popup_room_medicalward		Tıppı personalinizin çalışması için bölge.
-buildtoolbar_popup_room_morgue			Ölü personal ve mahkumları yolladığınız yer.
+buildtoolbar_popup_room_office			Yönetim personelinizin çalışması için bölge.
+buildtoolbar_popup_room_medicalward		Tıbbi personelinizin çalışması için bölge.
+buildtoolbar_popup_room_morgue			Ölü personel ve mahkumları yolladığınız yer.
 buildtoolbar_popup_room_commonroom		Mahkumlarınızın kafasını rahatlatmak için serbest zaman.
 buildtoolbar_popup_room_kennel          Köpeklerinizin yaşadığı yer.
 buildtoolbar_popup_room_chapel          Bürökratik bir komisyon bir araya gelerek tutukluların dini ihtiyaçları için bir çözüm tasarlarlarsa ne olur? Bir, 'Çok Dinli İbadet Odası', işte. Biz ona Şapel diyoruz.
@@ -720,7 +720,7 @@ buildtoolbar_popup_help_sniper_5            - If Freefire is activated, or a pri
 
 buildtoolbar_popup_help_chief_1             The Chief is the head of security in your prison. He gives you an overall readout of the mood in your prison, showing the likelihood of prisoners causing trouble, and also lets you keep track of how many guards are currently busy within your prison. He also allows you to research more advanced security features such as Guard Dogs or CCTV Cameras. Once Given an office, they mostly manage themselves.
 
-buildtoolbar_popup_help_foreman_1           The Foreman is the head of maintenance and construction in your prison, allowing you to research and hire Janitors and Gardeners. He also deals with Prison Labour, and personally oversees the training of Prisoners in the use of Workshop tools.\n\n
+buildtoolbar_popup_help_foreman_1           The Foreman is the head of maintenance and construction in your prison, allowing you to research and hire Janitors and Gardeners. He also deals with Prison Labour, and personelly oversees the training of Prisoners in the use of Workshop tools.\n\n
 buildtoolbar_popup_help_foreman_2           ^Tips
 buildtoolbar_popup_help_foreman_3           - Once you have built a Workshop in your Prison, the Foreman will be responsible for teaching the Workshop Safety Induction programs, which can be scheduled in the Programs tab of your reports window.
 
@@ -974,7 +974,7 @@ codex_option_weather                    Hava Durumu ve Sıcaklık
 codex_tooltip_weather                   Hapishanenize değişken hava ve sıcaklık türleri ekler, sizi ısıtma çözümleri düşünmenize sevk eder.
 codex_option_enablecheats				Araçları ve Hileleri Aç
 codex_tooltip_enablecheats				Bu Hapishane için geliştirici araçları ve hileleri açar. Eğer bu seçilirse, artık bu seçenek kapatılamyacak, başarımlar ödüllendirilmeyecek ve bu hapishaneyi satamayacaksın.
-codex_option_staffneeds                 Personal İhtiyaçları
+codex_option_staffneeds                 Personel İhtiyaçları
 codex_tooltip_staffneeds                Korumaların İhtiyaçlarını Açar, bunun anlamı işlerini düzgün yapabilmek adına, yemeğe, dinlenmeye ve diğer conforlara ihtiyaçları olacak. 
 codex_option_escapeplans                Kaçış Planları
 codex_tooltip_escapeplans               Mahkumlar için daha fazla kaçış seçeneği açar. Artık firar etmeye çalışırken duvardan tırmanmaya teşebbüs edecekler.
@@ -1802,7 +1802,7 @@ score_tooltip_reoffendingchance         An estimate of the prisoners likelihood 
 score_tooltip_clemencychance_title      Likelihood of Clemency
 score_tooltip_clemencychance            The likelihood that the Appeals Board will grant clemency and commute the prisoners death row sentence. Each unsuccessful appeal lowers this value until it is below the State Approved Conviction Strength, at which point full authorisation to proceed is given. Scheduling the execution before this point will result in extreme penalties if it is later found that the prisoner's appeal would have succeeded.\n\nIf clemency is granted, the prisoner will be immediately released (if found innocent), or transferred to Maximum Security (if still judged as guilty.)
 score_tooltip_currentchance             The State Approved Conviction Strength is *X%
-score_tooltip_clemencywarning           The chance of this prisoner being granted clemency is currently above the State Approved safe level. If you proceed with this execution, you will be held personally responsible if it is later found he would have been granted clemency. 
+score_tooltip_clemencywarning           The chance of this prisoner being granted clemency is currently above the State Approved safe level. If you proceed with this execution, you will be held personelly responsible if it is later found he would have been granted clemency. 
 
 experiencefactor_FractionalLockedUp     *X% of stay locked up
 experiencefactor_FractionalReform       *X% of stay in reform programs
@@ -2029,7 +2029,7 @@ needs_help_bowels                       Everyone needs to use the toilet, even p
 needs_help_sleep                        Prisoners require sleep. Prisoners will only be able to sleep in the cell to which they are assigned, and will only sleep between 8pm and 8am. They'll obviously need a bed, too.
 needs_help_food                         Everyone needs to eat, and most people need to eat more than once per day. If you find that your Kitchens aren't able to keep up with the demand, try hiring more Cooks or adding more Cookers to your Kitchens. You can also tweak your food policies in the Policies tab of your Report window.
 needs_help_safety                       Even in prison, your Prisoners want to feel safe. If there are lots of fights in your prison or the overall danger level is high, prisoners will feel less safe, and may consider arming themselves. If this is becoming a problem, trying increasing the security throughout your prison by hiring more Guards, creating more patrols, or by seeing to the other needs of your Prisoners.
-needs_help_hygiene                      Most Prisoners will want to wash regularly, especially in the mornings after they wake up. The Shower regime will force prisoners who don't have their own personal Shower to go to the nearest Shower room. If this is becoming a problem, consider expanding your Shower facilities, or adding more Freetime so Prisoners can shower as they need to.
+needs_help_hygiene                      Most Prisoners will want to wash regularly, especially in the mornings after they wake up. The Shower regime will force prisoners who don't have their own personel Shower to go to the nearest Shower room. If this is becoming a problem, consider expanding your Shower facilities, or adding more Freetime so Prisoners can shower as they need to.
 needs_help_exercise                     Many prisoners will want to be able to keep in shape. You can help them do this by adding a Yard to your prison. Weights Benches, either in the Yard or other common areas, will also help with this.
 needs_help_recreation                   A bored Prisoner is a dangerous Prisoner. You can see to a Prisoners need for Recreation by adding pass-times to the common areas of your prison, such as TVs or Radios.
 needs_help_comfort                      Prisoners generally want to feel comfortable, physically and emotionally. There are many ways you can aid this, such as allowing for family visitations, giving them hot showers or simply making sure they have somewhere to sit.
@@ -2567,8 +2567,8 @@ object_playmat                           Oyun Halısı
 object_guardtower                        Koruma Kulesi
 object_waterboiler                       Sıcak Su Kazanı
 object_pipehotwater                      Sıcak Su Borusu
-object_stafffood                         Personal Yemekleri
-object_stafffoodboxed                    Personal Yemekleri
+object_stafffood                         personel Yemekleri
+object_stafffoodboxed                    personel Yemekleri
 object_newspaper                         Gazete
 object_strikefire                        Gösteri Ateşi
 object_climbingrope                      Tırmanma Halatı
@@ -2624,7 +2624,7 @@ room_dormitory                           Koğuş
 room_familycell                          Aile Hücresi
 room_sharedcell                          Paylaşımlı Hücre
 room_canteen                             Yemekhane
-room_canteen_staff						 Personal Yemekhanesi
+room_canteen_staff						 personel Yemekhanesi
 room_kitchen                             Mutfak
 room_shower                              Duş
 room_yard                                Avlu
@@ -2820,7 +2820,7 @@ regimetooltip_worklockdown              Mahkumlar hapishanede çalıştırılır
 regime_clear                            Bu kategorideki mahkumlar için programı kaldırır, ve yerine varsayılan Normal Güvenlikli programına geçilir.
 
 schedule_editor_students                Öğrenciler: *X/*Y
-schedule_editor_error_staffonly         Belirtilmiş oda Yalnızca Personal erişimine açık
+schedule_editor_error_staffonly         Belirtilmiş oda Yalnızca personel erişimine açık
 schedule_editor_error_noregimetime      Program geçerli bir İş programının dışında
 schedule_editor_error_noteachers        Bu program için hiç öğretmen bulunmuyor
 schedule_editor_error_noobjects         Bu program için gerekli nesneler geçerli bir odada bulunmuyor
@@ -2983,7 +2983,7 @@ staff_exhausted                         Tükenmiş
 staff_tired                             Yorgun
 staff_pissedoff							Sinirlenmiş
 staff_onstrike                          Grevde
-staff_needsrest                         Personal Yalnızca Personellere ait bir odada dinlenmeyi tercih ediyor.
+staff_needsrest                         personel Yalnızca Personellere ait bir odada dinlenmeyi tercih ediyor.
 
 dog_needskennel                         Köpeklerin uyuması için Kulübeye ihtiyaçları var.
 
