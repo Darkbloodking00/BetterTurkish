@@ -1306,7 +1306,7 @@ misconduct_report_recovingalcoholic         Alkolik iyileştiriliyor
 # Research Names + Captions
 # =============================================================================
 
-research_required                       Bu raporu hazırlamak için *X adlı şeye ihtiyacın var.
+research_required                       Bu raporu hazırlamak için *X adlı personele ihtiyacın var.
 research_requireunlock                  Bu raporu açmak için '*X' adlı şeyi araştırman gerekiyor
 research_approved                       ONAYLANDI
 research_cost                           Masraf: *X
