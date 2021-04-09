@@ -1138,7 +1138,7 @@ codex_packrects_boxwcaption				Dik. Genişliği
 codex_packrects_boxhcaption				Dik. Yüksekliği
 
 mods_downscaled_spritesheet				Tümleş. Resim Küçültüldü
-mods_downscaled_spritesheet_msg			Tümleşik Resim; Ekran Kartınızdan ötürü küçültülmüş olması gerekiyor. Bu muhtemelen çok fazla mod açtığınızdan dolayı oluştu. Lütfen kaliteyi açmak için birkaç modu kapatın.
+mods_downscaled_spritesheet_msg			Tümleşik Resim; Ekran Kartınızdan ötürü küçültülmüş olması gerekiyor. Bu muhtemelen çok fazla mod açtığınızdan dolayı oluştu. Lütfen kaliteyi arttırmak için birkaç modu kapatın.
 mods_errors_no_memory					Hiç Mod Tümleş. Resmi Yüklenmedi
 mods_errors_no_memory_msg				VRAM kapasitesi; daha fazla mod ve tümleşik resim yüklemek için yetersiz. Bu muhtemelen çok fazla mod açtığınızdan dolayı oluştu. Lütfen daha az bellek harcamak üzere birkaç modu kapatın.
 
