@@ -609,19 +609,19 @@ buildtoolbar_deployment_DeathRowZone    Yalnızca 'infaz mahkumu' tutukluların 
 buildtoolbar_deployment_StaffOnlyZone   Yalnızca Personelin bu sektöre girme izni olacak.
 buildtoolbar_deployment_UnlockedZone    Herkesin bu bölgeye girme izni olacak, ve bütün kapılar açılacak.
 buildtoolbar_deployment_accessonly		İnsanlar Yalnızca-Erişimli alanlardan mümkünse uzak duracak, hapishanenizdeki başka yolları tercih edecekler.
-buildtoolbar_deployment_prisonerdirection Click and drag to paint floor signage.\n\nThis gives a hint to your prisoners on which way to go.\nHelps to control the flow of people in your prison.
-buildtoolbar_deployment_staffdirection  Click and drag to paint floor signage.\n\nThis gives a hint to non-prisoners on which way to go.\nHelps to control the flow of people in your prison.
+buildtoolbar_deployment_prisonerdirection Zemin boyası işaretine tıkla ve kaydır.\n\nBu mahkumlarınıza nereye gideceklerine dair bir ipucu verecek.\nHapishanenizdeki insan hareketini kontrol etmenize yardımcı olur.
+buildtoolbar_deployment_staffdirection  Zemin boyası işaretine tıkla ve kaydır.\n\nBu mahkum olmayanlar için nereye gideceklerine dair bir ipucu verir.\nHapishanenizdeki insan hareketini kontrol etmenize yardımcı olur.
 
-buildtoolbar_quickbuild_clone           The Clone tool lets you select an area of your prison to copy, and then place that area again. With the Clone tool selected, hold the Right Mouse button and drag an area that you want to copy. Then, Left Click somewhere else in the prison to queue up construction of a copy of that area.
+buildtoolbar_quickbuild_clone           Klonlama aracı hapishanenizin bir bölümünü kopyalamanızı, ve sonrasında bu alanı tekrardan yerleştirmenizi sağlar. Klonlama aracı seçiliyken, Sağ Fare tuşuna basılı tutarak kopyalanmasını istediğiniz bir alana kaydırın. Sonra, bu alanın kopyasını yapılacaklar kuyruğuna almak için başka bir yere Sol Tık yapın.
 
 # The ~ and ^ characters in front of some of the lines in the buildtoolbar_popup_help section are colour codes and should be preserved during translation
 
-buildtoolbar_popup_help_targettingfood_1    The Food Distribution view shows you which cell blocks are being served by which canteens, and which canteens are being supplied by which kitchens. You can also see the current supply and demand of currently active kitchens and canteens (cooking starts 4 hours before the next Eat regime).
-buildtoolbar_popup_help_targettingfood_2    ~Left Click a cell block, and then Left Click a canteen to force the selected cell block to use that Canteen. You can also change which kitchens target which canteens in the same way. Right Clicking a zone will cause its targeting to reset to default.\n\n
-buildtoolbar_popup_help_targettingfood_3    ~Holding Shift while Left Clicking will let you target multiple rooms.\n\n
-buildtoolbar_popup_help_targettingfood_4    ^Tips
-buildtoolbar_popup_help_targettingfood_5    - If you find a Cell Block or Kitchen isn't targeting a canteen as you would expect, try Right-Clicking it to force it to reset.
-buildtoolbar_popup_help_targettingfood_6    - If you notice that your Supply to a canteen doesn't fill all the way up during an Eat session, it's a good indication that it's overloaded and you need to be able to cook more food.
+buildtoolbar_popup_help_targettingfood_1    Yemek Dağıtım görünümü size hangi hücre bloğunun ve yemekhanenin hangi mutfak tarafından yemek ihtiyacının karşılandığını gösterir. Ayrıca mevcut arz ve talebi o an etkin olan mutfak ve yemekhaneler için görebilirsiniz (Bir sonraki Yemek rejiminden önce pişirme işlemi 4 saat önceden başlar).
+buildtoolbar_popup_help_targettingfood_2    ~Bir hücreye Sol Iıkla, daha sonra bir yemekhaneye Sol Tıklayarak seçilen hücre bloğunun bu Yemekhaneyi kullanmasını zorla. Ayrıca aynı yolla hangi yemekhanenin hangi mutfağı hedefleyeceğini değiştirebilirsin. Bir bölgeye sağ tıklamak oranın hedefini varsayılana sıfırlayacak.\n\n
+buildtoolbar_popup_help_targettingfood_3    ~Shift tuşuna basılı tutarak Sağ Tıklamak birden fazla odayı hedef almanı sağlayacak.\n\n
+buildtoolbar_popup_help_targettingfood_4    ^Ipuçları
+buildtoolbar_popup_help_targettingfood_5    - Eğer bir Hücre Bloğunun veya bir Mutfağın bir kantini beklendiği gibi hedeflemediğine şahit olursan, sıfırlamaya zorlamak için ona Sağ-Tıklamayı dene.
+buildtoolbar_popup_help_targettingfood_6    - Eğer yemekhaneye giden Arzın, Yemek sırasında tamamen talebi karşılamadığını fark ettiysen, bu onun fazla yüklendiğini ve daha fazla yemek pişirmen gerektiğini gösteren bir işaret.
 
 buildtoolbar_popup_help_targettinglaundry_1 The Laundry Distribution view shows you which cell blocks, dormitories and receptions are being targeted by which laundry rooms.\n\n
 buildtoolbar_popup_help_targettinglaundry_2 ~Left Clicking a Laundry and then Left Clicking a cell block, dormitory or reception to make the laundry serve that room. Hold Shift to target multiple rooms.
@@ -1751,12 +1751,12 @@ victory_staffpay_units                  Tehlif Edilen Zam
 victory_prisonersparoled                Şartlı Tah. Edil. Mahumlar
 victory_prisonersreoffended             Tekrar Suç İşleyen Mahkumlar
 
-victory_adviserwarning_toomanydeaths1   Yesterday was a very dark chapter in the history of this prison. Far too many people lost their lives here.
-victory_adviserwarning_toomanydeaths2   Make sure nobody else dies today, or you will face prosecution for criminal negligence.
-victory_advisernotice_toomanydeaths1    Don't say we didn't warn you. You have been found guilty of criminal negligence because of recent events here.
-victory_advisernotice_toomanydeaths2    You will now spend the next ten years in prison as punishment for your crime. Your own prison. Good luck.
-victory_adviserwarning_riot1            Your prison is out of control. Put down this riot now, or the government will step in and retake the prison by force.
-victory_advisernotice_riot1             You have failed to control this riot. The government has revoked our prison contract, and is now sending in the national guard to retake the prison.
+victory_adviserwarning_toomanydeaths1   Dün, bu hapishanenin tarihi için çok kara bir gündü. Çok fazla insan hayatını kaybetti.
+victory_adviserwarning_toomanydeaths2   Bugün daha hiç kimsenin ölmediğinden emin ol, yoksa cezai ihmal nedeniyle suçlu bulunacaksınız.
+victory_advisernotice_toomanydeaths1    Seni uyarmadık deme. Son yaşanan gelişmelerden ötürü cezai ihmalden suçlu bulundun.
+victory_advisernotice_toomanydeaths2    Şimdi hayatının on yılını ceza olarak işlediğin suçtan dolayı hapishanede geçireceksin. Senin kendi hapishanen. İyi şanslar.
+victory_adviserwarning_riot1            Hapishaneniz kontrolden çıkmış. Bu isyanı bitir, yoksa hükümet adım atacak ve hapishaneyi zorla elinden alacak.
+victory_advisernotice_riot1             Bu isyanı kontrol altına almak konusunda başarısız oldun. Hükümet hapishane sözleşmemizi iptal etti, ve şimdi ulusal muhafızları hapishaneyi geri almak için yolluyor.
 victory_adviserwarning_toomanyescapes1  We have a PR disaster brewing here. Far too many prisoners have escaped recently, and it's your fault.
 victory_adviserwarning_toomanyescapes2  Lock this place down and make sure nobody else escapes, otherwise the press will expect your head on a platter.
 victory_advisernotice_toomanyescapes1   You have failed. This prison is a laughing stock in the media, and they want somebody to blame.
@@ -2133,8 +2133,8 @@ reputationtooltip_clean                 This prisoner is obsessed with being cle
 reputationtooltip_pickpocket            This prisoner is quick fingered, and will frequently attempt to steal from whoever has the misfortune of being nearby.
 reputationtooltip_copycat               This prisoner is able to copy the behaviours and actions of nearby prisoners, duplicating their reputations.
 reputationtooltip_dangerous             This prisoner causes damage to other people nearby. How? Why? Who can say.
-reputationtooltip_escapeartist          This prisoner is a professional escape artist, and breaks out of things for fun. Constantly trying to lift jail keys and then break out.
-reputationtooltip_swimmer				This prisoner is no stranger to water.\nUnlocks the ability to swim by simply entering water,\nPrisoners are unable to swim indefinitely though.
+reputationtooltip_escapeartist          Bu mahkum profesyonel bir kaçış artisti, and breaks out of things for fun. Constantly trying to lift jail keys and then break out.
+reputationtooltip_swimmer				Bu mahkum suya hiç de yabancı değil.\nYüzme yeteneğini basitçe suya atlayarak kazanabilir,\nYine de mahkumlar sonsuza dek yüzemez.
 
 # =============================================================================
 # Nameplate status
