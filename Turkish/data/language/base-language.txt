@@ -564,7 +564,7 @@ buildtoolbar_popup_staff_lawyer			Hapishanenize daha iyi bir kontrol sağlamak i
 buildtoolbar_popup_staff_sniper         Mevcutsa herhangi bir boş Koruma Kulesini otomatik olarak dolduracak, son derece eğitimli bir atıcı. Bir hedefi vurmadan önce, hapishane duvarları içinde karışıklık çıkaran mahkumlara karşı birkaç adet uyarı atışı ateşleyecek. Kaçmakta olan mahkumlara böyle bir uyarı verilmeyecek.
 
 buildtoolbar_popup_uts_powerstation		Hapishanenizde kullanılmak üzere elektrik üretirs.
-buildtoolbar_popup_uts_capacitor		Güç istasyonunun yanına yerleştirildiği zaman üretilen elektrik miktarını arttırır.
+buildtoolbar_popup_uts_capacitor		Elektrik santralinin yanına yerleştirildiği zaman üretilen elektrik miktarını arttırır.
 buildtoolbar_popup_uts_electricalcable	Elektriği hapishanenizin etrafına dağıtır.
 buildtoolbar_popup_uts_powerswitch		Bağlandığı herhangi bir kablonun elektrik mevcudiyetini değiştirir.\n\nSağ tıklayarak Aç/Kapat durumları arasında geçiş yap.
 buildtoolbar_popup_uts_waterpumpstation	Hapishanenize su kaynağı sağlar.
@@ -3263,58 +3263,58 @@ adviser_deathrow_testchair_2            Sadece birkaç dakikalığına onu açac
 adviser_deathrow_testchair_3            Hay, çalışmadı.  Görünüşe göre çok fazla güç çektik, ve elektrik santralindeki bir şalteri attırdık.  Bütün hapishane karanlıklar içinde.
 adviser_deathrow_testchair_4            Elektrikli Sandalyenin yarattığı ani yükselmeyi engellemek için daha fazla cereyana ihtiyacımız olacak.
 adviser_deathrow_testchair_5            Önce, gücü geri açmalıyız.   Bu iki aşamalı bir işlem:
-adviser_deathrow_testchair_5b           Elektrik santralini açmak için üzerine tıkla, ve açılan menüde Şalteri Aç seçeneğine bas.
-adviser_deathrow_testchair_6            Then build three more capacitors so we have enough Power Capacity to handle the electric chair.
-adviser_deathrow_testchair_7            Once you've done that, test the Electric chair again by clicking on it and selecting Switch On in the menu.
+adviser_deathrow_testchair_5b           Elektrik santralini açmak için üzerine tıkla, ve açılan menüde Şalteri Aç seçeneğini seç.
+adviser_deathrow_testchair_6            Daha sonra üç adet daha kondansatör koy ki elektrikli sandalyeyi idare edecek yeterli Güç Kapasitesine ulaşalım .
+adviser_deathrow_testchair_7            Bunu yaptıktan sonra, Elektrikli sandalyeye tıklayıp ardından açılan menüde Şalteri Aç seçeneğini seç.
 
-objective_deathrow_poweron              Turn the Power Station back on. (Click the power station, then select Switch On from the menu)
-objective_deathrow_expandpower          Expand the power station with three new Capacitors
-objective_deathrow_chairworking         Test the chair again (click on it, and select Switch On)
+objective_deathrow_poweron              Elektrik santralini tekrar geri aç. (Elektrik santraline tıkla, daha sonra açılan menüde Şalteri Aç seçeneğine seç)
+objective_deathrow_expandpower          Elektrik santralini üç yeni kondansatör ile genişlet.
+objective_deathrow_chairworking         Sandalyeyi tekrardan test et (üzerin tıkla, ve Şalteri Aç seçeneğini seç)
 
-adviser_deathrow_execution_1            Well done.  I believe we are finished with this job.
-adviser_deathrow_execution_2            What happens now is out of our hands.  We did a professional job, and that's important in our business.
-adviser_deathrow_execution_3            Try not to worry about what happens next.  
+adviser_deathrow_execution_1            Aferin.  Bu işin artık bittiğine inanıyorum.
+adviser_deathrow_execution_2            Şimdi neler olacağı artık bizim elimizden çıktı.  Profesyonel bir iş çıkardık, ve yaptığımız işte önemli olan da bu.
+adviser_deathrow_execution_3            Daha sonra ne olacağı hakkında çok endişelenme.  
 
-adviser_deathrow_setupexecution1        It is time, Edward. 
-adviser_deathrow_setupexecution2        You have done the right thing, even though this world will not forgive you for it.
-adviser_deathrow_setupexecution3        You will be with God soon, and He will have the final judgement on you.
+adviser_deathrow_setupexecution1        Zamanı geldi, Edward. 
+adviser_deathrow_setupexecution2        Bu dünya yaptığın şey konusunda seni affetmese bile, doğru olanı yaptın.
+adviser_deathrow_setupexecution3        Çok yakında Tanrı ile buluşacaksın, ve sana son yargıyı o verecek.
 
-adviser_deathrow_setupexecution4        Edward Romsey.  You have been found guilty of two counts of murder in the first degree.
-adviser_deathrow_setupexecution5        The penalty is death.  
-adviser_deathrow_setupexecution6        Do you have anything to say?
+adviser_deathrow_setupexecution4        Edward Romsey.  Birinci derece çifte cinayetten suçlu bulundun.
+adviser_deathrow_setupexecution5        Cezan ölüm.  
+adviser_deathrow_setupexecution6        Söyleyecek bir sözün var mı?
 adviser_deathrow_setupexecution7        Susan...
-adviser_deathrow_setupexecution8        I'm sorry.
+adviser_deathrow_setupexecution8        Üzgünüm.
 
 # =============================================================================
 # Expense popups
 # =============================================================================
 
-finance_cost_prisonsale                 Sale of previous prison
-finance_cost_equiptazer                 Equipment: Tazer
-finance_cost_equipbodyarmour            Equipment: Body Armour
-finance_cost_exports                    Exports
-finance_cost_foundations                Building Foundations
-finance_cost_cashflow                   Cashflow
-finance_cost_bankloan                   Bank Loan
-finance_cost_bankloan_repayment         Bank Loan Repayment
-finance_cost_sharesale                  Share Sale
-finance_cost_sharepurchase              Share Purchase
-finance_cost_grantadvance               Grant Advance
-finance_cost_grantcompletion            Grant Completion Payment
-finance_cost_reformprogram              Reform Program Session
-finance_cost_repair                     Repair
-finance_cost_sellobject                 Sell Object
-finance_cost_landpurchase               Land Purchase
-finance_cost_prisonerintake             Prisoner Intake
-finance_cost_grantcancellation          Cancellation Costs
-finance_cost_grantrefund                - Repayment: *X
-finance_cost_grantfine                  - Fine: *X
-finance_cost_executionfine              Improper Execution Fine
-finance_cost_executioncompensation      Execution Compensation
-finance_cost_shopintake                 Shop Intake
-finance_cost_prisonerwages              Prisoner Wages 
-finance_cost_fine                       Fine
-finance_cost_shopcommission             Shop Sales Commission
+finance_cost_prisonsale                 Önceki hapishanenin fiyatı
+finance_cost_equiptazer                 Ekipman: Elektroşok
+finance_cost_equipbodyarmour            Ekipman: Çelik Yelek
+finance_cost_exports                    İhracatlar
+finance_cost_foundations                Yapı Temelleri
+finance_cost_cashflow                   Para Akışı
+finance_cost_bankloan                   Banka Borcu
+finance_cost_bankloan_repayment         Banka Borcu Geriödemesi
+finance_cost_sharesale                  Hisse Fiyatı
+finance_cost_sharepurchase              Hisse Alımı
+finance_cost_grantadvance               Hibe İlerlemesi
+finance_cost_grantcompletion            Hibe Tamamlama Ödemesi
+finance_cost_reformprogram              Reform Programı
+finance_cost_repair                     Tamir Et
+finance_cost_sellobject                 Nesneyi Sat
+finance_cost_landpurchase               Arazi Alma
+finance_cost_prisonerintake             Mahkum Alımı
+finance_cost_grantcancellation          Cayma Bedeli
+finance_cost_grantrefund                - Geri ödeme: *X
+finance_cost_grantfine                  - Ceza: *X
+finance_cost_executionfine              Uygunsuz İnfaz Cezası
+finance_cost_executioncompensation      İnfaz Tazminati
+finance_cost_shopintake                 Dükkan Alımları
+finance_cost_prisonerwages              Mahkum Maaşları 
+finance_cost_fine                       Ceza
+finance_cost_shopcommission             Dükkan Satış Komisyonu
 
 
 # =============================================================================
@@ -3328,28 +3328,28 @@ clock_speed_5                           >>>
 clock_speed_10							>>>>
 clock_speed_half                        ...
 clock_add_hour                          +
-clock_am                                am
-clock_pm                                pm
+clock_am                                öö
+clock_pm                                ös
 
 # =============================================================================
 # Events
 # =============================================================================
 
-event_powerstationfire                  A power surge has caused our generator to overload and catch fire!
-event_powerstationfire_x                A power surge has caused a catastrophic overload in our generator, and the whole thing has exploded!
-event_powerstationfirelarge             A power surge has caused our generator to overload and catch fire!
-event_powerstationfirelarge_x           A power surge has caused a catastrophic overload in our generator, and the whole thing has exploded!
-event_kitchenfire                       A fire has started in the kitchen!
-event_waterpipeburst                    A water pipe has burst and is flooding the area. Fix it before the damage becomes too severe.
-event_bulkintake                        A disaster at a nearby prison has rendered a whole section of the facility unusable. We have no choice but to transfer the prisoners there to your prison, as there are no other suitable facilities nearby. They will be arriving soon.
-event_workshopaccident                  A prisoner has been seriously wounded in a workshop accident, and can't be moved! Send a doctor, quickly!
-event_subsidence                        Subsidence of the land has destroyed a section of our outer wall. You should have it repaired, immediately! 
-event_earthquake                        A local earthquake has caused a section of the prison to collapse! 
-event_virus                             We've been getting reports of sickness from a number of prisoners. It might be worth identifying and quarantining the infected to stop it from spreading. 
-event_virus_x                           We've been getting reports of sickness from a number of prisoners, and the symptoms seem quite severe. You should consider quarantining the sick and treating them before it spreads too far. 
-event_treefire                          A fire has started in our forestry!
-event_foodpoisoning                     We've been getting reports of food poisoning amongst the prisoners. Some of the food in the kitchen must have spoiled. Unfortunately for the sick, there isn't much to do but to wait it out.
-event_cilistleak                        We don't know how, but the identities of our confidential informants have got out. If we don't move them somewhere save straight away, they are going to be in real danger.
+event_powerstationfire                  Bir güç dalgalanması jeneratörlerimizi aşırı yükleyerek alev almasına neden oldu!
+event_powerstationfire_x                Bir güç dalgalanması jeneratörlerimizde felaketvari bir aşırı yüklenmeye sebep oldu ve her şey havaya uçtu!
+event_powerstationfirelarge             Bir güç dalgalanması jeneratörlerimizi aşırı yükleyerek alev almasına neden oldu!
+event_powerstationfirelarge_x           Bir güç dalgalanması jeneratörlerimizde felaketvari bir aşırı yüklenmeye sebep oldu ve her şey havaya uçtu!
+event_kitchenfire                       Mutfakta bir yangın çıktı!
+event_waterpipeburst                    Bir su borusu patladı ve etrafı su basıyor. Hasar çok şiddetli olmadan önce onu tamir et.
+event_bulkintake                        Yakınlardaki bir hapishanede yaşanan felaket bütün tesisin kullanılamaz hale gelmesine neden oldu. Yakınlarda başka daha uygun bir tesis olmadığı için, oradaki mahkumları senin hapishanene taşımaktan başka çaremiz yok. Yakında varacaklar.
+event_workshopaccident                  Bir mahkum atölyede yaşanan kazada feci yaralandı, ve hareket ettirilemez! Doktor yolla, hadi!
+event_subsidence                        Bölgedeki göçük dış duvarlarımızdan bir kısmını yıktı. Tamir etmelisin, derhal! 
+event_earthquake                        Yerel bir deprem hapishanenin bir kısmının çökmesine neden oldu! 
+event_virus                             Birkaç mahkumdan hastalık raporları alıyoruz. Belki enfekte olmuş mahkumları bulmak ve onları karantinaya almak hastalığın yayılmasını önlemeye değer bir eylem olur. 
+event_virus_x                           Birkaç mahkumdan hastalık raporları alıyoruz, ve semptomlar biraz ağır gibi gözüküyor. Hastalık kapanları karantinaya almaya ve onları tedavi etmeyi göz önünde bulundurmalısın. 
+event_treefire                          Ormanlığımızda bir yangın başladı!
+event_foodpoisoning                     Mahkumlar arasında gıda zehirlenmesi raporları alıyoruz. Mutfaktaki bazı yiyecekler bozulmuş olmalı. Maalesef hasta olmuş kişiler için, beklemekten başka yapacak hiçbir şeyimiz yok.
+event_cilistleak                        Nasıl oldu bilmiyoruz, ancak muhbirlerimizin kimliği açığa çıktı. Eğer onları doğrudan güvenli bir yere götürmezsek, korkarım ki ciddi tehdit altına kalacaklar.
 event_keysersoze                        A recent high-profile gang case has implicated one of our Minimum Security prisoners as a high ranking gang leader. They've remained under the radar, but now everyone knows who they are...
 event_preacherconversion                One of our more charismatic inmates has become something of a religious evangelist, and others seem to be coming around to their way of thinking. Not a necessarily a problem, but our prisoners may soon have more spiritual needs.
 
