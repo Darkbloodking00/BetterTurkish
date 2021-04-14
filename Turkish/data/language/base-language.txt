@@ -1992,7 +1992,7 @@ need_name_privacy                       Gizlilik
 need_name_freedom                       Özgürlük
 need_name_clothing                      Kıyafet
 need_name_drugs                         Uyuşturucu
-need_name_alcohol                       ALkol
+need_name_alcohol                       Alkol
 need_name_starving                      Açlıktan ölüyor
 need_name_spirituality                  Ruhaniyet
 need_name_literacy                      Eğitim
@@ -2237,7 +2237,7 @@ objective_grant_firstcellblock                  Hücre Bloğu A
 objective_grant_firstcellblock_description      Temeller hazır ve çalışır durumda.  İlk hücre bloğunu inşa etme, ve varolan mahkumların kendi hücrelerine naklini gerçekleştirme zamanı geldi.
 objective_grant_firstcellblock_cells            Mahkum Kapasiteni 15'e Çıkar
 
-objective_grant_health                      Tutukluğu Sağlığı ve Refahı
+objective_grant_health                      Tutuklu Sağlığı ve Refahı
 objective_grant_health_description          Tutuklularımızın fiziki ve mental sağlığı bizim için önemlidir.  Bu hibe, en son teknoloji tıbbi koğuşun inşaatına olanak sağlayacak, ve doktor ve psikologları işe alarak tutukluların sağlık ihtiyaçlarıyla ilgilenecek.
 objective_grant_health_ward                 Bir tıbbi koğuş inşa et
 objective_grant_health_doctors              En az iki doktor işe al
@@ -3207,7 +3207,7 @@ objective_deathrow_cellobjects2         Bir Tuvalet Kur
 objective_deathrow_executionobjects     Bir Elektrikli Sandalye Kur
 
 adviser_deathrow_optional1              Bunlar icabına bakılan gerekliliklerdi.  Ancak halen yapabileceğin bazı iyileştirmeler mevcut.
-adviser_deathrow_optional2              Aslında sana kalmış, çok da gerekli şeyler değiller.  Bu, mahkum ve onun çevresini ne kadar önemsediğinizle alakalı olan bir şey
+adviser_deathrow_optional2              Aslında sana kalmış, çok da gerekli şeyler değiller.  Bu, mahkum ve onun çevresini ne kadar önemsediğinle alakalı olan bir şey
 adviser_deathrow_optional3              Hücrenin kendisi dışarıya bakan bir Pencere, ve küçük bir Kitaplıkla iyileştirilebilir.  
 adviser_deathrow_optional4              Ve tesis daha kaliteli bir zemin döşemesi ile iyileştirilebilir - Tahta Zemin veya Mozaik Fayans.
 adviser_deathrow_optional5              Eğer gerekli olduğunu düşünüyorsan, dışarıya birkaç ışıklandırma ve biraz kaldırım ekleyebilirsin.
