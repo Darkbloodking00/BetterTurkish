@@ -914,7 +914,7 @@ escapemode_gameover_totaltime_title     Time Taken
 escapemode_gameover_time_days           *D Days, *H Hours and *M Minutes
 escapemode_gameover_time                *H Hours and *M Minutes
 
-codex_workshop_select_random_prison     Rastgele (Atölye) Hapishane
+codex_workshop_select_random_prison     Rastgele (Atölye) Cezaevi
 codex_workshop_searching                Aranıyor
 
 
