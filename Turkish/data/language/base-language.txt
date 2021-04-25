@@ -3582,7 +3582,7 @@ mutator_name_oldschoolintake            Eski-usul Alım
 mutator_name_noclipstaff                Hayalet Personel
 
 mutator_tooltip_bigheads                Mahkumlarınıza kocaman kafalar verir!
-mutator_tooltip_moreviolentprisoners    Cezaeviye alacağınız mahkumlardaki şiddet eğilimini önemli ölçüde arttırır.
+mutator_tooltip_moreviolentprisoners    Cezaevine alacağınız mahkumlardaki şiddet eğilimini önemli ölçüde arttırır.
 mutator_tooltip_noviolentprisoners      Yalnızca şiddete eğilimi olmayan mahkumlar alınır. 
 mutator_tooltip_fastwalking  	        Cezaevindeki herkes iki kat hızlı yürür.
 mutator_tooltip_biggerfights            Cezaevinizdeki mahkumların daha yüksek bir ihtimalle dövüşlere katılmasını, ve daha az bir olasılıkla dövüşten çekilmelerine neden olur.
@@ -3601,7 +3601,7 @@ mutator_tooltip_gangwarfare             Yalnızca çete liderleri cezaevinize ge
 mutator_tooltip_massescapes             Mahkumlar firar etmek için yaptıkları kazma girişimleri daha fazla olacak, removing any usual limits on escape tunnels.
 mutator_tooltip_notunnels               Mahkumlar kaçış tünelleri kazamaz.
 mutator_tooltip_morecontraband          Cezaevinize daha fazla kaçak mal sokulur, ve mahkumlar ellerine fırsat geçtiği zaman kaçak malları çalmaları daha muhtemeldir. 
-mutator_tooltip_nocontrabandlimits      Cezaeviye sokulabilecek kaçak mal türünün sınırını kaldırır. Silah? Paspas? Pano?! Hepsi meşru.
+mutator_tooltip_nocontrabandlimits      Cezaevine sokulabilecek kaçak mal türünün sınırını kaldırır. Silah? Paspas? Pano?! Hepsi meşru.
 mutator_tooltip_highdanger              Cezaevinizin tehlike seviyesi her zaman en yüksektedir, şiddet eğilimli mahkumları almanız daha muhtemeldir, ve kavgalara girişmeleri de daha muhtemeldir. 
 mutator_tooltip_superdrugs              Uyuşturucu alan mahkumlar rastgele olarak bir itibar özelliği kazanacak, bu onlarla başa çıkmayı daha ileri derecede zorlaştıracak.
 mutator_tooltip_weirdreputations        Mahkumlarınızın edinebileceği birçok çeşit yeni itibar ekler, bu onların davranışlarını ve cezaevinizle nasıl etkileşim kuracağını değiştirecek.
