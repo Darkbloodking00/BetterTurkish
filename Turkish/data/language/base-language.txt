@@ -3406,11 +3406,11 @@ event_agitatingradio_complete           That radio host was apparently fired aft
 objective_bulkintake                    Gelen Mahkumlar
 objective_tvremovaldemand               Televizyonları dinlemme odalarında kaldır
 objective_tvremovaldemand_child         Dinlenme Odalarında hiç televizyon olmadığından emin ol
-objective_weightsremovaldemand          Remove Weights Benches from Yards
-objective_weightsremovaldemand_child    Ensure there are no Weights Benches in Yards
-objective_lessfooddemand                Reduce Meal Quantity and Variation to Low
-objective_lessfooddemand_child          Change the prisoners meal quantity and meal variation policies to low
-objective_removevisitationdemand        Remove All Visitation Rooms
+objective_weightsremovaldemand          Ağırlık Sehpalarını Avludan Kaldır
+objective_weightsremovaldemand_child    Avluda hiç Ağırlık Masası olmadığından emin ol
+objective_lessfooddemand                Yemek Miktarını ve Varyasyonunu Düşük Seviyeye Getir 
+objective_lessfooddemand_child          Mahkum yemek miktarı ve yemek varyasyonu ilkesini düşük olarak değiştir
+objective_removevisitationdemand        Bütün Ziyaretçi Odalarını Kaldır
 objective_removevisitationdemand_child  Ensure no visitation rooms in the prison until the security review is complete
 objective_virus                         Virus Outbreak
 objective_virus_child                   Total Infected Prisoners: 
