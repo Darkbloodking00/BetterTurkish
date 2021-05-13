@@ -3429,11 +3429,11 @@ objective_agitatingradio_child          The current radio broadcasts are getting
 # Custom warden strings
 # =============================================================================
 
-warden_default_name                     The Warden
-warden_default_desc                     The most balanced individual on the planet, he does his job and nothing else. People just call him The Warden.
-warden_lobbyist_name                    The Lobbyist
-warden_lobbyist_desc                    The Lobbyist has friends in high places, and makes sure the more easily controlled prisoners end up coming his way.\n\n - Halves the likelihood of receiving prisoners who are Violent, Lethal, Volatile, Deadly or Fighters.
-warden_lobbyist_desc_short              - Halves the likelihood of receiving prisoners who are Violent, Lethal, Volatile, Deadly or Fighters.
+warden_default_name                     Müdür
+warden_default_desc                     Gezegendeki en dengeli birey, yalnızca işini yapar ne daha fazlası ne de daha azını. İnsanlar ona sadece Müdür der.
+warden_lobbyist_name                    Lobici
+warden_lobbyist_desc                    Lobici'nin yüksek yerlerde dostları var, ve kolay kontrol edilebilen mahkumların onun yoluna geldiğinden emin olur.\n\n - Şiddetli, Öldürücü, Oynak, Ölümcül ve Dövüşçü mahkumların alınma oranını yarıya indirir.
+warden_lobbyist_desc_short              - Şiddetli, Öldürücü, Oynak, Ölümcül ve Dövüşçü mahkumların alınma oranını yarıya indirir.
 warden_fear_name                        Rita
 warden_fear_desc                        Ruthless and terrifying, Rita has a reputation for running her facilities through judicial application of fear. Rumours of her carrying a whip may be exaggerated.\n\n - Halves likelihood of prisoners being Stoical or Fearless\n - Prisoners are suppressed twice as quickly
 warden_fear_desc_short                  - Halves likelihood of prisoners being Stoical or Fearless\n - Prisoners are suppressed twice as quickly
@@ -3460,7 +3460,7 @@ crime_aggravatedburglary          Kasten Yaralama ve Hırsızlık
 crime_burglary                    Hırsızlık
 crime_arson                       Kundak
 crime_criminaldamage              Mala Zarar Verme
-crime_vandalism                   Vandalism
+crime_vandalism                   Vandalizm
 crime_possession                  Tehlikeli Madde Bulundurma
 crime_possessionintenttosupply    Tehlikeli Madde Bulundurma ve Taşıma
 crime_forgery                     Belgede Sahtecilik
