@@ -26,3 +26,14 @@ Prison Architect Unofficial Turkish Translation.
 
 1. Yamayı indirin.
 2. Zip dosyasının içindeki klasörü "~/Library/Application Support/Prison Architect/mods" adresine atın.
+
+## Emeği Geçenler
+
+### DarkBloodKing
+[Furkan Demircioğlu](https://steamcommunity.com/id/DarkBlood007/)
+
+### SeriousSammm
+[Yiğit](https://steamcommunity.com/id/vitooscalettaa)
+
+### Kyrope
+[Emre](https://steamcommunity.com/id/Kyrope/)
