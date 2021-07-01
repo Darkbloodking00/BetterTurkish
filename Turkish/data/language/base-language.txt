@@ -1356,14 +1356,14 @@ research_legaldefense                   Yasal Savunma
 research_guardtowers                    Muhafız Kulesi
 research_forestrylabour					Ormanlandırma İşçisi
 
-researchtooltip_warden                  Unlocks the Warden, and the entire Bureaucracy system.  Hire him from the Staff toolbar.\n\nLike all Administrators, he requires an office to work.  
-researchtooltip_security                Unlocks the Chief of Security, who can be hired from the staff toolbar.  The chief gives you access to the Deployment screen, and will also give you a realtime report of the danger level of your prison, often predicting future trouble.\n\nLike all Administrators, he requires an office to work.  
-researchtooltip_maintenance             Unlocks the Foreman.  Hire him from the Staff toolbar.\n\nLike all Administrators, he requires an office to work.  
-researchtooltip_legal                   Unlocks the Lawyer, who can be hired from the Staff toolbar. Unlocks a number of research options to give you greater control over your prison.\n\nLike all Administrators, he requires an office to work.  
-researchtooltip_deployment              Allows you to permanently station Guards to the sectors of your Prison.
-researchtooltip_patrols                 Allows you to define patrols around crucial areas of your prison (e.g. the perimeter), and assign guards to walk those patrols.
-researchtooltip_dogs                    Unlocks the Dog Handler and Guard Dog.  They excel in sniffing out the smelly contraband in your prison, and detecting escape tunnels.\n\nDogs are also very fast which allows them to chase prisoners with ease. 
-researchtooltip_cctv                    Unlocks CCtv cameras and security monitors.  Use these to keep watch on unmanned parts of your prison.\n\nAlso unlocks the Phone Tap system, which allows you to listen in on prisoner phone calls and gain vital intelligence.
+researchtooltip_warden                  Müdür'ü ve bütü Bürokrasi sistemini açar.  Personel bölümünden onu işe al.\n\nDiğer bütün yöneticiler gibi onun da çalışmak için bir ofise ihtiyacı var.  
+researchtooltip_security                Amir'i açar. Personel bölümünden işe alınabilir  Amir size Konuşlandırma ekranını erişimini açar ve ayrıca size canlı olarak cezaevi tehlike seviyesini de verecek. Çoğunlukla gelecekteki tehlikeleri de tahmin edebilir.\n\nDiğer bütün yöneticiler gibi onun da çalışmak için bir ofise ihtiyacı var.  
+researchtooltip_maintenance             Ustabaşını açar.  Personal bölümünden işe al.\n\nBütün yöneticiler gibi onun da çalışmak için bir ofise ihtiyacı var.
+researchtooltip_legal                   Avukatı açar, personel bölümünden işe alınabilir. Cezaevinde daha iyi bir kontrole sahip olmak için bir dizi araştırmayı açar.\n\nBütün yöneticiler gibi onun da çalışmak için bir ofise ihtiyacı var.
+researchtooltip_deployment              Korumalarını kalıcı olarak Cezaevinin sektörlerine yerleştirmeni sağlar.
+researchtooltip_patrols                 Cezaevinin kritik noktalarına (örn perimetre) devriye tanımlamanı sağlar ve korumaları bu devriyelerde yürümeye atar.
+researchtooltip_dogs                    Köpek Eğitmeni ve Koruma Köpeğini açar.  Kokuşmuş kaçak malları ve kaçış tünellerini bulmada onlardan iyisi yoktur.\n\nKöpekler ayrıca çok hızlıdır ve bu mahkumları kolayca kovalamalarını sağlar. 
+researchtooltip_cctv                    Güvenlik ekranlarını ve CCtv kameralarını açar.  Use these to keep watch on unmanned parts of your prison.\n\nAlso unlocks the Phone Tap system, which allows you to listen in on prisoner phone calls and gain vital intelligence.
 researchtooltip_remoteaccess            Unlocks high-tech equipment for remote control and automation of doors. Doors can be opened remotely using a Door Control System (operated by a Guard), or opened by a Door Timer at specific times of day.
 researchtooltip_riotguards              (CURRENTLY SERVES NO PURPOSE)\nUnlocks the Riot Guard.  These guys are armoured and better able to deal with violent situations.
 researchtooltip_maintainance            Unlocks the Foreman.  He allows you to do further research on things like Prison Labour, or additional staff members like the Gardener.\n\nLike all Administrators, he requires an office to work.  
