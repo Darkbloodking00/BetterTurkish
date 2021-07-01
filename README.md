@@ -6,10 +6,6 @@
 
 Prison Architect Gayri Resmi Türkçe Yama.
 
-### English
-
-Prison Architect Unofficial Turkish Translation.
-
 ## Kurulum
 **Not:** Bu bölüm Steam dışı kullanıcılar için hazırlanmıştır.
 ### Windows
