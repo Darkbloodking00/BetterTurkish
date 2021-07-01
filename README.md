@@ -1,5 +1,5 @@
  # BetterTurkish
-[İndir/Download](https://github.com/Darkbloodking00/BetterTurkish/releases)
+[İndir](https://github.com/Darkbloodking00/BetterTurkish/releases)
 | [SteamWorkshop](https://steamcommunity.com/sharedfiles/filedetails/?id=2383916847)
 
 ### Turkish
