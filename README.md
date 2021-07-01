@@ -34,6 +34,3 @@ Prison Architect Unofficial Turkish Translation.
 
 ### SeriousSammm
 [Yiğit](https://steamcommunity.com/id/vitooscalettaa)
-
-### Kyrope
-[Emre](https://steamcommunity.com/id/Kyrope/)
