@@ -2,8 +2,6 @@
 [İndir](https://github.com/Darkbloodking00/BetterTurkish/releases)
 | [SteamWorkshop](https://steamcommunity.com/sharedfiles/filedetails/?id=2383916847)
 
-### Turkish
-
 Prison Architect Gayri Resmi Türkçe Yama.
 
 ## Kurulum
