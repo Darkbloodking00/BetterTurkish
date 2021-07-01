@@ -33,4 +33,4 @@ Prison Architect Unofficial Turkish Translation.
 [Furkan Demircioğlu](https://steamcommunity.com/id/DarkBlood007/)
 
 ### SeriousSammm
-[Yiğit](https://steamcommunity.com/id/vitooscalettaa)
+[Yiğit](https://steamcommunity.com/id/rozzyrozzyoglu/)
